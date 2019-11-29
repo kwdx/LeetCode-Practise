@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8931B0992390AAA800AD49AB /* _141_环形链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8931B0972390AAA800AD49AB /* _141_环形链表.cpp */; };
+		8931B09E2390AE7500AD49AB /* _203_移除链表元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8931B09C2390AE7500AD49AB /* _203_移除链表元素.cpp */; };
+		896E26AB238B720D001F096E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26AA238B720D001F096E /* main.cpp */; };
+		896E26B3238B7227001F096E /* _150_逆波兰表达式求值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26B1238B7227001F096E /* _150_逆波兰表达式求值.cpp */; };
+		896E26B6238B76B8001F096E /* _21_合并两个有序链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26B4238B76B8001F096E /* _21_合并两个有序链表.cpp */; };
+		896E26BE238B7C93001F096E /* _23_合并K个排序链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26BC238B7C93001F096E /* _23_合并K个排序链表.cpp */; };
+		896E26D6238B9D1E001F096E /* _98_验证二叉搜索树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26D4238B9D1E001F096E /* _98_验证二叉搜索树.cpp */; };
+		896E26D9238BA7C5001F096E /* _124_二叉树中的最大路径和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26D7238BA7C5001F096E /* _124_二叉树中的最大路径和.cpp */; };
+		896E26E0238BB674001F096E /* _114_二叉树展开为链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26DE238BB674001F096E /* _114_二叉树展开为链表.cpp */; };
+		896E26E4238BBA10001F096E /* _198_打家劫舍.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26E2238BBA10001F096E /* _198_打家劫舍.cpp */; };
+		896E26F1238BC01A001F096E /* _36_有效的数独.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26EF238BC01A001F096E /* _36_有效的数独.cpp */; };
+		896E26F5238BC073001F096E /* _347_前K个高频元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26F3238BC073001F096E /* _347_前K个高频元素.cpp */; };
+		896E26F9238BE2F4001F096E /* _509_斐波那契数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26F7238BE2F4001F096E /* _509_斐波那契数.cpp */; };
+		89B7B138238E49A100ABFCAD /* _237_删除链表中的节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B7B136238E49A100ABFCAD /* _237_删除链表中的节点.cpp */; };
+		89B7B13B238E4B8000ABFCAD /* _206_反转链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B7B139238E4B8000ABFCAD /* _206_反转链表.cpp */; };
+		89B7B140238F54E200ABFCAD /* _88_合并两个有序数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B7B13E238F54E200ABFCAD /* _88_合并两个有序数组.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		896E26A5238B720D001F096E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8931B0972390AAA800AD49AB /* _141_环形链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_141_环形链表.cpp"; sourceTree = "<group>"; };
+		8931B0982390AAA800AD49AB /* _141_环形链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_141_环形链表.hpp"; sourceTree = "<group>"; };
+		8931B09C2390AE7500AD49AB /* _203_移除链表元素.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_203_移除链表元素.cpp"; sourceTree = "<group>"; };
+		8931B09D2390AE7500AD49AB /* _203_移除链表元素.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_203_移除链表元素.hpp"; sourceTree = "<group>"; };
+		896E26A7238B720D001F096E /* LeetCode-C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-C++"; sourceTree = BUILT_PRODUCTS_DIR; };
+		896E26AA238B720D001F096E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		896E26B1238B7227001F096E /* _150_逆波兰表达式求值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_150_逆波兰表达式求值.cpp"; sourceTree = "<group>"; };
+		896E26B2238B7227001F096E /* _150_逆波兰表达式求值.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_150_逆波兰表达式求值.hpp"; sourceTree = "<group>"; };
+		896E26B4238B76B8001F096E /* _21_合并两个有序链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_21_合并两个有序链表.cpp"; sourceTree = "<group>"; };
+		896E26B5238B76B8001F096E /* _21_合并两个有序链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_21_合并两个有序链表.hpp"; sourceTree = "<group>"; };
+		896E26B9238B782D001F096E /* ListNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListNode.hpp; sourceTree = "<group>"; };
+		896E26BC238B7C93001F096E /* _23_合并K个排序链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_23_合并K个排序链表.cpp"; sourceTree = "<group>"; };
+		896E26BD238B7C93001F096E /* _23_合并K个排序链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_23_合并K个排序链表.hpp"; sourceTree = "<group>"; };
+		896E26D2238B9C67001F096E /* TreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TreeNode.hpp; sourceTree = "<group>"; };
+		896E26D4238B9D1E001F096E /* _98_验证二叉搜索树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_98_验证二叉搜索树.cpp"; sourceTree = "<group>"; };
+		896E26D5238B9D1E001F096E /* _98_验证二叉搜索树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_98_验证二叉搜索树.hpp"; sourceTree = "<group>"; };
+		896E26D7238BA7C5001F096E /* _124_二叉树中的最大路径和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_124_二叉树中的最大路径和.cpp"; sourceTree = "<group>"; };
+		896E26D8238BA7C5001F096E /* _124_二叉树中的最大路径和.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_124_二叉树中的最大路径和.hpp"; sourceTree = "<group>"; };
+		896E26DE238BB674001F096E /* _114_二叉树展开为链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_114_二叉树展开为链表.cpp"; sourceTree = "<group>"; };
+		896E26DF238BB674001F096E /* _114_二叉树展开为链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_114_二叉树展开为链表.hpp"; sourceTree = "<group>"; };
+		896E26E2238BBA10001F096E /* _198_打家劫舍.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_198_打家劫舍.cpp"; sourceTree = "<group>"; };
+		896E26E3238BBA10001F096E /* _198_打家劫舍.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_198_打家劫舍.hpp"; sourceTree = "<group>"; };
+		896E26EF238BC01A001F096E /* _36_有效的数独.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_36_有效的数独.cpp"; sourceTree = "<group>"; };
+		896E26F0238BC01A001F096E /* _36_有效的数独.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_36_有效的数独.hpp"; sourceTree = "<group>"; };
+		896E26F3238BC073001F096E /* _347_前K个高频元素.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_347_前K个高频元素.cpp"; sourceTree = "<group>"; };
+		896E26F4238BC073001F096E /* _347_前K个高频元素.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_347_前K个高频元素.hpp"; sourceTree = "<group>"; };
+		896E26F7238BE2F4001F096E /* _509_斐波那契数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_509_斐波那契数.cpp"; sourceTree = "<group>"; };
+		896E26F8238BE2F4001F096E /* _509_斐波那契数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_509_斐波那契数.hpp"; sourceTree = "<group>"; };
+		89B7B136238E49A100ABFCAD /* _237_删除链表中的节点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_237_删除链表中的节点.cpp"; sourceTree = "<group>"; };
+		89B7B137238E49A100ABFCAD /* _237_删除链表中的节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_237_删除链表中的节点.hpp"; sourceTree = "<group>"; };
+		89B7B139238E4B8000ABFCAD /* _206_反转链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_206_反转链表.cpp"; sourceTree = "<group>"; };
+		89B7B13A238E4B8000ABFCAD /* _206_反转链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_206_反转链表.hpp"; sourceTree = "<group>"; };
+		89B7B13E238F54E200ABFCAD /* _88_合并两个有序数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_88_合并两个有序数组.cpp"; sourceTree = "<group>"; };
+		89B7B13F238F54E200ABFCAD /* _88_合并两个有序数组.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_88_合并两个有序数组.hpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		896E26A4238B720D001F096E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		896E269E238B720D001F096E = {
+			isa = PBXGroup;
+			children = (
+				896E26A9238B720D001F096E /* LeetCode-C++ */,
+				896E26A8238B720D001F096E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		896E26A8238B720D001F096E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				896E26A7238B720D001F096E /* LeetCode-C++ */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		896E26A9238B720D001F096E /* LeetCode-C++ */ = {
+			isa = PBXGroup;
+			children = (
+				896E26F6238BE2E6001F096E /* 数组 */,
+				896E26F2238BC053001F096E /* 堆 */,
+				896E26EE238BC008001F096E /* 哈希 */,
+				896E26E1238BB9FE001F096E /* 动态规划 */,
+				896E26D0238B9BC4001F096E /* 二叉树 */,
+				896E26BB238B785B001F096E /* 栈 */,
+				896E26B7238B7813001F096E /* 链表 */,
+				896E26AA238B720D001F096E /* main.cpp */,
+			);
+			path = "LeetCode-C++";
+			sourceTree = "<group>";
+		};
+		896E26B7238B7813001F096E /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				896E26B9238B782D001F096E /* ListNode.hpp */,
+				896E26B5238B76B8001F096E /* _21_合并两个有序链表.hpp */,
+				896E26B4238B76B8001F096E /* _21_合并两个有序链表.cpp */,
+				896E26BD238B7C93001F096E /* _23_合并K个排序链表.hpp */,
+				896E26BC238B7C93001F096E /* _23_合并K个排序链表.cpp */,
+				89B7B137238E49A100ABFCAD /* _237_删除链表中的节点.hpp */,
+				89B7B136238E49A100ABFCAD /* _237_删除链表中的节点.cpp */,
+				89B7B13A238E4B8000ABFCAD /* _206_反转链表.hpp */,
+				89B7B139238E4B8000ABFCAD /* _206_反转链表.cpp */,
+				8931B0982390AAA800AD49AB /* _141_环形链表.hpp */,
+				8931B0972390AAA800AD49AB /* _141_环形链表.cpp */,
+				8931B09D2390AE7500AD49AB /* _203_移除链表元素.hpp */,
+				8931B09C2390AE7500AD49AB /* _203_移除链表元素.cpp */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		896E26BB238B785B001F096E /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				896E26B2238B7227001F096E /* _150_逆波兰表达式求值.hpp */,
+				896E26B1238B7227001F096E /* _150_逆波兰表达式求值.cpp */,
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
+		896E26D0238B9BC4001F096E /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				896E26D2238B9C67001F096E /* TreeNode.hpp */,
+				896E26D5238B9D1E001F096E /* _98_验证二叉搜索树.hpp */,
+				896E26D4238B9D1E001F096E /* _98_验证二叉搜索树.cpp */,
+				896E26D8238BA7C5001F096E /* _124_二叉树中的最大路径和.hpp */,
+				896E26D7238BA7C5001F096E /* _124_二叉树中的最大路径和.cpp */,
+				896E26DF238BB674001F096E /* _114_二叉树展开为链表.hpp */,
+				896E26DE238BB674001F096E /* _114_二叉树展开为链表.cpp */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		896E26E1238BB9FE001F096E /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				896E26E3238BBA10001F096E /* _198_打家劫舍.hpp */,
+				896E26E2238BBA10001F096E /* _198_打家劫舍.cpp */,
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		896E26EE238BC008001F096E /* 哈希 */ = {
+			isa = PBXGroup;
+			children = (
+				896E26F0238BC01A001F096E /* _36_有效的数独.hpp */,
+				896E26EF238BC01A001F096E /* _36_有效的数独.cpp */,
+			);
+			path = "哈希";
+			sourceTree = "<group>";
+		};
+		896E26F2238BC053001F096E /* 堆 */ = {
+			isa = PBXGroup;
+			children = (
+				896E26F4238BC073001F096E /* _347_前K个高频元素.hpp */,
+				896E26F3238BC073001F096E /* _347_前K个高频元素.cpp */,
+			);
+			path = "堆";
+			sourceTree = "<group>";
+		};
+		896E26F6238BE2E6001F096E /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				896E26F8238BE2F4001F096E /* _509_斐波那契数.hpp */,
+				896E26F7238BE2F4001F096E /* _509_斐波那契数.cpp */,
+				89B7B13F238F54E200ABFCAD /* _88_合并两个有序数组.hpp */,
+				89B7B13E238F54E200ABFCAD /* _88_合并两个有序数组.cpp */,
+			);
+			path = "数组";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		896E26A6238B720D001F096E /* LeetCode-C++ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896E26AE238B720D001F096E /* Build configuration list for PBXNativeTarget "LeetCode-C++" */;
+			buildPhases = (
+				896E26A3238B720D001F096E /* Sources */,
+				896E26A4238B720D001F096E /* Frameworks */,
+				896E26A5238B720D001F096E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeetCode-C++";
+			productName = "LeetCode-C++";
+			productReference = 896E26A7238B720D001F096E /* LeetCode-C++ */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		896E269F238B720D001F096E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = warden;
+				TargetAttributes = {
+					896E26A6238B720D001F096E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 896E26A2238B720D001F096E /* Build configuration list for PBXProject "LeetCode-C++" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 896E269E238B720D001F096E;
+			productRefGroup = 896E26A8238B720D001F096E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				896E26A6238B720D001F096E /* LeetCode-C++ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		896E26A3238B720D001F096E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896E26D6238B9D1E001F096E /* _98_验证二叉搜索树.cpp in Sources */,
+				8931B0992390AAA800AD49AB /* _141_环形链表.cpp in Sources */,
+				896E26AB238B720D001F096E /* main.cpp in Sources */,
+				89B7B13B238E4B8000ABFCAD /* _206_反转链表.cpp in Sources */,
+				896E26F9238BE2F4001F096E /* _509_斐波那契数.cpp in Sources */,
+				896E26D9238BA7C5001F096E /* _124_二叉树中的最大路径和.cpp in Sources */,
+				896E26F5238BC073001F096E /* _347_前K个高频元素.cpp in Sources */,
+				896E26F1238BC01A001F096E /* _36_有效的数独.cpp in Sources */,
+				896E26B3238B7227001F096E /* _150_逆波兰表达式求值.cpp in Sources */,
+				896E26E0238BB674001F096E /* _114_二叉树展开为链表.cpp in Sources */,
+				89B7B140238F54E200ABFCAD /* _88_合并两个有序数组.cpp in Sources */,
+				8931B09E2390AE7500AD49AB /* _203_移除链表元素.cpp in Sources */,
+				896E26BE238B7C93001F096E /* _23_合并K个排序链表.cpp in Sources */,
+				896E26B6238B76B8001F096E /* _21_合并两个有序链表.cpp in Sources */,
+				89B7B138238E49A100ABFCAD /* _237_删除链表中的节点.cpp in Sources */,
+				896E26E4238BBA10001F096E /* _198_打家劫舍.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		896E26AC238B720D001F096E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		896E26AD238B720D001F096E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		896E26AF238B720D001F096E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		896E26B0238B720D001F096E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		896E26A2238B720D001F096E /* Build configuration list for PBXProject "LeetCode-C++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896E26AC238B720D001F096E /* Debug */,
+				896E26AD238B720D001F096E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896E26AE238B720D001F096E /* Build configuration list for PBXNativeTarget "LeetCode-C++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896E26AF238B720D001F096E /* Debug */,
+				896E26B0238B720D001F096E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 896E269F238B720D001F096E /* Project object */;
+}
