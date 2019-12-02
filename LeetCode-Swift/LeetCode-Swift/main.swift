@@ -66,7 +66,7 @@ func test_88() {
 // MARK: 链表
 
 // 生成节点链表
-func generagteListNode(_ nodes: Int ...) -> ListNode? {
+func generateListNode(_ nodes: Int ...) -> ListNode? {
     let head = ListNode(0)
     var p = head
     for node in nodes {
@@ -76,7 +76,7 @@ func generagteListNode(_ nodes: Int ...) -> ListNode? {
     return head.next
 }
 
-// 生成节点链表
+// 打印节点链表
 func printListNode(_ node: ListNode?) {
     if node == nil {
         return
@@ -97,8 +97,8 @@ func test_21() {
      输入：1->2->4, 1->3->4
      输出：1->1->2->3->4->4
      */
-    let node1 = generagteListNode(1, 2, 4)
-    let node2 = generagteListNode(1, 3, 4)
+    let node1 = generateListNode(1, 2, 4)
+    let node2 = generateListNode(1, 3, 4)
     let solution = _21_合并两个有序链表()
     let result = solution.mergeTwoLists(node1, node2)
     printListNode(result)
@@ -115,9 +115,9 @@ func test_23() {
      ]
      输出: 1->1->2->3->4->4->5->6
      */
-    let node1 = generagteListNode(1, 4, 5)
-    let node2 = generagteListNode(1, 3, 4)
-    let node3 = generagteListNode(2, 6)
+    let node1 = generateListNode(1, 4, 5)
+    let node2 = generateListNode(1, 3, 4)
+    let node3 = generateListNode(2, 6)
     let solution = _23_合并K个排序链表()
     let result = solution.mergeKLists([node1, node2, node3])
     printListNode(result)
@@ -134,7 +134,7 @@ func test_237() {
      输出: [4,5,9]
      解释: 给定你链表中值为 1 的第三个节点，那么在调用了你的函数之后，该链表应变为 4 -> 5 -> 9.
      */
-    let node1 = generagteListNode(4, 5, 1, 9)
+    let node1 = generateListNode(4, 5, 1, 9)
     let solution = _237_删除链表中的节点()
 //    solution.deleteNode(node1!.next!)
     solution.deleteNode(node1!.next!.next!)
@@ -147,7 +147,7 @@ func test_206() {
      输入: 1->2->3->4->5->NULL
      输出: 5->4->3->2->1->NULL
      */
-    var node = generagteListNode(1, 2, 3, 4, 5)
+    var node = generateListNode(1, 2, 3, 4, 5)
     let solution = _206_反转链表()
     node = solution.reverseList(node)
     printListNode(node)
@@ -168,14 +168,14 @@ func test_141() {
      输出：false
      解释：链表中没有环。
      */
-    var node = generagteListNode(3, 2, 0, -4)
+    var node = generateListNode(3, 2, 0, -4)
     node?.next?.next?.next?.next = node?.next
     let solution = _141_环形链表()
     print(solution.hasCycle(node!))
-    node = generagteListNode(1, 2)
+    node = generateListNode(1, 2)
     node?.next?.next = node
     print(solution.hasCycle(node!))
-    node = generagteListNode(1)
+    node = generateListNode(1)
     print(solution.hasCycle(node!))
 }
 
@@ -185,10 +185,44 @@ func test_203() {
      输入: 1->2->6->3->4->5->6, val = 6
      输出: 1->2->3->4->5
      */
-    var node = generagteListNode(1, 2, 6, 3, 4, 5, 6)
+    var node = generateListNode(1, 2, 6, 3, 4, 5, 6)
     let solution = _203_移除链表元素()
     node = solution.removeElements(node, 6)
     printListNode(node)
+}
+
+
+/// 83-删除排序链表中的重复元素
+func test_83() {
+    /**
+     示例 1:
+     输入: 1->1->2
+     输出: 1->2
+     
+     示例 2:
+     输入: 1->1->2->3->3
+     输出: 1->2->3
+     */
+    let node = generateListNode(1)
+    let solution = _83_删除排序链表中的重复元素()
+    printListNode(solution.deleteDuplicates(node))
+}
+
+func test_876() {
+    /**
+    输入：[1,2,3,4,5]
+    输出：此列表中的结点 3 (序列化形式：[3,4,5])
+    返回的结点值为 3 。 (测评系统对该结点序列化表述是 [3,4,5])。
+    注意，我们返回了一个 ListNode 类型的对象 ans，这样：
+    ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, 以及 ans.next.next.next = NULL.
+
+    输入：[1,2,3,4,5,6]
+    输出：此列表中的结点 4 (序列化形式：[4,5,6])
+    由于该列表有两个中间结点，值分别为 3 和 4，我们返回第二个结点。
+     */
+    let node = generateListNode(1, 2, 3, 4, 5)
+    let solution = _876_链表的中间结点()
+    print(solution.middleNode(node)!.val)
 }
 
 // MARK: 栈
@@ -197,6 +231,28 @@ func test_203() {
 func test_150() {
     let solution = _150_逆波兰表达式求值()
     print(solution.evalRPN(["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]))
+}
+
+/// 20-有效的括号
+func test_20() {
+    /**
+     输入: "()"
+     输出: true
+     
+     输入: "()[]{}"
+     输出: true
+     
+     输入: "(]"
+     输出: false
+     
+     输入: "([)]"
+     输出: false
+     
+     输入: "{[]}"
+     输出: true
+     */
+    let solution = _20_有效的括号()
+    print(solution.isValid("{[]}"))
 }
 
 // MARK: 二叉树
@@ -411,5 +467,5 @@ func test_36() {
 }
 
 // MARK: Test
-test_203()
+test_20()
 

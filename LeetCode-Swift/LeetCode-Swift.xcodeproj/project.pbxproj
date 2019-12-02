@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890BFBED2395546F0094E333 /* _83_删除排序链表中的重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BFBEC2395546F0094E333 /* _83_删除排序链表中的重复元素.swift */; };
+		890BFBF2239561F90094E333 /* _876_链表的中间结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BFBF1239561F90094E333 /* _876_链表的中间结点.swift */; };
+		890BFBFA2395673B0094E333 /* _20_有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BFBF92395673B0094E333 /* _20_有效的括号.swift */; };
 		8931B09B2390AD8D00AD49AB /* _141_环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8931B09A2390AD8D00AD49AB /* _141_环形链表.swift */; };
 		8931B0A22390AE8700AD49AB /* _203_移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8931B0A12390AE8700AD49AB /* _203_移除链表元素.swift */; };
 		896E2696238B6FBC001F096E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896E2695238B6FBC001F096E /* main.swift */; };
@@ -40,6 +43,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		890BFBEC2395546F0094E333 /* _83_删除排序链表中的重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_83_删除排序链表中的重复元素.swift"; sourceTree = "<group>"; };
+		890BFBF1239561F90094E333 /* _876_链表的中间结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_876_链表的中间结点.swift"; sourceTree = "<group>"; };
+		890BFBF92395673B0094E333 /* _20_有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_20_有效的括号.swift"; sourceTree = "<group>"; };
 		8931B09A2390AD8D00AD49AB /* _141_环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_141_环形链表.swift"; sourceTree = "<group>"; };
 		8931B0A12390AE8700AD49AB /* _203_移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_203_移除链表元素.swift"; sourceTree = "<group>"; };
 		896E2692238B6FBC001F096E /* LeetCode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				896E269C238B6FDD001F096E /* _150_逆波兰表达式求值.swift */,
+				890BFBF92395673B0094E333 /* _20_有效的括号.swift */,
 			);
 			path = "栈";
 			sourceTree = "<group>";
@@ -121,6 +128,8 @@
 				89B7B13C238E4B9900ABFCAD /* _206_反转链表.swift */,
 				8931B09A2390AD8D00AD49AB /* _141_环形链表.swift */,
 				8931B0A12390AE8700AD49AB /* _203_移除链表元素.swift */,
+				890BFBEC2395546F0094E333 /* _83_删除排序链表中的重复元素.swift */,
+				890BFBF1239561F90094E333 /* _876_链表的中间结点.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -230,16 +239,19 @@
 				896E26CF238B94A4001F096E /* TreeNode.swift in Sources */,
 				896E26C8238B8403001F096E /* _21_合并两个有序链表.swift in Sources */,
 				896E26DB238BAF14001F096E /* _124_二叉树中的最大路径和.swift in Sources */,
+				890BFBF2239561F90094E333 /* _876_链表的中间结点.swift in Sources */,
 				8931B09B2390AD8D00AD49AB /* _141_环形链表.swift in Sources */,
 				89B7B142238F591B00ABFCAD /* _88_合并两个有序数组.swift in Sources */,
 				896E2696238B6FBC001F096E /* main.swift in Sources */,
 				896E26CD238B9493001F096E /* _98_验证二叉搜索树.swift in Sources */,
 				896E26E7238BBDA0001F096E /* _198_打家劫舍.swift in Sources */,
 				896E269D238B6FDD001F096E /* _150_逆波兰表达式求值.swift in Sources */,
+				890BFBED2395546F0094E333 /* _83_删除排序链表中的重复元素.swift in Sources */,
 				89B7B13D238E4B9900ABFCAD /* _206_反转链表.swift in Sources */,
 				896E26ED238BBF33001F096E /* _347_前K个高频元素.swift in Sources */,
 				896E26DD238BB362001F096E /* _114_二叉树展开为链表.swift in Sources */,
 				896E26CA238B87C5001F096E /* _23_合并K个排序链表.swift in Sources */,
+				890BFBFA2395673B0094E333 /* _20_有效的括号.swift in Sources */,
 				89B7B135238E47A000ABFCAD /* _237_删除链表中的节点.swift in Sources */,
 				896E26EA238BBF11001F096E /* _36_有效的数独.swift in Sources */,
 				896E26FC238BE3AC001F096E /* _509_斐波那契数.swift in Sources */,

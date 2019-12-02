@@ -23,6 +23,9 @@
 #include "_88_合并两个有序数组.hpp"
 #include "_141_环形链表.hpp"
 #include "_203_移除链表元素.hpp"
+#include "_83_删除排序链表中的重复元素.hpp"
+#include "_876_链表的中间结点.hpp"
+#include "_20_有效的括号.hpp"
 
 using namespace std;
 
@@ -210,6 +213,41 @@ void test_203() {
     printNodeList(node1);
 }
 
+/// 83-删除排序链表中的重复元素
+void test_83() {
+    /**
+     示例 1:
+     输入: 1->1->2
+     输出: 1->2
+     
+     示例 2:
+     输入: 1->1->2->3->3
+     输出: 1->2->3
+     */
+    ListNode *node1 = creatNodeList({1, 1, 2, 3, 3});
+    _83_删除排序链表中的重复元素 solution = _83_删除排序链表中的重复元素();
+    node1 = solution.deleteDuplicates(node1);
+    printNodeList(node1);
+}
+
+/// 876-链表的中间结点
+void test_876() {
+    /**
+     输入：[1,2,3,4,5]
+     输出：此列表中的结点 3 (序列化形式：[3,4,5])
+     返回的结点值为 3 。 (测评系统对该结点序列化表述是 [3,4,5])。
+     注意，我们返回了一个 ListNode 类型的对象 ans，这样：
+     ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, 以及 ans.next.next.next = NULL.
+
+     输入：[1,2,3,4,5,6]
+     输出：此列表中的结点 4 (序列化形式：[4,5,6])
+     由于该列表有两个中间结点，值分别为 3 和 4，我们返回第二个结点。
+     */
+    ListNode *node1 = creatNodeList({1, 2, 3, 4, 5, 6});
+    _876_链表的中间结点 solution = _876_链表的中间结点();
+    cout << solution.middleNode(node1)->val << endl;
+}
+
 #pragma mark - 栈
 
 /// 150-逆波兰表达式求值
@@ -218,6 +256,28 @@ void test_150() {
     vector<string> tokens = {"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"};
     _150_逆波兰表达式求值 solution = _150_逆波兰表达式求值();
     cout << solution.evalRPN(tokens) << endl;
+}
+
+/// 20-有效的括号
+void test_20() {
+    /**
+     输入: "()"
+     输出: true
+     
+     输入: "()[]{}"
+     输出: true
+     
+     输入: "(]"
+     输出: false
+     
+     输入: "([)]"
+     输出: false
+     
+     输入: "{[]}"
+     输出: true
+     */
+    _20_有效的括号 solution = _20_有效的括号();
+    cout << solution.isValid("{[]}") << endl;
 }
 
 #pragma mark - 二叉树
@@ -418,7 +478,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    cout << "Hello, World!\n";
     
-    test_203();
+    test_20();
     
     return 0;
 }
