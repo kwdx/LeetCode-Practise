@@ -255,6 +255,90 @@ func test_20() {
     print(solution.isValid("{[]}"))
 }
 
+/// 856-括号的分数
+func test_856() {
+    /**
+    () 得 1 分。
+    AB 得 A + B 分，其中 A 和 B 是平衡括号字符串。
+    (A) 得 2 * A 分，其中 A 是平衡括号字符串。
+    
+    输入： "()"
+    输出： 1
+    
+    输入： "(())"
+    输出： 2
+    
+    输入： "()()"
+    输出： 2
+    
+    输入： "(()(()))"
+    输出： 6
+     */
+    let solution = _856_括号的分数()
+    print(solution.scoreOfParentheses("(()(()))"))
+}
+
+/// 225-用队列实现栈
+func test_225() {
+    /**
+     let obj = MyStack()
+     obj.push(x)
+     let ret_2: Int = obj.pop()
+     let ret_3: Int = obj.top()
+     let ret_4: Bool = obj.empty()
+     */
+    let obj = _225_用队列实现栈()
+    obj.push(1)
+    let ret_2: Int = obj.pop()
+    let ret_3: Int = obj.top()
+    let ret_4: Bool = obj.empty()
+    print(ret_2, ret_3, ret_4)
+}
+
+/// 232-用栈实现队列
+func test_232() {
+    /**
+     let obj = MyQueue()
+     obj.push(x)
+     let ret_2: Int = obj.pop()
+     let ret_3: Int = obj.peek()
+     let ret_4: Bool = obj.empty()
+     */
+    let obj = _232_用栈实现队列()
+    obj.push(1)
+//    obj.push(2)
+    let ret_2: Int = obj.pop()
+    let ret_3: Int = obj.peek()
+    let ret_4: Bool = obj.empty()
+    print(ret_2, ret_3, ret_4)
+    for i in 0..<5 {
+        obj.push(i)
+    }
+    while !obj.empty() {
+        print(obj.pop(), separator: " ", terminator: "")
+    }
+    print()
+}
+
+/// 224-基本计算器
+func test_224() {
+    /**
+    输入: "1 + 1"
+    输出: 2
+    
+    输入: " 2-1 + 2 "
+    输出: 3
+    
+    输入: "(1+(4+5+2)-3)+(6+8)"
+    输出: 23
+     */
+    let solution = _224_基本计算器()
+    print(solution.calculate("1 + 1"))
+    print(solution.calculate(" 2-1 + 2 "))
+    print(solution.calculate("(1+(4+5+2)-3)+(6+8)"))
+    print(solution.calculate("2-(5-6)"))
+}
+
 // MARK: 二叉树
 
 // 生成二叉搜索树
@@ -467,5 +551,5 @@ func test_36() {
 }
 
 // MARK: Test
-test_20()
+test_224()
 

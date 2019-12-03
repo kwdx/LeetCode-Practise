@@ -26,6 +26,10 @@
 #include "_83_删除排序链表中的重复元素.hpp"
 #include "_876_链表的中间结点.hpp"
 #include "_20_有效的括号.hpp"
+#include "_856_括号的分数.hpp"
+#include "_225_用队列实现栈.hpp"
+#include "_232_用栈实现队列.hpp"
+#include "_224_基本计算器.hpp"
 
 using namespace std;
 
@@ -280,6 +284,90 @@ void test_20() {
     cout << solution.isValid("{[]}") << endl;
 }
 
+/// 856-括号的分数
+void test_856() {
+    /**
+     () 得 1 分。
+     AB 得 A + B 分，其中 A 和 B 是平衡括号字符串。
+     (A) 得 2 * A 分，其中 A 是平衡括号字符串。
+     
+     输入： "()"
+     输出： 1
+     
+     输入： "(())"
+     输出： 2
+     
+     输入： "()()"
+     输出： 2
+     
+     输入： "(()(()))"
+     输出： 6
+     */
+    _856_括号的分数 solution = _856_括号的分数();
+    cout << solution.scoreOfParentheses("(()(()))") << endl;
+}
+
+/// 225-用队列实现栈
+void test_225() {
+    /**
+     MyStack* obj = new MyStack();
+     obj->push(x);
+     int param_2 = obj->pop();
+     int param_3 = obj->top();
+     bool param_4 = obj->empty();
+     */
+    _225_用队列实现栈* obj = new _225_用队列实现栈();
+    obj->push(1);
+    obj->push(2);
+    int param_2 = obj->pop();
+    int param_3 = obj->top();
+    bool param_4 = obj->empty();
+    cout << param_2 << " " << param_3 << " " << param_4 << endl;
+    delete obj;
+}
+
+/// 232-用栈实现队列
+void test_232() {
+    /**
+     MyQueue* obj = new MyQueue();
+     obj->push(x);
+     int param_2 = obj->pop();
+     int param_3 = obj->peek();
+     bool param_4 = obj->empty();
+     */
+    _232_用栈实现队列* obj = new _232_用栈实现队列();
+    obj->push(1);
+    obj->push(2);
+    int param_2 = obj->pop();
+    int param_3 = obj->peek();
+    bool param_4 = obj->empty();
+    cout << param_2 << " " << param_3 << " " << param_4 << endl;
+    delete obj;
+}
+
+/// 224-基本计算器
+void test_224() {
+    /**
+     输入: "1 + 1"
+     输出: 2
+     
+     输入: " 2-1 + 2 "
+     输出: 3
+     
+     输入: "(1+(4+5+2)-3)+(6+8)"
+     输出: 23
+     
+     输入: "2-(5-6)"
+     输出: 3
+     */
+    _224_基本计算器* obj = new _224_基本计算器();
+    cout << obj->calculate("1 + 1") << endl;
+    cout << obj->calculate(" 2-1 + 2 ") << endl;
+    cout << obj->calculate("(1+(4+5+2)-3+(6+8)") << endl;
+    cout << obj->calculate("2-(5-6)") << endl;
+    delete obj;
+}
+
 #pragma mark - 二叉树
 
 /// 创建二叉搜索树
@@ -478,7 +566,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    cout << "Hello, World!\n";
     
-    test_20();
-    
+    test_224();
+
     return 0;
 }
