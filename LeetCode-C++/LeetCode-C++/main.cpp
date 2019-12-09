@@ -8,6 +8,8 @@
 
 #include <iostream>
 #include <queue>
+#include <limits.h>
+
 #include "_509_斐波那契数.hpp"
 #include "_21_合并两个有序链表.hpp"
 #include "_23_合并K个排序链表.hpp"
@@ -30,6 +32,10 @@
 #include "_225_用队列实现栈.hpp"
 #include "_232_用栈实现队列.hpp"
 #include "_224_基本计算器.hpp"
+#include "_226_翻转二叉树.hpp"
+#include "_144_二叉树的前序遍历.hpp"
+#include "_94_二叉树的中序遍历.hpp"
+#include "_145_二叉树的后序遍历.hpp"
 
 using namespace std;
 
@@ -371,7 +377,7 @@ void test_224() {
 #pragma mark - 二叉树
 
 /// 创建二叉搜索树
-TreeNode* generageTree(vector<int> trees) {
+TreeNode* generateBinaryTree(vector<int> trees) {
     if (trees.size() == 0) return nullptr;
     TreeNode *root = new TreeNode(trees[0]);
     for (int i = 1; i < trees.size(); i++) {
@@ -396,9 +402,38 @@ TreeNode* generageTree(vector<int> trees) {
     return root;
 }
 
+/// 按照层序遍历生成二叉树
+TreeNode* generateTreeByLevel(vector<int> trees) {
+    if (trees.size() == 0) {
+        return NULL;
+    }
+    TreeNode *root = new TreeNode(trees[0]);
+    queue<TreeNode*> q;
+    q.push(root);
+    bool isLeft = true;
+    for (int i = 1; i < trees.size(); i++) {
+        TreeNode *parent = q.front();
+        if (trees[i] != INT_MAX) {
+            TreeNode *child = new TreeNode(trees[i]);
+            if (isLeft) {
+                parent->left = child;
+            } else {
+                parent->right = child;
+            }
+            q.push(child);
+        }
+        if (!isLeft) {
+            q.pop();
+        }
+        
+        isLeft = !isLeft;
+    }
+    return root;
+}
+
 /// 98-验证二叉搜索树
 void test_98() {
-    TreeNode* root = generageTree({2, 1, 3});
+    TreeNode* root = generateBinaryTree({2, 1, 3});
     _98_验证二叉搜索树 solution = _98_验证二叉搜索树();
     cout << solution.isValidBST(root) << endl;
 }
@@ -454,10 +489,103 @@ void test_124() {
 //    root->left = new TreeNode(-1);
 //    root->right = new TreeNode(-1);
     
-    TreeNode* root = generageTree({10, 9, 20, 15, 35});
+    TreeNode* root = generateBinaryTree({10, 9, 20, 15, 35});
     
     _124_二叉树中的最大路径和 solution = _124_二叉树中的最大路径和();
     cout << solution.maxPathSum(root) << endl;
+}
+
+/// 226-翻转二叉树
+void test_226() {
+    /**
+     输入：
+
+          4
+        /   \
+       2     7
+      / \   / \
+     1   3 6   9
+     输出：
+
+          4
+        /   \
+       7     2
+      / \   / \
+     9   6 3   1
+     */
+    TreeNode* root = generateBinaryTree({4,2,1,3,7,6,9});
+    root->left = new TreeNode(7);
+    root->right = new TreeNode(2);
+    root->left->left = new TreeNode(9);
+    root->left->right = new TreeNode(6);
+    root->right->left = new TreeNode(3);
+    root->right->right = new TreeNode(1);
+    _226_翻转二叉树 solution = _226_翻转二叉树();
+    root = solution.invertTree(root);
+}
+
+/// 144-二叉树的前序遍历
+void test_144() {
+    /**
+     输入: [1,null,2,3]
+        1
+         \
+          2
+         /
+        3
+
+     输出: [1,2,3]
+     */
+    TreeNode* root = generateTreeByLevel({1, INT_MAX, 2, 3});
+    _144_二叉树的前序遍历* solution = new _144_二叉树的前序遍历();
+    vector<int> result = solution->preorderTraversal(root);
+    for (auto n:result) {
+        cout << n << " ";
+    }
+    cout << endl;
+}
+
+/// 94-二叉树的终须遍历
+void test_94() {
+    /**
+     输入: [1,null,2,3]
+        1
+         \
+          2
+         /
+        3
+
+     输出: [1,3,2]
+     */
+    TreeNode* root = generateTreeByLevel({1, INT_MAX, 2, 3});
+    _94_二叉树的中序遍历* solution = new _94_二叉树的中序遍历();
+    vector<int> result = solution->inorderTraversal(root);
+    for (auto n:result) {
+        cout << n << " ";
+    }
+    cout << endl;
+}
+
+/// 145-二叉树的后序遍历
+void test_145() {
+    /**
+     输入: [1,null,2,3]
+        1
+         \
+          2
+         /
+        3
+
+     输出: [3,2,1]
+     */
+    TreeNode* root = generateTreeByLevel({1, INT_MAX, 2, 3});
+    _145_二叉树的后序遍历* solution = new _145_二叉树的后序遍历();
+    vector<int> result = solution->postorderTraversal(root);
+    for (auto n:result) {
+        cout << n << " ";
+    }
+    cout << endl;
+
 }
 
 #pragma mark - 动态规划
@@ -566,7 +694,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    cout << "Hello, World!\n";
     
-    test_224();
+    test_145();
 
     return 0;
 }

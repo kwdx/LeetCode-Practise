@@ -7,3 +7,25 @@
 //
 
 #include "_144_二叉树的前序遍历.hpp"
+#include <stack>
+
+vector<int> _144_二叉树的前序遍历::preorderTraversal(TreeNode* root) {
+    vector<int> result;
+    if (root == NULL) {
+        return result;
+    }
+    stack<TreeNode*> nodes;
+    TreeNode *p = root;
+    while (p || !nodes.empty()) {
+        while (p) {
+            result.push_back(p->val);
+            nodes.push(p);
+            p = p->left;
+        }
+        
+        p = nodes.top();
+        nodes.pop();
+        p = p->right;
+    }
+    return result;
+}

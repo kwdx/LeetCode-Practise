@@ -342,7 +342,7 @@ func test_224() {
 // MARK: 二叉树
 
 // 生成二叉搜索树
-func generateTree(_ nodes: [Int]) -> TreeNode? {
+func generateBinaryTree(_ nodes: [Int]) -> TreeNode? {
     if nodes.count == 0 {
         return nil;
     }
@@ -366,6 +366,34 @@ func generateTree(_ nodes: [Int]) -> TreeNode? {
         }
     }
     return root;
+}
+
+/// 按照层序遍历生成二叉树
+func generateTreeByLevel(_ nodes: [Int?]) -> TreeNode? {
+    guard nodes.count > 0 else {
+        return nil
+    }
+    let root = TreeNode(nodes[0]!)
+    var nodeArr = [root]
+    var isLeft = true
+    for i in 1..<nodes.count {
+        let parent = nodeArr.first
+        if nodes[i] != nil {
+            let child = TreeNode(nodes[i]!)
+            if isLeft {
+                parent?.left = child
+            } else {
+                parent?.right = child
+            }
+            nodeArr.append(child)
+        }
+        if !isLeft {
+            nodeArr.removeFirst()
+        }
+        
+        isLeft = !isLeft
+    }
+    return root
 }
 
 /// 98-验证二叉搜索树
@@ -455,6 +483,84 @@ func test_124() {
     
     let solution = _124_二叉树中的最大路径和()
     print(solution.maxPathSum(root))
+}
+
+/// 226-翻转二叉树
+func test_226() {
+    /**
+     输入：
+
+          4
+        /   \
+       2     7
+      / \   / \
+     1   3 6   9
+     输出：
+
+          4
+        /   \
+       7     2
+      / \   / \
+     9   6 3   1
+     */
+    var root = generateTreeByLevel([4, 2, 7, 1, 3, 6, 9])
+    let solution = _226_翻转二叉树()
+    root = solution.invertTree(root);
+    print(root!)
+}
+
+/// 144-二叉树的前序遍历
+func test_144() {
+    /**
+    输入: [1,null,2,3]
+       1
+        \
+         2
+        /
+       3
+
+    输出: [1,2,3]
+    输入: [2,1,3,null,4]
+    输出: [2,1,4,3]
+     */
+    let root = generateTreeByLevel([2, 1, 3, nil, 4])
+    let solution = _144_二叉树的前序遍历()
+    print(solution.preorderTraversal(root))
+}
+
+/// 94-二叉树的中序遍历
+func test_94() {
+    /**
+     输入: [1,null,2,3]
+        1
+         \
+          2
+         /
+        3
+
+     输出: [1,3,2]
+     */
+    let root = generateTreeByLevel([1, nil, 2, 3])
+    let solution = _94_二叉树的中序遍历()
+    print(solution.inorderTraversal(root))
+}
+
+/// 145-二叉树的后序遍历
+func test_145() {
+    /**
+     输入: [1,null,2,3]
+        1
+         \
+          2
+         /
+        3
+
+     输出: [3,2,1]
+     */
+//    let root = generateTreeByLevel([1, nil, 2, 3])
+    let root = generateTreeByLevel([3, 1, 2])
+    let solution = _145_二叉树的后序遍历()
+    print(solution.postorderTraversal(root))
 }
 
 // MARK: 动态规划
@@ -551,5 +657,5 @@ func test_36() {
 }
 
 // MARK: Test
-test_224()
+test_145()
 
