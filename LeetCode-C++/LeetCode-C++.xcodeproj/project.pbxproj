@@ -16,6 +16,8 @@
 		890BFC0E2396A4820094E333 /* _225_用队列实现栈.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 890BFC0C2396A4820094E333 /* _225_用队列实现栈.cpp */; };
 		8931B0992390AAA800AD49AB /* _141_环形链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8931B0972390AAA800AD49AB /* _141_环形链表.cpp */; };
 		8931B09E2390AE7500AD49AB /* _203_移除链表元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8931B09C2390AE7500AD49AB /* _203_移除链表元素.cpp */; };
+		89389ACE23A13C320093A392 /* _102_二叉树的层次遍历.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89389ACC23A13C320093A392 /* _102_二叉树的层次遍历.cpp */; };
+		89389AD323A1401D0093A392 /* _104_二叉树的最大深度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89389AD123A1401D0093A392 /* _104_二叉树的最大深度.cpp */; };
 		89571FDC239AB2B500A25037 /* _226_翻转二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89571FDA239AB2B500A25037 /* _226_翻转二叉树.cpp */; };
 		89571FE3239BF89600A25037 /* _144_二叉树的前序遍历.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89571FE1239BF89600A25037 /* _144_二叉树的前序遍历.cpp */; };
 		896E26AB238B720D001F096E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26AA238B720D001F096E /* main.cpp */; };
@@ -67,6 +69,10 @@
 		8931B0982390AAA800AD49AB /* _141_环形链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_141_环形链表.hpp"; sourceTree = "<group>"; };
 		8931B09C2390AE7500AD49AB /* _203_移除链表元素.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_203_移除链表元素.cpp"; sourceTree = "<group>"; };
 		8931B09D2390AE7500AD49AB /* _203_移除链表元素.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_203_移除链表元素.hpp"; sourceTree = "<group>"; };
+		89389ACC23A13C320093A392 /* _102_二叉树的层次遍历.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_102_二叉树的层次遍历.cpp"; sourceTree = "<group>"; };
+		89389ACD23A13C320093A392 /* _102_二叉树的层次遍历.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_102_二叉树的层次遍历.hpp"; sourceTree = "<group>"; };
+		89389AD123A1401D0093A392 /* _104_二叉树的最大深度.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_104_二叉树的最大深度.cpp"; sourceTree = "<group>"; };
+		89389AD223A1401D0093A392 /* _104_二叉树的最大深度.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_104_二叉树的最大深度.hpp"; sourceTree = "<group>"; };
 		89571FDA239AB2B500A25037 /* _226_翻转二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_226_翻转二叉树.cpp"; sourceTree = "<group>"; };
 		89571FDB239AB2B500A25037 /* _226_翻转二叉树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_226_翻转二叉树.hpp"; sourceTree = "<group>"; };
 		89571FE1239BF89600A25037 /* _144_二叉树的前序遍历.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_144_二叉树的前序遍历.cpp"; sourceTree = "<group>"; };
@@ -210,6 +216,10 @@
 				8992CA10239E8DC20061D7BF /* _94_二叉树的中序遍历.cpp */,
 				8992CA14239E973D0061D7BF /* _145_二叉树的后序遍历.hpp */,
 				8992CA13239E973D0061D7BF /* _145_二叉树的后序遍历.cpp */,
+				89389ACD23A13C320093A392 /* _102_二叉树的层次遍历.hpp */,
+				89389ACC23A13C320093A392 /* _102_二叉树的层次遍历.cpp */,
+				89389AD223A1401D0093A392 /* _104_二叉树的最大深度.hpp */,
+				89389AD123A1401D0093A392 /* _104_二叉树的最大深度.cpp */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -328,6 +338,7 @@
 				890BFBF52395620D0094E333 /* _876_链表的中间结点.cpp in Sources */,
 				8931B09E2390AE7500AD49AB /* _203_移除链表元素.cpp in Sources */,
 				890BFC082396A42D0094E333 /* _856_括号的分数.cpp in Sources */,
+				89389ACE23A13C320093A392 /* _102_二叉树的层次遍历.cpp in Sources */,
 				896E26BE238B7C93001F096E /* _23_合并K个排序链表.cpp in Sources */,
 				890BFBF0239560D00094E333 /* _83_删除排序链表中的重复元素.cpp in Sources */,
 				896E26B6238B76B8001F096E /* _21_合并两个有序链表.cpp in Sources */,
@@ -336,6 +347,7 @@
 				896E26E4238BBA10001F096E /* _198_打家劫舍.cpp in Sources */,
 				890BFC0B2396A4590094E333 /* _232_用栈实现队列.cpp in Sources */,
 				890BFC0E2396A4820094E333 /* _225_用队列实现栈.cpp in Sources */,
+				89389AD323A1401D0093A392 /* _104_二叉树的最大深度.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

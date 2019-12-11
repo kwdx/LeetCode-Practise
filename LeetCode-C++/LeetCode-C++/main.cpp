@@ -36,6 +36,8 @@
 #include "_144_二叉树的前序遍历.hpp"
 #include "_94_二叉树的中序遍历.hpp"
 #include "_145_二叉树的后序遍历.hpp"
+#include "_102_二叉树的层次遍历.hpp"
+#include "_104_二叉树的最大深度.hpp"
 
 using namespace std;
 
@@ -588,6 +590,58 @@ void test_145() {
 
 }
 
+/// 102-二叉树的层次遍历
+void test_102() {
+    /**
+     给定二叉树: [3,9,20,null,null,15,7],
+
+        3
+       / \
+      9  20
+        /  \
+       15   7
+    返回其层次遍历结果：
+
+    [
+      [3],
+      [9,20],
+      [15,7]
+    ]
+     */
+    TreeNode* root = generateTreeByLevel({3, 9, 20, INT_MAX, INT_MAX, 15, 7});
+//    TreeNode* root;
+    _102_二叉树的层次遍历* solution = new _102_二叉树的层次遍历();
+    vector<vector<int>> result = solution->levelOrder(root);
+    cout << "[\n";
+    for (int i = 0; i < result.size(); i++) {
+        cout << "\t[";
+        for (int j = 0; j < result[i].size() - 1; j++) {
+            cout << result[i][j] << ",";
+        }
+        cout << result[i][result[i].size() - 1];
+        cout << "]" << endl;
+    }
+    cout << "]" << endl;
+}
+
+/// 104-二叉树的最大深度
+void test_104() {
+    /**
+     示例：
+     给定二叉树 [3,9,20,null,null,15,7]，
+
+         3
+        / \
+       9  20
+         /  \
+        15   7
+     返回它的最大深度 3
+     */
+    TreeNode* root = generateTreeByLevel({3, 9, 20, INT_MAX, INT_MAX, 15, 7});
+    _104_二叉树的最大深度* solution = new _104_二叉树的最大深度();
+    cout << solution->maxDepth(root) << endl;
+}
+
 #pragma mark - 动态规划
 
 /// 198-打家劫舍
@@ -694,7 +748,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    cout << "Hello, World!\n";
     
-    test_145();
+    test_102();
 
     return 0;
 }

@@ -563,6 +563,47 @@ func test_145() {
     print(solution.postorderTraversal(root))
 }
 
+/// 102-二叉树的层序遍历
+func test_102() {
+    /**
+     给定二叉树: [3,9,20,null,null,15,7],
+
+        3
+       / \
+      9  20
+        /  \
+       15   7
+    返回其层次遍历结果：
+
+    [
+      [3],
+      [9,20],
+      [15,7]
+    ]
+     */
+    let root = generateTreeByLevel([3, 9, 20, nil, nil, 15, 7])
+    let solution = _102_二叉树的层次遍历()
+    print(solution.levelOrder(root))
+}
+
+/// 104-二叉树的最大深度
+func test_104() {
+    /**
+     给定二叉树 [3,9,20,null,null,15,7]，
+
+         3
+        / \
+       9  20
+         /  \
+        15   7
+     返回它的最大深度 3
+     */
+    let root = generateTreeByLevel([3, 9, 20, nil, nil, 15, 7])
+//    let root: TreeNode? = nil
+    let solution = _104_二叉树的最大深度()
+    print(solution.maxDepth(root))
+}
+
 // MARK: 动态规划
 
 /// 198-打家劫舍
@@ -657,5 +698,5 @@ func test_36() {
 }
 
 // MARK: Test
-test_145()
+test_104()
 
