@@ -604,6 +604,54 @@ func test_104() {
     print(solution.maxDepth(root))
 }
 
+/// 105-从前序与中序遍历序列构造二叉树
+func test_105() {
+    /**
+     前序遍历 preorder = [3,9,20,15,7]
+     中序遍历 inorder = [9,3,15,20,7]
+     返回如下的二叉树：
+
+            3
+           / \
+          9  20
+            /  \
+           15   7
+     */
+    let solution = _105_从前序与中序遍历序列构造二叉树()
+    let root = solution.buildTree([3, 9, 20, 15, 7], [9, 3, 15, 20, 7])
+    print(root!)
+}
+
+/// 106-从中序与后序遍历序列构造二叉树
+func test_106() {
+    /**
+     中序遍历 inorder = [9,3,15,20,7]
+     后序遍历 postorder = [9,15,7,20,3]
+     返回如下的二叉树：
+
+            3
+           / \
+          9  20
+            /  \
+           15   7
+     */
+    let solution = _106_从中序与后序遍历序列构造二叉树()
+    let root = solution.buildTree([9, 3, 15, 20, 7], [9, 15, 7, 20, 3])
+    print(root!)
+}
+
+/// 889-根据前序和后序遍历构造二叉树
+func test_889() {
+    /**
+     输入：pre = [1,2,4,5,3,6,7], post = [4,5,2,6,7,3,1]
+     输出：[1,2,3,4,5,6,7]
+     */
+    let solution = _889_根据前序和后序遍历构造二叉树()
+    let root = solution.constructFromPrePost([1, 2, 4, 5, 3, 6, 7], [4, 5, 2, 6, 7, 3, 1])
+    print(root!)
+}
+
+
 // MARK: 动态规划
 
 /// 198-打家劫舍
@@ -698,5 +746,5 @@ func test_36() {
 }
 
 // MARK: Test
-test_104()
+test_889()
 

@@ -38,6 +38,9 @@
 #include "_145_二叉树的后序遍历.hpp"
 #include "_102_二叉树的层次遍历.hpp"
 #include "_104_二叉树的最大深度.hpp"
+#include "_105_从前序与中序遍历序列构造二叉树.hpp"
+#include "_106_从中序与后序遍历序列构造二叉树.hpp"
+#include "_889_根据前序和后序遍历构造二叉树.hpp"
 
 using namespace std;
 
@@ -642,6 +645,63 @@ void test_104() {
     cout << solution->maxDepth(root) << endl;
 }
 
+/// 105-从前序与中序遍历序列构造二叉树
+void test_105() {
+    /**
+     例如，给出
+     
+     前序遍历 preorder = [3,9,20,15,7]
+     中序遍历 inorder = [9,3,15,20,7]
+     返回如下的二叉树：
+
+            3
+           / \
+          9  20
+            /  \
+           15   7
+     */
+    _105_从前序与中序遍历序列构造二叉树* solution = new _105_从前序与中序遍历序列构造二叉树();
+    vector<int> preorder = {3, 9, 2, 20, 15, 7};
+    vector<int> inorder = {9, 2, 3, 15, 20, 7};
+    TreeNode* root = solution->buildTree(preorder, inorder);
+    cout << root->val << endl;
+}
+
+/// 106-从中序与后序遍历序列构造二叉树
+void test_106() {
+    /**
+     例如，给出
+
+     中序遍历 inorder = [9,3,15,20,7]
+     后序遍历 postorder = [9,15,7,20,3]
+     返回如下的二叉树：
+
+            3
+           / \
+          9  20
+            /  \
+           15   7
+     */
+    _106_从中序与后序遍历序列构造二叉树* solution = new _106_从中序与后序遍历序列构造二叉树();
+    vector<int> inorder = {9, 3, 15, 20, 7};
+    vector<int> postorder = {9, 15, 7, 20, 3};
+    TreeNode* root = solution->buildTree(inorder, postorder);
+    cout << root->val << endl;
+}
+
+/// 889-根据前序和后序遍历构造二叉树
+void test_889() {
+    /**
+     输入：pre = [1,2,4,5,3,6,7], post = [4,5,2,6,7,3,1]
+     输出：[1,2,3,4,5,6,7]
+     */
+    vector<int> preorder = {1, 2, 4, 5, 3, 6, 7};
+    vector<int> postorder = {4, 5, 2, 6, 7, 3, 1};
+    _889_根据前序和后序遍历构造二叉树* solution = new _889_根据前序和后序遍历构造二叉树();
+    TreeNode* root = solution->constructFromPrePost(preorder, postorder);
+    cout << root->val << endl;
+}
+
 #pragma mark - 动态规划
 
 /// 198-打家劫舍
@@ -748,7 +808,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    cout << "Hello, World!\n";
     
-    test_102();
+    test_889();
 
     return 0;
 }

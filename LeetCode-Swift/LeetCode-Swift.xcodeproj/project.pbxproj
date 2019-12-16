@@ -38,6 +38,9 @@
 		89B7B135238E47A000ABFCAD /* _237_删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B7B134238E47A000ABFCAD /* _237_删除链表中的节点.swift */; };
 		89B7B13D238E4B9900ABFCAD /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B7B13C238E4B9900ABFCAD /* _206_反转链表.swift */; };
 		89B7B142238F591B00ABFCAD /* _88_合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B7B141238F591B00ABFCAD /* _88_合并两个有序数组.swift */; };
+		89BE0BA923A280E000748AE9 /* _105_从前序与中序遍历序列构造二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE0BA823A280E000748AE9 /* _105_从前序与中序遍历序列构造二叉树.swift */; };
+		89BE0BAB23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE0BAA23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift */; };
+		89BE0BAD23A283FF00748AE9 /* _889_根据前序和后序遍历构造二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE0BAC23A283FF00748AE9 /* _889_根据前序和后序遍历构造二叉树.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +88,9 @@
 		89B7B134238E47A000ABFCAD /* _237_删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_237_删除链表中的节点.swift"; sourceTree = "<group>"; };
 		89B7B13C238E4B9900ABFCAD /* _206_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
 		89B7B141238F591B00ABFCAD /* _88_合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_88_合并两个有序数组.swift"; sourceTree = "<group>"; };
+		89BE0BA823A280E000748AE9 /* _105_从前序与中序遍历序列构造二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_105_从前序与中序遍历序列构造二叉树.swift"; sourceTree = "<group>"; };
+		89BE0BAA23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_106_从中序与后序遍历序列构造二叉树.swift"; sourceTree = "<group>"; };
+		89BE0BAC23A283FF00748AE9 /* _889_根据前序和后序遍历构造二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_889_根据前序和后序遍历构造二叉树.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,9 @@
 				8992CA16239E9B960061D7BF /* _145_二叉树的后序遍历.swift */,
 				89389ACF23A13C420093A392 /* _102_二叉树的层次遍历.swift */,
 				89389AD423A1402A0093A392 /* _104_二叉树的最大深度.swift */,
+				89BE0BA823A280E000748AE9 /* _105_从前序与中序遍历序列构造二叉树.swift */,
+				89BE0BAA23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift */,
+				89BE0BAC23A283FF00748AE9 /* _889_根据前序和后序遍历构造二叉树.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -266,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89BE0BAD23A283FF00748AE9 /* _889_根据前序和后序遍历构造二叉树.swift in Sources */,
+				89BE0BA923A280E000748AE9 /* _105_从前序与中序遍历序列构造二叉树.swift in Sources */,
 				896E26CF238B94A4001F096E /* TreeNode.swift in Sources */,
 				896E26C8238B8403001F096E /* _21_合并两个有序链表.swift in Sources */,
 				896E26DB238BAF14001F096E /* _124_二叉树中的最大路径和.swift in Sources */,
@@ -281,6 +292,7 @@
 				896E269D238B6FDD001F096E /* _150_逆波兰表达式求值.swift in Sources */,
 				89389AD523A1402A0093A392 /* _104_二叉树的最大深度.swift in Sources */,
 				890BFBED2395546F0094E333 /* _83_删除排序链表中的重复元素.swift in Sources */,
+				89BE0BAB23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift in Sources */,
 				89B7B13D238E4B9900ABFCAD /* _206_反转链表.swift in Sources */,
 				896E26ED238BBF33001F096E /* _347_前K个高频元素.swift in Sources */,
 				896E26DD238BB362001F096E /* _114_二叉树展开为链表.swift in Sources */,
