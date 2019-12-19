@@ -41,6 +41,8 @@
 		89BE0BA923A280E000748AE9 /* _105_从前序与中序遍历序列构造二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE0BA823A280E000748AE9 /* _105_从前序与中序遍历序列构造二叉树.swift */; };
 		89BE0BAB23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE0BAA23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift */; };
 		89BE0BAD23A283FF00748AE9 /* _889_根据前序和后序遍历构造二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE0BAC23A283FF00748AE9 /* _889_根据前序和后序遍历构造二叉树.swift */; };
+		89D8835523A7DC9B00B2E4D2 /* _101_对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D8835423A7DC9B00B2E4D2 /* _101_对称二叉树.swift */; };
+		89D883BB23AA2B3A00B2E4D2 /* _450_删除二叉搜索树中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D883BA23AA2B3A00B2E4D2 /* _450_删除二叉搜索树中的节点.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +93,8 @@
 		89BE0BA823A280E000748AE9 /* _105_从前序与中序遍历序列构造二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_105_从前序与中序遍历序列构造二叉树.swift"; sourceTree = "<group>"; };
 		89BE0BAA23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_106_从中序与后序遍历序列构造二叉树.swift"; sourceTree = "<group>"; };
 		89BE0BAC23A283FF00748AE9 /* _889_根据前序和后序遍历构造二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_889_根据前序和后序遍历构造二叉树.swift"; sourceTree = "<group>"; };
+		89D8835423A7DC9B00B2E4D2 /* _101_对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_101_对称二叉树.swift"; sourceTree = "<group>"; };
+		89D883BA23AA2B3A00B2E4D2 /* _450_删除二叉搜索树中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_450_删除二叉搜索树中的节点.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,8 @@
 				89BE0BA823A280E000748AE9 /* _105_从前序与中序遍历序列构造二叉树.swift */,
 				89BE0BAA23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift */,
 				89BE0BAC23A283FF00748AE9 /* _889_根据前序和后序遍历构造二叉树.swift */,
+				89D8835423A7DC9B00B2E4D2 /* _101_对称二叉树.swift */,
+				89D883BA23AA2B3A00B2E4D2 /* _450_删除二叉搜索树中的节点.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				890BFBFE2396A0AD0094E333 /* _225_用队列实现栈.swift in Sources */,
 				896E269D238B6FDD001F096E /* _150_逆波兰表达式求值.swift in Sources */,
 				89389AD523A1402A0093A392 /* _104_二叉树的最大深度.swift in Sources */,
+				89D883BB23AA2B3A00B2E4D2 /* _450_删除二叉搜索树中的节点.swift in Sources */,
 				890BFBED2395546F0094E333 /* _83_删除排序链表中的重复元素.swift in Sources */,
 				89BE0BAB23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift in Sources */,
 				89B7B13D238E4B9900ABFCAD /* _206_反转链表.swift in Sources */,
@@ -302,6 +309,7 @@
 				896E26EA238BBF11001F096E /* _36_有效的数独.swift in Sources */,
 				896E26FC238BE3AC001F096E /* _509_斐波那契数.swift in Sources */,
 				890BFBFC2396A0960094E333 /* _224_基本计算器.swift in Sources */,
+				89D8835523A7DC9B00B2E4D2 /* _101_对称二叉树.swift in Sources */,
 				890BFC002396A0D80094E333 /* _232_用栈实现队列.swift in Sources */,
 				896E26C6238B83E7001F096E /* ListNode.swift in Sources */,
 				8931B0A22390AE8700AD49AB /* _203_移除链表元素.swift in Sources */,

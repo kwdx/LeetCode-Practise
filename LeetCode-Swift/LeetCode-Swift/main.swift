@@ -396,6 +396,24 @@ func generateTreeByLevel(_ nodes: [Int?]) -> TreeNode? {
     return root
 }
 
+/// 按照层序遍历打印二叉树
+func printTreeByLevel(_ root: TreeNode?) {
+    guard root != nil else {
+        return
+    }
+    var nodes = [root]
+    var vals = [Int]()
+    while !nodes.isEmpty {
+        let node = nodes.removeFirst()
+        if node != nil {
+            vals.append(node!.val)
+            nodes.append(node!.left)
+            nodes.append(node!.right)
+        }
+    }
+    print(vals)
+}
+
 /// 98-验证二叉搜索树
 func test_98() {
     /**
@@ -651,6 +669,52 @@ func test_889() {
     print(root!)
 }
 
+/// 101-对称二叉树
+func test_101() {
+    /**
+    例如，二叉树 [1,2,2,3,4,4,3] 是对称的。
+
+        1
+       / \
+      2   2
+     / \ / \
+    3  4 4  3
+    但是下面这个 [1,2,2,null,3,null,3] 则不是镜像对称的:
+
+        1
+       / \
+      2   2
+       \   \
+       3    3
+     */
+//    let root = generateTreeByLevel([1, 2, 2, 3, 4, 4, 3])
+    let root = generateTreeByLevel([1, 2, 2, nil, 3, nil, 3])
+    let solution = _101_对称二叉树()
+    print(solution.isSymmetric(root))
+}
+
+/// 450-删除二叉搜索树中的节点
+func test_450() {
+    /**
+    [5, 3, 6, 2, 4, nil, 7] - 3
+    [5, 4, 6, 2, 7], [5, 2, 6, 4, 7]
+    
+    [2, 1] - 2
+    [1]
+    
+    [1, nil, 2] - 1
+    [2]
+    
+    [1, nil, 2] - 2
+    [1]
+     */
+    let solution = _450_删除二叉搜索树中的节点()
+//    let root = generateTreeByLevel([5, 3, 6, 2, 4, nil, 7])
+    printTreeByLevel(solution.deleteNode(generateTreeByLevel([5, 3, 6, 2, 4, nil, 7]), 3))
+    printTreeByLevel(solution.deleteNode(generateTreeByLevel([2, 1]), 2))
+    printTreeByLevel(solution.deleteNode(generateTreeByLevel([1, nil, 2]), 1))
+    printTreeByLevel(solution.deleteNode(generateTreeByLevel([1, nil, 2]), 2))
+}
 
 // MARK: 动态规划
 
@@ -746,5 +810,5 @@ func test_36() {
 }
 
 // MARK: Test
-test_889()
+test_450()
 

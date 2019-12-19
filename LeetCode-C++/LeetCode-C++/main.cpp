@@ -41,6 +41,8 @@
 #include "_105_从前序与中序遍历序列构造二叉树.hpp"
 #include "_106_从中序与后序遍历序列构造二叉树.hpp"
 #include "_889_根据前序和后序遍历构造二叉树.hpp"
+#include "_101_对称二叉树.hpp"
+#include "_450_删除二叉搜索树中的节点.hpp"
 
 using namespace std;
 
@@ -702,6 +704,68 @@ void test_889() {
     cout << root->val << endl;
 }
 
+/// 101-对称二叉树
+void test_101() {
+    /**
+     例如，二叉树 [1,2,2,3,4,4,3] 是对称的。
+
+         1
+        / \
+       2   2
+      / \ / \
+     3  4 4  3
+     但是下面这个 [1,2,2,null,3,null,3] 则不是镜像对称的:
+
+         1
+        / \
+       2   2
+        \   \
+        3    3
+     */
+    vector<int> levels = {1, 2, 2, 3, 4, 4, 3};
+//    vector<int> levels = {1, 2, 2, INT_MAX, 3, INT_MAX, 3};
+    TreeNode* root = generateTreeByLevel(levels);
+    _101_对称二叉树* solution = new _101_对称二叉树();
+    cout << solution->isSymmetric(root) << endl;
+}
+
+/// 450-删除二叉搜索树中的节点
+void test_450() {
+    /**
+     root = [5,3,6,2,4,null,7]
+     key = 3
+
+         5
+        / \
+       3   6
+      / \   \
+     2   4   7
+
+     给定需要删除的节点值是 3，所以我们首先找到 3 这个节点，然后删除它。
+
+     一个正确的答案是 [5,4,6,2,null,null,7], 如下图所示。
+
+         5
+        / \
+       4   6
+      /     \
+     2       7
+
+     另一个正确答案是 [5,2,6,null,4,null,7]。
+
+         5
+        / \
+       2   6
+        \   \
+         4   7
+     */
+    vector<int> nodes = {5, 3, 6, 2, 4, INT_MAX, 7};
+    TreeNode* root = generateTreeByLevel(nodes);
+    _450_删除二叉搜索树中的节点* solution = new _450_删除二叉搜索树中的节点();
+    root = solution->deleteNode(root, 3);
+    
+}
+
 #pragma mark - 动态规划
 
 /// 198-打家劫舍
@@ -808,7 +872,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    cout << "Hello, World!\n";
     
-    test_889();
+    test_450();
 
     return 0;
 }
