@@ -10,19 +10,19 @@
 #include <stack>
 
 vector<int> _94_二叉树的中序遍历::inorderTraversal(TreeNode* root) {
-        vector<int> results;
-        stack<TreeNode*> st;
-        TreeNode* p = root;
-        while (p || !st.empty()) {
-            while (p) {
-                st.push(p);
-                p = p->left;
-            }
-            if (!st.empty()) {
-                results.push_back(st.top()->val);
-                p = st.top()->right;
-                st.pop();
-            }
+    vector<int> results;
+    stack<TreeNode*> st;
+    TreeNode* p = root;
+    while (p || !st.empty()) {
+        while (p) {
+            st.push(p);
+            p = p->left;
         }
-        return results;
+        if (!st.empty()) {
+            results.push_back(st.top()->val);
+            p = st.top()->right;
+            st.pop();
+        }
+    }
+    return results;
 }

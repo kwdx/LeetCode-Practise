@@ -5,7 +5,7 @@
 
 
 
-### 时间0ms，击败100%的用户
+### 击败100%的用户
 
 #### C++
 
@@ -21,5 +21,6 @@
 
 * [856-括号的分数](https://leetcode-cn.com/problems/score-of-parentheses/)
 * [450-删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/)
+* [700_二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
 * 
 

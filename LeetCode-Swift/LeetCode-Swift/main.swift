@@ -716,6 +716,110 @@ func test_450() {
     printTreeByLevel(solution.deleteNode(generateTreeByLevel([1, nil, 2]), 2))
 }
 
+/// 700-二叉搜索树中的搜索
+func test_700() {
+    /**
+     给定二叉搜索树:
+
+             4
+            / \
+           2   7
+          / \
+         1   3
+
+     和值: 2
+     你应该返回如下子树:
+
+           2
+          / \
+         1   3
+     */
+    let nodes = generateTreeByLevel([4, 2, 7, 1, 3])
+    let solution = _700_二叉搜索树中的搜索()
+    printTreeByLevel(solution.searchBST(nodes, 2))
+}
+
+/// 530
+func test_530() {
+    /**
+     输入:
+
+        1
+         \
+          3
+         /
+        2
+
+     输出:
+     1
+
+     解释:
+     最小绝对差为1，其中 2 和 1 的差的绝对值为 1（或者 2 和 3）。
+     */
+//    let nodes = generateTreeByLevel([1, nil, 3, 2])
+//    let nodes = generateTreeByLevel([236, 104, 701, nil, 227, nil, 911])
+    let nodes = generateTreeByLevel([0, nil, 2236, 1277, 2776, 519])
+    let solution = _530_二叉搜索树的最小绝对差()
+    print(solution.getMinimumDifference(nodes))
+}
+
+/// 783-二叉搜索树结点最小距离
+func test_783() {
+    /**
+     输入: root = [4,2,6,1,3,null,null]
+     输出: 1
+     解释:
+     注意，root是树结点对象(TreeNode object)，而不是数组。
+
+     给定的树 [4,2,6,1,3,null,null] 可表示为下图:
+
+               4
+             /   \
+           2      6
+          / \
+         1   3
+
+     最小的差值是 1, 它是节点1和节点2的差值, 也是节点3和节点2的差值。
+     */
+    let nodes = generateTreeByLevel([4, 2, 6, 1, 3])
+    let solution = _783_二叉搜索树结点最小距离()
+    print(solution.minDiffInBST(nodes))
+}
+
+/// 701
+func test_701() {
+    /**
+     给定二叉搜索树:
+
+             4
+            / \
+           2   7
+          / \
+         1   3
+
+     和 插入的值: 5
+     你可以返回这个二叉搜索树:
+
+              4
+            /   \
+           2     7
+          / \   /
+         1   3 5
+     或者这个树也是有效的:
+
+              5
+            /   \
+           2     7
+          / \
+         1   3
+              \
+               4
+     */
+    let nodes = generateTreeByLevel([4, 2, 7, 1, 3])
+    let solution = _701_二叉搜索树中的插入操作()
+    printTreeByLevel(solution.insertIntoBST(nodes, 5))
+}
+
 // MARK: 动态规划
 
 /// 198-打家劫舍
@@ -810,5 +914,5 @@ func test_36() {
 }
 
 // MARK: Test
-test_450()
+test_701()
 

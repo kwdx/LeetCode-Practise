@@ -20,6 +20,10 @@
 		89389AD323A1401D0093A392 /* _104_二叉树的最大深度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89389AD123A1401D0093A392 /* _104_二叉树的最大深度.cpp */; };
 		89571FDC239AB2B500A25037 /* _226_翻转二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89571FDA239AB2B500A25037 /* _226_翻转二叉树.cpp */; };
 		89571FE3239BF89600A25037 /* _144_二叉树的前序遍历.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89571FE1239BF89600A25037 /* _144_二叉树的前序遍历.cpp */; };
+		8962491A23C20E8F00AF38B0 /* _700_二叉搜索树中的搜索.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8962491823C20E8F00AF38B0 /* _700_二叉搜索树中的搜索.cpp */; };
+		8962491D23C2152500AF38B0 /* _530_二叉搜索树的最小绝对差.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8962491B23C2152500AF38B0 /* _530_二叉搜索树的最小绝对差.cpp */; };
+		8962492023C22F9B00AF38B0 /* _783_二叉搜索树结点最小距离.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8962491E23C22F9B00AF38B0 /* _783_二叉搜索树结点最小距离.cpp */; };
+		8962492323C2319000AF38B0 /* _701_二叉搜索树中的插入操作.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8962492123C2319000AF38B0 /* _701_二叉搜索树中的插入操作.cpp */; };
 		896E26AB238B720D001F096E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26AA238B720D001F096E /* main.cpp */; };
 		896E26B3238B7227001F096E /* _150_逆波兰表达式求值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26B1238B7227001F096E /* _150_逆波兰表达式求值.cpp */; };
 		896E26B6238B76B8001F096E /* _21_合并两个有序链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896E26B4238B76B8001F096E /* _21_合并两个有序链表.cpp */; };
@@ -82,6 +86,14 @@
 		89571FDB239AB2B500A25037 /* _226_翻转二叉树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_226_翻转二叉树.hpp"; sourceTree = "<group>"; };
 		89571FE1239BF89600A25037 /* _144_二叉树的前序遍历.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_144_二叉树的前序遍历.cpp"; sourceTree = "<group>"; };
 		89571FE2239BF89600A25037 /* _144_二叉树的前序遍历.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_144_二叉树的前序遍历.hpp"; sourceTree = "<group>"; };
+		8962491823C20E8F00AF38B0 /* _700_二叉搜索树中的搜索.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_700_二叉搜索树中的搜索.cpp"; sourceTree = "<group>"; };
+		8962491923C20E8F00AF38B0 /* _700_二叉搜索树中的搜索.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_700_二叉搜索树中的搜索.hpp"; sourceTree = "<group>"; };
+		8962491B23C2152500AF38B0 /* _530_二叉搜索树的最小绝对差.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_530_二叉搜索树的最小绝对差.cpp"; sourceTree = "<group>"; };
+		8962491C23C2152500AF38B0 /* _530_二叉搜索树的最小绝对差.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_530_二叉搜索树的最小绝对差.hpp"; sourceTree = "<group>"; };
+		8962491E23C22F9B00AF38B0 /* _783_二叉搜索树结点最小距离.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_783_二叉搜索树结点最小距离.cpp"; sourceTree = "<group>"; };
+		8962491F23C22F9B00AF38B0 /* _783_二叉搜索树结点最小距离.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_783_二叉搜索树结点最小距离.hpp"; sourceTree = "<group>"; };
+		8962492123C2319000AF38B0 /* _701_二叉搜索树中的插入操作.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_701_二叉搜索树中的插入操作.cpp"; sourceTree = "<group>"; };
+		8962492223C2319000AF38B0 /* _701_二叉搜索树中的插入操作.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_701_二叉搜索树中的插入操作.hpp"; sourceTree = "<group>"; };
 		896E26A7238B720D001F096E /* LeetCode-C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		896E26AA238B720D001F096E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		896E26B1238B7227001F096E /* _150_逆波兰表达式求值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_150_逆波兰表达式求值.cpp"; sourceTree = "<group>"; };
@@ -245,6 +257,14 @@
 				89D8835123A7D5BA00B2E4D2 /* _101_对称二叉树.cpp */,
 				89D8835723A920BB00B2E4D2 /* _450_删除二叉搜索树中的节点.hpp */,
 				89D8835623A920BB00B2E4D2 /* _450_删除二叉搜索树中的节点.cpp */,
+				8962491923C20E8F00AF38B0 /* _700_二叉搜索树中的搜索.hpp */,
+				8962491823C20E8F00AF38B0 /* _700_二叉搜索树中的搜索.cpp */,
+				8962491C23C2152500AF38B0 /* _530_二叉搜索树的最小绝对差.hpp */,
+				8962491B23C2152500AF38B0 /* _530_二叉搜索树的最小绝对差.cpp */,
+				8962491F23C22F9B00AF38B0 /* _783_二叉搜索树结点最小距离.hpp */,
+				8962491E23C22F9B00AF38B0 /* _783_二叉搜索树结点最小距离.cpp */,
+				8962492223C2319000AF38B0 /* _701_二叉搜索树中的插入操作.hpp */,
+				8962492123C2319000AF38B0 /* _701_二叉搜索树中的插入操作.cpp */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -362,6 +382,8 @@
 				890BFBF82395650A0094E333 /* _20_有效的括号.cpp in Sources */,
 				89B7B140238F54E200ABFCAD /* _88_合并两个有序数组.cpp in Sources */,
 				890BFBF52395620D0094E333 /* _876_链表的中间结点.cpp in Sources */,
+				8962492323C2319000AF38B0 /* _701_二叉搜索树中的插入操作.cpp in Sources */,
+				8962491A23C20E8F00AF38B0 /* _700_二叉搜索树中的搜索.cpp in Sources */,
 				8931B09E2390AE7500AD49AB /* _203_移除链表元素.cpp in Sources */,
 				890BFC082396A42D0094E333 /* _856_括号的分数.cpp in Sources */,
 				89389ACE23A13C320093A392 /* _102_二叉树的层次遍历.cpp in Sources */,
@@ -369,12 +391,14 @@
 				890BFBF0239560D00094E333 /* _83_删除排序链表中的重复元素.cpp in Sources */,
 				896E26B6238B76B8001F096E /* _21_合并两个有序链表.cpp in Sources */,
 				89B7B138238E49A100ABFCAD /* _237_删除链表中的节点.cpp in Sources */,
+				8962491D23C2152500AF38B0 /* _530_二叉搜索树的最小绝对差.cpp in Sources */,
 				89BE0BA723A27DB800748AE9 /* _889_根据前序和后序遍历构造二叉树.cpp in Sources */,
 				89BE0BA123A2745200748AE9 /* _106_从中序与后序遍历序列构造二叉树.cpp in Sources */,
 				89571FDC239AB2B500A25037 /* _226_翻转二叉树.cpp in Sources */,
 				896E26E4238BBA10001F096E /* _198_打家劫舍.cpp in Sources */,
 				890BFC0B2396A4590094E333 /* _232_用栈实现队列.cpp in Sources */,
 				89BE0BA423A2752C00748AE9 /* _105_从前序与中序遍历序列构造二叉树.cpp in Sources */,
+				8962492023C22F9B00AF38B0 /* _783_二叉搜索树结点最小距离.cpp in Sources */,
 				890BFC0E2396A4820094E333 /* _225_用队列实现栈.cpp in Sources */,
 				89D8835823A920BB00B2E4D2 /* _450_删除二叉搜索树中的节点.cpp in Sources */,
 				89389AD323A1401D0093A392 /* _104_二叉树的最大深度.cpp in Sources */,

@@ -20,6 +20,10 @@
 		89389AD523A1402A0093A392 /* _104_二叉树的最大深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89389AD423A1402A0093A392 /* _104_二叉树的最大深度.swift */; };
 		89571FDE239ABC9700A25037 /* _226_翻转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89571FDD239ABC9700A25037 /* _226_翻转二叉树.swift */; };
 		89571FE0239BF0EF00A25037 /* _144_二叉树的前序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89571FDF239BF0EF00A25037 /* _144_二叉树的前序遍历.swift */; };
+		8962492523C2341500AF38B0 /* _700_二叉搜索树中的搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962492423C2341500AF38B0 /* _700_二叉搜索树中的搜索.swift */; };
+		8962492723C2356500AF38B0 /* _530_二叉搜索树的最小绝对差.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962492623C2356500AF38B0 /* _530_二叉搜索树的最小绝对差.swift */; };
+		8962492923C2382F00AF38B0 /* _783_二叉搜索树结点最小距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962492823C2382F00AF38B0 /* _783_二叉搜索树结点最小距离.swift */; };
+		8962492B23C238F700AF38B0 /* _701_二叉搜索树中的插入操作.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962492A23C238F700AF38B0 /* _701_二叉搜索树中的插入操作.swift */; };
 		896E2696238B6FBC001F096E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896E2695238B6FBC001F096E /* main.swift */; };
 		896E269D238B6FDD001F096E /* _150_逆波兰表达式求值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896E269C238B6FDD001F096E /* _150_逆波兰表达式求值.swift */; };
 		896E26C6238B83E7001F096E /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896E26C5238B83E7001F096E /* ListNode.swift */; };
@@ -71,6 +75,10 @@
 		89389AD423A1402A0093A392 /* _104_二叉树的最大深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_104_二叉树的最大深度.swift"; sourceTree = "<group>"; };
 		89571FDD239ABC9700A25037 /* _226_翻转二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_226_翻转二叉树.swift"; sourceTree = "<group>"; };
 		89571FDF239BF0EF00A25037 /* _144_二叉树的前序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_144_二叉树的前序遍历.swift"; sourceTree = "<group>"; };
+		8962492423C2341500AF38B0 /* _700_二叉搜索树中的搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_700_二叉搜索树中的搜索.swift"; sourceTree = "<group>"; };
+		8962492623C2356500AF38B0 /* _530_二叉搜索树的最小绝对差.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_530_二叉搜索树的最小绝对差.swift"; sourceTree = "<group>"; };
+		8962492823C2382F00AF38B0 /* _783_二叉搜索树结点最小距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_783_二叉搜索树结点最小距离.swift"; sourceTree = "<group>"; };
+		8962492A23C238F700AF38B0 /* _701_二叉搜索树中的插入操作.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_701_二叉搜索树中的插入操作.swift"; sourceTree = "<group>"; };
 		896E2692238B6FBC001F096E /* LeetCode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		896E2695238B6FBC001F096E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		896E269C238B6FDD001F096E /* _150_逆波兰表达式求值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_150_逆波兰表达式求值.swift"; sourceTree = "<group>"; };
@@ -186,6 +194,10 @@
 				89BE0BAC23A283FF00748AE9 /* _889_根据前序和后序遍历构造二叉树.swift */,
 				89D8835423A7DC9B00B2E4D2 /* _101_对称二叉树.swift */,
 				89D883BA23AA2B3A00B2E4D2 /* _450_删除二叉搜索树中的节点.swift */,
+				8962492423C2341500AF38B0 /* _700_二叉搜索树中的搜索.swift */,
+				8962492623C2356500AF38B0 /* _530_二叉搜索树的最小绝对差.swift */,
+				8962492823C2382F00AF38B0 /* _783_二叉搜索树结点最小距离.swift */,
+				8962492A23C238F700AF38B0 /* _701_二叉搜索树中的插入操作.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -283,14 +295,17 @@
 			files = (
 				89BE0BAD23A283FF00748AE9 /* _889_根据前序和后序遍历构造二叉树.swift in Sources */,
 				89BE0BA923A280E000748AE9 /* _105_从前序与中序遍历序列构造二叉树.swift in Sources */,
+				8962492523C2341500AF38B0 /* _700_二叉搜索树中的搜索.swift in Sources */,
 				896E26CF238B94A4001F096E /* TreeNode.swift in Sources */,
 				896E26C8238B8403001F096E /* _21_合并两个有序链表.swift in Sources */,
 				896E26DB238BAF14001F096E /* _124_二叉树中的最大路径和.swift in Sources */,
 				890BFBF2239561F90094E333 /* _876_链表的中间结点.swift in Sources */,
+				8962492923C2382F00AF38B0 /* _783_二叉搜索树结点最小距离.swift in Sources */,
 				8931B09B2390AD8D00AD49AB /* _141_环形链表.swift in Sources */,
 				89B7B142238F591B00ABFCAD /* _88_合并两个有序数组.swift in Sources */,
 				896E2696238B6FBC001F096E /* main.swift in Sources */,
 				896E26CD238B9493001F096E /* _98_验证二叉搜索树.swift in Sources */,
+				8962492B23C238F700AF38B0 /* _701_二叉搜索树中的插入操作.swift in Sources */,
 				89571FE0239BF0EF00A25037 /* _144_二叉树的前序遍历.swift in Sources */,
 				8992CA0F239E87890061D7BF /* _94_二叉树的中序遍历.swift in Sources */,
 				896E26E7238BBDA0001F096E /* _198_打家劫舍.swift in Sources */,
@@ -298,6 +313,7 @@
 				896E269D238B6FDD001F096E /* _150_逆波兰表达式求值.swift in Sources */,
 				89389AD523A1402A0093A392 /* _104_二叉树的最大深度.swift in Sources */,
 				89D883BB23AA2B3A00B2E4D2 /* _450_删除二叉搜索树中的节点.swift in Sources */,
+				8962492723C2356500AF38B0 /* _530_二叉搜索树的最小绝对差.swift in Sources */,
 				890BFBED2395546F0094E333 /* _83_删除排序链表中的重复元素.swift in Sources */,
 				89BE0BAB23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift in Sources */,
 				89B7B13D238E4B9900ABFCAD /* _206_反转链表.swift in Sources */,

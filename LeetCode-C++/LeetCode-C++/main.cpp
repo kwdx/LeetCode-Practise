@@ -43,6 +43,10 @@
 #include "_889_根据前序和后序遍历构造二叉树.hpp"
 #include "_101_对称二叉树.hpp"
 #include "_450_删除二叉搜索树中的节点.hpp"
+#include "_700_二叉搜索树中的搜索.hpp"
+#include "_530_二叉搜索树的最小绝对差.hpp"
+#include "_783_二叉搜索树结点最小距离.hpp"
+#include "_701_二叉搜索树中的插入操作.hpp"
 
 using namespace std;
 
@@ -763,6 +767,112 @@ void test_450() {
     TreeNode* root = generateTreeByLevel(nodes);
     _450_删除二叉搜索树中的节点* solution = new _450_删除二叉搜索树中的节点();
     root = solution->deleteNode(root, 3);
+}
+
+/// 700-二叉搜索树中的搜索
+void test_700() {
+    /**
+     给定二叉搜索树:
+
+             4
+            / \
+           2   7
+          / \
+         1   3
+
+     和值: 2
+     */
+    vector<int> nodes = {4, 2, 7, 1, 3};
+    TreeNode* root = generateTreeByLevel(nodes);
+    _700_二叉搜索树中的搜索* solution = new _700_二叉搜索树中的搜索();
+    root = solution->searchBST(root, 5);
+    if (root) {
+        cout << root->val << endl;
+    } else {
+        cout << endl;
+    }
+}
+
+/// 530-二叉搜索树的最小绝对差
+void test_530() {
+    /**
+     输入:
+
+        1
+         \
+          3
+         /
+        2
+
+     输出:
+     1
+     */
+//    vector<int> nodes = {5, INT_MAX, 10, 13};
+//    vector<int> nodes = {236, 104, 701, INT_MAX, 227, INT_MAX, 911};
+    vector<int> nodes = {0, INT_MAX, 2236, 1277, 2776, 519};
+    TreeNode* root = generateTreeByLevel(nodes);
+    _530_二叉搜索树的最小绝对差* solution = new _530_二叉搜索树的最小绝对差();
+    cout << solution->getMinimumDifference(root) << endl;
+}
+
+/// 783-二叉搜索树结点最小距离
+void test_783() {
+    /**
+     输入: root = [4,2,6,1,3,null,null]
+     输出: 1
+     解释:
+     注意，root是树结点对象(TreeNode object)，而不是数组。
+
+     给定的树 [4,2,6,1,3,null,null] 可表示为下图:
+
+               4
+             /   \
+           2      6
+          / \
+         1   3
+
+     最小的差值是 1, 它是节点1和节点2的差值, 也是节点3和节点2的差值。
+     */
+    vector<int> nodes = {4, 2, 6, 1, 3};
+    TreeNode* root = generateTreeByLevel(nodes);
+    _783_二叉搜索树结点最小距离* solution = new _783_二叉搜索树结点最小距离();
+    cout << solution->minDiffInBST(root) << endl;
+}
+
+
+/// 701-二叉搜索树中的插入操作
+void test_701() {
+    /**
+     给定二叉搜索树:
+
+             4
+            / \
+           2   7
+          / \
+         1   3
+
+     和 插入的值: 5
+     你可以返回这个二叉搜索树:
+
+              4
+            /   \
+           2     7
+          / \   /
+         1   3 5
+     或者这个树也是有效的:
+
+              5
+            /   \
+           2     7
+          / \
+         1   3
+              \
+               4
+     */
+    vector<int> nodes = {4, 2, 7, 1, 3};
+    TreeNode* root = generateTreeByLevel(nodes);
+    _701_二叉搜索树中的插入操作* solution = new _701_二叉搜索树中的插入操作();
+    root = solution->insertIntoBST(root, 5);
     
 }
 
@@ -872,7 +982,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    cout << "Hello, World!\n";
     
-    test_450();
+    test_701();
 
     return 0;
 }
