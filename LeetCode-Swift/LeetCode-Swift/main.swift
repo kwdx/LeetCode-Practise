@@ -886,6 +886,119 @@ func test_230() {
     print(solution.kthSmallest(root1, 3))
 }
 
+/// 173-二叉搜索树迭代器
+func test_173() {
+    /**
+    示例：
+           7
+          /\
+         3  15
+            /\
+           9 20
+    
+
+    BSTIterator iterator = new BSTIterator(root);
+    iterator.next();    // 返回 3
+    iterator.next();    // 返回 7
+    iterator.hasNext(); // 返回 true
+    iterator.next();    // 返回 9
+    iterator.hasNext(); // 返回 true
+    iterator.next();    // 返回 15
+    iterator.hasNext(); // 返回 true
+    iterator.next();    // 返回 20
+    iterator.hasNext(); // 返回 false
+     */
+    let root = generateTreeByLevel([7,3,15,nil,nil,9,20]);
+    
+    let solution = _173_二叉搜索树迭代器(root);
+    print(solution.next())      // 返回3
+    print(solution.next())      // 返回7
+    print(solution.hasNext())   // 返回true
+    print(solution.next())      // 返回9
+    print(solution.hasNext())   // 返回true
+    print(solution.next())      // 返回15
+    print(solution.hasNext())   // 返回true
+    print(solution.next())      // 返回20
+    print(solution.hasNext())   // 返回false
+}
+
+/// 99-恢复二叉搜索树
+func test_99() {
+    /**
+     输入: [1,3,null,null,2]
+
+        1
+       /
+      3
+       \
+        2
+
+     输出: [3,1,null,null,2]
+
+        3
+       /
+      1
+       \
+        2
+     示例 2:
+
+     输入: [3,1,4,null,null,2]
+
+       3
+      / \
+     1   4
+        /
+       2
+
+     输出: [2,1,4,null,null,3]
+
+       2
+      / \
+     1   4
+        /
+       3
+     */
+    let solution = _99_恢复二叉搜索树();
+    var root = generateTreeByLevel([1,3,nil,nil,2])
+//    solution.recoverTree(root)
+//    printTreeByLevel(root)
+    root = generateTreeByLevel([3,1,4,nil,nil,2])
+    solution.recoverTree(root)
+    printTreeByLevel(root)
+}
+
+/// 110-平衡二叉树
+func test_110() {
+    /**
+     示例 1:
+
+     给定二叉树 [3,9,20,null,null,15,7]
+
+         3
+        / \
+       9  20
+         /  \
+        15   7
+     返回 true 。
+
+     示例 2:
+
+     给定二叉树 [1,2,2,3,3,null,null,4,4]
+
+            1
+           / \
+          2   2
+         / \
+        3   3
+       / \
+      4   4
+     返回 false 。
+     */
+    let solution = _110_平衡二叉树();
+    print(solution.isBalanced(generateTreeByLevel([3,9,20,nil,nil,15,7])))
+    print(solution.isBalanced(generateTreeByLevel([1,2,2,3,3,nil,nil,4,4])))
+}
+
 // MARK: 动态规划
 
 /// 198-打家劫舍
@@ -980,5 +1093,5 @@ func test_36() {
 }
 
 // MARK: Test
-test_230()
+test_99()
 

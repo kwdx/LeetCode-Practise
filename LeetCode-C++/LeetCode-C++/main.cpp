@@ -51,6 +51,9 @@
 #include "_938_二叉搜索树的范围和.hpp"
 #include "_235_二叉搜索树的最近公共祖先.hpp"
 #include "_230_二叉搜索树中第K小的元素.hpp"
+#include "_173_二叉搜索树迭代器.hpp"
+#include "_99_恢复二叉搜索树.hpp"
+#include "_110_平衡二叉树.hpp"
 
 using namespace std;
 
@@ -971,6 +974,124 @@ void test_230() {
     cout << solution.kthSmallest(root, 3) << endl;
 }
 
+/// 173-二叉搜索树迭代器
+void test_173() {
+    /**
+     示例：
+            7
+           /\
+          3  15
+             /\
+            9 20
+     
+
+     BSTIterator iterator = new BSTIterator(root);
+     iterator.next();    // 返回 3
+     iterator.next();    // 返回 7
+     iterator.hasNext(); // 返回 true
+     iterator.next();    // 返回 9
+     iterator.hasNext(); // 返回 true
+     iterator.next();    // 返回 15
+     iterator.hasNext(); // 返回 true
+     iterator.next();    // 返回 20
+     iterator.hasNext(); // 返回 false
+     */
+    vector<int> nodes = {7,3,15,INT_MAX,INT_MAX,9,20};
+    TreeNode *root = generateTreeByLevel(nodes);
+    _173_二叉搜索树迭代器 *solution = new _173_二叉搜索树迭代器(root);
+    cout << solution->next() << endl;   // 返回3
+    cout << solution->next() << endl;   // 返回7
+    cout << solution->hasNext() << endl;// 返回true
+    cout << solution->next() << endl;   // 返回9
+    cout << solution->hasNext() << endl;// 返回true
+    cout << solution->next() << endl;   // 返回15
+    cout << solution->hasNext() << endl;// 返回true
+    cout << solution->next() << endl;   // 返回20
+    cout << solution->hasNext() << endl;// 返回false
+}
+
+/// 99-恢复二叉搜索树
+void test_99() {
+    /**
+     输入: [1,3,null,null,2]
+
+        1
+       /
+      3
+       \
+        2
+
+     输出: [3,1,null,null,2]
+
+        3
+       /
+      1
+       \
+        2
+     示例 2:
+
+     输入: [3,1,4,null,null,2]
+
+       3
+      / \
+     1   4
+        /
+       2
+
+     输出: [2,1,4,null,null,3]
+
+       2
+      / \
+     1   4
+        /
+       3
+     */
+    _99_恢复二叉搜索树 solution = _99_恢复二叉搜索树();
+    vector<int> nodes = {1,3,INT_MAX,INT_MAX,2};
+    TreeNode* root = generateTreeByLevel(nodes);
+//    solution.recoverTree(root);
+    nodes = {3,1,4,INT_MAX,INT_MAX,2};
+    root = generateTreeByLevel(nodes);
+    solution.recoverTree(root);
+    cout << endl;
+}
+
+/// 110-平衡二叉树
+void test_110() {
+    /**
+     示例 1:
+
+     给定二叉树 [3,9,20,null,null,15,7]
+
+         3
+        / \
+       9  20
+         /  \
+        15   7
+     返回 true 。
+
+     示例 2:
+
+     给定二叉树 [1,2,2,3,3,null,null,4,4]
+
+            1
+           / \
+          2   2
+         / \
+        3   3
+       / \
+      4   4
+     返回 false 。
+     */
+    _110_平衡二叉树* solution = new _110_平衡二叉树();
+    vector<int> nodes = {3,9,20,INT_MAX,INT_MAX,15,7};
+    TreeNode* root = generateTreeByLevel(nodes);
+    cout << solution->isBalanced(root) << endl;
+    vector<int> nodes1 = {1,2,2,3,3,INT_MAX,INT_MAX,4,4};
+    TreeNode* root1 = generateTreeByLevel(nodes1);
+    cout << solution->isBalanced(root1) << endl;
+}
+
 #pragma mark - 动态规划
 
 /// 198-打家劫舍
@@ -1077,7 +1198,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    cout << "Hello, World!\n";
     
-    test_230();
+    test_99();
 
     return 0;
 }
