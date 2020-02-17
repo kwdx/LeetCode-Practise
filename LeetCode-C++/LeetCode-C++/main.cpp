@@ -47,6 +47,10 @@
 #include "_530_二叉搜索树的最小绝对差.hpp"
 #include "_783_二叉搜索树结点最小距离.hpp"
 #include "_701_二叉搜索树中的插入操作.hpp"
+#include "_108_将有序数组转换为二叉搜索树.hpp"
+#include "_938_二叉搜索树的范围和.hpp"
+#include "_235_二叉搜索树的最近公共祖先.hpp"
+#include "_230_二叉搜索树中第K小的元素.hpp"
 
 using namespace std;
 
@@ -873,7 +877,98 @@ void test_701() {
     TreeNode* root = generateTreeByLevel(nodes);
     _701_二叉搜索树中的插入操作* solution = new _701_二叉搜索树中的插入操作();
     root = solution->insertIntoBST(root, 5);
+    cout << endl;
+}
+
+/// 108-将有序数组转换为二叉搜索树
+void test_108() {
+//    _108_将有序数组转换为二叉搜索树
+    /**
+     给定有序数组: [-10,-3,0,5,9],
+
+     一个可能的答案是：[0,-3,9,-10,null,5]，它可以表示下面这个高度平衡二叉搜索树：
+
+           0
+          / \
+        -3   9
+        /   /
+      -10  5
+     */
+    _108_将有序数组转换为二叉搜索树* solution = new _108_将有序数组转换为二叉搜索树();
+    vector<int> nodes = {-10, -3, 0, 5, 9};
+    TreeNode* root = solution->sortedArrayToBST(nodes);
+    cout << root->val << endl;
+}
+
+/// 938-二叉搜索树的范围和
+void test_938() {
+    /**
+     示例 1：
+
+     输入：root = [10,5,15,3,7,null,18], L = 7, R = 15
+     输出：32
+     示例 2：
+
+     输入：root = [10,5,15,3,7,13,18,1,null,6], L = 6, R = 10
+     输出：23
+     */
     
+    _938_二叉搜索树的范围和* solution = new _938_二叉搜索树的范围和();
+    vector<int> nodes = {10, 5, 15, 3, 7, 13, 18, 1, INT_MAX, 6};
+    TreeNode* root = generateTreeByLevel(nodes);
+    cout << solution->rangeSumBST(root, 6, 10) << endl;
+
+}
+
+/// 235-二叉搜索树的最近公共祖先
+void test_235() {
+    /**
+     示例 1:
+
+     输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
+     输出: 6
+     解释: 节点 2 和节点 8 的最近公共祖先是 6。
+     示例 2:
+
+     输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
+     输出: 2
+     解释: 节点 2 和节点 4 的最近公共祖先是 2, 因为根据定义最近公共祖先节点可以为节点本身
+     */
+    vector<int> nodes = {6, 2, 8, 0, 4, 7, 9, INT_MAX, INT_MAX, 3, 5};
+    TreeNode *root = generateTreeByLevel(nodes);
+    _235_二叉搜索树的最近公共祖先 solution = _235_二叉搜索树的最近公共祖先();
+    TreeNode *p = new TreeNode(7);
+    TreeNode *q = new TreeNode(9);
+    TreeNode *node = solution.lowestCommonAncestor(root, p, q);
+    cout << node->val << endl;
+}
+
+/// 230-二叉搜索树中第K小的元素
+void test_230() {
+    /**
+     输入: root = [3,1,4,null,2], k = 1
+        3
+       / \
+      1   4
+       \
+        2
+     输出: 1
+     示例 2:
+
+     输入: root = [5,3,6,2,4,null,null,1], k = 3
+            5
+           / \
+          3   6
+         / \
+        2   4
+       /
+      1
+     输出: 3
+     */
+    vector<int> nodes = {5, 3, 6, 2, 4, INT_MAX, INT_MAX, 1};
+    TreeNode *root = generateTreeByLevel(nodes);
+    _230_二叉搜索树中第K小的元素 solution = _230_二叉搜索树中第K小的元素();
+    cout << solution.kthSmallest(root, 3) << endl;
 }
 
 #pragma mark - 动态规划
@@ -982,7 +1077,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 //    cout << "Hello, World!\n";
     
-    test_701();
+    test_230();
 
     return 0;
 }

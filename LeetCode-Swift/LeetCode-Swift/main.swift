@@ -786,7 +786,7 @@ func test_783() {
     print(solution.minDiffInBST(nodes))
 }
 
-/// 701
+/// 701-二叉搜索树中的插入操作
 func test_701() {
     /**
      给定二叉搜索树:
@@ -818,6 +818,72 @@ func test_701() {
     let nodes = generateTreeByLevel([4, 2, 7, 1, 3])
     let solution = _701_二叉搜索树中的插入操作()
     printTreeByLevel(solution.insertIntoBST(nodes, 5))
+}
+
+/// 108-将有序数组转换为二叉搜索树
+func test_108() {
+    /**
+     给定有序数组: [-10,-3,0,5,9],
+
+     一个可能的答案是：[0,-3,9,-10,null,5]，它可以表示下面这个高度平衡二叉搜索树：
+
+           0
+          / \
+        -3   9
+        /   /
+      -10  5
+     */
+    let solution = _108_将有序数组转换为二叉搜索树()
+    let root = solution.sortedArrayToBST([-10, -3, 0, 5, 9])
+    printTreeByLevel(root);
+}
+
+/// 938-二叉搜索树的范围和
+func test_938() {
+    /**
+     示例 1：
+
+     输入：root = [10,5,15,3,7,null,18], L = 7, R = 15
+     输出：32
+     示例 2：
+
+     输入：root = [10,5,15,3,7,13,18,1,null,6], L = 6, R = 10
+     输出：23
+     */
+    let solution = _938_二叉搜索树的范围和()
+    let root = generateTreeByLevel([10, 5, 15, 3, 7, nil, 18])
+    print(solution.rangeSumBST(root, 7, 15))
+    let root1 = generateTreeByLevel([10, 5, 15, 3, 7, 13, 18, 1, nil, 6])
+    print(solution.rangeSumBST(root1, 6, 10))
+}
+
+/// 230-二叉搜索树中第K小的元素
+func test_230() {
+    /**
+     输入: root = [3,1,4,null,2], k = 1
+        3
+       / \
+      1   4
+       \
+        2
+     输出: 1
+     示例 2:
+
+     输入: root = [5,3,6,2,4,null,null,1], k = 3
+            5
+           / \
+          3   6
+         / \
+        2   4
+       /
+      1
+     输出: 3
+     */
+    let solution = _230_二叉搜索树中第K小的元素()
+    let root = generateTreeByLevel([3, 1, 4, nil, 2])
+    print(solution.kthSmallest(root, 1))
+    let root1 = generateTreeByLevel([5,3,6,2,4,nil,nil,1])
+    print(solution.kthSmallest(root1, 3))
 }
 
 // MARK: 动态规划
@@ -914,5 +980,5 @@ func test_36() {
 }
 
 // MARK: Test
-test_701()
+test_230()
 
