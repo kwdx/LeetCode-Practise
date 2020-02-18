@@ -35,3 +35,28 @@ class _20_有效的括号 {
         return stack.isEmpty
     }
 }
+
+/**
+ 输入: "()"
+ 输出: true
+
+ 输入: "()[]{}"
+ 输出: true
+
+ 输入: "(]"
+ 输出: false
+
+ 输入: "([)]"
+ 输出: false
+
+ 输入: "{[]}"
+ 输出: true
+*/
+func test_20() {
+    let solution = _20_有效的括号()
+    print(solution.isValid("()"))
+    print(solution.isValid("()[]{}"))
+    print(solution.isValid("(]"))
+    print(solution.isValid("([)]"))
+    print(solution.isValid("{[]}"))
+}

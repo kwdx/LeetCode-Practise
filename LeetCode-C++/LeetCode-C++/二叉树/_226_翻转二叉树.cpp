@@ -5,13 +5,17 @@
 //  Created by warden on 2019/12/7.
 //  Copyright © 2019 warden. All rights reserved.
 //
+// https://leetcode-cn.com/problems/invert-binary-tree/
 
-#include "_226_翻转二叉树.hpp"
+#include <stdio.h>
 #include <stack>
+#include "TreeNode.hpp"
 
 using namespace std;
 
-TreeNode* _226_翻转二叉树::invertTree(TreeNode* root) {
+class Solution {
+public:
+    TreeNode* invertTree(TreeNode* root) {
 //    if (!root) return root;
 //
 //    TreeNode *leftNode = root->left;
@@ -21,18 +25,45 @@ TreeNode* _226_翻转二叉树::invertTree(TreeNode* root) {
 //    root->left = rightNode;
 //    root->right = leftNode;
 //    return root;
-    if (root == NULL) return NULL;
-    
-    stack<TreeNode*> s;
-    s.push(root);
-    while (!s.empty()) {
-        TreeNode *node = s.top();
-        s.pop();
-        TreeNode *tmp = node->left;
-        node->left = node->right;
-        node->right = tmp;
-        if (node->left) s.push(node->left);
-        if (node->right) s.push(node->right);
+        if (root == NULL) return NULL;
+        
+        stack<TreeNode*> s;
+        s.push(root);
+        while (!s.empty()) {
+            TreeNode *node = s.top();
+            s.pop();
+            TreeNode *tmp = node->left;
+            node->left = node->right;
+            node->right = tmp;
+            if (node->left) s.push(node->left);
+            if (node->right) s.push(node->right);
+        }
+        return root;
     }
-    return root;
+};
+
+/**
+ 输入：
+
+      4
+    /   \
+   2     7
+  / \   / \
+ 1   3 6   9
+ 输出：
+
+      4
+    /   \
+   7     2
+  / \   / \
+ 9   6 3   1
+ */
+/**
+int main(int argc, const char * argv[]) {
+    TreeNode* root = generateTreeByLevel({4,2,7,1,3,6,9});
+    Solution solution = Solution();
+    root = solution.invertTree(root);
+    printTreeByLevel(root);
+    return 0;
 }
+*/

@@ -34,3 +34,15 @@ class _21_合并两个有序链表 {
         return head.next
     }
 }
+
+/**
+输入：1->2->4, 1->3->4
+输出：1->1->2->3->4->4
+*/
+func test_21() {
+    let node1 = generateListNode(1, 2, 4)
+    let node2 = generateListNode(1, 3, 4)
+    let solution = _21_合并两个有序链表()
+    let result = solution.mergeTwoLists(node1, node2)
+    printListNode(result)
+}

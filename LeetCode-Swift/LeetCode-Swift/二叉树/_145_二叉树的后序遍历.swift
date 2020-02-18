@@ -26,3 +26,20 @@ class _145_二叉树的后序遍历 {
         return result.reversed()
     }
 }
+
+/**
+ 输入: [1,null,2,3]
+    1
+     \
+      2
+     /
+    3
+
+ 输出: [3,2,1]
+ */
+func test_145() {
+//    let root = generateTreeByLevel([1, nil, 2, 3])
+    let root = generateTreeByLevel([3, 1, 2])
+    let solution = _145_二叉树的后序遍历()
+    print(solution.postorderTraversal(root))
+}

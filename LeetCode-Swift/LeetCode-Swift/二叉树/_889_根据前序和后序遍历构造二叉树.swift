@@ -31,3 +31,13 @@ class _889_根据前序和后序遍历构造二叉树 {
         return root
     }
 }
+
+/**
+ 输入：pre = [1,2,4,5,3,6,7], post = [4,5,2,6,7,3,1]
+ 输出：[1,2,3,4,5,6,7]
+ */
+func test_889() {
+    let solution = _889_根据前序和后序遍历构造二叉树()
+    let root = solution.constructFromPrePost([1, 2, 4, 5, 3, 6, 7], [4, 5, 2, 6, 7, 3, 1])
+    print(root!)
+}

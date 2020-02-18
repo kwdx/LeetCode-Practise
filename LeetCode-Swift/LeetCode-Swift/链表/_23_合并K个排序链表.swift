@@ -53,3 +53,21 @@ class _23_合并K个排序链表 {
         return head.next
     }
 }
+
+/**
+ 输入:
+ [
+   1->4->5,
+   1->3->4,
+   2->6
+ ]
+ 输出: 1->1->2->3->4->4->5->6
+*/
+func test_23() {
+    let node1 = generateListNode(1, 4, 5)
+    let node2 = generateListNode(1, 3, 4)
+    let node3 = generateListNode(2, 6)
+    let solution = _23_合并K个排序链表()
+    let result = solution.mergeKLists([node1, node2, node3])
+    printListNode(result)
+}

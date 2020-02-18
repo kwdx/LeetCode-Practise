@@ -78,3 +78,16 @@ class _347_前K个高频元素 {
         return begin;
     }
 }
+
+/**
+ 输入: nums = [1,1,1,2,2,3], k = 2
+ 输出: [1,2]
+
+ 输入: nums = [1], k = 1
+ 输出: [1]
+*/
+func test_347() {
+    let nums = [3, 1, 2, 1, 3, 2, 1, 3]
+    let solution = _347_前K个高频元素()
+    print(solution.topKFrequent(nums, 2))
+}

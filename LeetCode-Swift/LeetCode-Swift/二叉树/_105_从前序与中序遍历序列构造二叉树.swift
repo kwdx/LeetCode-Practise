@@ -34,3 +34,20 @@ class _105_从前序与中序遍历序列构造二叉树 {
         return root
     }
 }
+
+/**
+ 前序遍历 preorder = [3,9,20,15,7]
+ 中序遍历 inorder = [9,3,15,20,7]
+ 返回如下的二叉树：
+
+        3
+       / \
+      9  20
+        /  \
+       15   7
+ */
+func test_105() {
+    let solution = _105_从前序与中序遍历序列构造二叉树()
+    let root = solution.buildTree([3, 9, 20, 15, 7], [9, 3, 15, 20, 7])
+    print(root!)
+}

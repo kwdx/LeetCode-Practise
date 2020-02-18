@@ -24,3 +24,14 @@ class _203_移除链表元素 {
         return virtualNode.next
     }
 }
+
+/**
+输入: 1->2->6->3->4->5->6, val = 6
+输出: 1->2->3->4->5
+*/
+func test_203() {
+    var node = generateListNode(1, 2, 6, 3, 4, 5, 6)
+    let solution = _203_移除链表元素()
+    node = solution.removeElements(node, 6)
+    printListNode(node)
+}

@@ -3,22 +3,4 @@
    uuid = "3B1946B7-BFD1-4691-BF6C-D44BDD372607"
    type = "1"
    version = "2.0">
-   <Breakpoints>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CA8BB8DA-3E8D-4559-AB81-0A8CB3EAB4DB"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCode-C++/&#x4e8c;&#x53c9;&#x6811;/_99_&#x6062;&#x590d;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "_99_&#x6062;&#x590d;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;::recoverTree(root)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-   </Breakpoints>
 </Bucket>

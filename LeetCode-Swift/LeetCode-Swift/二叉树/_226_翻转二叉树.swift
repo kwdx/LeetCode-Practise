@@ -29,3 +29,26 @@ class _226_翻转二叉树 {
         return root
     }
 }
+
+/**
+ 输入：
+
+      4
+    /   \
+   2     7
+  / \   / \
+ 1   3 6   9
+ 输出：
+
+      4
+    /   \
+   7     2
+  / \   / \
+ 9   6 3   1
+ */
+func test_226() {
+    var root = generateTreeByLevel([4, 2, 7, 1, 3, 6, 9])
+    let solution = _226_翻转二叉树()
+    root = solution.invertTree(root);
+    print(root!)
+}

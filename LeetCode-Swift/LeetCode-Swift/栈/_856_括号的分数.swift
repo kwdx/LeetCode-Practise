@@ -34,3 +34,28 @@ class _856_括号的分数 {
         return scoreArr.reduce(0) { $0 + $1 }
     }
 }
+
+/**
+ () 得 1 分。
+ AB 得 A + B 分，其中 A 和 B 是平衡括号字符串。
+ (A) 得 2 * A 分，其中 A 是平衡括号字符串。
+
+ 输入： "()"
+ 输出： 1
+
+ 输入： "(())"
+ 输出： 2
+
+ 输入： "()()"
+ 输出： 2
+
+ 输入： "(()(()))"
+ 输出： 6
+*/
+func test_856() {
+    let solution = _856_括号的分数()
+    print(solution.scoreOfParentheses("()"))
+    print(solution.scoreOfParentheses("(())"))
+    print(solution.scoreOfParentheses("()()"))
+    print(solution.scoreOfParentheses("(()(()))"))
+}

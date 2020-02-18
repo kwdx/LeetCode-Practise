@@ -24,6 +24,7 @@
 		894CDC0F23FA8A2F00C9D90B /* _173_二叉搜索树迭代器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894CDC0E23FA8A2F00C9D90B /* _173_二叉搜索树迭代器.swift */; };
 		894CDC1123FA8C7F00C9D90B /* _99_恢复二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894CDC1023FA8C7F00C9D90B /* _99_恢复二叉搜索树.swift */; };
 		894CDC1323FA8CAE00C9D90B /* _110_平衡二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894CDC1223FA8CAE00C9D90B /* _110_平衡二叉树.swift */; };
+		894CDC1C23FC270300C9D90B /* _349_两个数组的交集.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894CDC1B23FC270300C9D90B /* _349_两个数组的交集.swift */; };
 		89571FDE239ABC9700A25037 /* _226_翻转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89571FDD239ABC9700A25037 /* _226_翻转二叉树.swift */; };
 		89571FE0239BF0EF00A25037 /* _144_二叉树的前序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89571FDF239BF0EF00A25037 /* _144_二叉树的前序遍历.swift */; };
 		8962492523C2341500AF38B0 /* _700_二叉搜索树中的搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962492423C2341500AF38B0 /* _700_二叉搜索树中的搜索.swift */; };
@@ -85,6 +86,7 @@
 		894CDC0E23FA8A2F00C9D90B /* _173_二叉搜索树迭代器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_173_二叉搜索树迭代器.swift"; sourceTree = "<group>"; };
 		894CDC1023FA8C7F00C9D90B /* _99_恢复二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_99_恢复二叉搜索树.swift"; sourceTree = "<group>"; };
 		894CDC1223FA8CAE00C9D90B /* _110_平衡二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_110_平衡二叉树.swift"; sourceTree = "<group>"; };
+		894CDC1B23FC270300C9D90B /* _349_两个数组的交集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_349_两个数组的交集.swift"; sourceTree = "<group>"; };
 		89571FDD239ABC9700A25037 /* _226_翻转二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_226_翻转二叉树.swift"; sourceTree = "<group>"; };
 		89571FDF239BF0EF00A25037 /* _144_二叉树的前序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_144_二叉树的前序遍历.swift"; sourceTree = "<group>"; };
 		8962492423C2341500AF38B0 /* _700_二叉搜索树中的搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_700_二叉搜索树中的搜索.swift"; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				896E26E9238BBF11001F096E /* _36_有效的数独.swift */,
+				894CDC1B23FC270300C9D90B /* _349_两个数组的交集.swift */,
 			);
 			path = "哈希表";
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				894CDC1323FA8CAE00C9D90B /* _110_平衡二叉树.swift in Sources */,
 				89D883BB23AA2B3A00B2E4D2 /* _450_删除二叉搜索树中的节点.swift in Sources */,
 				8962492723C2356500AF38B0 /* _530_二叉搜索树的最小绝对差.swift in Sources */,
+				894CDC1C23FC270300C9D90B /* _349_两个数组的交集.swift in Sources */,
 				890BFBED2395546F0094E333 /* _83_删除排序链表中的重复元素.swift in Sources */,
 				89BE0BAB23A2828B00748AE9 /* _106_从中序与后序遍历序列构造二叉树.swift in Sources */,
 				89B7B13D238E4B9900ABFCAD /* _206_反转链表.swift in Sources */,

@@ -49,3 +49,18 @@ class _98_验证二叉搜索树 {
         return true
     }
 }
+
+/**
+ 输入:
+     2
+    / \
+   1   3
+ 输出: true
+ */
+func test_98() {
+    let root = TreeNode(2)
+    root.left = TreeNode(1)
+    root.right = TreeNode(3)
+    let solution = _98_验证二叉搜索树()
+    print(solution.isValidBST(root))
+}

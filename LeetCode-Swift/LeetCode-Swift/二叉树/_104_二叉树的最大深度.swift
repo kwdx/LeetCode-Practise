@@ -34,3 +34,20 @@ class _104_二叉树的最大深度 {
         return depth
     }
 }
+
+/**
+ 给定二叉树 [3,9,20,null,null,15,7]，
+
+     3
+    / \
+   9  20
+     /  \
+    15   7
+ 返回它的最大深度 3
+ */
+func test_104() {
+    let root = generateTreeByLevel([3, 9, 20, nil, nil, 15, 7])
+//    let root: TreeNode? = nil
+    let solution = _104_二叉树的最大深度()
+    print(solution.maxDepth(root))
+}

@@ -21,3 +21,17 @@ class _198_打家劫舍 {
         return max(first, second)
     }
 }
+
+/**
+ 输入: [1,2,3,1]
+ 输出: 4
+
+ 输入: [2,7,9,3,1]
+ 输出: 12
+*/
+func test_198() {
+//    let nums = [1, 2, 3, 1]
+    let nums = [2, 7, 9, 3, 1]
+    let solution = _198_打家劫舍()
+    print(solution.rob(nums))
+}

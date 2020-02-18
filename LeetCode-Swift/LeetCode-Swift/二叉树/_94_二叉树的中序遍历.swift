@@ -27,3 +27,19 @@ class _94_二叉树的中序遍历 {
         return results
     }
 }
+
+/**
+ 输入: [1,null,2,3]
+    1
+     \
+      2
+     /
+    3
+
+ 输出: [1,3,2]
+ */
+func test_94() {
+    let root = generateTreeByLevel([1, nil, 2, 3])
+    let solution = _94_二叉树的中序遍历()
+    print(solution.inorderTraversal(root))
+}

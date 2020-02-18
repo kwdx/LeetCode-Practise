@@ -23,3 +23,14 @@ class _206_反转链表 {
         return pre
     }
 }
+
+/**
+输入: 1->2->3->4->5->NULL
+输出: 5->4->3->2->1->NULL
+*/
+func test_206() {
+    var node = generateListNode(1, 2, 3, 4, 5)
+    let solution = _206_反转链表()
+    node = solution.reverseList(node)
+    printListNode(node)
+}

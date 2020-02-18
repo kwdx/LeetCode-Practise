@@ -31,3 +31,35 @@ class _124_二叉树中的最大路径和 {
         return tv;
     }
 }
+
+/**
+ 输入: [1,2,3]
+
+        1
+       / \
+      2   3
+
+ 输出: 6
+ 
+ 输入: [-10,9,20,null,null,15,7]
+
+    -10
+    / \
+   9  20
+     /  \
+    15   7
+
+ 输出: 42
+ */
+func test_124() {
+    let right = TreeNode(20)
+    right.left = TreeNode(15)
+    right.right = TreeNode(7)
+    
+    let root = TreeNode(-10)
+    root.left = TreeNode(9)
+    root.right = right
+    
+    let solution = _124_二叉树中的最大路径和()
+    print(solution.maxPathSum(root))
+}

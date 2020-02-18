@@ -32,3 +32,21 @@ class _106_从中序与后序遍历序列构造二叉树 {
         return root
     }
 }
+
+/**
+ 中序遍历 inorder = [9,3,15,20,7]
+ 后序遍历 postorder = [9,15,7,20,3]
+ 返回如下的二叉树：
+
+        3
+       / \
+      9  20
+        /  \
+       15   7
+ */
+func test_106() {
+    let solution = _106_从中序与后序遍历序列构造二叉树()
+    let root = solution.buildTree([9, 3, 15, 20, 7], [9, 15, 7, 20, 3])
+    print(root!)
+}
+

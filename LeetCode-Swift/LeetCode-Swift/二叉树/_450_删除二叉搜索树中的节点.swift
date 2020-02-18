@@ -75,3 +75,25 @@ class _450_删除二叉搜索树中的节点 {
         return father == nil ? child : nil
     }
 }
+
+/**
+ [5, 3, 6, 2, 4, nil, 7] - 3
+ [5, 4, 6, 2, 7], [5, 2, 6, 4, 7]
+
+ [2, 1] - 2
+ [1]
+
+ [1, nil, 2] - 1
+ [2]
+
+ [1, nil, 2] - 2
+ [1]
+ */
+func test_450() {
+    let solution = _450_删除二叉搜索树中的节点()
+//    let root = generateTreeByLevel([5, 3, 6, 2, 4, nil, 7])
+    printTreeByLevel(solution.deleteNode(generateTreeByLevel([5, 3, 6, 2, 4, nil, 7]), 3))
+    printTreeByLevel(solution.deleteNode(generateTreeByLevel([2, 1]), 2))
+    printTreeByLevel(solution.deleteNode(generateTreeByLevel([1, nil, 2]), 1))
+    printTreeByLevel(solution.deleteNode(generateTreeByLevel([1, nil, 2]), 2))
+}

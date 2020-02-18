@@ -5,14 +5,18 @@
 //  Created by warden on 2019/12/2.
 //  Copyright © 2019 warden. All rights reserved.
 //
+// https://leetcode-cn.com/problems/valid-parentheses/
 
-#include "_20_有效的括号.hpp"
+#include <stdio.h>
+#include <string>
 #include <stack>
 #include <map>
 
 using namespace std;
 
-bool _20_有效的括号::isValid(string s) {
+class Solution {
+public:
+    bool isValid(string s) {
         stack<char> st;
         for (int i = 0; i < s.length(); i++) {
             char ch = s[i];
@@ -49,4 +53,33 @@ bool _20_有效的括号::isValid(string s) {
         }
         
         return st.empty();
+    }
+};
+
+/**
+ 输入: "()"
+ 输出: true
+
+ 输入: "()[]{}"
+ 输出: true
+
+ 输入: "(]"
+ 输出: false
+
+ 输入: "([)]"
+ 输出: false
+
+ 输入: "{[]}"
+ 输出: true
+*/
+/**
+int main(int argc, const char * argv[]) {
+    Solution solution = Solution();
+    printf("%d\n", solution.isValid("{[]}"));
+    printf("%d\n", solution.isValid("()[]{}"));
+    printf("%d\n", solution.isValid("(]"));
+    printf("%d\n", solution.isValid("([)]"));
+    printf("%d\n", solution.isValid("{[]}"));
+    return 0;
 }
+*/

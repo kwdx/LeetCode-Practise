@@ -5,6 +5,7 @@
 //  Created by warden on 2020/2/17.
 //  Copyright © 2020 warden. All rights reserved.
 //
+// https://leetcode-cn.com/problems/recover-binary-search-tree/
 
 import Foundation
 
@@ -40,4 +41,48 @@ class _99_恢复二叉搜索树 {
             first!.val = tmp
         }
     }
+}
+
+/**
+ 输入: [1,3,null,null,2]
+
+    1
+   /
+  3
+   \
+    2
+
+ 输出: [3,1,null,null,2]
+
+    3
+   /
+  1
+   \
+    2
+ 示例 2:
+
+ 输入: [3,1,4,null,null,2]
+
+   3
+  / \
+ 1   4
+    /
+   2
+
+ 输出: [2,1,4,null,null,3]
+
+   2
+  / \
+ 1   4
+    /
+   3
+ */
+func test_99() {
+    let solution = _99_恢复二叉搜索树();
+    var root = generateTreeByLevel([1,3,nil,nil,2])
+//    solution.recoverTree(root)
+//    printTreeByLevel(root)
+    root = generateTreeByLevel([3,1,4,nil,nil,2])
+    solution.recoverTree(root)
+    printTreeByLevel(root)
 }

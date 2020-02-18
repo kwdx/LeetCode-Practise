@@ -59,3 +59,20 @@ class _232_用栈实现队列 {
  * let ret_3: Int = obj.peek()
  * let ret_4: Bool = obj.empty()
  */
+func test_232() {
+    let obj = _232_用栈实现队列()
+    obj.push(1)
+//    obj.push(2)
+    let ret_2: Int = obj.pop()
+    let ret_3: Int = obj.peek()
+    let ret_4: Bool = obj.empty()
+    print(ret_2, ret_3, ret_4)
+    for i in 0..<5 {
+        obj.push(i)
+    }
+    while !obj.empty() {
+        print(obj.pop(), separator: " ", terminator: "")
+    }
+    print()
+}
+

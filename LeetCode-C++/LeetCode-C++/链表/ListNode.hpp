@@ -10,11 +10,16 @@
 #define ListNode_hpp
 
 #include <stdio.h>
+#include <vector>
 
 struct ListNode {
     int val;
     ListNode *next;
     ListNode(int x) : val(x), next(NULL) {}
 };
+
+ListNode* creatNodeList(std::vector<int> nodes);
+
+void printNodeList(ListNode* node);
 
 #endif /* ListNode_hpp */

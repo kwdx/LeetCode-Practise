@@ -5,14 +5,18 @@
 //  Created by warden on 2020/1/5.
 //  Copyright © 2020 warden. All rights reserved.
 //
+// https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/
 
-#include "_783_二叉搜索树结点最小距离.hpp"
+#include <stdio.h>
 #include <stack>
 #include <limits.h>
+#include "TreeNode.hpp"
 
 using namespace std;
 
-int _783_二叉搜索树结点最小距离::minDiffInBST(TreeNode* root) {
+class Solution {
+public:
+    int minDiffInBST(TreeNode* root) {
         int preVal = -1;
         int val = INT_MAX;
         stack<TreeNode*> st;
@@ -33,4 +37,31 @@ int _783_二叉搜索树结点最小距离::minDiffInBST(TreeNode* root) {
             }
         }
         return val;
+    }
+};
+
+/**
+输入: root = [4,2,6,1,3,null,null]
+输出: 1
+解释:
+注意，root是树结点对象(TreeNode object)，而不是数组。
+
+给定的树 [4,2,6,1,3,null,null] 可表示为下图:
+
+          4
+        /   \
+      2      6
+     / \
+    1   3
+
+最小的差值是 1, 它是节点1和节点2的差值, 也是节点3和节点2的差值。
+*/
+/**
+int main(int argc, const char * argv[]) {
+    vector<int> nodes = {4, 2, 6, 1, 3};
+    TreeNode* root = generateTreeByLevel(nodes);
+    Solution* solution = new Solution();
+    printf("%d\n", solution->minDiffInBST(root));
+    return 0;
 }
+ */

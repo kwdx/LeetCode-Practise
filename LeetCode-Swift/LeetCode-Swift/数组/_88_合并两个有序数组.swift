@@ -31,3 +31,28 @@ class _88_合并两个有序数组 {
         }
     }
 }
+
+/**
+ 输入:
+ nums1 = [1,2,3,0,0,0], m = 3
+ nums2 = [2,5,6],       n = 3
+
+ 输出: [1,2,2,3,5,6]
+*/
+func test_88() {
+    let solution = _88_合并两个有序数组()
+    var nums1 = [1, 2, 3, 0, 0, 0]
+    var nums2 = [2, 5, 6]
+    solution.merge(&nums1, 3, nums2, 3)
+    print(nums1)
+    
+    nums1 = [1, 2, 4, 5, 6, 0]
+    nums2 = [3]
+    solution.merge(&nums1, 5, nums2, 1)
+    print(nums1)
+    
+    nums1 = [2, 0]
+    nums2 = [1]
+    solution.merge(&nums1, 1, nums2, 1)
+    print(nums1)
+}

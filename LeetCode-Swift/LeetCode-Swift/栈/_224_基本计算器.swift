@@ -86,3 +86,24 @@ class _224_基本计算器 {
         return score.reduce(opFlag ? num : -num) { $0 + $1 }
     }
 }
+
+/**
+ 输入: "1 + 1"
+ 输出: 2
+
+ 输入: " 2-1 + 2 "
+ 输出: 3
+
+ 输入: "(1+(4+5+2)-3)+(6+8)"
+ 输出: 23
+
+ 输入: "2-(5-6)"
+ 输出: 3
+*/
+func test_224() {
+    let solution = _224_基本计算器()
+    print(solution.calculate("1 + 1"))
+    print(solution.calculate(" 2-1 + 2 "))
+    print(solution.calculate("(1+(4+5+2)-3)+(6+8)"))
+    print(solution.calculate("2-(5-6)"))
+}

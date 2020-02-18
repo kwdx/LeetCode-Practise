@@ -32,3 +32,41 @@ class _114_二叉树展开为链表 {
         flatten(root?.right)
     }
 }
+
+/**
+ 输入：
+        1
+        / \
+       2   5
+       / \    \
+      3   4    6
+ 输出：
+   1
+    \
+     2
+      \
+       3
+        \
+         4
+          \
+           5
+            \
+             6
+ */
+func test_114() {
+    var root = Optional(TreeNode(1))
+    root?.left = TreeNode(2)
+    root?.right = TreeNode(5)
+    root?.left?.left = TreeNode(3)
+    root?.left?.right = TreeNode(4)
+    root?.right?.right = TreeNode(6)
+    
+    let solution = _114_二叉树展开为链表()
+    solution.flatten(root)
+    var result = [String]()
+    while root != nil {
+        result.append(String(root!.val))
+        root = root?.right
+    }
+    print(result)
+}

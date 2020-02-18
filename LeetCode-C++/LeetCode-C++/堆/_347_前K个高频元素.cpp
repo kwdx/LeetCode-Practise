@@ -5,11 +5,17 @@
 //  Created by warden on 2019/11/25.
 //  Copyright © 2019 warden. All rights reserved.
 //
+// https://leetcode-cn.com/problems/top-k-frequent-elements/
 
-#include "_347_前K个高频元素.hpp"
+#include <stdio.h>
+#include <vector>
 #include <map>
 
-vector<int> _347_前K个高频元素::topKFrequent(vector<int>& nums, int k) {
+using namespace std;
+
+class Solution {
+public:
+    vector<int> topKFrequent(vector<int>& nums, int k) {
         map<int, int> counts;
         for (auto num : nums) {
             counts[num]++;
@@ -34,9 +40,9 @@ vector<int> _347_前K个高频元素::topKFrequent(vector<int>& nums, int k) {
         }
         
         return result;
-}
-
-    int _347_前K个高频元素::pivotIndex(vector<pair<int, int>>& entries, int begin, int end) {
+    }
+    
+    int pivotIndex(vector<pair<int, int>>& entries, int begin, int end) {
         int newBegin = begin + (end - begin) / 2;
         pair<int, int> tmp = entries[begin];
         entries[begin] = entries[newBegin];
@@ -67,3 +73,28 @@ vector<int> _347_前K个高频元素::topKFrequent(vector<int>& nums, int k) {
         entries[begin] = pivot;
         return begin;
     }
+};
+
+/**
+ 输入: nums = [1,1,1,2,2,3], k = 2
+ 输出: [1,2]
+
+ 输入: nums = [1], k = 1
+ 输出: [1]
+*/
+/**
+int main(int argc, const char * argv[]) {
+//    vector<int> nums = {1, 1, 1, 2, 2, 3};
+//    vector<int> nums = {1};
+    vector<int> nums = {3, 1, 2, 1, 3, 2, 1, 3};
+
+    Solution solution = Solution();
+    vector<int> result = solution.topKFrequent(nums, 2);
+    for (auto num : result) {
+        printf("%d ", num);
+    }
+    printf("\n");
+
+    return 0;
+}
+*/

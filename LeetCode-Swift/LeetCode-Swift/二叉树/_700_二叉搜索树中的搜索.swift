@@ -21,3 +21,25 @@ class _700_二叉搜索树中的搜索 {
         return nil;
     }
 }
+
+/**
+ 给定二叉搜索树:
+
+         4
+        / \
+       2   7
+      / \
+     1   3
+
+ 和值: 2
+ 你应该返回如下子树:
+
+       2
+      / \
+     1   3
+ */
+func test_700() {
+    let nodes = generateTreeByLevel([4, 2, 7, 1, 3])
+    let solution = _700_二叉搜索树中的搜索()
+    printTreeByLevel(solution.searchBST(nodes, 2))
+}

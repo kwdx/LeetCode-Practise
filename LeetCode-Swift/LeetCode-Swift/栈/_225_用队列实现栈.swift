@@ -48,3 +48,11 @@ class _225_用队列实现栈 {
  * let ret_3: Int = obj.top()
  * let ret_4: Bool = obj.empty()
  */
+func test_225() {
+    let obj = _225_用队列实现栈()
+    obj.push(1)
+    let ret_2: Int = obj.pop()
+    let ret_3: Int = obj.top()
+    let ret_4: Bool = obj.empty()
+    print(ret_2, ret_3, ret_4)
+}

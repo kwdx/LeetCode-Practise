@@ -5,10 +5,14 @@
 //  Created by warden on 2019/11/25.
 //  Copyright © 2019 warden. All rights reserved.
 //
+// https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/
 
-#include "_114_二叉树展开为链表.hpp"
+#include <stdio.h>
+#include "TreeNode.hpp"
 
-void _114_二叉树展开为链表::flatten(TreeNode* root) {
+class Solution {
+public:
+    void flatten(TreeNode* root) {
         if (root == nullptr) return;
         
         if (root->left != nullptr) {
@@ -26,4 +30,39 @@ void _114_二叉树展开为链表::flatten(TreeNode* root) {
             rightMost->right = right;
         }
         flatten(root->right);
+    }
+};
+
+/**
+     1
+    / \
+   2   5
+  / \   \
+ 3   4   6
+ 将其展开为：
+
+ 1
+  \
+   2
+    \
+     3
+      \
+       4
+        \
+         5
+          \
+           6
+ */
+/**
+int main(int argc, const char * argv[]) {
+    TreeNode* root = generateTreeByLevel({1,2,5,3,4,INT_MAX,6});
+    Solution solution = Solution();
+    solution.flatten(root);
+    while (root) {
+        printf("%d ", root->val);
+        root = root->right;
+    }
+    printf("\n");
+    return 0;
 }
+*/
