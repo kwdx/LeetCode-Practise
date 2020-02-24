@@ -66,6 +66,7 @@ private:
   4   4
  返回 false 。
 */
+/**
 int main(int argc, const char * argv[]) {
     Solution* solution = new Solution();
     vector<int> nodes = {3,9,20,INT_MAX,INT_MAX,15,7};
@@ -76,3 +77,4 @@ int main(int argc, const char * argv[]) {
     printf("%d\n", solution->isBalanced(root1));
     return 0;
 }
+ */
