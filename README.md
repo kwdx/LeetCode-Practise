@@ -13,7 +13,7 @@
 * [856-括号的分数](https://leetcode-cn.com/problems/score-of-parentheses/)
 * [232-用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
 * [144-二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
-* 
+*  [4-整数反转](https://leetcode-cn.com/problems/reverse-integer/)
 
 
 

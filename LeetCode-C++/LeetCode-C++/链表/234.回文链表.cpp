@@ -1,9 +1,9 @@
 //
-//  main.cpp
+//  234.cpp
 //  LeetCode-C++
 //
-//  Created by warden on 2019/11/25.
-//  Copyright © 2019 warden. All rights reserved.
+//  Created by warden on 2021/8/3.
+//  Copyright © 2021 warden. All rights reserved.
 //
 // https://leetcode-cn.com/problems/palindrome-linked-list
 
@@ -46,17 +46,17 @@ public:
 
 };
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-
-    ListNode* node;
-    node = creatNodeList({1, 2});
-    // false
-    cout << Solution().isPalindrome(node) << endl;
-
-    node = creatNodeList({1, 2, 2, 1});
-    // true
-    cout << Solution().isPalindrome(node) << endl;
-
-    return 0;
-}
+//int main(int argc, const char * argv[]) {
+//    // insert code here...
+//
+//    ListNode* node;
+//    node = creatNodeList({1, 2});
+//    // false
+//    cout << Solution().isPalindrome(node) << endl;
+//
+//    node = creatNodeList({1, 2, 2, 1});
+//    // true
+//    cout << Solution().isPalindrome(node) << endl;
+//
+//    return 0;
+//}

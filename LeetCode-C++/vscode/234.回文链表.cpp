@@ -1,20 +1,20 @@
-//
-//  main.cpp
-//  LeetCode-C++
-//
-//  Created by warden on 2019/11/25.
-//  Copyright © 2019 warden. All rights reserved.
-//
-// https://leetcode-cn.com/problems/palindrome-linked-list
+/*
+ * @lc app=leetcode.cn id=234 lang=cpp
+ *
+ * [234] 回文链表
+ */
 
-#include <iostream>
-#include <string>
-#include <vector>
-#include <map>
-#include "ListNode.hpp"
-
-using namespace std;
-
+// @lc code=start
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
 private:
     ListNode* reverse(ListNode* a) {
@@ -43,20 +43,6 @@ public:
         }
         return true;
     }
-
 };
+// @lc code=end
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-
-    ListNode* node;
-    node = creatNodeList({1, 2});
-    // false
-    cout << Solution().isPalindrome(node) << endl;
-
-    node = creatNodeList({1, 2, 2, 1});
-    // true
-    cout << Solution().isPalindrome(node) << endl;
-
-    return 0;
-}
