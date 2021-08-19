@@ -14,7 +14,9 @@ ListNode* creatNodeList(std::vector<int> nodes) {
         p->next = new ListNode(node);
         p = p->next;
     }
-    return head->next;
+    p = head->next;
+    delete head;
+    return p;
 }
 
 void printNodeList(ListNode* node) {

@@ -10,7 +10,8 @@
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89554FA426BEDED300FEDFF1 /* 322.零钱兑换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */; };
 		89554FA526BEDED300FEDFF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		89C3FC0F26CAB69A00C87257 /* 94.二叉树的中序遍历.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC0E26CAB69A00C87257 /* 94.二叉树的中序遍历.cpp */; };
+		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
+		89C3FC1A26CEA5FC00C87257 /* 146.lru-缓存机制.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1926CEA5FC00C87257 /* 146.lru-缓存机制.cpp */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,11 @@
 		89C3FC0A26CAAED900C87257 /* 222.完全二叉树的节点个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "222.完全二叉树的节点个数.cpp"; sourceTree = "<group>"; };
 		89C3FC0C26CAB26D00C87257 /* 236.二叉树的最近公共祖先.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "236.二叉树的最近公共祖先.cpp"; sourceTree = "<group>"; };
 		89C3FC0E26CAB69A00C87257 /* 94.二叉树的中序遍历.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "94.二叉树的中序遍历.cpp"; sourceTree = "<group>"; };
+		89C3FC1126CE988000C87257 /* UnionFind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnionFind.cpp; sourceTree = "<group>"; };
+		89C3FC1226CE988000C87257 /* UnionFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnionFind.h; sourceTree = "<group>"; };
+		89C3FC1426CE9CF600C87257 /* 130.被围绕的区域.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "130.被围绕的区域.cpp"; sourceTree = "<group>"; };
+		89C3FC1626CEA34000C87257 /* 990.等式方程的可满足性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "990.等式方程的可满足性.cpp"; sourceTree = "<group>"; };
+		89C3FC1926CEA5FC00C87257 /* 146.lru-缓存机制.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "146.lru-缓存机制.cpp"; sourceTree = "<group>"; };
 		89CC848326BF79A1009483EF /* 5838.检查字符串是否为数组前缀.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5838.检查字符串是否为数组前缀.cpp"; sourceTree = "<group>"; };
 		89CC848626BF7C6D009483EF /* 5839.移除石子使总数最小.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5839.移除石子使总数最小.cpp"; sourceTree = "<group>"; };
 		89CC848826BF7E3B009483EF /* 5840.使字符串平衡的最小交换次数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5840.使字符串平衡的最小交换次数.cpp"; sourceTree = "<group>"; };
@@ -146,12 +152,33 @@
 		89A6BF0026BD8182007BDF6B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				89C3FC1826CEA5E500C87257 /* 设计 */,
+				89C3FC1026CE984600C87257 /* 图 */,
 				89CC849626C17557009483EF /* 二叉树 */,
 				89CC848226BF7976009483EF /* 周赛 */,
 				89554F8C26BECFB600FEDFF1 /* 动态规划 */,
 				89554F8A26BECF7C00FEDFF1 /* 链表 */,
 			);
 			path = Cpp;
+			sourceTree = "<group>";
+		};
+		89C3FC1026CE984600C87257 /* 图 */ = {
+			isa = PBXGroup;
+			children = (
+				89C3FC1226CE988000C87257 /* UnionFind.h */,
+				89C3FC1126CE988000C87257 /* UnionFind.cpp */,
+				89C3FC1426CE9CF600C87257 /* 130.被围绕的区域.cpp */,
+				89C3FC1626CEA34000C87257 /* 990.等式方程的可满足性.cpp */,
+			);
+			name = "图";
+			sourceTree = "<group>";
+		};
+		89C3FC1826CEA5E500C87257 /* 设计 */ = {
+			isa = PBXGroup;
+			children = (
+				89C3FC1926CEA5FC00C87257 /* 146.lru-缓存机制.cpp */,
+			);
+			name = "设计";
 			sourceTree = "<group>";
 		};
 		89CC848226BF7976009483EF /* 周赛 */ = {
@@ -333,7 +360,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89C3FC0F26CAB69A00C87257 /* 94.二叉树的中序遍历.cpp in Sources */,
+				89C3FC1A26CEA5FC00C87257 /* 146.lru-缓存机制.cpp in Sources */,
+				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
