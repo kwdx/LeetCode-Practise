@@ -11,7 +11,7 @@
 		89554FA426BEDED300FEDFF1 /* 322.零钱兑换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */; };
 		89554FA526BEDED300FEDFF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
-		89C3FC1A26CEA5FC00C87257 /* 146.lru-缓存机制.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1926CEA5FC00C87257 /* 146.lru-缓存机制.cpp */; };
+		89C3FC4526D10D9A00C87257 /* 876.链表的中间结点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC4426D10D9A00C87257 /* 876.链表的中间结点.cpp */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +59,26 @@
 		89C3FC1426CE9CF600C87257 /* 130.被围绕的区域.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "130.被围绕的区域.cpp"; sourceTree = "<group>"; };
 		89C3FC1626CEA34000C87257 /* 990.等式方程的可满足性.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "990.等式方程的可满足性.cpp"; sourceTree = "<group>"; };
 		89C3FC1926CEA5FC00C87257 /* 146.lru-缓存机制.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "146.lru-缓存机制.cpp"; sourceTree = "<group>"; };
+		89C3FC1C26CFEA6300C87257 /* 895.最大频率栈.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "895.最大频率栈.cpp"; sourceTree = "<group>"; };
+		89C3FC1E26CFEF1100C87257 /* 295.数据流的中位数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "295.数据流的中位数.cpp"; sourceTree = "<group>"; };
+		89C3FC2026CFF19D00C87257 /* 496.下一个更大元素-i.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "496.下一个更大元素-i.cpp"; sourceTree = "<group>"; };
+		89C3FC2226CFF41300C87257 /* 503.下一个更大元素-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "503.下一个更大元素-ii.cpp"; sourceTree = "<group>"; };
+		89C3FC2426CFF58700C87257 /* 739.每日温度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "739.每日温度.cpp"; sourceTree = "<group>"; };
+		89C3FC2626CFF74E00C87257 /* 239.滑动窗口最大值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "239.滑动窗口最大值.cpp"; sourceTree = "<group>"; };
+		89C3FC2826CFFA1C00C87257 /* 225.用队列实现栈.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "225.用队列实现栈.cpp"; sourceTree = "<group>"; };
+		89C3FC2A26CFFB8200C87257 /* 232.用栈实现队列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "232.用栈实现队列.cpp"; sourceTree = "<group>"; };
+		89C3FC2D26D0004700C87257 /* 870.优势洗牌.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "870.优势洗牌.cpp"; sourceTree = "<group>"; };
+		89C3FC2F26D0C3B800C87257 /* 704.二分查找.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "704.二分查找.cpp"; sourceTree = "<group>"; };
+		89C3FC3126D0CBD400C87257 /* 34.在排序数组中查找元素的第一个和最后一个位置.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "34.在排序数组中查找元素的第一个和最后一个位置.cpp"; sourceTree = "<group>"; };
+		89C3FC3326D0EA7700C87257 /* 875.爱吃香蕉的珂珂.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "875.爱吃香蕉的珂珂.cpp"; sourceTree = "<group>"; };
+		89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1011.在-d-天内送达包裹的能力.cpp"; sourceTree = "<group>"; };
+		89C3FC3726D0FCD600C87257 /* 410.分割数组的最大值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "410.分割数组的最大值.cpp"; sourceTree = "<group>"; };
+		89C3FC3926D100D300C87257 /* 141.环形链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "141.环形链表.cpp"; sourceTree = "<group>"; };
+		89C3FC3C26D1046900C87257 /* 142.环形链表-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "142.环形链表-ii.cpp"; sourceTree = "<group>"; };
+		89C3FC3E26D1062600C87257 /* 167.两数之和-ii-输入有序数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "167.两数之和-ii-输入有序数组.cpp"; sourceTree = "<group>"; };
+		89C3FC4026D1077D00C87257 /* 344.反转字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "344.反转字符串.cpp"; sourceTree = "<group>"; };
+		89C3FC4226D1093F00C87257 /* 19.删除链表的倒数第-n-个结点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "19.删除链表的倒数第-n-个结点.cpp"; sourceTree = "<group>"; };
+		89C3FC4426D10D9A00C87257 /* 876.链表的中间结点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "876.链表的中间结点.cpp"; sourceTree = "<group>"; };
 		89CC848326BF79A1009483EF /* 5838.检查字符串是否为数组前缀.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5838.检查字符串是否为数组前缀.cpp"; sourceTree = "<group>"; };
 		89CC848626BF7C6D009483EF /* 5839.移除石子使总数最小.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5839.移除石子使总数最小.cpp"; sourceTree = "<group>"; };
 		89CC848826BF7E3B009483EF /* 5840.使字符串平衡的最小交换次数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5840.使字符串平衡的最小交换次数.cpp"; sourceTree = "<group>"; };
@@ -121,9 +141,13 @@
 		89554F8A26BECF7C00FEDFF1 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
+				89C3FC4226D1093F00C87257 /* 19.删除链表的倒数第-n-个结点.cpp */,
 				89554F8426BD886800FEDFF1 /* 25.k-个一组翻转链表.cpp */,
 				89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */,
+				89C3FC3926D100D300C87257 /* 141.环形链表.cpp */,
+				89C3FC3C26D1046900C87257 /* 142.环形链表-ii.cpp */,
 				89554F8726BD92EE00FEDFF1 /* 234.回文链表.cpp */,
+				89C3FC4426D10D9A00C87257 /* 876.链表的中间结点.cpp */,
 				89554F8026BD844100FEDFF1 /* ListNode.h */,
 				89554F8226BD848F00FEDFF1 /* ListNode.cpp */,
 			);
@@ -152,6 +176,8 @@
 		89A6BF0026BD8182007BDF6B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				89C3FC2C26D0003700C87257 /* 数组 */,
+				89C3FC1B26CFEA5400C87257 /* 堆栈 */,
 				89C3FC1826CEA5E500C87257 /* 设计 */,
 				89C3FC1026CE984600C87257 /* 图 */,
 				89CC849626C17557009483EF /* 二叉树 */,
@@ -179,6 +205,36 @@
 				89C3FC1926CEA5FC00C87257 /* 146.lru-缓存机制.cpp */,
 			);
 			name = "设计";
+			sourceTree = "<group>";
+		};
+		89C3FC1B26CFEA5400C87257 /* 堆栈 */ = {
+			isa = PBXGroup;
+			children = (
+				89C3FC2826CFFA1C00C87257 /* 225.用队列实现栈.cpp */,
+				89C3FC2A26CFFB8200C87257 /* 232.用栈实现队列.cpp */,
+				89C3FC2626CFF74E00C87257 /* 239.滑动窗口最大值.cpp */,
+				89C3FC1E26CFEF1100C87257 /* 295.数据流的中位数.cpp */,
+				89C3FC2026CFF19D00C87257 /* 496.下一个更大元素-i.cpp */,
+				89C3FC2226CFF41300C87257 /* 503.下一个更大元素-ii.cpp */,
+				89C3FC2426CFF58700C87257 /* 739.每日温度.cpp */,
+				89C3FC1C26CFEA6300C87257 /* 895.最大频率栈.cpp */,
+			);
+			name = "堆栈";
+			sourceTree = "<group>";
+		};
+		89C3FC2C26D0003700C87257 /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				89C3FC3126D0CBD400C87257 /* 34.在排序数组中查找元素的第一个和最后一个位置.cpp */,
+				89C3FC3E26D1062600C87257 /* 167.两数之和-ii-输入有序数组.cpp */,
+				89C3FC4026D1077D00C87257 /* 344.反转字符串.cpp */,
+				89C3FC3726D0FCD600C87257 /* 410.分割数组的最大值.cpp */,
+				89C3FC2F26D0C3B800C87257 /* 704.二分查找.cpp */,
+				89C3FC2D26D0004700C87257 /* 870.优势洗牌.cpp */,
+				89C3FC3326D0EA7700C87257 /* 875.爱吃香蕉的珂珂.cpp */,
+				89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */,
+			);
+			name = "数组";
 			sourceTree = "<group>";
 		};
 		89CC848226BF7976009483EF /* 周赛 */ = {
@@ -360,9 +416,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89C3FC1A26CEA5FC00C87257 /* 146.lru-缓存机制.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				89C3FC4526D10D9A00C87257 /* 876.链表的中间结点.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

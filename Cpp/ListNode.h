@@ -20,6 +20,8 @@ struct ListNode {
 };
 
 ListNode* creatNodeList(std::vector<int> nodes);
+ListNode* creatCycleNodeList(std::vector<int> nodes, int pos);
+std::vector<int> getNodeList(ListNode *node);
 
 void printNodeList(ListNode* node);
 

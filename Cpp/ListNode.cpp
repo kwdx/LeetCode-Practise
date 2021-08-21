@@ -19,6 +19,31 @@ ListNode* creatNodeList(std::vector<int> nodes) {
     return p;
 }
 
+ListNode* creatCycleNodeList(std::vector<int> nodes, int pos) {
+    ListNode *head = new ListNode(0);
+    ListNode *p = head;
+    ListNode* cycleNode = nullptr;
+    for (int node:nodes) {
+        p->next = new ListNode(node);
+        if (pos-- == 0) cycleNode = p->next;
+        p = p->next;
+    }
+    p->next = cycleNode;
+    p = head->next;
+    
+    delete head;
+    return p;
+}
+
+std::vector<int> getNodeList(ListNode *node) {
+    std::vector<int> res;
+    while (node) {
+        res.push_back(node->val);
+        node = node->next;
+    }
+    return res;
+}
+
 void printNodeList(ListNode* node) {
     while (node != nullptr) {
         printf("%d", node->val);
