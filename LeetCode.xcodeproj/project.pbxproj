@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
-		89554FA426BEDED300FEDFF1 /* 322.零钱兑换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */; };
 		89554FA526BEDED300FEDFF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
+		89A51CCD26D3F8A80013B3F2 /* 1.两数之和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A51CCA26D3F8540013B3F2 /* 1.两数之和.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
-		89C3FC4526D10D9A00C87257 /* 876.链表的中间结点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC4426D10D9A00C87257 /* 876.链表的中间结点.cpp */; };
+		89C3FC4D26D1ED8600C87257 /* sorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC4C26D1ED8600C87257 /* sorts.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +50,17 @@
 		898F272226C8B8EE0077B621 /* 5832.构造元素不等于两相邻元素平均值的数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5832.构造元素不等于两相邻元素平均值的数组.cpp"; sourceTree = "<group>"; };
 		898F272426C8BE780077B621 /* 5844.数组元素的最小非零乘积.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5844.数组元素的最小非零乘积.cpp"; sourceTree = "<group>"; };
 		898F272626C8C2B30077B621 /* 5845.你能穿过矩阵的最后一天.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5845.你能穿过矩阵的最后一天.cpp"; sourceTree = "<group>"; };
+		89A51CB326D3EB980013B3F2 /* 567.字符串的排列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "567.字符串的排列.cpp"; sourceTree = "<group>"; };
+		89A51CB526D3ED250013B3F2 /* 438.找到字符串中所有字母异位词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "438.找到字符串中所有字母异位词.cpp"; sourceTree = "<group>"; };
+		89A51CB726D3EE9A0013B3F2 /* 3.无重复字符的最长子串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "3.无重复字符的最长子串.cpp"; sourceTree = "<group>"; };
+		89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "380.o-1-时间插入、删除和获取随机元素.cpp"; sourceTree = "<group>"; };
+		89A51CBB26D3F3CE0013B3F2 /* 710.黑名单中的随机数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "710.黑名单中的随机数.cpp"; sourceTree = "<group>"; };
+		89A51CBD26D3F4560013B3F2 /* 316.去除重复字母.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "316.去除重复字母.cpp"; sourceTree = "<group>"; };
+		89A51CBF26D3F5140013B3F2 /* 1081.不同字符的最小子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1081.不同字符的最小子序列.cpp"; sourceTree = "<group>"; };
+		89A51CC126D3F5C40013B3F2 /* 26.删除有序数组中的重复项.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "26.删除有序数组中的重复项.cpp"; sourceTree = "<group>"; };
+		89A51CC526D3F69D0013B3F2 /* 27.移除元素.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "27.移除元素.cpp"; sourceTree = "<group>"; };
+		89A51CC726D3F70C0013B3F2 /* 283.移动零.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "283.移动零.cpp"; sourceTree = "<group>"; };
+		89A51CCA26D3F8540013B3F2 /* 1.两数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1.两数之和.cpp"; sourceTree = "<group>"; };
 		89A6BEFF26BD8182007BDF6B /* Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C3FC0A26CAAED900C87257 /* 222.完全二叉树的节点个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "222.完全二叉树的节点个数.cpp"; sourceTree = "<group>"; };
 		89C3FC0C26CAB26D00C87257 /* 236.二叉树的最近公共祖先.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "236.二叉树的最近公共祖先.cpp"; sourceTree = "<group>"; };
@@ -79,6 +90,13 @@
 		89C3FC4026D1077D00C87257 /* 344.反转字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "344.反转字符串.cpp"; sourceTree = "<group>"; };
 		89C3FC4226D1093F00C87257 /* 19.删除链表的倒数第-n-个结点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "19.删除链表的倒数第-n-个结点.cpp"; sourceTree = "<group>"; };
 		89C3FC4426D10D9A00C87257 /* 876.链表的中间结点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "876.链表的中间结点.cpp"; sourceTree = "<group>"; };
+		89C3FC4626D1508800C87257 /* 76.最小覆盖子串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "76.最小覆盖子串.cpp"; sourceTree = "<group>"; };
+		89C3FC4926D1EB1300C87257 /* 冒泡排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "冒泡排序.cpp"; sourceTree = "<group>"; };
+		89C3FC4C26D1ED8600C87257 /* sorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sorts.swift; sourceTree = "<group>"; };
+		89C3FC4F26D1EF4C00C87257 /* 5850.找出数组的最大公约数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5850.找出数组的最大公约数.cpp"; sourceTree = "<group>"; };
+		89C3FC5126D1F1AD00C87257 /* 5851.找出不同的二进制字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5851.找出不同的二进制字符串.cpp"; sourceTree = "<group>"; };
+		89C3FC5326D1F64B00C87257 /* 5852.最小化目标值与所选元素的差.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5852.最小化目标值与所选元素的差.cpp"; sourceTree = "<group>"; };
+		89C3FC5526D1F83100C87257 /* 5853.从子集的和还原数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5853.从子集的和还原数组.cpp"; sourceTree = "<group>"; };
 		89CC848326BF79A1009483EF /* 5838.检查字符串是否为数组前缀.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5838.检查字符串是否为数组前缀.cpp"; sourceTree = "<group>"; };
 		89CC848626BF7C6D009483EF /* 5839.移除石子使总数最小.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5839.移除石子使总数最小.cpp"; sourceTree = "<group>"; };
 		89CC848826BF7E3B009483EF /* 5840.使字符串平衡的最小交换次数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5840.使字符串平衡的最小交换次数.cpp"; sourceTree = "<group>"; };
@@ -167,6 +185,7 @@
 		89554FA126BEDED300FEDFF1 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				89C3FC4B26D1ED6600C87257 /* 排序 */,
 				8902686426BEDF7000156215 /* 动态规划 */,
 				89554FA326BEDED300FEDFF1 /* main.swift */,
 			);
@@ -176,6 +195,7 @@
 		89A6BF0026BD8182007BDF6B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				89C3FC4826D1EAE800C87257 /* 排序 */,
 				89C3FC2C26D0003700C87257 /* 数组 */,
 				89C3FC1B26CFEA5400C87257 /* 堆栈 */,
 				89C3FC1826CEA5E500C87257 /* 设计 */,
@@ -225,21 +245,61 @@
 		89C3FC2C26D0003700C87257 /* 数组 */ = {
 			isa = PBXGroup;
 			children = (
+				89A51CCA26D3F8540013B3F2 /* 1.两数之和.cpp */,
+				89A51CB726D3EE9A0013B3F2 /* 3.无重复字符的最长子串.cpp */,
+				89A51CC126D3F5C40013B3F2 /* 26.删除有序数组中的重复项.cpp */,
+				89A51CC526D3F69D0013B3F2 /* 27.移除元素.cpp */,
 				89C3FC3126D0CBD400C87257 /* 34.在排序数组中查找元素的第一个和最后一个位置.cpp */,
+				89C3FC4626D1508800C87257 /* 76.最小覆盖子串.cpp */,
 				89C3FC3E26D1062600C87257 /* 167.两数之和-ii-输入有序数组.cpp */,
+				89A51CC726D3F70C0013B3F2 /* 283.移动零.cpp */,
+				89A51CBD26D3F4560013B3F2 /* 316.去除重复字母.cpp */,
 				89C3FC4026D1077D00C87257 /* 344.反转字符串.cpp */,
+				89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */,
 				89C3FC3726D0FCD600C87257 /* 410.分割数组的最大值.cpp */,
+				89A51CB526D3ED250013B3F2 /* 438.找到字符串中所有字母异位词.cpp */,
+				89A51CB326D3EB980013B3F2 /* 567.字符串的排列.cpp */,
 				89C3FC2F26D0C3B800C87257 /* 704.二分查找.cpp */,
+				89A51CBB26D3F3CE0013B3F2 /* 710.黑名单中的随机数.cpp */,
 				89C3FC2D26D0004700C87257 /* 870.优势洗牌.cpp */,
 				89C3FC3326D0EA7700C87257 /* 875.爱吃香蕉的珂珂.cpp */,
 				89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */,
+				89A51CBF26D3F5140013B3F2 /* 1081.不同字符的最小子序列.cpp */,
 			);
 			name = "数组";
+			sourceTree = "<group>";
+		};
+		89C3FC4826D1EAE800C87257 /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				89C3FC4926D1EB1300C87257 /* 冒泡排序.cpp */,
+			);
+			name = "排序";
+			sourceTree = "<group>";
+		};
+		89C3FC4B26D1ED6600C87257 /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				89C3FC4C26D1ED8600C87257 /* sorts.swift */,
+			);
+			name = "排序";
+			sourceTree = "<group>";
+		};
+		89C3FC4E26D1EF2E00C87257 /* 第255场 */ = {
+			isa = PBXGroup;
+			children = (
+				89C3FC4F26D1EF4C00C87257 /* 5850.找出数组的最大公约数.cpp */,
+				89C3FC5126D1F1AD00C87257 /* 5851.找出不同的二进制字符串.cpp */,
+				89C3FC5326D1F64B00C87257 /* 5852.最小化目标值与所选元素的差.cpp */,
+				89C3FC5526D1F83100C87257 /* 5853.从子集的和还原数组.cpp */,
+			);
+			name = "第255场";
 			sourceTree = "<group>";
 		};
 		89CC848226BF7976009483EF /* 周赛 */ = {
 			isa = PBXGroup;
 			children = (
+				89C3FC4E26D1EF2E00C87257 /* 第255场 */,
 				89CC84BF26C8B443009483EF /* 第254场 */,
 				89CC849226C174B1009483EF /* 第252场 */,
 				89CC848526BF79AD009483EF /* 第253场 */,
@@ -407,8 +467,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C3FC4D26D1ED8600C87257 /* sorts.swift in Sources */,
 				89554FA526BEDED300FEDFF1 /* main.swift in Sources */,
-				89554FA426BEDED300FEDFF1 /* 322.零钱兑换.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +477,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
+				89A51CCD26D3F8A80013B3F2 /* 1.两数之和.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
-				89C3FC4526D10D9A00C87257 /* 876.链表的中间结点.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
