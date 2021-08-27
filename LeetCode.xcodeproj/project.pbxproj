@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89554FA526BEDED300FEDFF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		89A51CCD26D3F8A80013B3F2 /* 1.两数之和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A51CCA26D3F8540013B3F2 /* 1.两数之和.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C3FC4D26D1ED8600C87257 /* sorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC4C26D1ED8600C87257 /* sorts.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -38,6 +37,10 @@
 
 /* Begin PBXFileReference section */
 		8902686526BEEDB600156215 /* 416.分割等和子集.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "416.分割等和子集.cpp"; sourceTree = "<group>"; };
+		8907625526D5398A00A93668 /* 83.删除排序链表中的重复元素.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "83.删除排序链表中的重复元素.cpp"; sourceTree = "<group>"; };
+		8907625726D53D9B00A93668 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8907625A26D54CEB00A93668 /* Google_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Google_1.cpp; sourceTree = "<group>"; };
+		8907625D26D9455F00A93668 /* 1480.一维数组的动态和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1480.一维数组的动态和.cpp"; sourceTree = "<group>"; };
 		89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "92.反转链表-ii.cpp"; sourceTree = "<group>"; };
 		89554F8026BD844100FEDFF1 /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		89554F8226BD848F00FEDFF1 /* ListNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListNode.cpp; sourceTree = "<group>"; };
@@ -156,11 +159,20 @@
 			name = "动态规划";
 			sourceTree = "<group>";
 		};
+		8907625926D54CCB00A93668 /* 额外的算法题 */ = {
+			isa = PBXGroup;
+			children = (
+				8907625A26D54CEB00A93668 /* Google_1.cpp */,
+			);
+			name = "额外的算法题";
+			sourceTree = "<group>";
+		};
 		89554F8A26BECF7C00FEDFF1 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
 				89C3FC4226D1093F00C87257 /* 19.删除链表的倒数第-n-个结点.cpp */,
 				89554F8426BD886800FEDFF1 /* 25.k-个一组翻转链表.cpp */,
+				8907625526D5398A00A93668 /* 83.删除排序链表中的重复元素.cpp */,
 				89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */,
 				89C3FC3926D100D300C87257 /* 141.环形链表.cpp */,
 				89C3FC3C26D1046900C87257 /* 142.环形链表-ii.cpp */,
@@ -195,6 +207,7 @@
 		89A6BF0026BD8182007BDF6B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				8907625926D54CCB00A93668 /* 额外的算法题 */,
 				89C3FC4826D1EAE800C87257 /* 排序 */,
 				89C3FC2C26D0003700C87257 /* 数组 */,
 				89C3FC1B26CFEA5400C87257 /* 堆栈 */,
@@ -204,6 +217,7 @@
 				89CC848226BF7976009483EF /* 周赛 */,
 				89554F8C26BECFB600FEDFF1 /* 动态规划 */,
 				89554F8A26BECF7C00FEDFF1 /* 链表 */,
+				8907625726D53D9B00A93668 /* main.cpp */,
 			);
 			path = Cpp;
 			sourceTree = "<group>";
@@ -265,6 +279,7 @@
 				89C3FC3326D0EA7700C87257 /* 875.爱吃香蕉的珂珂.cpp */,
 				89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */,
 				89A51CBF26D3F5140013B3F2 /* 1081.不同字符的最小子序列.cpp */,
+				8907625D26D9455F00A93668 /* 1480.一维数组的动态和.cpp */,
 			);
 			name = "数组";
 			sourceTree = "<group>";
@@ -477,7 +492,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				89A51CCD26D3F8A80013B3F2 /* 1.两数之和.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
