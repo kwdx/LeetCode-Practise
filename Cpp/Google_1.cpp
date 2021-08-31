@@ -26,6 +26,75 @@ using namespace std;
 
 int generate_min_int_greater_than_k_1(vector<int> A, int K) {
     sort(A.begin(), A.end());
+            
+    stack<int> st;
+    bool needBigger = true;
+    
+    int k = K;
+    
+    while (k > 0) {
+        int k_num = k % 10;
+        k /= 10;
+        int i = 0;
+        for (; i < A.size(); i++) {
+            if (k_num <= A[i]) {
+                break;
+            }
+        }
+        if (i == A.size()) {
+            // 没找到相等或大于的，后续需要更大一点的
+            st.push(A[0]);
+            needBigger = true;
+        } else {
+            // 找到了
+            if (needBigger && k_num == A[i]) {
+                if (i + 1 == A.size()) {
+                    needBigger = true;
+                    st.push(A[0]);
+                    continue;
+                } else {
+                    i += 1;
+                }
+            }
+            if (A[i] > k_num) {
+                // 当前位更大，把之前生成的数字改成最小
+                int genSize = (int)st.size();
+                while (!st.empty()) {
+                    st.pop();
+                }
+                while (genSize-- > 0) {
+                    st.push(A[0]);
+                }
+            }
+            needBigger = false;
+            st.push(A[i]);
+        }
+    }
+    
+    int res = 0;
+
+    if (needBigger) {
+        // 需要更大的，直接生成多一位的数字
+        if (A[0] == 0) {
+            res = A[1];
+        } else {
+            res = A[0];
+        }
+        while (res <= K) {
+            res = res * 10 + A[0];
+        }
+    } else {
+        while (!st.empty()) {
+            res = res * 10 + st.top();
+            st.pop();
+        }
+    }
+    return res;
+}
+
+
+int generate_min_int_greater_than_k(vector<int> A, int K) {
+    sort(A.begin(), A.end());
     
     vector<int> k_nums;
     while (K > 0) {

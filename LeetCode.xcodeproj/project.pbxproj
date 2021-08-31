@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8907626B26DD0C3C00A93668 /* Google_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907625A26D54CEB00A93668 /* Google_1.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89554FA526BEDED300FEDFF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
@@ -41,6 +42,10 @@
 		8907625726D53D9B00A93668 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8907625A26D54CEB00A93668 /* Google_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Google_1.cpp; sourceTree = "<group>"; };
 		8907625D26D9455F00A93668 /* 1480.一维数组的动态和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1480.一维数组的动态和.cpp"; sourceTree = "<group>"; };
+		8907626026DB28FE00A93668 /* 5854.学生分数的最小差值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5854.学生分数的最小差值.cpp"; sourceTree = "<group>"; };
+		8907626226DB2AE800A93668 /* 5855.找出数组中的第K大整数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5855.找出数组中的第K大整数.cpp"; sourceTree = "<group>"; };
+		8907626426DB2EDC00A93668 /* 5856.完成任务的最少工作时间段.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5856.完成任务的最少工作时间段.cpp"; sourceTree = "<group>"; };
+		8907626626DB31FE00A93668 /* 5857.不同的好子序列数目.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5857.不同的好子序列数目.cpp"; sourceTree = "<group>"; };
 		89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "92.反转链表-ii.cpp"; sourceTree = "<group>"; };
 		89554F8026BD844100FEDFF1 /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		89554F8226BD848F00FEDFF1 /* ListNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListNode.cpp; sourceTree = "<group>"; };
@@ -165,6 +170,17 @@
 				8907625A26D54CEB00A93668 /* Google_1.cpp */,
 			);
 			name = "额外的算法题";
+			sourceTree = "<group>";
+		};
+		8907625F26DB28EC00A93668 /* 第256场 */ = {
+			isa = PBXGroup;
+			children = (
+				8907626026DB28FE00A93668 /* 5854.学生分数的最小差值.cpp */,
+				8907626226DB2AE800A93668 /* 5855.找出数组中的第K大整数.cpp */,
+				8907626426DB2EDC00A93668 /* 5856.完成任务的最少工作时间段.cpp */,
+				8907626626DB31FE00A93668 /* 5857.不同的好子序列数目.cpp */,
+			);
+			name = "第256场";
 			sourceTree = "<group>";
 		};
 		89554F8A26BECF7C00FEDFF1 /* 链表 */ = {
@@ -314,6 +330,7 @@
 		89CC848226BF7976009483EF /* 周赛 */ = {
 			isa = PBXGroup;
 			children = (
+				8907625F26DB28EC00A93668 /* 第256场 */,
 				89C3FC4E26D1EF2E00C87257 /* 第255场 */,
 				89CC84BF26C8B443009483EF /* 第254场 */,
 				89CC849226C174B1009483EF /* 第252场 */,
@@ -491,6 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8907626B26DD0C3C00A93668 /* Google_1.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
