@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8907628B26E4E45900A93668 /* 5866.数组的最大公因数排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907628426E474D100A93668 /* 5866.数组的最大公因数排序.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89554FA526BEDED300FEDFF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
@@ -51,6 +52,13 @@
 		8907627226DE898E00A93668 /* 309.最佳买卖股票时机含冷冻期.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "309.最佳买卖股票时机含冷冻期.cpp"; sourceTree = "<group>"; };
 		8907627426DE89B900A93668 /* 714.买卖股票的最佳时机含手续费.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "714.买卖股票的最佳时机含手续费.cpp"; sourceTree = "<group>"; };
 		8907627626DE89EB00A93668 /* 509.斐波那契数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "509.斐波那契数.cpp"; sourceTree = "<group>"; };
+		8907627926E26FF200A93668 /* 面试题17.14.最小K个数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题17.14.最小K个数.cpp"; sourceTree = "<group>"; };
+		8907627B26E2764A00A93668 /* 15.三数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "15.三数之和.cpp"; sourceTree = "<group>"; };
+		8907627E26E4638500A93668 /* 5863.统计特殊四元组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5863.统计特殊四元组.cpp"; sourceTree = "<group>"; };
+		8907628026E469B700A93668 /* 5864.游戏中弱角色的数量.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5864.游戏中弱角色的数量.cpp"; sourceTree = "<group>"; };
+		8907628226E46F0F00A93668 /* 5865.访问完所有房间的第一天.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5865.访问完所有房间的第一天.cpp"; sourceTree = "<group>"; };
+		8907628426E474D100A93668 /* 5866.数组的最大公因数排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5866.数组的最大公因数排序.cpp"; sourceTree = "<group>"; };
+		8907628726E47A9800A93668 /* 470.用-rand-7-实现-rand-10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "470.用-rand-7-实现-rand-10.cpp"; sourceTree = "<group>"; };
 		89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "92.反转链表-ii.cpp"; sourceTree = "<group>"; };
 		89554F8026BD844100FEDFF1 /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		89554F8226BD848F00FEDFF1 /* ListNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListNode.cpp; sourceTree = "<group>"; };
@@ -173,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				8907625A26D54CEB00A93668 /* Google_1.cpp */,
+				8907627926E26FF200A93668 /* 面试题17.14.最小K个数.cpp */,
 			);
 			name = "额外的算法题";
 			sourceTree = "<group>";
@@ -186,6 +195,25 @@
 				8907626626DB31FE00A93668 /* 5857.不同的好子序列数目.cpp */,
 			);
 			name = "第256场";
+			sourceTree = "<group>";
+		};
+		8907627D26E4636300A93668 /* 第257场 */ = {
+			isa = PBXGroup;
+			children = (
+				8907627E26E4638500A93668 /* 5863.统计特殊四元组.cpp */,
+				8907628026E469B700A93668 /* 5864.游戏中弱角色的数量.cpp */,
+				8907628226E46F0F00A93668 /* 5865.访问完所有房间的第一天.cpp */,
+				8907628426E474D100A93668 /* 5866.数组的最大公因数排序.cpp */,
+			);
+			name = "第257场";
+			sourceTree = "<group>";
+		};
+		8907628626E47A8300A93668 /* Unknown */ = {
+			isa = PBXGroup;
+			children = (
+				8907628726E47A9800A93668 /* 470.用-rand-7-实现-rand-10.cpp */,
+			);
+			name = Unknown;
 			sourceTree = "<group>";
 		};
 		89554F8A26BECF7C00FEDFF1 /* 链表 */ = {
@@ -234,6 +262,7 @@
 		89A6BF0026BD8182007BDF6B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				8907628626E47A8300A93668 /* Unknown */,
 				8907625926D54CCB00A93668 /* 额外的算法题 */,
 				89C3FC4826D1EAE800C87257 /* 排序 */,
 				89C3FC2C26D0003700C87257 /* 数组 */,
@@ -288,6 +317,7 @@
 			children = (
 				89A51CCA26D3F8540013B3F2 /* 1.两数之和.cpp */,
 				89A51CB726D3EE9A0013B3F2 /* 3.无重复字符的最长子串.cpp */,
+				8907627B26E2764A00A93668 /* 15.三数之和.cpp */,
 				89A51CC126D3F5C40013B3F2 /* 26.删除有序数组中的重复项.cpp */,
 				89A51CC526D3F69D0013B3F2 /* 27.移除元素.cpp */,
 				89C3FC3126D0CBD400C87257 /* 34.在排序数组中查找元素的第一个和最后一个位置.cpp */,
@@ -341,6 +371,7 @@
 		89CC848226BF7976009483EF /* 周赛 */ = {
 			isa = PBXGroup;
 			children = (
+				8907627D26E4636300A93668 /* 第257场 */,
 				8907625F26DB28EC00A93668 /* 第256场 */,
 				89C3FC4E26D1EF2E00C87257 /* 第255场 */,
 				89CC84BF26C8B443009483EF /* 第254场 */,
@@ -522,6 +553,7 @@
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
+				8907628B26E4E45900A93668 /* 5866.数组的最大公因数排序.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
