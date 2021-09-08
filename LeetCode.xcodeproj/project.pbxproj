@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8907628B26E4E45900A93668 /* 5866.数组的最大公因数排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8907628426E474D100A93668 /* 5866.数组的最大公因数排序.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89554FA526BEDED300FEDFF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
+		8966DE5B26E90CAE00AEA606 /* 502.ipo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8966DE5A26E90CAD00AEA606 /* 502.ipo.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C3FC4D26D1ED8600C87257 /* sorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC4C26D1ED8600C87257 /* sorts.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -68,6 +68,8 @@
 		89554F9A26BEDE7100FEDFF1 /* Swift_ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_; sourceTree = BUILT_PRODUCTS_DIR; };
 		89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "322.零钱兑换.swift"; sourceTree = "<group>"; };
 		89554FA326BEDED300FEDFF1 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8966DE5826E7BBF400AEA606 /* 1221.分割平衡字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1221.分割平衡字符串.cpp"; sourceTree = "<group>"; };
+		8966DE5A26E90CAD00AEA606 /* 502.ipo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 502.ipo.cpp; sourceTree = "<group>"; };
 		898F272226C8B8EE0077B621 /* 5832.构造元素不等于两相邻元素平均值的数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5832.构造元素不等于两相邻元素平均值的数组.cpp"; sourceTree = "<group>"; };
 		898F272426C8BE780077B621 /* 5844.数组元素的最小非零乘积.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5844.数组元素的最小非零乘积.cpp"; sourceTree = "<group>"; };
 		898F272626C8C2B30077B621 /* 5845.你能穿过矩阵的最后一天.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5845.你能穿过矩阵的最后一天.cpp"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		89A51CC726D3F70C0013B3F2 /* 283.移动零.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "283.移动零.cpp"; sourceTree = "<group>"; };
 		89A51CCA26D3F8540013B3F2 /* 1.两数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1.两数之和.cpp"; sourceTree = "<group>"; };
 		89A6BEFF26BD8182007BDF6B /* Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BA3E9226E50245000B8F69 /* 1143.最长公共子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1143.最长公共子序列.cpp"; sourceTree = "<group>"; };
 		89C3FC0A26CAAED900C87257 /* 222.完全二叉树的节点个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "222.完全二叉树的节点个数.cpp"; sourceTree = "<group>"; };
 		89C3FC0C26CAB26D00C87257 /* 236.二叉树的最近公共祖先.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "236.二叉树的最近公共祖先.cpp"; sourceTree = "<group>"; };
 		89C3FC0E26CAB69A00C87257 /* 94.二叉树的中序遍历.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "94.二叉树的中序遍历.cpp"; sourceTree = "<group>"; };
@@ -245,6 +248,7 @@
 				8902686526BEEDB600156215 /* 416.分割等和子集.cpp */,
 				8907627626DE89EB00A93668 /* 509.斐波那契数.cpp */,
 				8907627426DE89B900A93668 /* 714.买卖股票的最佳时机含手续费.cpp */,
+				89BA3E9226E50245000B8F69 /* 1143.最长公共子序列.cpp */,
 			);
 			name = "动态规划";
 			sourceTree = "<group>";
@@ -305,6 +309,7 @@
 				89C3FC2626CFF74E00C87257 /* 239.滑动窗口最大值.cpp */,
 				89C3FC1E26CFEF1100C87257 /* 295.数据流的中位数.cpp */,
 				89C3FC2026CFF19D00C87257 /* 496.下一个更大元素-i.cpp */,
+				8966DE5A26E90CAD00AEA606 /* 502.ipo.cpp */,
 				89C3FC2226CFF41300C87257 /* 503.下一个更大元素-ii.cpp */,
 				89C3FC2426CFF58700C87257 /* 739.每日温度.cpp */,
 				89C3FC1C26CFEA6300C87257 /* 895.最大频率栈.cpp */,
@@ -336,6 +341,7 @@
 				89C3FC3326D0EA7700C87257 /* 875.爱吃香蕉的珂珂.cpp */,
 				89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */,
 				89A51CBF26D3F5140013B3F2 /* 1081.不同字符的最小子序列.cpp */,
+				8966DE5826E7BBF400AEA606 /* 1221.分割平衡字符串.cpp */,
 				8907625D26D9455F00A93668 /* 1480.一维数组的动态和.cpp */,
 			);
 			name = "数组";
@@ -553,7 +559,7 @@
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
-				8907628B26E4E45900A93668 /* 5866.数组的最大公因数排序.cpp in Sources */,
+				8966DE5B26E90CAE00AEA606 /* 502.ipo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
