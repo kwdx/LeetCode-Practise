@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89554FA526BEDED300FEDFF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		8966DE5B26E90CAE00AEA606 /* 502.ipo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8966DE5A26E90CAD00AEA606 /* 502.ipo.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C3FC4D26D1ED8600C87257 /* sorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC4C26D1ED8600C87257 /* sorts.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -70,6 +69,8 @@
 		89554FA326BEDED300FEDFF1 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8966DE5826E7BBF400AEA606 /* 1221.分割平衡字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1221.分割平衡字符串.cpp"; sourceTree = "<group>"; };
 		8966DE5A26E90CAD00AEA606 /* 502.ipo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 502.ipo.cpp; sourceTree = "<group>"; };
+		8966DE5C26EA56C800AEA606 /* 68.文本左右对齐.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "68.文本左右对齐.cpp"; sourceTree = "<group>"; };
+		8966DE5E26EBA5E900AEA606 /* 1894.找到需要补充粉笔的学生编号.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1894.找到需要补充粉笔的学生编号.cpp"; sourceTree = "<group>"; };
 		898F272226C8B8EE0077B621 /* 5832.构造元素不等于两相邻元素平均值的数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5832.构造元素不等于两相邻元素平均值的数组.cpp"; sourceTree = "<group>"; };
 		898F272426C8BE780077B621 /* 5844.数组元素的最小非零乘积.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5844.数组元素的最小非零乘积.cpp"; sourceTree = "<group>"; };
 		898F272626C8C2B30077B621 /* 5845.你能穿过矩阵的最后一天.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5845.你能穿过矩阵的最后一天.cpp"; sourceTree = "<group>"; };
@@ -215,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				8907628726E47A9800A93668 /* 470.用-rand-7-实现-rand-10.cpp */,
+				8966DE5E26EBA5E900AEA606 /* 1894.找到需要补充粉笔的学生编号.cpp */,
 			);
 			name = Unknown;
 			sourceTree = "<group>";
@@ -304,6 +306,7 @@
 		89C3FC1B26CFEA5400C87257 /* 堆栈 */ = {
 			isa = PBXGroup;
 			children = (
+				8966DE5C26EA56C800AEA606 /* 68.文本左右对齐.cpp */,
 				89C3FC2826CFFA1C00C87257 /* 225.用队列实现栈.cpp */,
 				89C3FC2A26CFFB8200C87257 /* 232.用栈实现队列.cpp */,
 				89C3FC2626CFF74E00C87257 /* 239.滑动窗口最大值.cpp */,
@@ -559,7 +562,6 @@
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
-				8966DE5B26E90CAE00AEA606 /* 502.ipo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
