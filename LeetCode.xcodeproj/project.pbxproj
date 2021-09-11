@@ -12,6 +12,7 @@
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C3FC4D26D1ED8600C87257 /* sorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC4C26D1ED8600C87257 /* sorts.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
+		89CF305426ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -151,6 +152,7 @@
 		89CC84BB26C42537009483EF /* 797.所有可能的路径.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "797.所有可能的路径.cpp"; sourceTree = "<group>"; };
 		89CC84BD26C427C8009483EF /* 1373.二叉搜索子树的最大键值和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1373.二叉搜索子树的最大键值和.cpp"; sourceTree = "<group>"; };
 		89CC84C026C8B46F009483EF /* 5843.作为子字符串出现在单词中的字符串数目.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5843.作为子字符串出现在单词中的字符串数目.cpp"; sourceTree = "<group>"; };
+		89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "600.不含连续-1-的非负整数.cpp"; sourceTree = "<group>"; };
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
 		89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "297.二叉树的序列化与反序列化.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -249,6 +251,7 @@
 				89554F8D26BECFC200FEDFF1 /* 322.零钱兑换.cpp */,
 				8902686526BEEDB600156215 /* 416.分割等和子集.cpp */,
 				8907627626DE89EB00A93668 /* 509.斐波那契数.cpp */,
+				89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */,
 				8907627426DE89B900A93668 /* 714.买卖股票的最佳时机含手续费.cpp */,
 				89BA3E9226E50245000B8F69 /* 1143.最长公共子序列.cpp */,
 			);
@@ -559,6 +562,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89CF305426ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
