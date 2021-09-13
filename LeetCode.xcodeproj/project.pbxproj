@@ -153,6 +153,7 @@
 		89CC84C026C8B46F009483EF /* 5843.作为子字符串出现在单词中的字符串数目.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5843.作为子字符串出现在单词中的字符串数目.cpp"; sourceTree = "<group>"; };
 		89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "600.不含连续-1-的非负整数.cpp"; sourceTree = "<group>"; };
 		89CF305526EE51560029D7B6 /* 678.有效的括号字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "678.有效的括号字符串.cpp"; sourceTree = "<group>"; };
+		89DEB28B26EF9355009A4894 /* 447.回旋镖的数量.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "447.回旋镖的数量.cpp"; sourceTree = "<group>"; };
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
 		89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "297.二叉树的序列化与反序列化.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -271,6 +272,7 @@
 		89A6BF0026BD8182007BDF6B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				89DEB28A26EF9343009A4894 /* 哈希 */,
 				8907628626E47A8300A93668 /* Unknown */,
 				8907625926D54CCB00A93668 /* 额外的算法题 */,
 				89C3FC4826D1EAE800C87257 /* 排序 */,
@@ -456,6 +458,14 @@
 				898F272626C8C2B30077B621 /* 5845.你能穿过矩阵的最后一天.cpp */,
 			);
 			name = "第254场";
+			sourceTree = "<group>";
+		};
+		89DEB28A26EF9343009A4894 /* 哈希 */ = {
+			isa = PBXGroup;
+			children = (
+				89DEB28B26EF9355009A4894 /* 447.回旋镖的数量.cpp */,
+			);
+			name = "哈希";
 			sourceTree = "<group>";
 		};
 		89F5C9F226B63F3000ABF72F = {
