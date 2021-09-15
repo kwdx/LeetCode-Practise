@@ -155,6 +155,7 @@
 		89CF305526EE51560029D7B6 /* 678.有效的括号字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "678.有效的括号字符串.cpp"; sourceTree = "<group>"; };
 		89DEB28B26EF9355009A4894 /* 447.回旋镖的数量.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "447.回旋镖的数量.cpp"; sourceTree = "<group>"; };
 		89DEB28D26F0ED37009A4894 /* 524.通过删除字母匹配到字典里最长单词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "524.通过删除字母匹配到字典里最长单词.cpp"; sourceTree = "<group>"; };
+		89DEB29026F248FC009A4894 /* 162.寻找峰值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "162.寻找峰值.cpp"; sourceTree = "<group>"; };
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
 		89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "297.二叉树的序列化与反序列化.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -336,6 +337,7 @@
 				89A51CC526D3F69D0013B3F2 /* 27.移除元素.cpp */,
 				89C3FC3126D0CBD400C87257 /* 34.在排序数组中查找元素的第一个和最后一个位置.cpp */,
 				89C3FC4626D1508800C87257 /* 76.最小覆盖子串.cpp */,
+				89DEB29026F248FC009A4894 /* 162.寻找峰值.cpp */,
 				89C3FC3E26D1062600C87257 /* 167.两数之和-ii-输入有序数组.cpp */,
 				89A51CC726D3F70C0013B3F2 /* 283.移动零.cpp */,
 				89A51CBD26D3F4560013B3F2 /* 316.去除重复字母.cpp */,
