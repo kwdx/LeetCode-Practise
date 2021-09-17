@@ -159,6 +159,7 @@
 		89DEB29226F363EB009A4894 /* 212.单词搜索-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "212.单词搜索-ii.cpp"; sourceTree = "<group>"; };
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
 		89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "297.二叉树的序列化与反序列化.cpp"; sourceTree = "<group>"; };
+		89FE578626F4EEC700863E33 /* 36.有效的数独.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "36.有效的数独.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -469,6 +470,7 @@
 		89DEB28A26EF9343009A4894 /* 哈希 */ = {
 			isa = PBXGroup;
 			children = (
+				89FE578626F4EEC700863E33 /* 36.有效的数独.cpp */,
 				89DEB28B26EF9355009A4894 /* 447.回旋镖的数量.cpp */,
 			);
 			name = "哈希";
