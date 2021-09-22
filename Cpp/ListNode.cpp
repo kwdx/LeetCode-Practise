@@ -44,6 +44,14 @@ std::vector<int> getNodeList(ListNode *node) {
     return res;
 }
 
+std::vector<std::vector<int>> getNodeList(std::vector<ListNode*> nodes) {
+    std::vector<std::vector<int>> res;
+    for (ListNode *node : nodes) {
+        res.push_back(getNodeList(node));
+    }
+    return res;
+}
+
 void printNodeList(ListNode* node) {
     while (node != nullptr) {
         printf("%d", node->val);
