@@ -76,6 +76,7 @@
 		8966DE5E26EBA5E900AEA606 /* 1894.找到需要补充粉笔的学生编号.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1894.找到需要补充粉笔的学生编号.cpp"; sourceTree = "<group>"; };
 		89782A0E26F98B86000428A0 /* 58.最后一个单词的长度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "58.最后一个单词的长度.cpp"; sourceTree = "<group>"; };
 		898379132701FFD200A1E293 /* 639.解码方法-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "639.解码方法-ii.cpp"; sourceTree = "<group>"; };
+		8989CF5527034A8A00DB244B /* 437.路径总和-iii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "437.路径总和-iii.cpp"; sourceTree = "<group>"; };
 		898F272226C8B8EE0077B621 /* 5832.构造元素不等于两相邻元素平均值的数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5832.构造元素不等于两相邻元素平均值的数组.cpp"; sourceTree = "<group>"; };
 		898F272426C8BE780077B621 /* 5844.数组元素的最小非零乘积.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5844.数组元素的最小非零乘积.cpp"; sourceTree = "<group>"; };
 		898F272626C8C2B30077B621 /* 5845.你能穿过矩阵的最后一天.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5845.你能穿过矩阵的最后一天.cpp"; sourceTree = "<group>"; };
@@ -469,6 +470,7 @@
 				89C3FC0C26CAB26D00C87257 /* 236.二叉树的最近公共祖先.cpp */,
 				89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */,
 				89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */,
+				8989CF5527034A8A00DB244B /* 437.路径总和-iii.cpp */,
 				89CC84AD26C2C94A009483EF /* 450.删除二叉搜索树中的节点.cpp */,
 				89CC84AF26C2D19B009483EF /* 538.把二叉搜索树转换为累加树.cpp */,
 				89CC849C26C17792009483EF /* 652.寻找重复的子树.cpp */,
