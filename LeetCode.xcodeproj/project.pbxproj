@@ -170,6 +170,7 @@
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
 		89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "297.二叉树的序列化与反序列化.cpp"; sourceTree = "<group>"; };
 		89FE578626F4EEC700863E33 /* 36.有效的数独.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "36.有效的数独.cpp"; sourceTree = "<group>"; };
+		89FFD6682704A1A800AD1B8D /* 517.超级洗衣机.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "517.超级洗衣机.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +271,7 @@
 				89554F8D26BECFC200FEDFF1 /* 322.零钱兑换.cpp */,
 				8902686526BEEDB600156215 /* 416.分割等和子集.cpp */,
 				8907627626DE89EB00A93668 /* 509.斐波那契数.cpp */,
+				89FFD6682704A1A800AD1B8D /* 517.超级洗衣机.cpp */,
 				89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */,
 				898379132701FFD200A1E293 /* 639.解码方法-ii.cpp */,
 				8909653A26F77737005E17EA /* 650.只有两个键的键盘.cpp */,
