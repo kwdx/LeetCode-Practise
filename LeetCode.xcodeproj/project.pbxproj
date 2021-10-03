@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89554FA526BEDED300FEDFF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
+		89A484382709E04200EEF031 /* 166.分数到小数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A484372709E04200EEF031 /* 166.分数到小数.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C3FC4D26D1ED8600C87257 /* sorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC4C26D1ED8600C87257 /* sorts.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -83,6 +84,7 @@
 		898F272426C8BE780077B621 /* 5844.数组元素的最小非零乘积.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5844.数组元素的最小非零乘积.cpp"; sourceTree = "<group>"; };
 		898F272626C8C2B30077B621 /* 5845.你能穿过矩阵的最后一天.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5845.你能穿过矩阵的最后一天.cpp"; sourceTree = "<group>"; };
 		899FFB8E26F5E33800334BB1 /* 292.nim-游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "292.nim-游戏.cpp"; sourceTree = "<group>"; };
+		89A484372709E04200EEF031 /* 166.分数到小数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "166.分数到小数.cpp"; sourceTree = "<group>"; };
 		89A51CB326D3EB980013B3F2 /* 567.字符串的排列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "567.字符串的排列.cpp"; sourceTree = "<group>"; };
 		89A51CB526D3ED250013B3F2 /* 438.找到字符串中所有字母异位词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "438.找到字符串中所有字母异位词.cpp"; sourceTree = "<group>"; };
 		89A51CB726D3EE9A0013B3F2 /* 3.无重复字符的最长子串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "3.无重复字符的最长子串.cpp"; sourceTree = "<group>"; };
@@ -503,6 +505,7 @@
 		89CEC83026FCC7F6000F9EC7 /* math */ = {
 			isa = PBXGroup;
 			children = (
+				89A484372709E04200EEF031 /* 166.分数到小数.cpp */,
 				8983473E270613D800B8946E /* 223.矩形面积.cpp */,
 				89CEC83126FCC815000F9EC7 /* 326.3-的幂.cpp */,
 			);
@@ -625,6 +628,7 @@
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				89A484382709E04200EEF031 /* 166.分数到小数.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
