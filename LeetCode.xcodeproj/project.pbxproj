@@ -61,6 +61,7 @@
 		8909653A26F77737005E17EA /* 650.只有两个键的键盘.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "650.只有两个键的键盘.cpp"; sourceTree = "<group>"; };
 		890E21FB270AA8E80081372B /* 482.密钥格式化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "482.密钥格式化.cpp"; sourceTree = "<group>"; };
 		8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "725.分隔链表.cpp"; sourceTree = "<group>"; };
+		892B78BA270DD01D00923EA9 /* 414.第三大的数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "414.第三大的数.cpp"; sourceTree = "<group>"; };
 		894792CF27001A7100AC9055 /* 371.两整数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "371.两整数之和.cpp"; sourceTree = "<group>"; };
 		8951E5DC270CA00000E891F6 /* 284.顶端迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "284.顶端迭代器.cpp"; sourceTree = "<group>"; };
 		89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "92.反转链表-ii.cpp"; sourceTree = "<group>"; };
@@ -384,6 +385,7 @@
 				89C3FC4026D1077D00C87257 /* 344.反转字符串.cpp */,
 				89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */,
 				89C3FC3726D0FCD600C87257 /* 410.分割数组的最大值.cpp */,
+				892B78BA270DD01D00923EA9 /* 414.第三大的数.cpp */,
 				89A51CB526D3ED250013B3F2 /* 438.找到字符串中所有字母异位词.cpp */,
 				89DEB28D26F0ED37009A4894 /* 524.通过删除字母匹配到字典里最长单词.cpp */,
 				89A51CB326D3EB980013B3F2 /* 567.字符串的排列.cpp */,
