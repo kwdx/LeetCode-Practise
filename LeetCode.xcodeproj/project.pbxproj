@@ -36,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		890044A1270E943000EC68D9 /* 434.字符串中的单词数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "434.字符串中的单词数.cpp"; sourceTree = "<group>"; };
 		8902686526BEEDB600156215 /* 416.分割等和子集.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "416.分割等和子集.cpp"; sourceTree = "<group>"; };
 		8907625526D5398A00A93668 /* 83.删除排序链表中的重复元素.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "83.删除排序链表中的重复元素.cpp"; sourceTree = "<group>"; };
 		8907625726D53D9B00A93668 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -304,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				89782A0E26F98B86000428A0 /* 58.最后一个单词的长度.cpp */,
+				890044A1270E943000EC68D9 /* 434.字符串中的单词数.cpp */,
 			);
 			name = "字符串";
 			sourceTree = "<group>";
