@@ -27,7 +27,7 @@ public:
                 c = num;
             }
         }
-        return (int)(nums.size() < 3 ? a : c);
+        return (int)(c == LONG_MIN ? a : c);
     }
 };
 // @lc code=end
@@ -44,7 +44,7 @@ int main(int argc, const char * argv[]) {
     nums = {3,2,1};
     res = 1;
     assert(res == Solution().thirdMax(nums));
-    
+
     /**
      输入：[1, 2]
      输出：2
@@ -53,7 +53,7 @@ int main(int argc, const char * argv[]) {
     nums = {1,2};
     res = 2;
     assert(res == Solution().thirdMax(nums));
-    
+
     /**
      输入：[2, 2, 3, 1]
      输出：1
@@ -62,6 +62,14 @@ int main(int argc, const char * argv[]) {
      */
     nums = {2,2,3,1};
     res = 1;
+    assert(res == Solution().thirdMax(nums));
+    
+    /**
+     输入：[1,1,2]
+     输出：2
+     */
+    nums = {1,1,2};
+    res = 2;
     assert(res == Solution().thirdMax(nums));
     
     cout << "OK~" << endl;
