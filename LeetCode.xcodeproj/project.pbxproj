@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89554FA526BEDED300FEDFF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
+		89AE6F7227146D580013A3FA /* 273.整数转换英文表示.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89AE6F7127146D580013A3FA /* 273.整数转换英文表示.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C3FC4D26D1ED8600C87257 /* sorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC4C26D1ED8600C87257 /* sorts.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -103,6 +104,7 @@
 		89A51CC726D3F70C0013B3F2 /* 283.移动零.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "283.移动零.cpp"; sourceTree = "<group>"; };
 		89A51CCA26D3F8540013B3F2 /* 1.两数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1.两数之和.cpp"; sourceTree = "<group>"; };
 		89A6BEFF26BD8182007BDF6B /* Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AE6F7127146D580013A3FA /* 273.整数转换英文表示.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "273.整数转换英文表示.cpp"; sourceTree = "<group>"; };
 		89BA3E9226E50245000B8F69 /* 1143.最长公共子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1143.最长公共子序列.cpp"; sourceTree = "<group>"; };
 		89C3FC0A26CAAED900C87257 /* 222.完全二叉树的节点个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "222.完全二叉树的节点个数.cpp"; sourceTree = "<group>"; };
 		89C3FC0C26CAB26D00C87257 /* 236.二叉树的最近公共祖先.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "236.二叉树的最近公共祖先.cpp"; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				89782A0E26F98B86000428A0 /* 58.最后一个单词的长度.cpp */,
+				89AE6F7127146D580013A3FA /* 273.整数转换英文表示.cpp */,
 				890044A1270E943000EC68D9 /* 434.字符串中的单词数.cpp */,
 			);
 			name = "字符串";
@@ -642,6 +645,7 @@
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
+				89AE6F7227146D580013A3FA /* 273.整数转换英文表示.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
