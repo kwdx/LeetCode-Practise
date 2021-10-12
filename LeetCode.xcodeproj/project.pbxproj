@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89554FA526BEDED300FEDFF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		89AE6F7227146D580013A3FA /* 273.整数转换英文表示.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89AE6F7127146D580013A3FA /* 273.整数转换英文表示.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C3FC4D26D1ED8600C87257 /* sorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC4C26D1ED8600C87257 /* sorts.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -64,6 +63,7 @@
 		8909E65427107658005ABD25 /* 187.重复的dna序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "187.重复的dna序列.cpp"; sourceTree = "<group>"; };
 		890E21FB270AA8E80081372B /* 482.密钥格式化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "482.密钥格式化.cpp"; sourceTree = "<group>"; };
 		8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "725.分隔链表.cpp"; sourceTree = "<group>"; };
+		89239D0F2715D0D200489E2B /* 29.两数相除.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "29.两数相除.cpp"; sourceTree = "<group>"; };
 		892B78BA270DD01D00923EA9 /* 414.第三大的数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "414.第三大的数.cpp"; sourceTree = "<group>"; };
 		894792CF27001A7100AC9055 /* 371.两整数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "371.两整数之和.cpp"; sourceTree = "<group>"; };
 		8951E5DC270CA00000E891F6 /* 284.顶端迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "284.顶端迭代器.cpp"; sourceTree = "<group>"; };
@@ -518,6 +518,7 @@
 		89CEC83026FCC7F6000F9EC7 /* math */ = {
 			isa = PBXGroup;
 			children = (
+				89239D0F2715D0D200489E2B /* 29.两数相除.cpp */,
 				89A484372709E04200EEF031 /* 166.分数到小数.cpp */,
 				8983473E270613D800B8946E /* 223.矩形面积.cpp */,
 				89CEC83126FCC815000F9EC7 /* 326.3-的幂.cpp */,
@@ -645,7 +646,6 @@
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
-				89AE6F7227146D580013A3FA /* 273.整数转换英文表示.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
