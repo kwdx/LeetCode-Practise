@@ -10,17 +10,24 @@
 using namespace std;
 
 class Iterator {
-    struct Data;
-    Data* data;
+    const vector<int>* nums;
+    int index;
 public:
-    Iterator(const vector<int>& nums);
+    Iterator(const vector<int>& nums) {
+        this->nums = &nums;
+        this->index = 0;
+    }
     Iterator(const Iterator& iter);
     
     // Returns the next element in the iteration.
-    int next();
+    int next() {
+        return (*nums)[index++];
+    }
     
     // Returns true if the iteration has more elements.
-    bool hasNext() const;
+    bool hasNext() const {
+        return index < (*nums).size();
+    }
 };
 
 // @lc code=start
