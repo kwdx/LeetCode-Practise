@@ -65,6 +65,7 @@
 		8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "725.分隔链表.cpp"; sourceTree = "<group>"; };
 		89239D0F2715D0D200489E2B /* 29.两数相除.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "29.两数相除.cpp"; sourceTree = "<group>"; };
 		89239D112717130400489E2B /* 412.fizz-buzz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "412.fizz-buzz.cpp"; sourceTree = "<group>"; };
+		89239D16271859C000489E2B /* 剑指 Offer II 069.山峰数组的顶部.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer II 069.山峰数组的顶部.cpp"; sourceTree = "<group>"; };
 		892B78BA270DD01D00923EA9 /* 414.第三大的数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "414.第三大的数.cpp"; sourceTree = "<group>"; };
 		894792CF27001A7100AC9055 /* 371.两整数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "371.两整数之和.cpp"; sourceTree = "<group>"; };
 		8951E5DC270CA00000E891F6 /* 284.顶端迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "284.顶端迭代器.cpp"; sourceTree = "<group>"; };
@@ -257,6 +258,14 @@
 			name = Unknown;
 			sourceTree = "<group>";
 		};
+		89239D152718596700489E2B /* 剑指offer II */ = {
+			isa = PBXGroup;
+			children = (
+				89239D16271859C000489E2B /* 剑指 Offer II 069.山峰数组的顶部.cpp */,
+			);
+			name = "剑指offer II";
+			sourceTree = "<group>";
+		};
 		89554F8A26BECF7C00FEDFF1 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +330,7 @@
 		89A6BF0026BD8182007BDF6B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				89239D152718596700489E2B /* 剑指offer II */,
 				89CEC83026FCC7F6000F9EC7 /* math */,
 				89782A0D26F98B77000428A0 /* 字符串 */,
 				89DEB28A26EF9343009A4894 /* 哈希 */,
