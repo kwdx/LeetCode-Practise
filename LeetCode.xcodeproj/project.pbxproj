@@ -66,6 +66,8 @@
 		89239D0F2715D0D200489E2B /* 29.两数相除.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "29.两数相除.cpp"; sourceTree = "<group>"; };
 		89239D112717130400489E2B /* 412.fizz-buzz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "412.fizz-buzz.cpp"; sourceTree = "<group>"; };
 		89239D16271859C000489E2B /* 剑指 Offer II 069.山峰数组的顶部.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer II 069.山峰数组的顶部.cpp"; sourceTree = "<group>"; };
+		89239D182719D2E200489E2B /* 38.外观数列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "38.外观数列.cpp"; sourceTree = "<group>"; };
+		89239D1A271A6D8F00489E2B /* 282.给表达式添加运算符.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "282.给表达式添加运算符.cpp"; sourceTree = "<group>"; };
 		892B78BA270DD01D00923EA9 /* 414.第三大的数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "414.第三大的数.cpp"; sourceTree = "<group>"; };
 		894792CF27001A7100AC9055 /* 371.两整数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "371.两整数之和.cpp"; sourceTree = "<group>"; };
 		8951E5DC270CA00000E891F6 /* 284.顶端迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "284.顶端迭代器.cpp"; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 		89782A0D26F98B77000428A0 /* 字符串 */ = {
 			isa = PBXGroup;
 			children = (
+				89239D182719D2E200489E2B /* 38.外观数列.cpp */,
 				89782A0E26F98B86000428A0 /* 58.最后一个单词的长度.cpp */,
 				89AE6F7127146D580013A3FA /* 273.整数转换英文表示.cpp */,
 				890044A1270E943000EC68D9 /* 434.字符串中的单词数.cpp */,
@@ -533,6 +536,7 @@
 				89239D0F2715D0D200489E2B /* 29.两数相除.cpp */,
 				89A484372709E04200EEF031 /* 166.分数到小数.cpp */,
 				8983473E270613D800B8946E /* 223.矩形面积.cpp */,
+				89239D1A271A6D8F00489E2B /* 282.给表达式添加运算符.cpp */,
 				89CEC83126FCC815000F9EC7 /* 326.3-的幂.cpp */,
 				89552267271296C200133464 /* 441.排列硬币.cpp */,
 			);
