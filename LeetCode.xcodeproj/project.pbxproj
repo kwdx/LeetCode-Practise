@@ -12,7 +12,6 @@
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C3FC4D26D1ED8600C87257 /* sorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC4C26D1ED8600C87257 /* sorts.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
-		89CF0C9B271BB213002CFCED /* 230.二叉搜索树中第k小的元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC84AB26C2C692009483EF /* 230.二叉搜索树中第k小的元素.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -177,6 +176,9 @@
 		89CC84C026C8B46F009483EF /* 5843.作为子字符串出现在单词中的字符串数目.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5843.作为子字符串出现在单词中的字符串数目.cpp"; sourceTree = "<group>"; };
 		89CEC83126FCC815000F9EC7 /* 326.3-的幂.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "326.3-的幂.cpp"; sourceTree = "<group>"; };
 		89CEC83326FD805F000F9EC7 /* 430.扁平化多级双向链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "430.扁平化多级双向链表.cpp"; sourceTree = "<group>"; };
+		89CF0C9C271BB4A3002CFCED /* 102.二叉树的层序遍历.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "102.二叉树的层序遍历.cpp"; sourceTree = "<group>"; };
+		89CF0C9E271BB67A002CFCED /* 144.二叉树的前序遍历.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "144.二叉树的前序遍历.cpp"; sourceTree = "<group>"; };
+		89CF0CA0271BB7D7002CFCED /* 145.二叉树的后序遍历.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "145.二叉树的后序遍历.cpp"; sourceTree = "<group>"; };
 		89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "600.不含连续-1-的非负整数.cpp"; sourceTree = "<group>"; };
 		89CF305526EE51560029D7B6 /* 678.有效的括号字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "678.有效的括号字符串.cpp"; sourceTree = "<group>"; };
 		89DE25C126F8D411005999E0 /* 673.最长递增子序列的个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "673.最长递增子序列的个数.cpp"; sourceTree = "<group>"; };
@@ -496,10 +498,13 @@
 				89CC84B726C41A72009483EF /* 95.不同的二叉搜索树-ii.cpp */,
 				89CC84B926C41BF2009483EF /* 96.不同的二叉搜索树.cpp */,
 				89CC84A926C2C3C5009483EF /* 98.验证二叉搜索树.cpp */,
+				89CF0C9C271BB4A3002CFCED /* 102.二叉树的层序遍历.cpp */,
 				89CC84A426C18174009483EF /* 105.从前序与中序遍历序列构造二叉树.cpp */,
 				89CC84A626C1843D009483EF /* 106.从中序与后序遍历序列构造二叉树.cpp */,
 				89CC84A226C17EB2009483EF /* 114.二叉树展开为链表.cpp */,
 				89CC84A026C17C76009483EF /* 116.填充每个节点的下一个右侧节点指针.cpp */,
+				89CF0C9E271BB67A002CFCED /* 144.二叉树的前序遍历.cpp */,
+				89CF0CA0271BB7D7002CFCED /* 145.二叉树的后序遍历.cpp */,
 				89C3FC0A26CAAED900C87257 /* 222.完全二叉树的节点个数.cpp */,
 				89CC849E26C17AEC009483EF /* 226.翻转二叉树.cpp */,
 				89CC84AB26C2C692009483EF /* 230.二叉搜索树中第k小的元素.cpp */,
@@ -662,7 +667,6 @@
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
-				89CF0C9B271BB213002CFCED /* 230.二叉搜索树中第k小的元素.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
