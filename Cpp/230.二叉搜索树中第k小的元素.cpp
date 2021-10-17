@@ -45,19 +45,48 @@ public:
         dfs(root, k);
         return res;
     }
+    int kthSmallest1(TreeNode* root, int k) {
+        stack<TreeNode*> st;
+        TreeNode *node = root;
+        int num = 1;
+        while (node || !st.empty()) {
+            while (node) {
+                st.push(node);
+                node = node->left;
+            }
+            node = st.top();
+            if (num++ == k) return node->val;
+            st.pop();
+            node = node->right;
+        }
+        return 0;
+    }
 };
 // @lc code=end
 
 int main(int argc, const char * argv[]) {
-    Solution solution;
     TreeNode *root;
+    int k,res;
 
-    root = generateTreeByLevel({3, 1, 4, INT_MAX, 2});
-    // 1
-    cout << solution.kthSmallest(root, 1) << endl;
-
+    /**
+     输入：root = [3,1,4,null,2], k = 1
+     输出：1
+     */
+    root = generateTreeByLevel({3,1,4,INT_MAX,2});
+    k = 1;
+    res = 1;
+    assert(res == Solution().kthSmallest1(root, k));
+    
+    /**
+     输入：root = [5,3,6,2,4,null,null,1], k = 3
+     输出：3
+     */
     root = generateTreeByLevel({5,3,6,2,4,INT_MAX,INT_MAX,1});
-    // 3
-    cout << solution.kthSmallest(root, 3) << endl;
+    k = 3;
+    res = 3;
+    assert(res == Solution().kthSmallest1(root, k));
+
+    cout << "OK~" << endl;
+    
     return 0;
 }
