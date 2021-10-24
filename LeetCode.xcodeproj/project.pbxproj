@@ -115,6 +115,41 @@
 		89A51CCA26D3F8540013B3F2 /* 1.两数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1.两数之和.cpp"; sourceTree = "<group>"; };
 		89A6BEFF26BD8182007BDF6B /* Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AE6F7127146D580013A3FA /* 273.整数转换英文表示.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "273.整数转换英文表示.cpp"; sourceTree = "<group>"; };
+		89B2F93227245D2800DB5B34 /* 99.恢复二叉搜索树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "99.恢复二叉搜索树.cpp"; sourceTree = "<group>"; };
+		89B2F9342724609D00DB5B34 /* 101.对称二叉树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "101.对称二叉树.cpp"; sourceTree = "<group>"; };
+		89B2F9362724625600DB5B34 /* 104.二叉树的最大深度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "104.二叉树的最大深度.cpp"; sourceTree = "<group>"; };
+		89B2F938272462D200DB5B34 /* 5.最长回文子串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "5.最长回文子串.cpp"; sourceTree = "<group>"; };
+		89B2F93A272463BF00DB5B34 /* 108.将有序数组转换为二叉搜索树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "108.将有序数组转换为二叉搜索树.cpp"; sourceTree = "<group>"; };
+		89B2F93C272464FA00DB5B34 /* 110.平衡二叉树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "110.平衡二叉树.cpp"; sourceTree = "<group>"; };
+		89B2F93E272465DE00DB5B34 /* 124.二叉树中的最大路径和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "124.二叉树中的最大路径和.cpp"; sourceTree = "<group>"; };
+		89B2F9402724668C00DB5B34 /* 2.两数相加.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2.两数相加.cpp"; sourceTree = "<group>"; };
+		89B2F942272467A600DB5B34 /* 4.寻找两个正序数组的中位数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "4.寻找两个正序数组的中位数.cpp"; sourceTree = "<group>"; };
+		89B2F9442724690000DB5B34 /* 6.z-字形变换.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "6.z-字形变换.cpp"; sourceTree = "<group>"; };
+		89B2F947272469E200DB5B34 /* 7.整数反转.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "7.整数反转.cpp"; sourceTree = "<group>"; };
+		89B2F9492724F63D00DB5B34 /* 8.字符串转换整数-atoi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "8.字符串转换整数-atoi.cpp"; sourceTree = "<group>"; };
+		89B2F94B2724F71400DB5B34 /* 9.回文数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "9.回文数.cpp"; sourceTree = "<group>"; };
+		89B2F94D2724F7A300DB5B34 /* 11.盛最多水的容器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "11.盛最多水的容器.cpp"; sourceTree = "<group>"; };
+		89B2F94F2724F89F00DB5B34 /* 20.有效的括号.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "20.有效的括号.cpp"; sourceTree = "<group>"; };
+		89B2F9512724F96300DB5B34 /* 21.合并两个有序链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "21.合并两个有序链表.cpp"; sourceTree = "<group>"; };
+		89B2F9532724FA1900DB5B34 /* 23.合并k个升序链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "23.合并k个升序链表.cpp"; sourceTree = "<group>"; };
+		89B2F9552724FE5700DB5B34 /* 88.合并两个有序数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "88.合并两个有序数组.cpp"; sourceTree = "<group>"; };
+		89B2F9572724FF5D00DB5B34 /* 150.逆波兰表达式求值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "150.逆波兰表达式求值.cpp"; sourceTree = "<group>"; };
+		89B2F9592725000300DB5B34 /* 198.打家劫舍.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "198.打家劫舍.cpp"; sourceTree = "<group>"; };
+		89B2F95B2725009100DB5B34 /* 203.移除链表元素.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "203.移除链表元素.cpp"; sourceTree = "<group>"; };
+		89B2F95D2725015D00DB5B34 /* 206.反转链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "206.反转链表.cpp"; sourceTree = "<group>"; };
+		89B2F95F272501EF00DB5B34 /* 215.数组中的第k个最大元素.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "215.数组中的第k个最大元素.cpp"; sourceTree = "<group>"; };
+		89B2F9612725027500DB5B34 /* 224.基本计算器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "224.基本计算器.cpp"; sourceTree = "<group>"; };
+		89B2F9632725030000DB5B34 /* 237.删除链表中的节点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "237.删除链表中的节点.cpp"; sourceTree = "<group>"; };
+		89B2F965272503E600DB5B34 /* 347.前-k-个高频元素.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "347.前-k-个高频元素.cpp"; sourceTree = "<group>"; };
+		89B2F9672725047900DB5B34 /* 349.两个数组的交集.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "349.两个数组的交集.cpp"; sourceTree = "<group>"; };
+		89B2F969272504F400DB5B34 /* 451.根据字符出现频率排序.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "451.根据字符出现频率排序.cpp"; sourceTree = "<group>"; };
+		89B2F96B272505AB00DB5B34 /* 856.括号的分数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "856.括号的分数.cpp"; sourceTree = "<group>"; };
+		89B2F96D2725068200DB5B34 /* 173.二叉搜索树迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "173.二叉搜索树迭代器.cpp"; sourceTree = "<group>"; };
+		89B2F96F2725079900DB5B34 /* 235.二叉搜索树的最近公共祖先.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "235.二叉搜索树的最近公共祖先.cpp"; sourceTree = "<group>"; };
+		89B2F971272508A900DB5B34 /* 530.二叉搜索树的最小绝对差.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "530.二叉搜索树的最小绝对差.cpp"; sourceTree = "<group>"; };
+		89B2F9732725094000DB5B34 /* 783.二叉搜索树节点最小距离.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "783.二叉搜索树节点最小距离.cpp"; sourceTree = "<group>"; };
+		89B2F975272509C400DB5B34 /* 889.根据前序和后序遍历构造二叉树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "889.根据前序和后序遍历构造二叉树.cpp"; sourceTree = "<group>"; };
+		89B2F97727250A8C00DB5B34 /* 938.二叉搜索树的范围和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "938.二叉搜索树的范围和.cpp"; sourceTree = "<group>"; };
 		89BA3E9226E50245000B8F69 /* 1143.最长公共子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1143.最长公共子序列.cpp"; sourceTree = "<group>"; };
 		89C3FC0A26CAAED900C87257 /* 222.完全二叉树的节点个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "222.完全二叉树的节点个数.cpp"; sourceTree = "<group>"; };
 		89C3FC0C26CAB26D00C87257 /* 236.二叉树的最近公共祖先.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "236.二叉树的最近公共祖先.cpp"; sourceTree = "<group>"; };
@@ -286,9 +321,20 @@
 			isa = PBXGroup;
 			children = (
 				89A51CCA26D3F8540013B3F2 /* 1.两数之和.cpp */,
+				89B2F9402724668C00DB5B34 /* 2.两数相加.cpp */,
 				89A51CB726D3EE9A0013B3F2 /* 3.无重复字符的最长子串.cpp */,
+				89B2F942272467A600DB5B34 /* 4.寻找两个正序数组的中位数.cpp */,
+				89B2F938272462D200DB5B34 /* 5.最长回文子串.cpp */,
+				89B2F9442724690000DB5B34 /* 6.z-字形变换.cpp */,
+				89B2F947272469E200DB5B34 /* 7.整数反转.cpp */,
+				89B2F9492724F63D00DB5B34 /* 8.字符串转换整数-atoi.cpp */,
+				89B2F94B2724F71400DB5B34 /* 9.回文数.cpp */,
+				89B2F94D2724F7A300DB5B34 /* 11.盛最多水的容器.cpp */,
 				8907627B26E2764A00A93668 /* 15.三数之和.cpp */,
 				89C3FC4226D1093F00C87257 /* 19.删除链表的倒数第-n-个结点.cpp */,
+				89B2F94F2724F89F00DB5B34 /* 20.有效的括号.cpp */,
+				89B2F9512724F96300DB5B34 /* 21.合并两个有序链表.cpp */,
+				89B2F9532724FA1900DB5B34 /* 23.合并k个升序链表.cpp */,
 				89554F8426BD886800FEDFF1 /* 25.k-个一组翻转链表.cpp */,
 				89A51CC126D3F5C40013B3F2 /* 26.删除有序数组中的重复项.cpp */,
 				89A51CC526D3F69D0013B3F2 /* 27.移除元素.cpp */,
@@ -302,40 +348,56 @@
 				89CC849026C17453009483EF /* 70.爬楼梯.cpp */,
 				89C3FC4626D1508800C87257 /* 76.最小覆盖子串.cpp */,
 				8907625526D5398A00A93668 /* 83.删除排序链表中的重复元素.cpp */,
+				89B2F9552724FE5700DB5B34 /* 88.合并两个有序数组.cpp */,
 				89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */,
 				89C3FC0E26CAB69A00C87257 /* 94.二叉树的中序遍历.cpp */,
 				89CC84B726C41A72009483EF /* 95.不同的二叉搜索树-ii.cpp */,
 				89CC84B926C41BF2009483EF /* 96.不同的二叉搜索树.cpp */,
 				89CC84A926C2C3C5009483EF /* 98.验证二叉搜索树.cpp */,
+				89B2F93227245D2800DB5B34 /* 99.恢复二叉搜索树.cpp */,
+				89B2F9342724609D00DB5B34 /* 101.对称二叉树.cpp */,
 				89CF0C9C271BB4A3002CFCED /* 102.二叉树的层序遍历.cpp */,
+				89B2F9362724625600DB5B34 /* 104.二叉树的最大深度.cpp */,
 				89CC84A426C18174009483EF /* 105.从前序与中序遍历序列构造二叉树.cpp */,
 				89CC84A626C1843D009483EF /* 106.从中序与后序遍历序列构造二叉树.cpp */,
+				89B2F93A272463BF00DB5B34 /* 108.将有序数组转换为二叉搜索树.cpp */,
+				89B2F93C272464FA00DB5B34 /* 110.平衡二叉树.cpp */,
 				89CC84A226C17EB2009483EF /* 114.二叉树展开为链表.cpp */,
 				89CC84A026C17C76009483EF /* 116.填充每个节点的下一个右侧节点指针.cpp */,
 				8907626C26DE873F00A93668 /* 121.买卖股票的最佳时机.cpp */,
 				8907626E26DE87FC00A93668 /* 122.买卖股票的最佳时机-ii.cpp */,
+				89B2F93E272465DE00DB5B34 /* 124.二叉树中的最大路径和.cpp */,
 				89C3FC1426CE9CF600C87257 /* 130.被围绕的区域.cpp */,
 				89C3FC3926D100D300C87257 /* 141.环形链表.cpp */,
 				89C3FC3C26D1046900C87257 /* 142.环形链表-ii.cpp */,
 				89CF0C9E271BB67A002CFCED /* 144.二叉树的前序遍历.cpp */,
 				89CF0CA0271BB7D7002CFCED /* 145.二叉树的后序遍历.cpp */,
 				89C3FC1926CEA5FC00C87257 /* 146.lru-缓存机制.cpp */,
+				89B2F9572724FF5D00DB5B34 /* 150.逆波兰表达式求值.cpp */,
 				89DEB29026F248FC009A4894 /* 162.寻找峰值.cpp */,
 				89A484372709E04200EEF031 /* 166.分数到小数.cpp */,
 				89C3FC3E26D1062600C87257 /* 167.两数之和-ii-输入有序数组.cpp */,
+				89B2F96D2725068200DB5B34 /* 173.二叉搜索树迭代器.cpp */,
 				8909E65427107658005ABD25 /* 187.重复的dna序列.cpp */,
 				8907627026DE896300A93668 /* 188.买卖股票的最佳时机-iv.cpp */,
+				89B2F9592725000300DB5B34 /* 198.打家劫舍.cpp */,
+				89B2F95B2725009100DB5B34 /* 203.移除链表元素.cpp */,
+				89B2F95D2725015D00DB5B34 /* 206.反转链表.cpp */,
 				8956A90C27242E8E0006474A /* 211.添加与搜索单词-数据结构设计-1.cpp */,
 				89DEB29226F363EB009A4894 /* 212.单词搜索-ii.cpp */,
+				89B2F95F272501EF00DB5B34 /* 215.数组中的第k个最大元素.cpp */,
 				89C3FC0A26CAAED900C87257 /* 222.完全二叉树的节点个数.cpp */,
 				8983473E270613D800B8946E /* 223.矩形面积.cpp */,
+				89B2F9612725027500DB5B34 /* 224.基本计算器.cpp */,
 				89C3FC2826CFFA1C00C87257 /* 225.用队列实现栈.cpp */,
 				89CC849E26C17AEC009483EF /* 226.翻转二叉树.cpp */,
 				8956A90D27242E8E0006474A /* 229.求众数-ii-1.cpp */,
 				89CC84AB26C2C692009483EF /* 230.二叉搜索树中第k小的元素.cpp */,
 				89C3FC2A26CFFB8200C87257 /* 232.用栈实现队列.cpp */,
 				89554F8726BD92EE00FEDFF1 /* 234.回文链表.cpp */,
+				89B2F96F2725079900DB5B34 /* 235.二叉搜索树的最近公共祖先.cpp */,
 				89C3FC0C26CAB26D00C87257 /* 236.二叉树的最近公共祖先.cpp */,
+				89B2F9632725030000DB5B34 /* 237.删除链表中的节点.cpp */,
 				89C3FC2626CFF74E00C87257 /* 239.滑动窗口最大值.cpp */,
 				89AE6F7127146D580013A3FA /* 273.整数转换英文表示.cpp */,
 				89239D1A271A6D8F00489E2B /* 282.给表达式添加运算符.cpp */,
@@ -350,6 +412,8 @@
 				89CEC83126FCC815000F9EC7 /* 326.3-的幂.cpp */,
 				89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */,
 				89C3FC4026D1077D00C87257 /* 344.反转字符串.cpp */,
+				89B2F965272503E600DB5B34 /* 347.前-k-个高频元素.cpp */,
+				89B2F9672725047900DB5B34 /* 349.两个数组的交集.cpp */,
 				895522652711D6E300133464 /* 352.将数据流变为多个不相交区间.cpp */,
 				894792CF27001A7100AC9055 /* 371.两整数之和.cpp */,
 				89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */,
@@ -364,6 +428,7 @@
 				89552267271296C200133464 /* 441.排列硬币.cpp */,
 				89DEB28B26EF9355009A4894 /* 447.回旋镖的数量.cpp */,
 				89CC84AD26C2C94A009483EF /* 450.删除二叉搜索树中的节点.cpp */,
+				89B2F969272504F400DB5B34 /* 451.根据字符出现频率排序.cpp */,
 				8956A90A27242E8E0006474A /* 453.最小操作次数使数组元素相等-1.cpp */,
 				8907628726E47A9800A93668 /* 470.用-rand-7-实现-rand-10.cpp */,
 				8956A90B27242E8E0006474A /* 476.数字的补数.cpp */,
@@ -375,6 +440,7 @@
 				8907627626DE89EB00A93668 /* 509.斐波那契数.cpp */,
 				89FFD6682704A1A800AD1B8D /* 517.超级洗衣机.cpp */,
 				89DEB28D26F0ED37009A4894 /* 524.通过删除字母匹配到字典里最长单词.cpp */,
+				89B2F971272508A900DB5B34 /* 530.二叉搜索树的最小绝对差.cpp */,
 				89CC84AF26C2D19B009483EF /* 538.把二叉搜索树转换为累加树.cpp */,
 				89A51CB326D3EB980013B3F2 /* 567.字符串的排列.cpp */,
 				89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */,
@@ -391,11 +457,15 @@
 				8907627426DE89B900A93668 /* 714.买卖股票的最佳时机含手续费.cpp */,
 				8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */,
 				89C3FC2426CFF58700C87257 /* 739.每日温度.cpp */,
+				89B2F9732725094000DB5B34 /* 783.二叉搜索树节点最小距离.cpp */,
 				89CC84BB26C42537009483EF /* 797.所有可能的路径.cpp */,
+				89B2F96B272505AB00DB5B34 /* 856.括号的分数.cpp */,
 				89C3FC2D26D0004700C87257 /* 870.优势洗牌.cpp */,
 				89C3FC3326D0EA7700C87257 /* 875.爱吃香蕉的珂珂.cpp */,
 				89C3FC4426D10D9A00C87257 /* 876.链表的中间结点.cpp */,
+				89B2F975272509C400DB5B34 /* 889.根据前序和后序遍历构造二叉树.cpp */,
 				89C3FC1C26CFEA6300C87257 /* 895.最大频率栈.cpp */,
+				89B2F97727250A8C00DB5B34 /* 938.二叉搜索树的范围和.cpp */,
 				89C3FC1626CEA34000C87257 /* 990.等式方程的可满足性.cpp */,
 				89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */,
 				89CC84B526C2D493009483EF /* 1038.把二叉搜索树转换为累加树.cpp */,

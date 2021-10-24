@@ -87,6 +87,29 @@ void printTreeByLevel(TreeNode* root) {
     printf("\n");
 }
 
+vector<int> getTreeLevel(TreeNode* root) {
+    vector<int> ans;
+
+    queue<TreeNode*> q;
+    if (root) {
+        q.push(root);
+    }
+    TreeNode* node;
+    while (!q.empty()) {
+        node = q.front();
+        ans.push_back(node->val);
+        q.pop();
+        if (node->left) {
+            q.push(node->left);
+        }
+        if (node->right) {
+            q.push(node->right);
+        }
+    }
+    return ans;
+}
+
+
 /// 打印向量
 void printVector(std::vector<int> *nodes) {
     for (auto n:(*nodes)) {

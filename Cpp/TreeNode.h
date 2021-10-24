@@ -28,6 +28,9 @@ TreeNode* generateTreeByLevel(std::vector<int> trees);
 /// 层序遍历打印二叉树
 void printTreeByLevel(TreeNode* root);
 
+/// 获取二叉树的层序遍历结果
+std::vector<int> getTreeLevel(TreeNode* root);
+
 /// 打印向量
 void printVector(std::vector<int> *nodes);
 
