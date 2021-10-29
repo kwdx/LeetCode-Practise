@@ -69,6 +69,10 @@
 		89239D182719D2E200489E2B /* 38.外观数列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "38.外观数列.cpp"; sourceTree = "<group>"; };
 		89239D1A271A6D8F00489E2B /* 282.给表达式添加运算符.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "282.给表达式添加运算符.cpp"; sourceTree = "<group>"; };
 		892B78BA270DD01D00923EA9 /* 414.第三大的数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "414.第三大的数.cpp"; sourceTree = "<group>"; };
+		893E11FD272AEC7300EAC6FD /* 869.重新排序得到-2-的幂.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "869.重新排序得到-2-的幂.cpp"; sourceTree = "<group>"; };
+		893E122A272C3DDA00EAC6FD /* 240.搜索二维矩阵-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "240.搜索二维矩阵-ii.cpp"; sourceTree = "<group>"; };
+		893E122C272C3DFB00EAC6FD /* 301.删除无效的括号.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "301.删除无效的括号.cpp"; sourceTree = "<group>"; };
+		893E122E272C4BCC00EAC6FD /* 335.路径交叉.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "335.路径交叉.cpp"; sourceTree = "<group>"; };
 		894792CF27001A7100AC9055 /* 371.两整数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "371.两整数之和.cpp"; sourceTree = "<group>"; };
 		8951E5DC270CA00000E891F6 /* 284.顶端迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "284.顶端迭代器.cpp"; sourceTree = "<group>"; };
 		895522652711D6E300133464 /* 352.将数据流变为多个不相交区间.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "352.将数据流变为多个不相交区间.cpp"; sourceTree = "<group>"; };
@@ -400,6 +404,7 @@
 				89C3FC0C26CAB26D00C87257 /* 236.二叉树的最近公共祖先.cpp */,
 				89B2F9632725030000DB5B34 /* 237.删除链表中的节点.cpp */,
 				89C3FC2626CFF74E00C87257 /* 239.滑动窗口最大值.cpp */,
+				893E122A272C3DDA00EAC6FD /* 240.搜索二维矩阵-ii.cpp */,
 				89AE6F7127146D580013A3FA /* 273.整数转换英文表示.cpp */,
 				89239D1A271A6D8F00489E2B /* 282.给表达式添加运算符.cpp */,
 				89A51CC726D3F70C0013B3F2 /* 283.移动零.cpp */,
@@ -407,10 +412,12 @@
 				899FFB8E26F5E33800334BB1 /* 292.nim-游戏.cpp */,
 				89C3FC1E26CFEF1100C87257 /* 295.数据流的中位数.cpp */,
 				89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */,
+				893E122C272C3DFB00EAC6FD /* 301.删除无效的括号.cpp */,
 				8907627226DE898E00A93668 /* 309.最佳买卖股票时机含冷冻期.cpp */,
 				89A51CBD26D3F4560013B3F2 /* 316.去除重复字母.cpp */,
 				89554F8D26BECFC200FEDFF1 /* 322.零钱兑换.cpp */,
 				89CEC83126FCC815000F9EC7 /* 326.3-的幂.cpp */,
+				893E122E272C4BCC00EAC6FD /* 335.路径交叉.cpp */,
 				89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */,
 				89C3FC4026D1077D00C87257 /* 344.反转字符串.cpp */,
 				89B2F965272503E600DB5B34 /* 347.前-k-个高频元素.cpp */,
@@ -462,6 +469,7 @@
 				89B2F9732725094000DB5B34 /* 783.二叉搜索树节点最小距离.cpp */,
 				89CC84BB26C42537009483EF /* 797.所有可能的路径.cpp */,
 				89B2F96B272505AB00DB5B34 /* 856.括号的分数.cpp */,
+				893E11FD272AEC7300EAC6FD /* 869.重新排序得到-2-的幂.cpp */,
 				89C3FC2D26D0004700C87257 /* 870.优势洗牌.cpp */,
 				89C3FC3326D0EA7700C87257 /* 875.爱吃香蕉的珂珂.cpp */,
 				89C3FC4426D10D9A00C87257 /* 876.链表的中间结点.cpp */,
