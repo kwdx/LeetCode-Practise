@@ -10,7 +10,6 @@
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
-		89886F68272CE4BA003A626D /* 23.合并k个升序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F67272CE4B9003A626D /* 23.合并k个升序链表.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 /* End PBXBuildFile section */
@@ -118,6 +117,8 @@
 		89886F62272CE20B003A626D /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		89886F64272CE221003A626D /* 21.合并两个有序链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "21.合并两个有序链表.swift"; sourceTree = "<group>"; };
 		89886F67272CE4B9003A626D /* 23.合并k个升序链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "23.合并k个升序链表.swift"; sourceTree = "<group>"; };
+		89886F69272CE7A7003A626D /* 260.只出现一次的数字-iii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "260.只出现一次的数字-iii.cpp"; sourceTree = "<group>"; };
+		89886F6B272CF392003A626D /* 260.只出现一次的数字-iii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "260.只出现一次的数字-iii.swift"; sourceTree = "<group>"; };
 		8989CF5527034A8A00DB244B /* 437.路径总和-iii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "437.路径总和-iii.cpp"; sourceTree = "<group>"; };
 		898F272226C8B8EE0077B621 /* 5832.构造元素不等于两相邻元素平均值的数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5832.构造元素不等于两相邻元素平均值的数组.cpp"; sourceTree = "<group>"; };
 		898F272426C8BE780077B621 /* 5844.数组元素的最小非零乘积.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5844.数组元素的最小非零乘积.cpp"; sourceTree = "<group>"; };
@@ -336,6 +337,7 @@
 				89886F58272CDFA2003A626D /* 224.基本计算器.swift */,
 				89886F5B272CE03E003A626D /* 225.用队列实现栈.swift */,
 				89886F5D272CE104003A626D /* 232.用栈实现队列.swift */,
+				89886F6B272CF392003A626D /* 260.只出现一次的数字-iii.swift */,
 				89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */,
 				89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */,
 				89886F4C272C5EF5003A626D /* 349.两个数组的交集.swift */,
@@ -440,6 +442,7 @@
 				89B2F9632725030000DB5B34 /* 237.删除链表中的节点.cpp */,
 				89C3FC2626CFF74E00C87257 /* 239.滑动窗口最大值.cpp */,
 				893E122A272C3DDA00EAC6FD /* 240.搜索二维矩阵-ii.cpp */,
+				89886F69272CE7A7003A626D /* 260.只出现一次的数字-iii.cpp */,
 				89AE6F7127146D580013A3FA /* 273.整数转换英文表示.cpp */,
 				89239D1A271A6D8F00489E2B /* 282.给表达式添加运算符.cpp */,
 				89A51CC726D3F70C0013B3F2 /* 283.移动零.cpp */,
@@ -719,7 +722,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89886F68272CE4BA003A626D /* 23.合并k个升序链表.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 			);
