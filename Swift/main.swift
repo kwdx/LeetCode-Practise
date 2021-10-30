@@ -9,4 +9,6 @@ import Foundation
 
 print("Hello, World!")
 
-test()
+main()
+
+print("OK~")

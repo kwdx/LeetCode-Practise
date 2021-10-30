@@ -53,21 +53,54 @@ class Solution {
 }
 // @lc code=end
 
-func test() {
-    let solution = Solution()
-    // 3
-    print(solution.coinChange([1, 2, 5], 11))
-
-    // -1
-    print(solution.coinChange([2], 3))
-
-    // 0
-    print(solution.coinChange([1], 0))
-
-    // 1
-    print(solution.coinChange([1], 1))
+func main() {
+    var coins: [Int]
+    var amount: Int
+    var res: Int
     
-    // 2
-    print(solution.coinChange([1], 2))
-
+    /**
+     输入：coins = [1, 2, 5], amount = 11
+     输出：3
+     解释：11 = 5 + 5 + 1
+     */
+    coins = [1,2,5]
+    amount = 11
+    res = 3
+    assert(res == Solution().coinChange(coins, amount))
+    
+    /**
+     输入：coins = [2], amount = 3
+     输出：-1
+     */
+    coins = [2]
+    amount = 3
+    res = -1
+    assert(res == Solution().coinChange(coins, amount))
+    
+    /**
+     输入：coins = [1], amount = 0
+     输出：0
+     */
+    coins = [1]
+    amount = 0
+    res = 0
+    assert(res == Solution().coinChange(coins, amount))
+    
+    /**
+     输入：coins = [1], amount = 1
+     输出：1
+     */
+    coins = [1]
+    amount = 1
+    res = 1
+    assert(res == Solution().coinChange(coins, amount))
+    
+    /**
+     输入：coins = [1], amount = 2
+     输出：2
+     */
+    coins = [1]
+    amount = 2
+    res = 2
+    assert(res == Solution().coinChange(coins, amount))
 }
