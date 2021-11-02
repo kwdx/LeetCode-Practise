@@ -62,6 +62,7 @@
 		8909653A26F77737005E17EA /* 650.只有两个键的键盘.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "650.只有两个键的键盘.cpp"; sourceTree = "<group>"; };
 		8909E65427107658005ABD25 /* 187.重复的dna序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "187.重复的dna序列.cpp"; sourceTree = "<group>"; };
 		890E21FB270AA8E80081372B /* 482.密钥格式化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "482.密钥格式化.cpp"; sourceTree = "<group>"; };
+		891095852731767C00981C0D /* 237.删除链表中的节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "237.删除链表中的节点.swift"; sourceTree = "<group>"; };
 		8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "725.分隔链表.cpp"; sourceTree = "<group>"; };
 		89239D0F2715D0D200489E2B /* 29.两数相除.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "29.两数相除.cpp"; sourceTree = "<group>"; };
 		89239D112717130400489E2B /* 412.fizz-buzz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "412.fizz-buzz.cpp"; sourceTree = "<group>"; };
@@ -341,6 +342,7 @@
 				89886F58272CDFA2003A626D /* 224.基本计算器.swift */,
 				89886F5B272CE03E003A626D /* 225.用队列实现栈.swift */,
 				89886F5D272CE104003A626D /* 232.用栈实现队列.swift */,
+				891095852731767C00981C0D /* 237.删除链表中的节点.swift */,
 				89886F6B272CF392003A626D /* 260.只出现一次的数字-iii.swift */,
 				89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */,
 				89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */,

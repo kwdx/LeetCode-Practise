@@ -57,6 +57,17 @@ func generateListNode(_ nodes: [[Int]]) -> [ListNode?] {
     return nodes.map(generateListNode(_:))
 }
 
+// 获取nodes
+func getNodes(_ node: ListNode?) -> [Int] {
+    var ans: [Int] = []
+    var node_ = node
+    while let val = node_?.val {
+        ans.append(val)
+        node_ = node_?.next
+    }
+    return ans
+}
+
 // 打印节点链表
 func printListNode(_ node: ListNode?) {
     if node == nil {
