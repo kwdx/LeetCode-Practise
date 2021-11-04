@@ -63,6 +63,9 @@
 		8909E65427107658005ABD25 /* 187.重复的dna序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "187.重复的dna序列.cpp"; sourceTree = "<group>"; };
 		890E21FB270AA8E80081372B /* 482.密钥格式化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "482.密钥格式化.cpp"; sourceTree = "<group>"; };
 		891095852731767C00981C0D /* 237.删除链表中的节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "237.删除链表中的节点.swift"; sourceTree = "<group>"; };
+		891095872734200C00981C0D /* 407.接雨水-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "407.接雨水-ii.cpp"; sourceTree = "<group>"; };
+		89109589273420B400981C0D /* 367.有效的完全平方数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "367.有效的完全平方数.cpp"; sourceTree = "<group>"; };
+		8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "367.有效的完全平方数.swift"; sourceTree = "<group>"; };
 		8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "725.分隔链表.cpp"; sourceTree = "<group>"; };
 		89239D0F2715D0D200489E2B /* 29.两数相除.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "29.两数相除.cpp"; sourceTree = "<group>"; };
 		89239D112717130400489E2B /* 412.fizz-buzz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "412.fizz-buzz.cpp"; sourceTree = "<group>"; };
@@ -347,6 +350,7 @@
 				89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */,
 				89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */,
 				89886F4C272C5EF5003A626D /* 349.两个数组的交集.swift */,
+				8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */,
 				89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */,
 				89886F6F272EC8B2003A626D /* 500.键盘行.swift */,
 				89886F51272CDCE6003A626D /* 509.斐波那契数.swift */,
@@ -469,8 +473,10 @@
 				89B2F965272503E600DB5B34 /* 347.前-k-个高频元素.cpp */,
 				89B2F9672725047900DB5B34 /* 349.两个数组的交集.cpp */,
 				895522652711D6E300133464 /* 352.将数据流变为多个不相交区间.cpp */,
+				89109589273420B400981C0D /* 367.有效的完全平方数.cpp */,
 				894792CF27001A7100AC9055 /* 371.两整数之和.cpp */,
 				89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */,
+				891095872734200C00981C0D /* 407.接雨水-ii.cpp */,
 				89C3FC3726D0FCD600C87257 /* 410.分割数组的最大值.cpp */,
 				89239D112717130400489E2B /* 412.fizz-buzz.cpp */,
 				892B78BA270DD01D00923EA9 /* 414.第三大的数.cpp */,
