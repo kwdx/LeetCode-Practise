@@ -66,6 +66,8 @@
 		891095872734200C00981C0D /* 407.接雨水-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "407.接雨水-ii.cpp"; sourceTree = "<group>"; };
 		89109589273420B400981C0D /* 367.有效的完全平方数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "367.有效的完全平方数.cpp"; sourceTree = "<group>"; };
 		8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "367.有效的完全平方数.swift"; sourceTree = "<group>"; };
+		8910958D2735799500981C0D /* 1218.最长定差子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1218.最长定差子序列.swift"; sourceTree = "<group>"; };
+		8910958F273579C800981C0D /* 1218.最长定差子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1218.最长定差子序列.cpp"; sourceTree = "<group>"; };
 		8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "725.分隔链表.cpp"; sourceTree = "<group>"; };
 		89239D0F2715D0D200489E2B /* 29.两数相除.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "29.两数相除.cpp"; sourceTree = "<group>"; };
 		89239D112717130400489E2B /* 412.fizz-buzz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "412.fizz-buzz.cpp"; sourceTree = "<group>"; };
@@ -356,6 +358,7 @@
 				89886F51272CDCE6003A626D /* 509.斐波那契数.swift */,
 				8995D89C27303094001A499C /* 575.分糖果.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
+				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				89886F61272CE1FF003A626D /* 链表 */,
 				89C3FC4B26D1ED6600C87257 /* 排序 */,
 				89554FA326BEDED300FEDFF1 /* main.swift */,
@@ -535,6 +538,7 @@
 				89CC84B526C2D493009483EF /* 1038.把二叉搜索树转换为累加树.cpp */,
 				89A51CBF26D3F5140013B3F2 /* 1081.不同字符的最小子序列.cpp */,
 				89BA3E9226E50245000B8F69 /* 1143.最长公共子序列.cpp */,
+				8910958F273579C800981C0D /* 1218.最长定差子序列.cpp */,
 				8966DE5826E7BBF400AEA606 /* 1221.分割平衡字符串.cpp */,
 				89CC84BD26C427C8009483EF /* 1373.二叉搜索子树的最大键值和.cpp */,
 				8969847727072BB30070F99C /* 1436.旅行终点站.cpp */,

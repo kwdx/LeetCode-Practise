@@ -25,7 +25,6 @@ class Solution {
 }
 // @lc code=end
 
-
 func main() {
     var num: Int
     var res: Bool
