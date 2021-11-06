@@ -37,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		890044A1270E943000EC68D9 /* 434.字符串中的单词数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "434.字符串中的单词数.cpp"; sourceTree = "<group>"; };
+		890126E72736386300440D63 /* 268.丢失的数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "268.丢失的数字.cpp"; sourceTree = "<group>"; };
+		890126E92736395600440D63 /* 268.丢失的数字.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "268.丢失的数字.swift"; sourceTree = "<group>"; };
 		8902686526BEEDB600156215 /* 416.分割等和子集.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "416.分割等和子集.cpp"; sourceTree = "<group>"; };
 		8907625526D5398A00A93668 /* 83.删除排序链表中的重复元素.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "83.删除排序链表中的重复元素.cpp"; sourceTree = "<group>"; };
 		8907625726D53D9B00A93668 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -349,6 +351,7 @@
 				89886F5D272CE104003A626D /* 232.用栈实现队列.swift */,
 				891095852731767C00981C0D /* 237.删除链表中的节点.swift */,
 				89886F6B272CF392003A626D /* 260.只出现一次的数字-iii.swift */,
+				890126E92736395600440D63 /* 268.丢失的数字.swift */,
 				89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */,
 				89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */,
 				89886F4C272C5EF5003A626D /* 349.两个数组的交集.swift */,
@@ -458,6 +461,7 @@
 				89C3FC2626CFF74E00C87257 /* 239.滑动窗口最大值.cpp */,
 				893E122A272C3DDA00EAC6FD /* 240.搜索二维矩阵-ii.cpp */,
 				89886F69272CE7A7003A626D /* 260.只出现一次的数字-iii.cpp */,
+				890126E72736386300440D63 /* 268.丢失的数字.cpp */,
 				89AE6F7127146D580013A3FA /* 273.整数转换英文表示.cpp */,
 				89239D1A271A6D8F00489E2B /* 282.给表达式添加运算符.cpp */,
 				89A51CC726D3F70C0013B3F2 /* 283.移动零.cpp */,
