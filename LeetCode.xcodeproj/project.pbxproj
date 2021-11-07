@@ -134,6 +134,8 @@
 		898F272226C8B8EE0077B621 /* 5832.构造元素不等于两相邻元素平均值的数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5832.构造元素不等于两相邻元素平均值的数组.cpp"; sourceTree = "<group>"; };
 		898F272426C8BE780077B621 /* 5844.数组元素的最小非零乘积.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5844.数组元素的最小非零乘积.cpp"; sourceTree = "<group>"; };
 		898F272626C8C2B30077B621 /* 5845.你能穿过矩阵的最后一天.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5845.你能穿过矩阵的最后一天.cpp"; sourceTree = "<group>"; };
+		898F44A22737DAE00051A08C /* 598.范围求和-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "598.范围求和-ii.cpp"; sourceTree = "<group>"; };
+		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
 		8995D89C27303094001A499C /* 575.分糖果.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "575.分糖果.swift"; sourceTree = "<group>"; };
 		899FFB8E26F5E33800334BB1 /* 292.nim-游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "292.nim-游戏.cpp"; sourceTree = "<group>"; };
 		89A484372709E04200EEF031 /* 166.分数到小数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "166.分数到小数.cpp"; sourceTree = "<group>"; };
@@ -360,6 +362,7 @@
 				89886F6F272EC8B2003A626D /* 500.键盘行.swift */,
 				89886F51272CDCE6003A626D /* 509.斐波那契数.swift */,
 				8995D89C27303094001A499C /* 575.分糖果.swift */,
+				898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				89886F61272CE1FF003A626D /* 链表 */,
@@ -512,6 +515,7 @@
 				89CC84AF26C2D19B009483EF /* 538.把二叉搜索树转换为累加树.cpp */,
 				89A51CB326D3EB980013B3F2 /* 567.字符串的排列.cpp */,
 				8957EDB527302F1600A67CCA /* 575.分糖果.cpp */,
+				898F44A22737DAE00051A08C /* 598.范围求和-ii.cpp */,
 				89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */,
 				89FDB49B27250CBA00E77C54 /* 638.大礼包.cpp */,
 				898379132701FFD200A1E293 /* 639.解码方法-ii.cpp */,
