@@ -137,6 +137,8 @@
 		898F44A22737DAE00051A08C /* 598.范围求和-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "598.范围求和-ii.cpp"; sourceTree = "<group>"; };
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
 		8995D89C27303094001A499C /* 575.分糖果.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "575.分糖果.swift"; sourceTree = "<group>"; };
+		899EF52527395D9500CCB02F /* 299.猜数字游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "299.猜数字游戏.cpp"; sourceTree = "<group>"; };
+		899EF52727395E5700CCB02F /* 299.猜数字游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "299.猜数字游戏.swift"; sourceTree = "<group>"; };
 		899FFB8E26F5E33800334BB1 /* 292.nim-游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "292.nim-游戏.cpp"; sourceTree = "<group>"; };
 		89A484372709E04200EEF031 /* 166.分数到小数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "166.分数到小数.cpp"; sourceTree = "<group>"; };
 		89A51CB326D3EB980013B3F2 /* 567.字符串的排列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "567.字符串的排列.cpp"; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 				891095852731767C00981C0D /* 237.删除链表中的节点.swift */,
 				89886F6B272CF392003A626D /* 260.只出现一次的数字-iii.swift */,
 				890126E92736395600440D63 /* 268.丢失的数字.swift */,
+				899EF52727395E5700CCB02F /* 299.猜数字游戏.swift */,
 				89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */,
 				89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */,
 				89886F4C272C5EF5003A626D /* 349.两个数组的交集.swift */,
@@ -472,6 +475,7 @@
 				899FFB8E26F5E33800334BB1 /* 292.nim-游戏.cpp */,
 				89C3FC1E26CFEF1100C87257 /* 295.数据流的中位数.cpp */,
 				89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */,
+				899EF52527395D9500CCB02F /* 299.猜数字游戏.cpp */,
 				893E122C272C3DFB00EAC6FD /* 301.删除无效的括号.cpp */,
 				8907627226DE898E00A93668 /* 309.最佳买卖股票时机含冷冻期.cpp */,
 				89A51CBD26D3F4560013B3F2 /* 316.去除重复字母.cpp */,
