@@ -108,6 +108,8 @@
 		8966DE5C26EA56C800AEA606 /* 68.文本左右对齐.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "68.文本左右对齐.cpp"; sourceTree = "<group>"; };
 		8966DE5E26EBA5E900AEA606 /* 1894.找到需要补充粉笔的学生编号.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1894.找到需要补充粉笔的学生编号.cpp"; sourceTree = "<group>"; };
 		8969847727072BB30070F99C /* 1436.旅行终点站.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1436.旅行终点站.cpp"; sourceTree = "<group>"; };
+		89766319273C19D500507E1F /* 495.提莫攻击.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "495.提莫攻击.cpp"; sourceTree = "<group>"; };
+		8976631B273C1B2600507E1F /* 495.提莫攻击.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "495.提莫攻击.swift"; sourceTree = "<group>"; };
 		89782A0E26F98B86000428A0 /* 58.最后一个单词的长度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "58.最后一个单词的长度.cpp"; sourceTree = "<group>"; };
 		8983473E270613D800B8946E /* 223.矩形面积.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "223.矩形面积.cpp"; sourceTree = "<group>"; };
 		898379132701FFD200A1E293 /* 639.解码方法-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "639.解码方法-ii.cpp"; sourceTree = "<group>"; };
@@ -362,6 +364,7 @@
 				89886F4C272C5EF5003A626D /* 349.两个数组的交集.swift */,
 				8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */,
 				89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */,
+				8976631B273C1B2600507E1F /* 495.提莫攻击.swift */,
 				89886F6F272EC8B2003A626D /* 500.键盘行.swift */,
 				89886F51272CDCE6003A626D /* 509.斐波那契数.swift */,
 				8995D89C27303094001A499C /* 575.分糖果.swift */,
@@ -508,6 +511,7 @@
 				8956A90B27242E8E0006474A /* 476.数字的补数.cpp */,
 				890E21FB270AA8E80081372B /* 482.密钥格式化.cpp */,
 				8956A90827242C820006474A /* 492.构造矩形.cpp */,
+				89766319273C19D500507E1F /* 495.提莫攻击.cpp */,
 				89C3FC2026CFF19D00C87257 /* 496.下一个更大元素-i.cpp */,
 				89886F6D272EC283003A626D /* 500.键盘行.cpp */,
 				8966DE5A26E90CAD00AEA606 /* 502.ipo.cpp */,
