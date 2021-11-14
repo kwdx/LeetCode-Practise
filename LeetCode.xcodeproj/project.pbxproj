@@ -64,6 +64,8 @@
 		8909653A26F77737005E17EA /* 650.只有两个键的键盘.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "650.只有两个键的键盘.cpp"; sourceTree = "<group>"; };
 		8909E65427107658005ABD25 /* 187.重复的dna序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "187.重复的dna序列.cpp"; sourceTree = "<group>"; };
 		890E21FB270AA8E80081372B /* 482.密钥格式化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "482.密钥格式化.cpp"; sourceTree = "<group>"; };
+		890E883D2740C9CB0073633B /* 677.键值映射.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "677.键值映射.cpp"; sourceTree = "<group>"; };
+		890E883F2740CB8C0073633B /* 677.键值映射.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "677.键值映射.swift"; sourceTree = "<group>"; };
 		891095852731767C00981C0D /* 237.删除链表中的节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "237.删除链表中的节点.swift"; sourceTree = "<group>"; };
 		891095872734200C00981C0D /* 407.接雨水-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "407.接雨水-ii.cpp"; sourceTree = "<group>"; };
 		89109589273420B400981C0D /* 367.有效的完全平方数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "367.有效的完全平方数.cpp"; sourceTree = "<group>"; };
@@ -379,6 +381,7 @@
 				8995D89C27303094001A499C /* 575.分糖果.swift */,
 				898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */,
 				89766320273D6A5600507E1F /* 629.k个逆序对数组.swift */,
+				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				89886F61272CE1FF003A626D /* 链表 */,
@@ -545,6 +548,7 @@
 				89CC849C26C17792009483EF /* 652.寻找重复的子树.cpp */,
 				89CC849726C17562009483EF /* 654.最大二叉树.cpp */,
 				89DE25C126F8D411005999E0 /* 673.最长递增子序列的个数.cpp */,
+				890E883D2740C9CB0073633B /* 677.键值映射.cpp */,
 				89CF305526EE51560029D7B6 /* 678.有效的括号字符串.cpp */,
 				89CC84B126C2D2C8009483EF /* 700.二叉搜索树中的搜索.cpp */,
 				89CC84B326C2D3BF009483EF /* 701.二叉搜索树中的插入操作.cpp */,

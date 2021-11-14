@@ -26,7 +26,6 @@ class Solution {
 }
 // @lc code=end
 
-
 func main() {
     var word: String
     var res: Bool
