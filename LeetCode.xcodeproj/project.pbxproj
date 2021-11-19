@@ -10,6 +10,7 @@
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
+		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 /* End PBXBuildFile section */
@@ -146,6 +147,17 @@
 		898F44A22737DAE00051A08C /* 598.范围求和-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "598.范围求和-ii.cpp"; sourceTree = "<group>"; };
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
 		8995D89C27303094001A499C /* 575.分糖果.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "575.分糖果.swift"; sourceTree = "<group>"; };
+		899A76C32747F65F006DA530 /* 319.灯泡开关.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "319.灯泡开关.cpp"; sourceTree = "<group>"; };
+		899A76C52747F67C006DA530 /* 391.完美矩形.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "391.完美矩形.cpp"; sourceTree = "<group>"; };
+		899A76C72747F692006DA530 /* 318.最大单词长度乘积.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "318.最大单词长度乘积.cpp"; sourceTree = "<group>"; };
+		899A76CA2747F6AD006DA530 /* 563.二叉树的坡度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "563.二叉树的坡度.cpp"; sourceTree = "<group>"; };
+		899A76CC2747F6BD006DA530 /* 397.整数替换.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "397.整数替换.cpp"; sourceTree = "<group>"; };
+		899A76CF2747F6E2006DA530 /* 319.灯泡开关.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "319.灯泡开关.swift"; sourceTree = "<group>"; };
+		899A76D12747F6F6006DA530 /* 391.完美矩形-1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "391.完美矩形-1.swift"; sourceTree = "<group>"; };
+		899A76D32747F703006DA530 /* 318.最大单词长度乘积-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "318.最大单词长度乘积-2.swift"; sourceTree = "<group>"; };
+		899A76D52747F710006DA530 /* 563.二叉树的坡度-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "563.二叉树的坡度-2.swift"; sourceTree = "<group>"; };
+		899A76D72747F72E006DA530 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		899A76D92747F753006DA530 /* 397.整数替换.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "397.整数替换.swift"; sourceTree = "<group>"; };
 		899EF52527395D9500CCB02F /* 299.猜数字游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "299.猜数字游戏.cpp"; sourceTree = "<group>"; };
 		899EF52727395E5700CCB02F /* 299.猜数字游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "299.猜数字游戏.swift"; sourceTree = "<group>"; };
 		899FFB8E26F5E33800334BB1 /* 292.nim-游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "292.nim-游戏.cpp"; sourceTree = "<group>"; };
@@ -353,6 +365,7 @@
 		89554FA126BEDED300FEDFF1 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				899A76D72747F72E006DA530 /* TreeNode.swift */,
 				89886F54272CDE00003A626D /* 20.有效的括号.swift */,
 				89886F64272CE221003A626D /* 21.合并两个有序链表.swift */,
 				89886F67272CE4B9003A626D /* 23.合并k个升序链表.swift */,
@@ -368,16 +381,21 @@
 				89886F6B272CF392003A626D /* 260.只出现一次的数字-iii.swift */,
 				890126E92736395600440D63 /* 268.丢失的数字.swift */,
 				899EF52727395E5700CCB02F /* 299.猜数字游戏.swift */,
+				899A76D32747F703006DA530 /* 318.最大单词长度乘积-2.swift */,
+				899A76CF2747F6E2006DA530 /* 319.灯泡开关.swift */,
 				89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */,
 				89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */,
 				89886F4C272C5EF5003A626D /* 349.两个数组的交集.swift */,
 				8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */,
 				89FA69B8273EC786005D1B5D /* 375.猜数字大小-ii.swift */,
+				899A76D12747F6F6006DA530 /* 391.完美矩形-1.swift */,
+				899A76D92747F753006DA530 /* 397.整数替换.swift */,
 				89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */,
 				8976631B273C1B2600507E1F /* 495.提莫攻击.swift */,
 				89886F6F272EC8B2003A626D /* 500.键盘行.swift */,
 				89886F51272CDCE6003A626D /* 509.斐波那契数.swift */,
 				891C5A62273F718D0047E46E /* 520.检测大写字母.swift */,
+				899A76D52747F710006DA530 /* 563.二叉树的坡度-2.swift */,
 				8995D89C27303094001A499C /* 575.分糖果.swift */,
 				898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */,
 				89766320273D6A5600507E1F /* 629.k个逆序对数组.swift */,
@@ -495,6 +513,8 @@
 				893E122C272C3DFB00EAC6FD /* 301.删除无效的括号.cpp */,
 				8907627226DE898E00A93668 /* 309.最佳买卖股票时机含冷冻期.cpp */,
 				89A51CBD26D3F4560013B3F2 /* 316.去除重复字母.cpp */,
+				899A76C72747F692006DA530 /* 318.最大单词长度乘积.cpp */,
+				899A76C32747F65F006DA530 /* 319.灯泡开关.cpp */,
 				89554F8D26BECFC200FEDFF1 /* 322.零钱兑换.cpp */,
 				89CEC83126FCC815000F9EC7 /* 326.3-的幂.cpp */,
 				893E122E272C4BCC00EAC6FD /* 335.路径交叉.cpp */,
@@ -507,6 +527,8 @@
 				894792CF27001A7100AC9055 /* 371.两整数之和.cpp */,
 				89FA69B6273EC3D0005D1B5D /* 375.猜数字大小-ii.cpp */,
 				89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */,
+				899A76C52747F67C006DA530 /* 391.完美矩形.cpp */,
+				899A76CC2747F6BD006DA530 /* 397.整数替换.cpp */,
 				891095872734200C00981C0D /* 407.接雨水-ii.cpp */,
 				89C3FC3726D0FCD600C87257 /* 410.分割数组的最大值.cpp */,
 				89239D112717130400489E2B /* 412.fizz-buzz.cpp */,
@@ -537,6 +559,7 @@
 				89DEB28D26F0ED37009A4894 /* 524.通过删除字母匹配到字典里最长单词.cpp */,
 				89B2F971272508A900DB5B34 /* 530.二叉搜索树的最小绝对差.cpp */,
 				89CC84AF26C2D19B009483EF /* 538.把二叉搜索树转换为累加树.cpp */,
+				899A76CA2747F6AD006DA530 /* 563.二叉树的坡度.cpp */,
 				89A51CB326D3EB980013B3F2 /* 567.字符串的排列.cpp */,
 				8957EDB527302F1600A67CCA /* 575.分糖果.cpp */,
 				898F44A22737DAE00051A08C /* 598.范围求和-ii.cpp */,
@@ -778,6 +801,7 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
+				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
