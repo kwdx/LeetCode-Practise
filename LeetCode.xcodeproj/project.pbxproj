@@ -287,6 +287,8 @@
 		89DEB28D26F0ED37009A4894 /* 524.通过删除字母匹配到字典里最长单词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "524.通过删除字母匹配到字典里最长单词.cpp"; sourceTree = "<group>"; };
 		89DEB29026F248FC009A4894 /* 162.寻找峰值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "162.寻找峰值.cpp"; sourceTree = "<group>"; };
 		89DEB29226F363EB009A4894 /* 212.单词搜索-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "212.单词搜索-ii.cpp"; sourceTree = "<group>"; };
+		89E5AAC727493969007DB9B9 /* 594.最长和谐子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "594.最长和谐子序列.cpp"; sourceTree = "<group>"; };
+		89E5AAC927493A7E007DB9B9 /* 594.最长和谐子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "594.最长和谐子序列.swift"; sourceTree = "<group>"; };
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
 		89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "297.二叉树的序列化与反序列化.cpp"; sourceTree = "<group>"; };
 		89FA69B6273EC3D0005D1B5D /* 375.猜数字大小-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "375.猜数字大小-ii.cpp"; sourceTree = "<group>"; };
@@ -397,6 +399,7 @@
 				891C5A62273F718D0047E46E /* 520.检测大写字母.swift */,
 				899A76D52747F710006DA530 /* 563.二叉树的坡度-2.swift */,
 				8995D89C27303094001A499C /* 575.分糖果.swift */,
+				89E5AAC927493A7E007DB9B9 /* 594.最长和谐子序列.swift */,
 				898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */,
 				89766320273D6A5600507E1F /* 629.k个逆序对数组.swift */,
 				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
@@ -562,6 +565,7 @@
 				899A76CA2747F6AD006DA530 /* 563.二叉树的坡度.cpp */,
 				89A51CB326D3EB980013B3F2 /* 567.字符串的排列.cpp */,
 				8957EDB527302F1600A67CCA /* 575.分糖果.cpp */,
+				89E5AAC727493969007DB9B9 /* 594.最长和谐子序列.cpp */,
 				898F44A22737DAE00051A08C /* 598.范围求和-ii.cpp */,
 				89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */,
 				8976631E273D698000507E1F /* 629.k个逆序对数组.cpp */,
