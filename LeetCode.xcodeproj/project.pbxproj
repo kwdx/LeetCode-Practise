@@ -12,6 +12,7 @@
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
+		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 /* End PBXBuildFile section */
 
@@ -246,6 +247,9 @@
 		89C3FC5126D1F1AD00C87257 /* 5851.找出不同的二进制字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5851.找出不同的二进制字符串.cpp"; sourceTree = "<group>"; };
 		89C3FC5326D1F64B00C87257 /* 5852.最小化目标值与所选元素的差.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5852.最小化目标值与所选元素的差.cpp"; sourceTree = "<group>"; };
 		89C3FC5526D1F83100C87257 /* 5853.从子集的和还原数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5853.从子集的和还原数组.cpp"; sourceTree = "<group>"; };
+		89C84271274A057800A73FAB /* 559.n-叉树的最大深度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "559.n-叉树的最大深度.cpp"; sourceTree = "<group>"; };
+		89C84273274A081700A73FAB /* 559.n-叉树的最大深度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "559.n-叉树的最大深度.swift"; sourceTree = "<group>"; };
+		89C84275274A09F400A73FAB /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		89CC848326BF79A1009483EF /* 5838.检查字符串是否为数组前缀.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5838.检查字符串是否为数组前缀.cpp"; sourceTree = "<group>"; };
 		89CC848626BF7C6D009483EF /* 5839.移除石子使总数最小.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5839.移除石子使总数最小.cpp"; sourceTree = "<group>"; };
 		89CC848826BF7E3B009483EF /* 5840.使字符串平衡的最小交换次数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5840.使字符串平衡的最小交换次数.cpp"; sourceTree = "<group>"; };
@@ -397,6 +401,7 @@
 				89886F6F272EC8B2003A626D /* 500.键盘行.swift */,
 				89886F51272CDCE6003A626D /* 509.斐波那契数.swift */,
 				891C5A62273F718D0047E46E /* 520.检测大写字母.swift */,
+				89C84273274A081700A73FAB /* 559.n-叉树的最大深度.swift */,
 				899A76D52747F710006DA530 /* 563.二叉树的坡度-2.swift */,
 				8995D89C27303094001A499C /* 575.分糖果.swift */,
 				89E5AAC927493A7E007DB9B9 /* 594.最长和谐子序列.swift */,
@@ -408,6 +413,7 @@
 				89886F61272CE1FF003A626D /* 链表 */,
 				89C3FC4B26D1ED6600C87257 /* 排序 */,
 				89554FA326BEDED300FEDFF1 /* main.swift */,
+				89C84275274A09F400A73FAB /* Node.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -562,6 +568,7 @@
 				89DEB28D26F0ED37009A4894 /* 524.通过删除字母匹配到字典里最长单词.cpp */,
 				89B2F971272508A900DB5B34 /* 530.二叉搜索树的最小绝对差.cpp */,
 				89CC84AF26C2D19B009483EF /* 538.把二叉搜索树转换为累加树.cpp */,
+				89C84271274A057800A73FAB /* 559.n-叉树的最大深度.cpp */,
 				899A76CA2747F6AD006DA530 /* 563.二叉树的坡度.cpp */,
 				89A51CB326D3EB980013B3F2 /* 567.字符串的排列.cpp */,
 				8957EDB527302F1600A67CCA /* 575.分糖果.cpp */,
@@ -804,6 +811,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 			);
