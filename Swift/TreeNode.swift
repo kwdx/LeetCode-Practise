@@ -12,10 +12,10 @@ public class TreeNode {
     public var val: Int
     public var left: TreeNode?
     public var right: TreeNode?
-    public init(_ val: Int) {
+    public init(_ val: Int, _ left: TreeNode? = nil, _ right: TreeNode?  = nil) {
         self.val = val
-        self.left = nil
-        self.right = nil   
+        self.left = left
+        self.right = right
     }
 }
 

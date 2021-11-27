@@ -11,6 +11,8 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
+		89AE789C2751CDF000598666 /* 519.随机翻转矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AE789B2751CDF000598666 /* 519.随机翻转矩阵.swift */; };
+		89AE789E2751E44700598666 /* 519.随机翻转矩阵.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89AE789D2751E44700598666 /* 519.随机翻转矩阵.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -176,6 +178,17 @@
 		89A51CCA26D3F8540013B3F2 /* 1.两数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1.两数之和.cpp"; sourceTree = "<group>"; };
 		89A6BEFF26BD8182007BDF6B /* Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AE6F7127146D580013A3FA /* 273.整数转换英文表示.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "273.整数转换英文表示.cpp"; sourceTree = "<group>"; };
+		89AE789B2751CDF000598666 /* 519.随机翻转矩阵.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "519.随机翻转矩阵.swift"; sourceTree = "<group>"; };
+		89AE789D2751E44700598666 /* 519.随机翻转矩阵.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "519.随机翻转矩阵.cpp"; sourceTree = "<group>"; };
+		89AE789F2751E79400598666 /* 384.打乱数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "384.打乱数组.cpp"; sourceTree = "<group>"; };
+		89AE78A02751E7A100598666 /* 423.从英文中重建数字.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "423.从英文中重建数字.cpp"; sourceTree = "<group>"; };
+		89AE78A12751E7AE00598666 /* 458.可怜的小猪.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "458.可怜的小猪.cpp"; sourceTree = "<group>"; };
+		89AE78A22751E7BF00598666 /* 859.亲密字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "859.亲密字符串.cpp"; sourceTree = "<group>"; };
+		89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "700.二叉搜索树中的搜索.swift"; sourceTree = "<group>"; };
+		89AE78A42751E7D600598666 /* 859.亲密字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "859.亲密字符串.swift"; sourceTree = "<group>"; };
+		89AE78A52751E7D600598666 /* 384.打乱数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "384.打乱数组.swift"; sourceTree = "<group>"; };
+		89AE78A62751E7D600598666 /* 423.从英文中重建数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "423.从英文中重建数字.swift"; sourceTree = "<group>"; };
+		89AE78A72751E7D600598666 /* 458.可怜的小猪.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "458.可怜的小猪.swift"; sourceTree = "<group>"; };
 		89B2F93227245D2800DB5B34 /* 99.恢复二叉搜索树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "99.恢复二叉搜索树.cpp"; sourceTree = "<group>"; };
 		89B2F9342724609D00DB5B34 /* 101.对称二叉树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "101.对称二叉树.cpp"; sourceTree = "<group>"; };
 		89B2F9362724625600DB5B34 /* 104.二叉树的最大深度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "104.二叉树的最大深度.cpp"; sourceTree = "<group>"; };
@@ -371,7 +384,6 @@
 		89554FA126BEDED300FEDFF1 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				899A76D72747F72E006DA530 /* TreeNode.swift */,
 				89886F54272CDE00003A626D /* 20.有效的括号.swift */,
 				89886F64272CE221003A626D /* 21.合并两个有序链表.swift */,
 				89886F67272CE4B9003A626D /* 23.合并k个升序链表.swift */,
@@ -394,12 +406,16 @@
 				89886F4C272C5EF5003A626D /* 349.两个数组的交集.swift */,
 				8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */,
 				89FA69B8273EC786005D1B5D /* 375.猜数字大小-ii.swift */,
+				89AE78A52751E7D600598666 /* 384.打乱数组.swift */,
 				899A76D12747F6F6006DA530 /* 391.完美矩形-1.swift */,
 				899A76D92747F753006DA530 /* 397.整数替换.swift */,
+				89AE78A62751E7D600598666 /* 423.从英文中重建数字.swift */,
 				89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */,
+				89AE78A72751E7D600598666 /* 458.可怜的小猪.swift */,
 				8976631B273C1B2600507E1F /* 495.提莫攻击.swift */,
 				89886F6F272EC8B2003A626D /* 500.键盘行.swift */,
 				89886F51272CDCE6003A626D /* 509.斐波那契数.swift */,
+				89AE789B2751CDF000598666 /* 519.随机翻转矩阵.swift */,
 				891C5A62273F718D0047E46E /* 520.检测大写字母.swift */,
 				89C84273274A081700A73FAB /* 559.n-叉树的最大深度.swift */,
 				899A76D52747F710006DA530 /* 563.二叉树的坡度-2.swift */,
@@ -408,12 +424,15 @@
 				898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */,
 				89766320273D6A5600507E1F /* 629.k个逆序对数组.swift */,
 				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
+				89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
+				89AE78A42751E7D600598666 /* 859.亲密字符串.swift */,
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				89886F61272CE1FF003A626D /* 链表 */,
 				89C3FC4B26D1ED6600C87257 /* 排序 */,
 				89554FA326BEDED300FEDFF1 /* main.swift */,
 				89C84275274A09F400A73FAB /* Node.swift */,
+				899A76D72747F72E006DA530 /* TreeNode.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -536,6 +555,7 @@
 				894792CF27001A7100AC9055 /* 371.两整数之和.cpp */,
 				89FA69B6273EC3D0005D1B5D /* 375.猜数字大小-ii.cpp */,
 				89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */,
+				89AE789F2751E79400598666 /* 384.打乱数组.cpp */,
 				899A76C52747F67C006DA530 /* 391.完美矩形.cpp */,
 				899A76CC2747F6BD006DA530 /* 397.整数替换.cpp */,
 				891095872734200C00981C0D /* 407.接雨水-ii.cpp */,
@@ -543,6 +563,7 @@
 				89239D112717130400489E2B /* 412.fizz-buzz.cpp */,
 				892B78BA270DD01D00923EA9 /* 414.第三大的数.cpp */,
 				8902686526BEEDB600156215 /* 416.分割等和子集.cpp */,
+				89AE78A02751E7A100598666 /* 423.从英文中重建数字.cpp */,
 				89CEC83326FD805F000F9EC7 /* 430.扁平化多级双向链表.cpp */,
 				890044A1270E943000EC68D9 /* 434.字符串中的单词数.cpp */,
 				8989CF5527034A8A00DB244B /* 437.路径总和-iii.cpp */,
@@ -552,6 +573,7 @@
 				89CC84AD26C2C94A009483EF /* 450.删除二叉搜索树中的节点.cpp */,
 				89B2F969272504F400DB5B34 /* 451.根据字符出现频率排序.cpp */,
 				8956A90A27242E8E0006474A /* 453.最小操作次数使数组元素相等-1.cpp */,
+				89AE78A12751E7AE00598666 /* 458.可怜的小猪.cpp */,
 				8907628726E47A9800A93668 /* 470.用-rand-7-实现-rand-10.cpp */,
 				8956A90B27242E8E0006474A /* 476.数字的补数.cpp */,
 				890E21FB270AA8E80081372B /* 482.密钥格式化.cpp */,
@@ -564,6 +586,7 @@
 				89C3FC2226CFF41300C87257 /* 503.下一个更大元素-ii.cpp */,
 				8907627626DE89EB00A93668 /* 509.斐波那契数.cpp */,
 				89FFD6682704A1A800AD1B8D /* 517.超级洗衣机.cpp */,
+				89AE789D2751E44700598666 /* 519.随机翻转矩阵.cpp */,
 				891C5A60273F6FDB0047E46E /* 520.检测大写字母.cpp */,
 				89DEB28D26F0ED37009A4894 /* 524.通过删除字母匹配到字典里最长单词.cpp */,
 				89B2F971272508A900DB5B34 /* 530.二叉搜索树的最小绝对差.cpp */,
@@ -594,6 +617,7 @@
 				89B2F9732725094000DB5B34 /* 783.二叉搜索树节点最小距离.cpp */,
 				89CC84BB26C42537009483EF /* 797.所有可能的路径.cpp */,
 				89B2F96B272505AB00DB5B34 /* 856.括号的分数.cpp */,
+				89AE78A22751E7BF00598666 /* 859.亲密字符串.cpp */,
 				893E11FD272AEC7300EAC6FD /* 869.重新排序得到-2-的幂.cpp */,
 				89C3FC2D26D0004700C87257 /* 870.优势洗牌.cpp */,
 				89C3FC3326D0EA7700C87257 /* 875.爱吃香蕉的珂珂.cpp */,
@@ -812,6 +836,7 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
+				89AE789C2751CDF000598666 /* 519.随机翻转矩阵.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 			);
@@ -823,6 +848,7 @@
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				89AE789E2751E44700598666 /* 519.随机翻转矩阵.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
