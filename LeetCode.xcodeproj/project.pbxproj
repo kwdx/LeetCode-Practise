@@ -8,16 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
-		8972377E275A655900EBC5C5 /* 400.第-n-位数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89723779275A655900EBC5C5 /* 400.第-n-位数字.cpp */; };
-		8972377F275A655900EBC5C5 /* 506.相对名次.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972377A275A655900EBC5C5 /* 506.相对名次.cpp */; };
-		89723780275A655900EBC5C5 /* 1005.k-次取反后最大化的数组和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972377B275A655900EBC5C5 /* 1005.k-次取反后最大化的数组和.cpp */; };
-		89723781275A655900EBC5C5 /* 1446.连续字符.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972377C275A655900EBC5C5 /* 1446.连续字符.cpp */; };
-		89723782275A655900EBC5C5 /* 786.第-k-个最小的素数分数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972377D275A655900EBC5C5 /* 786.第-k-个最小的素数分数.cpp */; };
-		89723788275A656900EBC5C5 /* 506.相对名次.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89723783275A656800EBC5C5 /* 506.相对名次.swift */; };
-		89723789275A656900EBC5C5 /* 400.第-n-位数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89723784275A656900EBC5C5 /* 400.第-n-位数字.swift */; };
-		8972378A275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */; };
-		8972378B275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89723786275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift */; };
-		8972378C275A656900EBC5C5 /* 1446.连续字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89723787275A656900EBC5C5 /* 1446.连续字符.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -167,6 +157,8 @@
 		898F272626C8C2B30077B621 /* 5845.你能穿过矩阵的最后一天.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5845.你能穿过矩阵的最后一天.cpp"; sourceTree = "<group>"; };
 		898F44A22737DAE00051A08C /* 598.范围求和-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "598.范围求和-ii.cpp"; sourceTree = "<group>"; };
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
+		8992BF50275B2675007E107F /* 383.赎金信.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "383.赎金信.swift"; sourceTree = "<group>"; };
+		8992BF52275B2693007E107F /* 383.赎金信.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "383.赎金信.cpp"; sourceTree = "<group>"; };
 		8995D89C27303094001A499C /* 575.分糖果.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "575.分糖果.swift"; sourceTree = "<group>"; };
 		899A76C32747F65F006DA530 /* 319.灯泡开关.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "319.灯泡开关.cpp"; sourceTree = "<group>"; };
 		899A76C52747F67C006DA530 /* 391.完美矩形.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "391.完美矩形.cpp"; sourceTree = "<group>"; };
@@ -425,6 +417,7 @@
 				89886F4C272C5EF5003A626D /* 349.两个数组的交集.swift */,
 				8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */,
 				89FA69B8273EC786005D1B5D /* 375.猜数字大小-ii.swift */,
+				8992BF50275B2675007E107F /* 383.赎金信.swift */,
 				89AE78A52751E7D600598666 /* 384.打乱数组.swift */,
 				899A76D12747F6F6006DA530 /* 391.完美矩形-1.swift */,
 				899A76D92747F753006DA530 /* 397.整数替换.swift */,
@@ -580,6 +573,7 @@
 				894792CF27001A7100AC9055 /* 371.两整数之和.cpp */,
 				89FA69B6273EC3D0005D1B5D /* 375.猜数字大小-ii.cpp */,
 				89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */,
+				8992BF52275B2693007E107F /* 383.赎金信.cpp */,
 				89AE789F2751E79400598666 /* 384.打乱数组.cpp */,
 				899A76C52747F67C006DA530 /* 391.完美矩形.cpp */,
 				899A76CC2747F6BD006DA530 /* 397.整数替换.cpp */,
@@ -864,15 +858,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8972378A275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift in Sources */,
-				8972378C275A656900EBC5C5 /* 1446.连续字符.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				8972378B275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				89723789275A656900EBC5C5 /* 400.第-n-位数字.swift in Sources */,
-				89723788275A656900EBC5C5 /* 506.相对名次.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,13 +869,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89723781275A655900EBC5C5 /* 1446.连续字符.cpp in Sources */,
-				89723780275A655900EBC5C5 /* 1005.k-次取反后最大化的数组和.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
-				89723782275A655900EBC5C5 /* 786.第-k-个最小的素数分数.cpp in Sources */,
-				8972377F275A655900EBC5C5 /* 506.相对名次.cpp in Sources */,
-				8972377E275A655900EBC5C5 /* 400.第-n-位数字.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
