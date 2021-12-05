@@ -83,6 +83,8 @@
 		89239D182719D2E200489E2B /* 38.外观数列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "38.外观数列.cpp"; sourceTree = "<group>"; };
 		89239D1A271A6D8F00489E2B /* 282.给表达式添加运算符.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "282.给表达式添加运算符.cpp"; sourceTree = "<group>"; };
 		892B78BA270DD01D00923EA9 /* 414.第三大的数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "414.第三大的数.cpp"; sourceTree = "<group>"; };
+		892EC6A0275C993A00CD0593 /* 372.超级次方.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "372.超级次方.cpp"; sourceTree = "<group>"; };
+		892EC6A2275C994D00CD0593 /* 372.超级次方.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "372.超级次方.swift"; sourceTree = "<group>"; };
 		893E11FD272AEC7300EAC6FD /* 869.重新排序得到-2-的幂.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "869.重新排序得到-2-的幂.cpp"; sourceTree = "<group>"; };
 		893E122A272C3DDA00EAC6FD /* 240.搜索二维矩阵-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "240.搜索二维矩阵-ii.cpp"; sourceTree = "<group>"; };
 		893E122C272C3DFB00EAC6FD /* 301.删除无效的括号.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "301.删除无效的括号.cpp"; sourceTree = "<group>"; };
@@ -416,6 +418,7 @@
 				89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */,
 				89886F4C272C5EF5003A626D /* 349.两个数组的交集.swift */,
 				8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */,
+				892EC6A2275C994D00CD0593 /* 372.超级次方.swift */,
 				89FA69B8273EC786005D1B5D /* 375.猜数字大小-ii.swift */,
 				8992BF50275B2675007E107F /* 383.赎金信.swift */,
 				89AE78A52751E7D600598666 /* 384.打乱数组.swift */,
@@ -571,6 +574,7 @@
 				895522652711D6E300133464 /* 352.将数据流变为多个不相交区间.cpp */,
 				89109589273420B400981C0D /* 367.有效的完全平方数.cpp */,
 				894792CF27001A7100AC9055 /* 371.两整数之和.cpp */,
+				892EC6A0275C993A00CD0593 /* 372.超级次方.cpp */,
 				89FA69B6273EC3D0005D1B5D /* 375.猜数字大小-ii.cpp */,
 				89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */,
 				8992BF52275B2693007E107F /* 383.赎金信.cpp */,
