@@ -161,6 +161,8 @@
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
 		8992BF50275B2675007E107F /* 383.赎金信.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "383.赎金信.swift"; sourceTree = "<group>"; };
 		8992BF52275B2693007E107F /* 383.赎金信.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "383.赎金信.cpp"; sourceTree = "<group>"; };
+		89943B38275FAF80002F1171 /* 1034.边框着色.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1034.边框着色.swift"; sourceTree = "<group>"; };
+		89943B3A275FAF87002F1171 /* 1034.边框着色.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1034.边框着色.cpp"; sourceTree = "<group>"; };
 		8995D89C27303094001A499C /* 575.分糖果.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "575.分糖果.swift"; sourceTree = "<group>"; };
 		899A76C32747F65F006DA530 /* 319.灯泡开关.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "319.灯泡开关.cpp"; sourceTree = "<group>"; };
 		899A76C52747F67C006DA530 /* 391.完美矩形.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "391.完美矩形.cpp"; sourceTree = "<group>"; };
@@ -449,6 +451,7 @@
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
 				89AE78A42751E7D600598666 /* 859.亲密字符串.swift */,
 				89723786275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift */,
+				89943B38275FAF80002F1171 /* 1034.边框着色.swift */,
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
@@ -657,6 +660,7 @@
 				89C3FC1626CEA34000C87257 /* 990.等式方程的可满足性.cpp */,
 				8972377B275A655900EBC5C5 /* 1005.k-次取反后最大化的数组和.cpp */,
 				89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */,
+				89943B3A275FAF87002F1171 /* 1034.边框着色.cpp */,
 				89CC84B526C2D493009483EF /* 1038.把二叉搜索树转换为累加树.cpp */,
 				89A51CBF26D3F5140013B3F2 /* 1081.不同字符的最小子序列.cpp */,
 				89BA3E9226E50245000B8F69 /* 1143.最长公共子序列.cpp */,
