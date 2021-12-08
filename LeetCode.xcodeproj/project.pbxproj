@@ -163,6 +163,8 @@
 		8992BF52275B2693007E107F /* 383.赎金信.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "383.赎金信.cpp"; sourceTree = "<group>"; };
 		89943B38275FAF80002F1171 /* 1034.边框着色.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1034.边框着色.swift"; sourceTree = "<group>"; };
 		89943B3A275FAF87002F1171 /* 1034.边框着色.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1034.边框着色.cpp"; sourceTree = "<group>"; };
+		89943B3F2760F480002F1171 /* 689.三个无重叠子数组的最大和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "689.三个无重叠子数组的最大和.cpp"; sourceTree = "<group>"; };
+		89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "689.三个无重叠子数组的最大和.swift"; sourceTree = "<group>"; };
 		8995D89C27303094001A499C /* 575.分糖果.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "575.分糖果.swift"; sourceTree = "<group>"; };
 		899A76C32747F65F006DA530 /* 319.灯泡开关.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "319.灯泡开关.cpp"; sourceTree = "<group>"; };
 		899A76C52747F67C006DA530 /* 391.完美矩形.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "391.完美矩形.cpp"; sourceTree = "<group>"; };
@@ -446,6 +448,7 @@
 				898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */,
 				89766320273D6A5600507E1F /* 629.k个逆序对数组.swift */,
 				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
+				89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */,
 				89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */,
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
@@ -638,6 +641,7 @@
 				89DE25C126F8D411005999E0 /* 673.最长递增子序列的个数.cpp */,
 				890E883D2740C9CB0073633B /* 677.键值映射.cpp */,
 				89CF305526EE51560029D7B6 /* 678.有效的括号字符串.cpp */,
+				89943B3F2760F480002F1171 /* 689.三个无重叠子数组的最大和.cpp */,
 				89CC84B126C2D2C8009483EF /* 700.二叉搜索树中的搜索.cpp */,
 				89CC84B326C2D3BF009483EF /* 701.二叉搜索树中的插入操作.cpp */,
 				89C3FC2F26D0C3B800C87257 /* 704.二分查找.cpp */,
