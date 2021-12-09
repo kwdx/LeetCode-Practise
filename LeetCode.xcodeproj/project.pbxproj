@@ -77,6 +77,8 @@
 		8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "725.分隔链表.cpp"; sourceTree = "<group>"; };
 		891C5A60273F6FDB0047E46E /* 520.检测大写字母.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "520.检测大写字母.cpp"; sourceTree = "<group>"; };
 		891C5A62273F718D0047E46E /* 520.检测大写字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "520.检测大写字母.swift"; sourceTree = "<group>"; };
+		892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "794.有效的井字游戏.swift"; sourceTree = "<group>"; };
+		892396E127624BD40041A3B9 /* 794.有效的井字游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "794.有效的井字游戏.cpp"; sourceTree = "<group>"; };
 		89239D0F2715D0D200489E2B /* 29.两数相除.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "29.两数相除.cpp"; sourceTree = "<group>"; };
 		89239D112717130400489E2B /* 412.fizz-buzz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "412.fizz-buzz.cpp"; sourceTree = "<group>"; };
 		89239D16271859C000489E2B /* 剑指 Offer II 069.山峰数组的顶部.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer II 069.山峰数组的顶部.cpp"; sourceTree = "<group>"; };
@@ -451,6 +453,7 @@
 				89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */,
 				89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */,
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
+				892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
 				89AE78A42751E7D600598666 /* 859.亲密字符串.swift */,
 				89723786275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift */,
@@ -651,6 +654,7 @@
 				89C3FC2426CFF58700C87257 /* 739.每日温度.cpp */,
 				89B2F9732725094000DB5B34 /* 783.二叉搜索树节点最小距离.cpp */,
 				8972377D275A655900EBC5C5 /* 786.第-k-个最小的素数分数.cpp */,
+				892396E127624BD40041A3B9 /* 794.有效的井字游戏.cpp */,
 				89CC84BB26C42537009483EF /* 797.所有可能的路径.cpp */,
 				89B2F96B272505AB00DB5B34 /* 856.括号的分数.cpp */,
 				89AE78A22751E7BF00598666 /* 859.亲密字符串.cpp */,
