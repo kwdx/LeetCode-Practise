@@ -10,6 +10,8 @@
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
+		8988F1EA2763997B00CDBAA9 /* 748.最短补全词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */; };
+		8988F1EC2763999200CDBAA9 /* 748.最短补全词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8988F1EB2763999200CDBAA9 /* 748.最短补全词.cpp */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
@@ -155,6 +157,8 @@
 		89886F6B272CF392003A626D /* 260.只出现一次的数字-iii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "260.只出现一次的数字-iii.swift"; sourceTree = "<group>"; };
 		89886F6D272EC283003A626D /* 500.键盘行.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "500.键盘行.cpp"; sourceTree = "<group>"; };
 		89886F6F272EC8B2003A626D /* 500.键盘行.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "500.键盘行.swift"; sourceTree = "<group>"; };
+		8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "748.最短补全词.swift"; sourceTree = "<group>"; };
+		8988F1EB2763999200CDBAA9 /* 748.最短补全词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "748.最短补全词.cpp"; sourceTree = "<group>"; };
 		8989CF5527034A8A00DB244B /* 437.路径总和-iii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "437.路径总和-iii.cpp"; sourceTree = "<group>"; };
 		898F272226C8B8EE0077B621 /* 5832.构造元素不等于两相邻元素平均值的数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5832.构造元素不等于两相邻元素平均值的数组.cpp"; sourceTree = "<group>"; };
 		898F272426C8BE780077B621 /* 5844.数组元素的最小非零乘积.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5844.数组元素的最小非零乘积.cpp"; sourceTree = "<group>"; };
@@ -452,6 +456,7 @@
 				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
 				89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */,
 				89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */,
+				8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */,
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
 				892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
@@ -652,6 +657,7 @@
 				8907627426DE89B900A93668 /* 714.买卖股票的最佳时机含手续费.cpp */,
 				8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */,
 				89C3FC2426CFF58700C87257 /* 739.每日温度.cpp */,
+				8988F1EB2763999200CDBAA9 /* 748.最短补全词.cpp */,
 				89B2F9732725094000DB5B34 /* 783.二叉搜索树节点最小距离.cpp */,
 				8972377D275A655900EBC5C5 /* 786.第-k-个最小的素数分数.cpp */,
 				892396E127624BD40041A3B9 /* 794.有效的井字游戏.cpp */,
@@ -882,6 +888,7 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				8988F1EA2763997B00CDBAA9 /* 748.最短补全词.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -891,6 +898,7 @@
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				8988F1EC2763999200CDBAA9 /* 748.最短补全词.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
