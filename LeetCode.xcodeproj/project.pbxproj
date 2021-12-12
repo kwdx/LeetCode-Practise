@@ -248,6 +248,8 @@
 		89B2F9732725094000DB5B34 /* 783.二叉搜索树节点最小距离.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "783.二叉搜索树节点最小距离.cpp"; sourceTree = "<group>"; };
 		89B2F975272509C400DB5B34 /* 889.根据前序和后序遍历构造二叉树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "889.根据前序和后序遍历构造二叉树.cpp"; sourceTree = "<group>"; };
 		89B2F97727250A8C00DB5B34 /* 938.二叉搜索树的范围和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "938.二叉搜索树的范围和.cpp"; sourceTree = "<group>"; };
+		89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "709.转换成小写字母.swift"; sourceTree = "<group>"; };
+		89B69A1A2765FF43004A2892 /* 709.转换成小写字母.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "709.转换成小写字母.cpp"; sourceTree = "<group>"; };
 		89BA3E9226E50245000B8F69 /* 1143.最长公共子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1143.最长公共子序列.cpp"; sourceTree = "<group>"; };
 		89C3FC0A26CAAED900C87257 /* 222.完全二叉树的节点个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "222.完全二叉树的节点个数.cpp"; sourceTree = "<group>"; };
 		89C3FC0C26CAB26D00C87257 /* 236.二叉树的最近公共祖先.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "236.二叉树的最近公共祖先.cpp"; sourceTree = "<group>"; };
@@ -456,6 +458,7 @@
 				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
 				89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */,
 				89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */,
+				89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */,
 				8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */,
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
 				892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */,
@@ -654,6 +657,7 @@
 				89CC84B126C2D2C8009483EF /* 700.二叉搜索树中的搜索.cpp */,
 				89CC84B326C2D3BF009483EF /* 701.二叉搜索树中的插入操作.cpp */,
 				89C3FC2F26D0C3B800C87257 /* 704.二分查找.cpp */,
+				89B69A1A2765FF43004A2892 /* 709.转换成小写字母.cpp */,
 				89A51CBB26D3F3CE0013B3F2 /* 710.黑名单中的随机数.cpp */,
 				8907627426DE89B900A93668 /* 714.买卖股票的最佳时机含手续费.cpp */,
 				8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */,
