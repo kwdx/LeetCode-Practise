@@ -325,6 +325,8 @@
 		89CF0CA0271BB7D7002CFCED /* 145.二叉树的后序遍历.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "145.二叉树的后序遍历.cpp"; sourceTree = "<group>"; };
 		89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "600.不含连续-1-的非负整数.cpp"; sourceTree = "<group>"; };
 		89CF305526EE51560029D7B6 /* 678.有效的括号字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "678.有效的括号字符串.cpp"; sourceTree = "<group>"; };
+		89D65EC927678B8600B855E3 /* 807.保持城市天际线.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "807.保持城市天际线.swift"; sourceTree = "<group>"; };
+		89D65ECB27678B9500B855E3 /* 807.保持城市天际线.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "807.保持城市天际线.cpp"; sourceTree = "<group>"; };
 		89DE25C126F8D411005999E0 /* 673.最长递增子序列的个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "673.最长递增子序列的个数.cpp"; sourceTree = "<group>"; };
 		89DEB28B26EF9355009A4894 /* 447.回旋镖的数量.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "447.回旋镖的数量.cpp"; sourceTree = "<group>"; };
 		89DEB28D26F0ED37009A4894 /* 524.通过删除字母匹配到字典里最长单词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "524.通过删除字母匹配到字典里最长单词.cpp"; sourceTree = "<group>"; };
@@ -462,6 +464,7 @@
 				8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */,
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
 				892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */,
+				89D65EC927678B8600B855E3 /* 807.保持城市天际线.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
 				89AE78A42751E7D600598666 /* 859.亲密字符串.swift */,
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
@@ -667,6 +670,7 @@
 				8972377D275A655900EBC5C5 /* 786.第-k-个最小的素数分数.cpp */,
 				892396E127624BD40041A3B9 /* 794.有效的井字游戏.cpp */,
 				89CC84BB26C42537009483EF /* 797.所有可能的路径.cpp */,
+				89D65ECB27678B9500B855E3 /* 807.保持城市天际线.cpp */,
 				89B2F96B272505AB00DB5B34 /* 856.括号的分数.cpp */,
 				89AE78A22751E7BF00598666 /* 859.亲密字符串.cpp */,
 				893E11FD272AEC7300EAC6FD /* 869.重新排序得到-2-的幂.cpp */,
