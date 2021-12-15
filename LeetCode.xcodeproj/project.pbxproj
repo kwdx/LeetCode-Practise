@@ -214,6 +214,8 @@
 		89AE78A52751E7D600598666 /* 384.打乱数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "384.打乱数组.swift"; sourceTree = "<group>"; };
 		89AE78A62751E7D600598666 /* 423.从英文中重建数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "423.从英文中重建数字.swift"; sourceTree = "<group>"; };
 		89AE78A72751E7D600598666 /* 458.可怜的小猪.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "458.可怜的小猪.swift"; sourceTree = "<group>"; };
+		89B0B689276A2D0000A10203 /* 851.喧闹和富有.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "851.喧闹和富有.swift"; sourceTree = "<group>"; };
+		89B0B68B276A2D9100A10203 /* 851.喧闹和富有.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "851.喧闹和富有.cpp"; sourceTree = "<group>"; };
 		89B2F93227245D2800DB5B34 /* 99.恢复二叉搜索树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "99.恢复二叉搜索树.cpp"; sourceTree = "<group>"; };
 		89B2F9342724609D00DB5B34 /* 101.对称二叉树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "101.对称二叉树.cpp"; sourceTree = "<group>"; };
 		89B2F9362724625600DB5B34 /* 104.二叉树的最大深度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "104.二叉树的最大深度.cpp"; sourceTree = "<group>"; };
@@ -470,6 +472,7 @@
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
 				892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */,
 				89D65EC927678B8600B855E3 /* 807.保持城市天际线.swift */,
+				89B0B689276A2D0000A10203 /* 851.喧闹和富有.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
 				89AE78A42751E7D600598666 /* 859.亲密字符串.swift */,
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
@@ -678,6 +681,7 @@
 				892396E127624BD40041A3B9 /* 794.有效的井字游戏.cpp */,
 				89CC84BB26C42537009483EF /* 797.所有可能的路径.cpp */,
 				89D65ECB27678B9500B855E3 /* 807.保持城市天际线.cpp */,
+				89B0B68B276A2D9100A10203 /* 851.喧闹和富有.cpp */,
 				89B2F96B272505AB00DB5B34 /* 856.括号的分数.cpp */,
 				89AE78A22751E7BF00598666 /* 859.亲密字符串.cpp */,
 				893E11FD272AEC7300EAC6FD /* 869.重新排序得到-2-的幂.cpp */,
