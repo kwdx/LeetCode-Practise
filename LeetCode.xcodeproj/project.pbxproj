@@ -338,6 +338,8 @@
 		89DEB28D26F0ED37009A4894 /* 524.通过删除字母匹配到字典里最长单词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "524.通过删除字母匹配到字典里最长单词.cpp"; sourceTree = "<group>"; };
 		89DEB29026F248FC009A4894 /* 162.寻找峰值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "162.寻找峰值.cpp"; sourceTree = "<group>"; };
 		89DEB29226F363EB009A4894 /* 212.单词搜索-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "212.单词搜索-ii.cpp"; sourceTree = "<group>"; };
+		89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1518.换酒问题.swift"; sourceTree = "<group>"; };
+		89E391E6276CD90B0049A907 /* 1518.换酒问题.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1518.换酒问题.cpp"; sourceTree = "<group>"; };
 		89E5AAC727493969007DB9B9 /* 594.最长和谐子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "594.最长和谐子序列.cpp"; sourceTree = "<group>"; };
 		89E5AAC927493A7E007DB9B9 /* 594.最长和谐子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "594.最长和谐子序列.swift"; sourceTree = "<group>"; };
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
@@ -480,6 +482,7 @@
 				89943B38275FAF80002F1171 /* 1034.边框着色.swift */,
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
+				89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
 				89886F61272CE1FF003A626D /* 链表 */,
 				89C3FC4B26D1ED6600C87257 /* 排序 */,
@@ -705,6 +708,7 @@
 				8969847727072BB30070F99C /* 1436.旅行终点站.cpp */,
 				8972377C275A655900EBC5C5 /* 1446.连续字符.cpp */,
 				8907625D26D9455F00A93668 /* 1480.一维数组的动态和.cpp */,
+				89E391E6276CD90B0049A907 /* 1518.换酒问题.cpp */,
 				89A38F0F275E4948007FED61 /* 1816.截断句子.cpp */,
 				8966DE5E26EBA5E900AEA606 /* 1894.找到需要补充粉笔的学生编号.cpp */,
 				8907625926D54CCB00A93668 /* 额外的算法题 */,
