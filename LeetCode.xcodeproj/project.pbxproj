@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89075151276EFD7B009BA671 /* 997.找到小镇的法官.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89A779E9276DD2C700B7CDA9 /* 419.甲板上的战舰.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A779E8276DD2C700B7CDA9 /* 419.甲板上的战舰.cpp */; };
-		89A779EB276DD35B00B7CDA9 /* 419.甲板上的战舰.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A779EA276DD35B00B7CDA9 /* 419.甲板上的战舰.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -45,6 +44,8 @@
 		890126E72736386300440D63 /* 268.丢失的数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "268.丢失的数字.cpp"; sourceTree = "<group>"; };
 		890126E92736395600440D63 /* 268.丢失的数字.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "268.丢失的数字.swift"; sourceTree = "<group>"; };
 		8902686526BEEDB600156215 /* 416.分割等和子集.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "416.分割等和子集.cpp"; sourceTree = "<group>"; };
+		8907514E276EFCC7009BA671 /* 997.找到小镇的法官.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "997.找到小镇的法官.cpp"; sourceTree = "<group>"; };
+		89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "997.找到小镇的法官.swift"; sourceTree = "<group>"; };
 		8907625526D5398A00A93668 /* 83.删除排序链表中的重复元素.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "83.删除排序链表中的重复元素.cpp"; sourceTree = "<group>"; };
 		8907625726D53D9B00A93668 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8907625A26D54CEB00A93668 /* Google_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Google_1.cpp; sourceTree = "<group>"; };
@@ -483,6 +484,7 @@
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
 				89AE78A42751E7D600598666 /* 859.亲密字符串.swift */,
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
+				89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */,
 				89723786275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift */,
 				89943B38275FAF80002F1171 /* 1034.边框着色.swift */,
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
@@ -702,6 +704,7 @@
 				895F9E3F2764310C00E2DF08 /* 911.在线选举.cpp */,
 				89B2F97727250A8C00DB5B34 /* 938.二叉搜索树的范围和.cpp */,
 				89C3FC1626CEA34000C87257 /* 990.等式方程的可满足性.cpp */,
+				8907514E276EFCC7009BA671 /* 997.找到小镇的法官.cpp */,
 				8972377B275A655900EBC5C5 /* 1005.k-次取反后最大化的数组和.cpp */,
 				89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */,
 				89943B3A275FAF87002F1171 /* 1034.边框着色.cpp */,
@@ -918,8 +921,8 @@
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
+				89075151276EFD7B009BA671 /* 997.找到小镇的法官.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				89A779EB276DD35B00B7CDA9 /* 419.甲板上的战舰.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -930,7 +933,6 @@
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
-				89A779E9276DD2C700B7CDA9 /* 419.甲板上的战舰.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
