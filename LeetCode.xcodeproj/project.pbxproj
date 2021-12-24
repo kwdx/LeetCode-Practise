@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
+		897355212776210B0034C87A /* 1705.吃苹果的最大数目.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8973551E277620B20034C87A /* 1705.吃苹果的最大数目.cpp */; };
+		897355222776215C0034C87A /* 1705.吃苹果的最大数目.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -135,6 +137,15 @@
 		89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "786.第-k-个最小的素数分数.swift"; sourceTree = "<group>"; };
 		89723786275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1005.k-次取反后最大化的数组和.swift"; sourceTree = "<group>"; };
 		89723787275A656900EBC5C5 /* 1446.连续字符.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1446.连续字符.swift"; sourceTree = "<group>"; };
+		897355182776209C0034C87A /* 1154.一年中的第几天.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1154.一年中的第几天.swift"; sourceTree = "<group>"; };
+		897355192776209C0034C87A /* 475.供暖器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "475.供暖器.swift"; sourceTree = "<group>"; };
+		8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1705.吃苹果的最大数目.swift"; sourceTree = "<group>"; };
+		8973551B2776209C0034C87A /* 686.重复叠加字符串匹配.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "686.重复叠加字符串匹配.swift"; sourceTree = "<group>"; };
+		8973551C277620B20034C87A /* 1044.最长重复子串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1044.最长重复子串.cpp"; sourceTree = "<group>"; };
+		8973551D277620B20034C87A /* 686.重复叠加字符串匹配.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "686.重复叠加字符串匹配.cpp"; sourceTree = "<group>"; };
+		8973551E277620B20034C87A /* 1705.吃苹果的最大数目.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1705.吃苹果的最大数目.cpp"; sourceTree = "<group>"; };
+		8973551F277620B20034C87A /* 1154.一年中的第几天.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1154.一年中的第几天.cpp"; sourceTree = "<group>"; };
+		89735520277620B20034C87A /* 475.供暖器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "475.供暖器.cpp"; sourceTree = "<group>"; };
 		89766317273AD13A00507E1F /* 488.祖玛游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "488.祖玛游戏.cpp"; sourceTree = "<group>"; };
 		89766319273C19D500507E1F /* 495.提莫攻击.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "495.提莫攻击.cpp"; sourceTree = "<group>"; };
 		8976631B273C1B2600507E1F /* 495.提莫攻击.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "495.提莫攻击.swift"; sourceTree = "<group>"; };
@@ -460,6 +471,7 @@
 				89F7BA2A2753D1570075865E /* 438.找到字符串中所有字母异位词.swift */,
 				89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */,
 				89AE78A72751E7D600598666 /* 458.可怜的小猪.swift */,
+				897355192776209C0034C87A /* 475.供暖器.swift */,
 				8976631B273C1B2600507E1F /* 495.提莫攻击.swift */,
 				89886F6F272EC8B2003A626D /* 500.键盘行.swift */,
 				89723783275A656800EBC5C5 /* 506.相对名次.swift */,
@@ -474,6 +486,7 @@
 				89766320273D6A5600507E1F /* 629.k个逆序对数组.swift */,
 				89D65EDE2768D73B00B855E3 /* 630.课程表-iii.swift */,
 				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
+				8973551B2776209C0034C87A /* 686.重复叠加字符串匹配.swift */,
 				89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */,
 				89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */,
 				89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */,
@@ -488,10 +501,12 @@
 				89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */,
 				89723786275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift */,
 				89943B38275FAF80002F1171 /* 1034.边框着色.swift */,
+				897355182776209C0034C87A /* 1154.一年中的第几天.swift */,
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
 				89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */,
 				89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */,
+				8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
 				89886F61272CE1FF003A626D /* 链表 */,
 				89C3FC4B26D1ED6600C87257 /* 排序 */,
@@ -645,6 +660,7 @@
 				8956A90A27242E8E0006474A /* 453.最小操作次数使数组元素相等-1.cpp */,
 				89AE78A12751E7AE00598666 /* 458.可怜的小猪.cpp */,
 				8907628726E47A9800A93668 /* 470.用-rand-7-实现-rand-10.cpp */,
+				89735520277620B20034C87A /* 475.供暖器.cpp */,
 				8956A90B27242E8E0006474A /* 476.数字的补数.cpp */,
 				890E21FB270AA8E80081372B /* 482.密钥格式化.cpp */,
 				89766317273AD13A00507E1F /* 488.祖玛游戏.cpp */,
@@ -679,6 +695,7 @@
 				89DE25C126F8D411005999E0 /* 673.最长递增子序列的个数.cpp */,
 				890E883D2740C9CB0073633B /* 677.键值映射.cpp */,
 				89CF305526EE51560029D7B6 /* 678.有效的括号字符串.cpp */,
+				8973551D277620B20034C87A /* 686.重复叠加字符串匹配.cpp */,
 				89943B3F2760F480002F1171 /* 689.三个无重叠子数组的最大和.cpp */,
 				89CC84B126C2D2C8009483EF /* 700.二叉搜索树中的搜索.cpp */,
 				89CC84B326C2D3BF009483EF /* 701.二叉搜索树中的插入操作.cpp */,
@@ -711,8 +728,10 @@
 				89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */,
 				89943B3A275FAF87002F1171 /* 1034.边框着色.cpp */,
 				89CC84B526C2D493009483EF /* 1038.把二叉搜索树转换为累加树.cpp */,
+				8973551C277620B20034C87A /* 1044.最长重复子串.cpp */,
 				89A51CBF26D3F5140013B3F2 /* 1081.不同字符的最小子序列.cpp */,
 				89BA3E9226E50245000B8F69 /* 1143.最长公共子序列.cpp */,
+				8973551F277620B20034C87A /* 1154.一年中的第几天.cpp */,
 				8910958F273579C800981C0D /* 1218.最长定差子序列.cpp */,
 				8966DE5826E7BBF400AEA606 /* 1221.分割平衡字符串.cpp */,
 				89CC84BD26C427C8009483EF /* 1373.二叉搜索子树的最大键值和.cpp */,
@@ -721,6 +740,7 @@
 				8907625D26D9455F00A93668 /* 1480.一维数组的动态和.cpp */,
 				89E391E6276CD90B0049A907 /* 1518.换酒问题.cpp */,
 				89075152276F673C009BA671 /* 1610.可见点的最大数目.cpp */,
+				8973551E277620B20034C87A /* 1705.吃苹果的最大数目.cpp */,
 				89A38F0F275E4948007FED61 /* 1816.截断句子.cpp */,
 				8966DE5E26EBA5E900AEA606 /* 1894.找到需要补充粉笔的学生编号.cpp */,
 				8907625926D54CCB00A93668 /* 额外的算法题 */,
@@ -923,6 +943,7 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
+				897355222776215C0034C87A /* 1705.吃苹果的最大数目.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
@@ -935,6 +956,7 @@
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				897355212776210B0034C87A /* 1705.吃苹果的最大数目.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
