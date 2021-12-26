@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
-		8973552427776F7E0034C87A /* 1609.奇偶树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8973552327776F7E0034C87A /* 1609.奇偶树.swift */; };
-		8973552627776F8C0034C87A /* 1609.奇偶树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8973552527776F8C0034C87A /* 1609.奇偶树.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
+		89D44119277823E0006B0055 /* 1078.bigram-分词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D44118277823E0006B0055 /* 1078.bigram-分词.swift */; };
+		89D4411B277823F9006B0055 /* 1078.bigram-分词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89D4411A277823F9006B0055 /* 1078.bigram-分词.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -347,6 +347,8 @@
 		89CF0CA0271BB7D7002CFCED /* 145.二叉树的后序遍历.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "145.二叉树的后序遍历.cpp"; sourceTree = "<group>"; };
 		89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "600.不含连续-1-的非负整数.cpp"; sourceTree = "<group>"; };
 		89CF305526EE51560029D7B6 /* 678.有效的括号字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "678.有效的括号字符串.cpp"; sourceTree = "<group>"; };
+		89D44118277823E0006B0055 /* 1078.bigram-分词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1078.bigram-分词.swift"; sourceTree = "<group>"; };
+		89D4411A277823F9006B0055 /* 1078.bigram-分词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1078.bigram-分词.cpp"; sourceTree = "<group>"; };
 		89D65EC927678B8600B855E3 /* 807.保持城市天际线.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "807.保持城市天际线.swift"; sourceTree = "<group>"; };
 		89D65ECB27678B9500B855E3 /* 807.保持城市天际线.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "807.保持城市天际线.cpp"; sourceTree = "<group>"; };
 		89D65EDE2768D73B00B855E3 /* 630.课程表-iii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "630.课程表-iii.swift"; sourceTree = "<group>"; };
@@ -503,6 +505,7 @@
 				89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */,
 				89723786275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift */,
 				89943B38275FAF80002F1171 /* 1034.边框着色.swift */,
+				89D44118277823E0006B0055 /* 1078.bigram-分词.swift */,
 				897355182776209C0034C87A /* 1154.一年中的第几天.swift */,
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
@@ -732,6 +735,7 @@
 				89943B3A275FAF87002F1171 /* 1034.边框着色.cpp */,
 				89CC84B526C2D493009483EF /* 1038.把二叉搜索树转换为累加树.cpp */,
 				8973551C277620B20034C87A /* 1044.最长重复子串.cpp */,
+				89D4411A277823F9006B0055 /* 1078.bigram-分词.cpp */,
 				89A51CBF26D3F5140013B3F2 /* 1081.不同字符的最小子序列.cpp */,
 				89BA3E9226E50245000B8F69 /* 1143.最长公共子序列.cpp */,
 				8973551F277620B20034C87A /* 1154.一年中的第几天.cpp */,
@@ -947,9 +951,9 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
-				8973552427776F7E0034C87A /* 1609.奇偶树.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				89D44119277823E0006B0055 /* 1078.bigram-分词.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -960,8 +964,8 @@
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
-				8973552627776F8C0034C87A /* 1609.奇偶树.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
+				89D4411B277823F9006B0055 /* 1078.bigram-分词.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
