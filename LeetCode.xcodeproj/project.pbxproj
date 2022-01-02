@@ -10,9 +10,9 @@
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
+		898F4E6A27815B4100A89BD8 /* 390.消除游戏.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898F4E6927815B4100A89BD8 /* 390.消除游戏.cpp */; };
+		898F4E6C27815C3E00A89BD8 /* 390.消除游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89B6C493278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B6C492278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp */; };
-		89B6C495278056DE000F2DA5 /* 2022.将一维数组转变成二维数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B6C494278056DE000F2DA5 /* 2022.将一维数组转变成二维数组.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -195,6 +195,8 @@
 		898F272626C8C2B30077B621 /* 5845.你能穿过矩阵的最后一天.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5845.你能穿过矩阵的最后一天.cpp"; sourceTree = "<group>"; };
 		898F44A22737DAE00051A08C /* 598.范围求和-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "598.范围求和-ii.cpp"; sourceTree = "<group>"; };
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
+		898F4E6927815B4100A89BD8 /* 390.消除游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "390.消除游戏.cpp"; sourceTree = "<group>"; };
+		898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "390.消除游戏.swift"; sourceTree = "<group>"; };
 		8992BF50275B2675007E107F /* 383.赎金信.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "383.赎金信.swift"; sourceTree = "<group>"; };
 		8992BF52275B2693007E107F /* 383.赎金信.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "383.赎金信.cpp"; sourceTree = "<group>"; };
 		89943B38275FAF80002F1171 /* 1034.边框着色.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1034.边框着色.swift"; sourceTree = "<group>"; };
@@ -481,6 +483,7 @@
 				89FA69B8273EC786005D1B5D /* 375.猜数字大小-ii.swift */,
 				8992BF50275B2675007E107F /* 383.赎金信.swift */,
 				89AE78A52751E7D600598666 /* 384.打乱数组.swift */,
+				898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */,
 				899A76D12747F6F6006DA530 /* 391.完美矩形-1.swift */,
 				899A76D92747F753006DA530 /* 397.整数替换.swift */,
 				89723784275A656900EBC5C5 /* 400.第-n-位数字.swift */,
@@ -666,6 +669,7 @@
 				89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */,
 				8992BF52275B2693007E107F /* 383.赎金信.cpp */,
 				89AE789F2751E79400598666 /* 384.打乱数组.cpp */,
+				898F4E6927815B4100A89BD8 /* 390.消除游戏.cpp */,
 				899A76C52747F67C006DA530 /* 391.完美矩形.cpp */,
 				899A76CC2747F6BD006DA530 /* 397.整数替换.cpp */,
 				89723779275A655900EBC5C5 /* 400.第-n-位数字.cpp */,
@@ -980,8 +984,8 @@
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
+				898F4E6C27815C3E00A89BD8 /* 390.消除游戏.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				89B6C495278056DE000F2DA5 /* 2022.将一维数组转变成二维数组.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -991,8 +995,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				89B6C493278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				898F4E6A27815B4100A89BD8 /* 390.消除游戏.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
