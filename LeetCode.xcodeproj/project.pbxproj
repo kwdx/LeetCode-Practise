@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
+		8955A7F52783457000AB2F8D /* 1185.一周中的第几天.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955A7F42783456F00AB2F8D /* 1185.一周中的第几天.swift */; };
+		8955A7F72783457F00AB2F8D /* 1185.一周中的第几天.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8955A7F62783457F00AB2F8D /* 1185.一周中的第几天.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
-		898F4E6A27815B4100A89BD8 /* 390.消除游戏.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898F4E6927815B4100A89BD8 /* 390.消除游戏.cpp */; };
-		898F4E6C27815C3E00A89BD8 /* 390.消除游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
@@ -125,6 +125,8 @@
 		89554F9A26BEDE7100FEDFF1 /* Swift_ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_; sourceTree = BUILT_PRODUCTS_DIR; };
 		89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "322.零钱兑换.swift"; sourceTree = "<group>"; };
 		89554FA326BEDED300FEDFF1 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8955A7F42783456F00AB2F8D /* 1185.一周中的第几天.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1185.一周中的第几天.swift"; sourceTree = "<group>"; };
+		8955A7F62783457F00AB2F8D /* 1185.一周中的第几天.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1185.一周中的第几天.cpp"; sourceTree = "<group>"; };
 		8956A90827242C820006474A /* 492.构造矩形.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "492.构造矩形.cpp"; sourceTree = "<group>"; };
 		8956A90A27242E8E0006474A /* 453.最小操作次数使数组元素相等-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "453.最小操作次数使数组元素相等-1.cpp"; sourceTree = "<group>"; };
 		8956A90B27242E8E0006474A /* 476.数字的补数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "476.数字的补数.cpp"; sourceTree = "<group>"; };
@@ -528,6 +530,7 @@
 				89943B38275FAF80002F1171 /* 1034.边框着色.swift */,
 				89D44118277823E0006B0055 /* 1078.bigram-分词.swift */,
 				897355182776209C0034C87A /* 1154.一年中的第几天.swift */,
+				8955A7F42783456F00AB2F8D /* 1185.一周中的第几天.swift */,
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				8939CD85277F59A0009F0CEE /* 1296.划分数组为连续数字的集合.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
@@ -768,6 +771,7 @@
 				89A51CBF26D3F5140013B3F2 /* 1081.不同字符的最小子序列.cpp */,
 				89BA3E9226E50245000B8F69 /* 1143.最长公共子序列.cpp */,
 				8973551F277620B20034C87A /* 1154.一年中的第几天.cpp */,
+				8955A7F62783457F00AB2F8D /* 1185.一周中的第几天.cpp */,
 				8910958F273579C800981C0D /* 1218.最长定差子序列.cpp */,
 				8966DE5826E7BBF400AEA606 /* 1221.分割平衡字符串.cpp */,
 				8939CD7F277F5995009F0CEE /* 1296.划分数组为连续数字的集合.cpp */,
@@ -981,10 +985,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8955A7F52783457000AB2F8D /* 1185.一周中的第几天.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
-				898F4E6C27815C3E00A89BD8 /* 390.消除游戏.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
@@ -994,9 +998,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8955A7F72783457F00AB2F8D /* 1185.一周中的第几天.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
-				898F4E6A27815B4100A89BD8 /* 390.消除游戏.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
