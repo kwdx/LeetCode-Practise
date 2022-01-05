@@ -15,7 +15,8 @@
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
-		89F7B9942784951C000326DC /* 913.猫和老鼠.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F7B9932784951C000326DC /* 913.猫和老鼠.cpp */; };
+		89F7B9962785DAB7000326DC /* 1576.替换所有的问号.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F7B9952785DAB7000326DC /* 1576.替换所有的问号.cpp */; };
+		89F7B9982785DAC1000326DC /* 1576.替换所有的问号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7B9972785DAC1000326DC /* 1576.替换所有的问号.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -383,6 +384,8 @@
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
 		89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "297.二叉树的序列化与反序列化.cpp"; sourceTree = "<group>"; };
 		89F7B9932784951C000326DC /* 913.猫和老鼠.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "913.猫和老鼠.cpp"; sourceTree = "<group>"; };
+		89F7B9952785DAB7000326DC /* 1576.替换所有的问号.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1576.替换所有的问号.cpp"; sourceTree = "<group>"; };
+		89F7B9972785DAC1000326DC /* 1576.替换所有的问号.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1576.替换所有的问号.swift"; sourceTree = "<group>"; };
 		89F7BA2A2753D1570075865E /* 438.找到字符串中所有字母异位词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "438.找到字符串中所有字母异位词.swift"; sourceTree = "<group>"; };
 		89FA69B6273EC3D0005D1B5D /* 375.猜数字大小-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "375.猜数字大小-ii.cpp"; sourceTree = "<group>"; };
 		89FA69B8273EC786005D1B5D /* 375.猜数字大小-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "375.猜数字大小-ii.swift"; sourceTree = "<group>"; };
@@ -535,6 +538,7 @@
 				8939CD85277F59A0009F0CEE /* 1296.划分数组为连续数字的集合.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
 				89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */,
+				89F7B9972785DAC1000326DC /* 1576.替换所有的问号.swift */,
 				8973552327776F7E0034C87A /* 1609.奇偶树.swift */,
 				89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */,
 				8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */,
@@ -781,6 +785,7 @@
 				8972377C275A655900EBC5C5 /* 1446.连续字符.cpp */,
 				8907625D26D9455F00A93668 /* 1480.一维数组的动态和.cpp */,
 				89E391E6276CD90B0049A907 /* 1518.换酒问题.cpp */,
+				89F7B9952785DAB7000326DC /* 1576.替换所有的问号.cpp */,
 				8973552527776F8C0034C87A /* 1609.奇偶树.cpp */,
 				89075152276F673C009BA671 /* 1610.可见点的最大数目.cpp */,
 				8973551E277620B20034C87A /* 1705.吃苹果的最大数目.cpp */,
@@ -991,6 +996,7 @@
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				89F7B9982785DAC1000326DC /* 1576.替换所有的问号.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -998,7 +1004,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89F7B9942784951C000326DC /* 913.猫和老鼠.cpp in Sources */,
+				89F7B9962785DAB7000326DC /* 1576.替换所有的问号.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
