@@ -11,8 +11,8 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89B48625278883B500A6930A /* 1614.括号的最大嵌套深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B48624278883B500A6930A /* 1614.括号的最大嵌套深度.swift */; };
-		89B48627278883BE00A6930A /* 1614.括号的最大嵌套深度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B48626278883BE00A6930A /* 1614.括号的最大嵌套深度.cpp */; };
+		89B486292789DEA100A6930A /* 89.格雷编码.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B486282789DEA100A6930A /* 89.格雷编码.cpp */; };
+		89B4862B2789DF0200A6930A /* 89.格雷编码.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4862A2789DF0200A6930A /* 89.格雷编码.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -290,6 +290,8 @@
 		89B486222787432000A6930A /* 71.简化路径.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "71.简化路径.cpp"; sourceTree = "<group>"; };
 		89B48624278883B500A6930A /* 1614.括号的最大嵌套深度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1614.括号的最大嵌套深度.swift"; sourceTree = "<group>"; };
 		89B48626278883BE00A6930A /* 1614.括号的最大嵌套深度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1614.括号的最大嵌套深度.cpp"; sourceTree = "<group>"; };
+		89B486282789DEA100A6930A /* 89.格雷编码.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "89.格雷编码.cpp"; sourceTree = "<group>"; };
+		89B4862A2789DF0200A6930A /* 89.格雷编码.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "89.格雷编码.swift"; sourceTree = "<group>"; };
 		89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "709.转换成小写字母.swift"; sourceTree = "<group>"; };
 		89B69A1A2765FF43004A2892 /* 709.转换成小写字母.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "709.转换成小写字母.cpp"; sourceTree = "<group>"; };
 		89B6C492278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2022.将一维数组转变成二维数组.cpp"; sourceTree = "<group>"; };
@@ -473,6 +475,7 @@
 				89886F49272C5E42003A626D /* 36.有效的数独.swift */,
 				89B486202787431800A6930A /* 71.简化路径.swift */,
 				89886F4F272CDC20003A626D /* 88.合并两个有序数组.swift */,
+				89B4862A2789DF0200A6930A /* 89.格雷编码.swift */,
 				89886F56272CDF2D003A626D /* 150.逆波兰表达式求值.swift */,
 				893E1231272C51AD00EAC6FD /* 198.打家劫舍.swift */,
 				893E1234272C554D00EAC6FD /* 215.数组中的第k个最大元素.swift */,
@@ -602,6 +605,7 @@
 				89C3FC4626D1508800C87257 /* 76.最小覆盖子串.cpp */,
 				8907625526D5398A00A93668 /* 83.删除排序链表中的重复元素.cpp */,
 				89B2F9552724FE5700DB5B34 /* 88.合并两个有序数组.cpp */,
+				89B486282789DEA100A6930A /* 89.格雷编码.cpp */,
 				89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */,
 				89C3FC0E26CAB69A00C87257 /* 94.二叉树的中序遍历.cpp */,
 				89CC84B726C41A72009483EF /* 95.不同的二叉搜索树-ii.cpp */,
@@ -999,12 +1003,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B4862B2789DF0200A6930A /* 89.格雷编码.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				89B48625278883B500A6930A /* 1614.括号的最大嵌套深度.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1012,9 +1016,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B48627278883BE00A6930A /* 1614.括号的最大嵌套深度.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				89B486292789DEA100A6930A /* 89.格雷编码.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
