@@ -11,8 +11,8 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89B486292789DEA100A6930A /* 89.格雷编码.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B486282789DEA100A6930A /* 89.格雷编码.cpp */; };
-		89B4862B2789DF0200A6930A /* 89.格雷编码.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4862A2789DF0200A6930A /* 89.格雷编码.swift */; };
+		89B4862D278A9E8B00A6930A /* 1629.按键持续时间最长的键.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4862C278A9E8B00A6930A /* 1629.按键持续时间最长的键.swift */; };
+		89B4862F278A9EA000A6930A /* 1629.按键持续时间最长的键.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B4862E278A9EA000A6930A /* 1629.按键持续时间最长的键.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -292,6 +292,8 @@
 		89B48626278883BE00A6930A /* 1614.括号的最大嵌套深度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1614.括号的最大嵌套深度.cpp"; sourceTree = "<group>"; };
 		89B486282789DEA100A6930A /* 89.格雷编码.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "89.格雷编码.cpp"; sourceTree = "<group>"; };
 		89B4862A2789DF0200A6930A /* 89.格雷编码.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "89.格雷编码.swift"; sourceTree = "<group>"; };
+		89B4862C278A9E8B00A6930A /* 1629.按键持续时间最长的键.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1629.按键持续时间最长的键.swift"; sourceTree = "<group>"; };
+		89B4862E278A9EA000A6930A /* 1629.按键持续时间最长的键.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1629.按键持续时间最长的键.cpp"; sourceTree = "<group>"; };
 		89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "709.转换成小写字母.swift"; sourceTree = "<group>"; };
 		89B69A1A2765FF43004A2892 /* 709.转换成小写字母.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "709.转换成小写字母.cpp"; sourceTree = "<group>"; };
 		89B6C492278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2022.将一维数组转变成二维数组.cpp"; sourceTree = "<group>"; };
@@ -550,6 +552,7 @@
 				8973552327776F7E0034C87A /* 1609.奇偶树.swift */,
 				89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */,
 				89B48624278883B500A6930A /* 1614.括号的最大嵌套深度.swift */,
+				89B4862C278A9E8B00A6930A /* 1629.按键持续时间最长的键.swift */,
 				8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
 				8939CD87277F59A0009F0CEE /* 1995.统计特殊四元组.swift */,
@@ -800,6 +803,7 @@
 				8973552527776F8C0034C87A /* 1609.奇偶树.cpp */,
 				89075152276F673C009BA671 /* 1610.可见点的最大数目.cpp */,
 				89B48626278883BE00A6930A /* 1614.括号的最大嵌套深度.cpp */,
+				89B4862E278A9EA000A6930A /* 1629.按键持续时间最长的键.cpp */,
 				8973551E277620B20034C87A /* 1705.吃苹果的最大数目.cpp */,
 				89A38F0F275E4948007FED61 /* 1816.截断句子.cpp */,
 				8966DE5E26EBA5E900AEA606 /* 1894.找到需要补充粉笔的学生编号.cpp */,
@@ -1003,9 +1007,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B4862B2789DF0200A6930A /* 89.格雷编码.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
+				89B4862D278A9E8B00A6930A /* 1629.按键持续时间最长的键.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
@@ -1016,9 +1020,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B4862F278A9EA000A6930A /* 1629.按键持续时间最长的键.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
-				89B486292789DEA100A6930A /* 89.格雷编码.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
