@@ -11,8 +11,8 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89B48631278C8D3200A6930A /* 306.累加数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B48630278C8D3200A6930A /* 306.累加数.cpp */; };
-		89B48633278C8D3900A6930A /* 306.累加数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B48632278C8D3900A6930A /* 306.累加数.swift */; };
+		89B4863F27907D5300A6930A /* 747.至少是其他数字两倍的最大数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4863E27907D5200A6930A /* 747.至少是其他数字两倍的最大数.swift */; };
+		89B4864127907D7900A6930A /* 747.至少是其他数字两倍的最大数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B4864027907D7900A6930A /* 747.至少是其他数字两倍的最大数.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -296,6 +296,12 @@
 		89B4862E278A9EA000A6930A /* 1629.按键持续时间最长的键.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1629.按键持续时间最长的键.cpp"; sourceTree = "<group>"; };
 		89B48630278C8D3200A6930A /* 306.累加数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "306.累加数.cpp"; sourceTree = "<group>"; };
 		89B48632278C8D3900A6930A /* 306.累加数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "306.累加数.swift"; sourceTree = "<group>"; };
+		89B48634278F2B9E00A6930A /* 1036.逃离大迷宫.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1036.逃离大迷宫.cpp"; sourceTree = "<group>"; };
+		89B48635278F2B9E00A6930A /* 334.递增的三元子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "334.递增的三元子序列.cpp"; sourceTree = "<group>"; };
+		89B48639278F2BE600A6930A /* 1036.逃离大迷宫.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1036.逃离大迷宫.swift"; sourceTree = "<group>"; };
+		89B4863A278F2BE600A6930A /* 334.递增的三元子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "334.递增的三元子序列.swift"; sourceTree = "<group>"; };
+		89B4863E27907D5200A6930A /* 747.至少是其他数字两倍的最大数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "747.至少是其他数字两倍的最大数.swift"; sourceTree = "<group>"; };
+		89B4864027907D7900A6930A /* 747.至少是其他数字两倍的最大数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "747.至少是其他数字两倍的最大数.cpp"; sourceTree = "<group>"; };
 		89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "709.转换成小写字母.swift"; sourceTree = "<group>"; };
 		89B69A1A2765FF43004A2892 /* 709.转换成小写字母.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "709.转换成小写字母.cpp"; sourceTree = "<group>"; };
 		89B6C492278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2022.将一维数组转变成二维数组.cpp"; sourceTree = "<group>"; };
@@ -494,6 +500,7 @@
 				899A76D32747F703006DA530 /* 318.最大单词长度乘积-2.swift */,
 				899A76CF2747F6E2006DA530 /* 319.灯泡开关.swift */,
 				89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */,
+				89B4863A278F2BE600A6930A /* 334.递增的三元子序列.swift */,
 				89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */,
 				89886F4C272C5EF5003A626D /* 349.两个数组的交集.swift */,
 				8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */,
@@ -531,6 +538,7 @@
 				89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */,
 				89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */,
 				89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */,
+				89B4863E27907D5200A6930A /* 747.至少是其他数字两倍的最大数.swift */,
 				8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */,
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
 				892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */,
@@ -544,6 +552,7 @@
 				89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */,
 				89723786275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift */,
 				89943B38275FAF80002F1171 /* 1034.边框着色.swift */,
+				89B48639278F2BE600A6930A /* 1036.逃离大迷宫.swift */,
 				89D44118277823E0006B0055 /* 1078.bigram-分词.swift */,
 				897355182776209C0034C87A /* 1154.一年中的第几天.swift */,
 				8955A7F42783456F00AB2F8D /* 1185.一周中的第几天.swift */,
@@ -681,6 +690,7 @@
 				899A76C32747F65F006DA530 /* 319.灯泡开关.cpp */,
 				89554F8D26BECFC200FEDFF1 /* 322.零钱兑换.cpp */,
 				89CEC83126FCC815000F9EC7 /* 326.3-的幂.cpp */,
+				89B48635278F2B9E00A6930A /* 334.递增的三元子序列.cpp */,
 				893E122E272C4BCC00EAC6FD /* 335.路径交叉.cpp */,
 				89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */,
 				89C3FC4026D1077D00C87257 /* 344.反转字符串.cpp */,
@@ -763,6 +773,7 @@
 				8907627426DE89B900A93668 /* 714.买卖股票的最佳时机含手续费.cpp */,
 				8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */,
 				89C3FC2426CFF58700C87257 /* 739.每日温度.cpp */,
+				89B4864027907D7900A6930A /* 747.至少是其他数字两倍的最大数.cpp */,
 				8988F1EB2763999200CDBAA9 /* 748.最短补全词.cpp */,
 				89B2F9732725094000DB5B34 /* 783.二叉搜索树节点最小距离.cpp */,
 				8972377D275A655900EBC5C5 /* 786.第-k-个最小的素数分数.cpp */,
@@ -788,6 +799,7 @@
 				8972377B275A655900EBC5C5 /* 1005.k-次取反后最大化的数组和.cpp */,
 				89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */,
 				89943B3A275FAF87002F1171 /* 1034.边框着色.cpp */,
+				89B48634278F2B9E00A6930A /* 1036.逃离大迷宫.cpp */,
 				89CC84B526C2D493009483EF /* 1038.把二叉搜索树转换为累加树.cpp */,
 				8973551C277620B20034C87A /* 1044.最长重复子串.cpp */,
 				89D4411A277823F9006B0055 /* 1078.bigram-分词.cpp */,
@@ -1015,8 +1027,8 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				89B48633278C8D3900A6930A /* 306.累加数.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				89B4863F27907D5300A6930A /* 747.至少是其他数字两倍的最大数.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1025,9 +1037,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				89B48631278C8D3200A6930A /* 306.累加数.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
+				89B4864127907D7900A6930A /* 747.至少是其他数字两倍的最大数.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
