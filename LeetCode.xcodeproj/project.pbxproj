@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
+		896BABC92791C9A60099C360 /* 373.查找和最小的k对数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896BABC82791C9A60099C360 /* 373.查找和最小的k对数字.cpp */; };
+		896BABCB2791C9CD0099C360 /* 373.查找和最小的k对数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BABCA2791C9CD0099C360 /* 373.查找和最小的k对数字.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89B4863F27907D5300A6930A /* 747.至少是其他数字两倍的最大数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4863E27907D5200A6930A /* 747.至少是其他数字两倍的最大数.swift */; };
-		89B4864127907D7900A6930A /* 747.至少是其他数字两倍的最大数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B4864027907D7900A6930A /* 747.至少是其他数字两倍的最大数.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -141,6 +141,8 @@
 		8966DE5C26EA56C800AEA606 /* 68.文本左右对齐.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "68.文本左右对齐.cpp"; sourceTree = "<group>"; };
 		8966DE5E26EBA5E900AEA606 /* 1894.找到需要补充粉笔的学生编号.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1894.找到需要补充粉笔的学生编号.cpp"; sourceTree = "<group>"; };
 		8969847727072BB30070F99C /* 1436.旅行终点站.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1436.旅行终点站.cpp"; sourceTree = "<group>"; };
+		896BABC82791C9A60099C360 /* 373.查找和最小的k对数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "373.查找和最小的k对数字.cpp"; sourceTree = "<group>"; };
+		896BABCA2791C9CD0099C360 /* 373.查找和最小的k对数字.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "373.查找和最小的k对数字.swift"; sourceTree = "<group>"; };
 		89723779275A655900EBC5C5 /* 400.第-n-位数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "400.第-n-位数字.cpp"; sourceTree = "<group>"; };
 		8972377A275A655900EBC5C5 /* 506.相对名次.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "506.相对名次.cpp"; sourceTree = "<group>"; };
 		8972377B275A655900EBC5C5 /* 1005.k-次取反后最大化的数组和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1005.k-次取反后最大化的数组和.cpp"; sourceTree = "<group>"; };
@@ -505,6 +507,7 @@
 				89886F4C272C5EF5003A626D /* 349.两个数组的交集.swift */,
 				8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */,
 				892EC6A2275C994D00CD0593 /* 372.超级次方.swift */,
+				896BABCA2791C9CD0099C360 /* 373.查找和最小的k对数字.swift */,
 				89FA69B8273EC786005D1B5D /* 375.猜数字大小-ii.swift */,
 				8992BF50275B2675007E107F /* 383.赎金信.swift */,
 				89AE78A52751E7D600598666 /* 384.打乱数组.swift */,
@@ -700,6 +703,7 @@
 				89109589273420B400981C0D /* 367.有效的完全平方数.cpp */,
 				894792CF27001A7100AC9055 /* 371.两整数之和.cpp */,
 				892EC6A0275C993A00CD0593 /* 372.超级次方.cpp */,
+				896BABC82791C9A60099C360 /* 373.查找和最小的k对数字.cpp */,
 				89FA69B6273EC3D0005D1B5D /* 375.猜数字大小-ii.cpp */,
 				89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */,
 				8992BF52275B2693007E107F /* 383.赎金信.cpp */,
@@ -1024,11 +1028,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				896BABCB2791C9CD0099C360 /* 373.查找和最小的k对数字.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				89B4863F27907D5300A6930A /* 747.至少是其他数字两倍的最大数.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1037,9 +1041,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
+				896BABC92791C9A60099C360 /* 373.查找和最小的k对数字.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
-				89B4864127907D7900A6930A /* 747.至少是其他数字两倍的最大数.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
