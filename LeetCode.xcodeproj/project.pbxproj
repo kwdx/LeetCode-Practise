@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
-		896BABCD2792F1420099C360 /* 1716.计算力扣银行的钱.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BABCC2792F1420099C360 /* 1716.计算力扣银行的钱.swift */; };
-		896BABCF2792F15C0099C360 /* 1716.计算力扣银行的钱.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896BABCE2792F15C0099C360 /* 1716.计算力扣银行的钱.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -17,6 +15,8 @@
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
+		89E8F99F2793ECBC00310336 /* 382.链表随机节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F99E2793ECBC00310336 /* 382.链表随机节点.cpp */; };
+		89E8F9A12793ED8100310336 /* 382.链表随机节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9A02793ED8100310336 /* 382.链表随机节点.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -401,6 +401,8 @@
 		89E391E6276CD90B0049A907 /* 1518.换酒问题.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1518.换酒问题.cpp"; sourceTree = "<group>"; };
 		89E5AAC727493969007DB9B9 /* 594.最长和谐子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "594.最长和谐子序列.cpp"; sourceTree = "<group>"; };
 		89E5AAC927493A7E007DB9B9 /* 594.最长和谐子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "594.最长和谐子序列.swift"; sourceTree = "<group>"; };
+		89E8F99E2793ECBC00310336 /* 382.链表随机节点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "382.链表随机节点.cpp"; sourceTree = "<group>"; };
+		89E8F9A02793ED8100310336 /* 382.链表随机节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "382.链表随机节点.swift"; sourceTree = "<group>"; };
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
 		89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "297.二叉树的序列化与反序列化.cpp"; sourceTree = "<group>"; };
 		89F7B9932784951C000326DC /* 913.猫和老鼠.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "913.猫和老鼠.cpp"; sourceTree = "<group>"; };
@@ -511,6 +513,7 @@
 				892EC6A2275C994D00CD0593 /* 372.超级次方.swift */,
 				896BABCA2791C9CD0099C360 /* 373.查找和最小的k对数字.swift */,
 				89FA69B8273EC786005D1B5D /* 375.猜数字大小-ii.swift */,
+				89E8F9A02793ED8100310336 /* 382.链表随机节点.swift */,
 				8992BF50275B2675007E107F /* 383.赎金信.swift */,
 				89AE78A52751E7D600598666 /* 384.打乱数组.swift */,
 				898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */,
@@ -709,6 +712,7 @@
 				896BABC82791C9A60099C360 /* 373.查找和最小的k对数字.cpp */,
 				89FA69B6273EC3D0005D1B5D /* 375.猜数字大小-ii.cpp */,
 				89A51CB926D3F29D0013B3F2 /* 380.o-1-时间插入、删除和获取随机元素.cpp */,
+				89E8F99E2793ECBC00310336 /* 382.链表随机节点.cpp */,
 				8992BF52275B2693007E107F /* 383.赎金信.cpp */,
 				89AE789F2751E79400598666 /* 384.打乱数组.cpp */,
 				898F4E6927815B4100A89BD8 /* 390.消除游戏.cpp */,
@@ -1032,9 +1036,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				896BABCD2792F1420099C360 /* 1716.计算力扣银行的钱.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
+				89E8F9A12793ED8100310336 /* 382.链表随机节点.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
@@ -1044,8 +1048,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E8F99F2793ECBC00310336 /* 382.链表随机节点.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				896BABCF2792F15C0099C360 /* 1716.计算力扣银行的钱.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
