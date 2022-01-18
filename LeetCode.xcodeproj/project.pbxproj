@@ -15,8 +15,8 @@
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
-		89E8F9A32795BEA600310336 /* 1220.统计元音字母序列的数目.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9A22795BEA600310336 /* 1220.统计元音字母序列的数目.swift */; };
-		89E8F9A52795BEBC00310336 /* 1220.统计元音字母序列的数目.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9A42795BEBC00310336 /* 1220.统计元音字母序列的数目.cpp */; };
+		89E8F9A72796FFB600310336 /* 539.最小时间差.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9A62796FFB500310336 /* 539.最小时间差.cpp */; };
+		89E8F9A92796FFF100310336 /* 539.最小时间差.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9A82796FFF100310336 /* 539.最小时间差.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -405,6 +405,8 @@
 		89E8F9A02793ED8100310336 /* 382.链表随机节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "382.链表随机节点.swift"; sourceTree = "<group>"; };
 		89E8F9A22795BEA600310336 /* 1220.统计元音字母序列的数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1220.统计元音字母序列的数目.swift"; sourceTree = "<group>"; };
 		89E8F9A42795BEBC00310336 /* 1220.统计元音字母序列的数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1220.统计元音字母序列的数目.cpp"; sourceTree = "<group>"; };
+		89E8F9A62796FFB500310336 /* 539.最小时间差.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "539.最小时间差.cpp"; sourceTree = "<group>"; };
+		89E8F9A82796FFF100310336 /* 539.最小时间差.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "539.最小时间差.swift"; sourceTree = "<group>"; };
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
 		89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "297.二叉树的序列化与反序列化.cpp"; sourceTree = "<group>"; };
 		89F7B9932784951C000326DC /* 913.猫和老鼠.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "913.猫和老鼠.cpp"; sourceTree = "<group>"; };
@@ -536,6 +538,7 @@
 				89886F51272CDCE6003A626D /* 509.斐波那契数.swift */,
 				89AE789B2751CDF000598666 /* 519.随机翻转矩阵.swift */,
 				891C5A62273F718D0047E46E /* 520.检测大写字母.swift */,
+				89E8F9A82796FFF100310336 /* 539.最小时间差.swift */,
 				89C84273274A081700A73FAB /* 559.n-叉树的最大深度.swift */,
 				899A76D52747F710006DA530 /* 563.二叉树的坡度-2.swift */,
 				8995D89C27303094001A499C /* 575.分糖果.swift */,
@@ -760,6 +763,7 @@
 				89DEB28D26F0ED37009A4894 /* 524.通过删除字母匹配到字典里最长单词.cpp */,
 				89B2F971272508A900DB5B34 /* 530.二叉搜索树的最小绝对差.cpp */,
 				89CC84AF26C2D19B009483EF /* 538.把二叉搜索树转换为累加树.cpp */,
+				89E8F9A62796FFB500310336 /* 539.最小时间差.cpp */,
 				89C84271274A057800A73FAB /* 559.n-叉树的最大深度.cpp */,
 				899A76CA2747F6AD006DA530 /* 563.二叉树的坡度.cpp */,
 				89A51CB326D3EB980013B3F2 /* 567.字符串的排列.cpp */,
@@ -1039,12 +1043,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89E8F9A32795BEA600310336 /* 1220.统计元音字母序列的数目.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				89E8F9A92796FFF100310336 /* 539.最小时间差.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1052,7 +1056,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89E8F9A52795BEBC00310336 /* 1220.统计元音字母序列的数目.cpp in Sources */,
+				89E8F9A72796FFB600310336 /* 539.最小时间差.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
