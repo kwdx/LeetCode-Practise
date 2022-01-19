@@ -15,8 +15,8 @@
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
-		89E8F9A72796FFB600310336 /* 539.最小时间差.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9A62796FFB500310336 /* 539.最小时间差.cpp */; };
-		89E8F9A92796FFF100310336 /* 539.最小时间差.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9A82796FFF100310336 /* 539.最小时间差.swift */; };
+		89E8F9AB279852E000310336 /* 219.存在重复元素-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9AA279852E000310336 /* 219.存在重复元素-ii.swift */; };
+		89E8F9AD279852F500310336 /* 219.存在重复元素-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9AC279852F500310336 /* 219.存在重复元素-ii.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -407,6 +407,8 @@
 		89E8F9A42795BEBC00310336 /* 1220.统计元音字母序列的数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1220.统计元音字母序列的数目.cpp"; sourceTree = "<group>"; };
 		89E8F9A62796FFB500310336 /* 539.最小时间差.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "539.最小时间差.cpp"; sourceTree = "<group>"; };
 		89E8F9A82796FFF100310336 /* 539.最小时间差.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "539.最小时间差.swift"; sourceTree = "<group>"; };
+		89E8F9AA279852E000310336 /* 219.存在重复元素-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "219.存在重复元素-ii.swift"; sourceTree = "<group>"; };
+		89E8F9AC279852F500310336 /* 219.存在重复元素-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "219.存在重复元素-ii.cpp"; sourceTree = "<group>"; };
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
 		89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "297.二叉树的序列化与反序列化.cpp"; sourceTree = "<group>"; };
 		89F7B9932784951C000326DC /* 913.猫和老鼠.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "913.猫和老鼠.cpp"; sourceTree = "<group>"; };
@@ -499,6 +501,7 @@
 				89886F56272CDF2D003A626D /* 150.逆波兰表达式求值.swift */,
 				893E1231272C51AD00EAC6FD /* 198.打家劫舍.swift */,
 				893E1234272C554D00EAC6FD /* 215.数组中的第k个最大元素.swift */,
+				89E8F9AA279852E000310336 /* 219.存在重复元素-ii.swift */,
 				89886F58272CDFA2003A626D /* 224.基本计算器.swift */,
 				89886F5B272CE03E003A626D /* 225.用队列实现栈.swift */,
 				89886F5D272CE104003A626D /* 232.用栈实现队列.swift */,
@@ -673,6 +676,7 @@
 				8956A90C27242E8E0006474A /* 211.添加与搜索单词-数据结构设计-1.cpp */,
 				89DEB29226F363EB009A4894 /* 212.单词搜索-ii.cpp */,
 				89B2F95F272501EF00DB5B34 /* 215.数组中的第k个最大元素.cpp */,
+				89E8F9AC279852F500310336 /* 219.存在重复元素-ii.cpp */,
 				89C3FC0A26CAAED900C87257 /* 222.完全二叉树的节点个数.cpp */,
 				8983473E270613D800B8946E /* 223.矩形面积.cpp */,
 				89B2F9612725027500DB5B34 /* 224.基本计算器.cpp */,
@@ -1048,7 +1052,7 @@
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				89E8F9A92796FFF100310336 /* 539.最小时间差.swift in Sources */,
+				89E8F9AB279852E000310336 /* 219.存在重复元素-ii.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1056,9 +1060,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89E8F9A72796FFB600310336 /* 539.最小时间差.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				89E8F9AD279852F500310336 /* 219.存在重复元素-ii.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
