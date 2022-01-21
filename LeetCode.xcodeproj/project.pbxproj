@@ -15,8 +15,8 @@
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
-		89E8F9AF2799A55A00310336 /* 2029.石子游戏-ix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9AE2799A55A00310336 /* 2029.石子游戏-ix.cpp */; };
-		89E8F9B12799A58B00310336 /* 2029.石子游戏-ix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9B02799A58B00310336 /* 2029.石子游戏-ix.swift */; };
+		89E8F9B3279AFE9C00310336 /* 1345.跳跃游戏-iv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9B2279AFE9B00310336 /* 1345.跳跃游戏-iv.swift */; };
+		89E8F9B5279AFF2600310336 /* 1345.跳跃游戏-iv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E8F9B4279AFF2600310336 /* 1345.跳跃游戏-iv.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -411,6 +411,8 @@
 		89E8F9AC279852F500310336 /* 219.存在重复元素-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "219.存在重复元素-ii.cpp"; sourceTree = "<group>"; };
 		89E8F9AE2799A55A00310336 /* 2029.石子游戏-ix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2029.石子游戏-ix.cpp"; sourceTree = "<group>"; };
 		89E8F9B02799A58B00310336 /* 2029.石子游戏-ix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2029.石子游戏-ix.swift"; sourceTree = "<group>"; };
+		89E8F9B2279AFE9B00310336 /* 1345.跳跃游戏-iv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1345.跳跃游戏-iv.swift"; sourceTree = "<group>"; };
+		89E8F9B4279AFF2600310336 /* 1345.跳跃游戏-iv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1345.跳跃游戏-iv.cpp"; sourceTree = "<group>"; };
 		89EBA18126C965F700D291DD /* 341.扁平化嵌套列表迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "341.扁平化嵌套列表迭代器.cpp"; sourceTree = "<group>"; };
 		89EEFF6F26C95BF90010CFA7 /* 297.二叉树的序列化与反序列化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "297.二叉树的序列化与反序列化.cpp"; sourceTree = "<group>"; };
 		89F7B9932784951C000326DC /* 913.猫和老鼠.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "913.猫和老鼠.cpp"; sourceTree = "<group>"; };
@@ -577,6 +579,7 @@
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				89E8F9A22795BEA600310336 /* 1220.统计元音字母序列的数目.swift */,
 				8939CD85277F59A0009F0CEE /* 1296.划分数组为连续数字的集合.swift */,
+				89E8F9B2279AFE9B00310336 /* 1345.跳跃游戏-iv.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
 				89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */,
 				89F7B9972785DAC1000326DC /* 1576.替换所有的问号.swift */,
@@ -836,6 +839,7 @@
 				89E8F9A42795BEBC00310336 /* 1220.统计元音字母序列的数目.cpp */,
 				8966DE5826E7BBF400AEA606 /* 1221.分割平衡字符串.cpp */,
 				8939CD7F277F5995009F0CEE /* 1296.划分数组为连续数字的集合.cpp */,
+				89E8F9B4279AFF2600310336 /* 1345.跳跃游戏-iv.cpp */,
 				89CC84BD26C427C8009483EF /* 1373.二叉搜索子树的最大键值和.cpp */,
 				8969847727072BB30070F99C /* 1436.旅行终点站.cpp */,
 				8972377C275A655900EBC5C5 /* 1446.连续字符.cpp */,
@@ -1052,10 +1056,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				89E8F9B3279AFE9C00310336 /* 1345.跳跃游戏-iv.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				89E8F9B12799A58B00310336 /* 2029.石子游戏-ix.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1065,9 +1069,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
+				89E8F9B5279AFF2600310336 /* 1345.跳跃游戏-iv.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
-				89E8F9AF2799A55A00310336 /* 2029.石子游戏-ix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
