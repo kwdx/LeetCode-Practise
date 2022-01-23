@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
-		8972B68F279C134A00D14CE7 /* 1332.删除回文子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972B68E279C134A00D14CE7 /* 1332.删除回文子序列.cpp */; };
-		8972B691279C14A600D14CE7 /* 1332.删除回文子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972B690279C14A600D14CE7 /* 1332.删除回文子序列.swift */; };
+		8972B693279D1CAF00D14CE7 /* 2034.股票价格波动.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972B692279D1CAF00D14CE7 /* 2034.股票价格波动.swift */; };
+		8972B695279D1D4400D14CE7 /* 2034.股票价格波动.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972B694279D1D4400D14CE7 /* 2034.股票价格波动.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -157,6 +157,8 @@
 		89723787275A656900EBC5C5 /* 1446.连续字符.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1446.连续字符.swift"; sourceTree = "<group>"; };
 		8972B68E279C134A00D14CE7 /* 1332.删除回文子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1332.删除回文子序列.cpp"; sourceTree = "<group>"; };
 		8972B690279C14A600D14CE7 /* 1332.删除回文子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1332.删除回文子序列.swift"; sourceTree = "<group>"; };
+		8972B692279D1CAF00D14CE7 /* 2034.股票价格波动.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2034.股票价格波动.swift"; sourceTree = "<group>"; };
+		8972B694279D1D4400D14CE7 /* 2034.股票价格波动.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2034.股票价格波动.cpp"; sourceTree = "<group>"; };
 		897355182776209C0034C87A /* 1154.一年中的第几天.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1154.一年中的第几天.swift"; sourceTree = "<group>"; };
 		897355192776209C0034C87A /* 475.供暖器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "475.供暖器.swift"; sourceTree = "<group>"; };
 		8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1705.吃苹果的最大数目.swift"; sourceTree = "<group>"; };
@@ -596,6 +598,7 @@
 				8939CD87277F59A0009F0CEE /* 1995.统计特殊四元组.swift */,
 				89B6C494278056DE000F2DA5 /* 2022.将一维数组转变成二维数组.swift */,
 				89E8F9B02799A58B00310336 /* 2029.石子游戏-ix.swift */,
+				8972B692279D1CAF00D14CE7 /* 2034.股票价格波动.swift */,
 				89886F61272CE1FF003A626D /* 链表 */,
 				89C3FC4B26D1ED6600C87257 /* 排序 */,
 				89554FA326BEDED300FEDFF1 /* main.swift */,
@@ -861,6 +864,7 @@
 				8939CD80277F5995009F0CEE /* 1995.统计特殊四元组.cpp */,
 				89B6C492278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp */,
 				89E8F9AE2799A55A00310336 /* 2029.石子游戏-ix.cpp */,
+				8972B694279D1D4400D14CE7 /* 2034.股票价格波动.cpp */,
 				8907625926D54CCB00A93668 /* 额外的算法题 */,
 				89CC849626C17557009483EF /* 二叉树 */,
 				89239D152718596700489E2B /* 剑指offer II */,
@@ -1060,10 +1064,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				8972B691279C14A600D14CE7 /* 1332.删除回文子序列.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				8972B693279D1CAF00D14CE7 /* 2034.股票价格波动.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1072,7 +1076,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8972B68F279C134A00D14CE7 /* 1332.删除回文子序列.cpp in Sources */,
+				8972B695279D1D4400D14CE7 /* 2034.股票价格波动.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
