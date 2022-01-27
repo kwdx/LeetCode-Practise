@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		892EA22127A1994F00E1E00D /* 2013.检测正方形.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 892EA22027A1994F00E1E00D /* 2013.检测正方形.cpp */; };
-		892EA22327A1996200E1E00D /* 2013.检测正方形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892EA22227A1996100E1E00D /* 2013.检测正方形.swift */; };
+		892EA22527A2E7EC00E1E00D /* 2047.句子中的有效单词数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892EA22427A2E7EB00E1E00D /* 2047.句子中的有效单词数.swift */; };
+		892EA22727A2E80000E1E00D /* 2047.句子中的有效单词数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 892EA22627A2E80000E1E00D /* 2047.句子中的有效单词数.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
@@ -96,6 +96,8 @@
 		892B78BA270DD01D00923EA9 /* 414.第三大的数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "414.第三大的数.cpp"; sourceTree = "<group>"; };
 		892EA22027A1994F00E1E00D /* 2013.检测正方形.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2013.检测正方形.cpp"; sourceTree = "<group>"; };
 		892EA22227A1996100E1E00D /* 2013.检测正方形.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2013.检测正方形.swift"; sourceTree = "<group>"; };
+		892EA22427A2E7EB00E1E00D /* 2047.句子中的有效单词数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2047.句子中的有效单词数.swift"; sourceTree = "<group>"; };
+		892EA22627A2E80000E1E00D /* 2047.句子中的有效单词数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2047.句子中的有效单词数.cpp"; sourceTree = "<group>"; };
 		892EC6A0275C993A00CD0593 /* 372.超级次方.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "372.超级次方.cpp"; sourceTree = "<group>"; };
 		892EC6A2275C994D00CD0593 /* 372.超级次方.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "372.超级次方.swift"; sourceTree = "<group>"; };
 		8939CD7A277F5733009F0CEE /* 507.完美数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "507.完美数.cpp"; sourceTree = "<group>"; };
@@ -608,6 +610,7 @@
 				89E8F9B02799A58B00310336 /* 2029.石子游戏-ix.swift */,
 				8972B692279D1CAF00D14CE7 /* 2034.股票价格波动.swift */,
 				8916EA1A279EE5B8000B26A9 /* 2045.到达目的地的第二短时间.swift */,
+				892EA22427A2E7EB00E1E00D /* 2047.句子中的有效单词数.swift */,
 				89886F61272CE1FF003A626D /* 链表 */,
 				89C3FC4B26D1ED6600C87257 /* 排序 */,
 				89554FA326BEDED300FEDFF1 /* main.swift */,
@@ -877,6 +880,7 @@
 				89E8F9AE2799A55A00310336 /* 2029.石子游戏-ix.cpp */,
 				8972B694279D1D4400D14CE7 /* 2034.股票价格波动.cpp */,
 				8916EA18279EE59C000B26A9 /* 2045.到达目的地的第二短时间.cpp */,
+				892EA22627A2E80000E1E00D /* 2047.句子中的有效单词数.cpp */,
 				8907625926D54CCB00A93668 /* 额外的算法题 */,
 				89CC849626C17557009483EF /* 二叉树 */,
 				89239D152718596700489E2B /* 剑指offer II */,
@@ -1079,7 +1083,7 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				892EA22327A1996200E1E00D /* 2013.检测正方形.swift in Sources */,
+				892EA22527A2E7EC00E1E00D /* 2047.句子中的有效单词数.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1090,8 +1094,8 @@
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
-				892EA22127A1994F00E1E00D /* 2013.检测正方形.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
+				892EA22727A2E80000E1E00D /* 2047.句子中的有效单词数.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
