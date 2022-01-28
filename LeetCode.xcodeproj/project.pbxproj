@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		892EA22527A2E7EC00E1E00D /* 2047.句子中的有效单词数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892EA22427A2E7EB00E1E00D /* 2047.句子中的有效单词数.swift */; };
-		892EA22727A2E80000E1E00D /* 2047.句子中的有效单词数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 892EA22627A2E80000E1E00D /* 2047.句子中的有效单词数.cpp */; };
+		89518A0E27A390BA009CA2D8 /* 1996.游戏中弱角色的数量.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89518A0D27A390BA009CA2D8 /* 1996.游戏中弱角色的数量.cpp */; };
+		89518A1027A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89518A0F27A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
@@ -119,6 +119,8 @@
 		893E1231272C51AD00EAC6FD /* 198.打家劫舍.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "198.打家劫舍.swift"; sourceTree = "<group>"; };
 		893E1234272C554D00EAC6FD /* 215.数组中的第k个最大元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "215.数组中的第k个最大元素.swift"; sourceTree = "<group>"; };
 		894792CF27001A7100AC9055 /* 371.两整数之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "371.两整数之和.cpp"; sourceTree = "<group>"; };
+		89518A0D27A390BA009CA2D8 /* 1996.游戏中弱角色的数量.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1996.游戏中弱角色的数量.cpp"; sourceTree = "<group>"; };
+		89518A0F27A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1996.游戏中弱角色的数量.swift"; sourceTree = "<group>"; };
 		8951E5DC270CA00000E891F6 /* 284.顶端迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "284.顶端迭代器.cpp"; sourceTree = "<group>"; };
 		895522652711D6E300133464 /* 352.将数据流变为多个不相交区间.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "352.将数据流变为多个不相交区间.cpp"; sourceTree = "<group>"; };
 		89552267271296C200133464 /* 441.排列硬币.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "441.排列硬币.cpp"; sourceTree = "<group>"; };
@@ -605,6 +607,7 @@
 				896BABCC2792F1420099C360 /* 1716.计算力扣银行的钱.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
 				8939CD87277F59A0009F0CEE /* 1995.统计特殊四元组.swift */,
+				89518A0F27A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift */,
 				892EA22227A1996100E1E00D /* 2013.检测正方形.swift */,
 				89B6C494278056DE000F2DA5 /* 2022.将一维数组转变成二维数组.swift */,
 				89E8F9B02799A58B00310336 /* 2029.石子游戏-ix.swift */,
@@ -875,6 +878,7 @@
 				89A38F0F275E4948007FED61 /* 1816.截断句子.cpp */,
 				8966DE5E26EBA5E900AEA606 /* 1894.找到需要补充粉笔的学生编号.cpp */,
 				8939CD80277F5995009F0CEE /* 1995.统计特殊四元组.cpp */,
+				89518A0D27A390BA009CA2D8 /* 1996.游戏中弱角色的数量.cpp */,
 				892EA22027A1994F00E1E00D /* 2013.检测正方形.cpp */,
 				89B6C492278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp */,
 				89E8F9AE2799A55A00310336 /* 2029.石子游戏-ix.cpp */,
@@ -1083,7 +1087,7 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				892EA22527A2E7EC00E1E00D /* 2047.句子中的有效单词数.swift in Sources */,
+				89518A1027A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1095,7 +1099,7 @@
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
-				892EA22727A2E80000E1E00D /* 2047.句子中的有效单词数.cpp in Sources */,
+				89518A0E27A390BA009CA2D8 /* 1996.游戏中弱角色的数量.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
