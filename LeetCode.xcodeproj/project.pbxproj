@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		891DCDE027A57C9A0068417B /* 1765.地图中的最高点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891DCDDF27A57C9A0068417B /* 1765.地图中的最高点.swift */; };
-		891DCDE227A57D220068417B /* 1765.地图中的最高点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891DCDE127A57D220068417B /* 1765.地图中的最高点.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
+		8984640627A693ED006D99B5 /* 884.两句话中的不常见单词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8984640527A693ED006D99B5 /* 884.两句话中的不常见单词.cpp */; };
+		8984640827A69483006D99B5 /* 884.两句话中的不常见单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -188,6 +188,8 @@
 		89782A0E26F98B86000428A0 /* 58.最后一个单词的长度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "58.最后一个单词的长度.cpp"; sourceTree = "<group>"; };
 		8983473E270613D800B8946E /* 223.矩形面积.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "223.矩形面积.cpp"; sourceTree = "<group>"; };
 		898379132701FFD200A1E293 /* 639.解码方法-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "639.解码方法-ii.cpp"; sourceTree = "<group>"; };
+		8984640527A693ED006D99B5 /* 884.两句话中的不常见单词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "884.两句话中的不常见单词.cpp"; sourceTree = "<group>"; };
+		8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "884.两句话中的不常见单词.swift"; sourceTree = "<group>"; };
 		89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "347.前-k-个高频元素.swift"; sourceTree = "<group>"; };
 		89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "451.根据字符出现频率排序.swift"; sourceTree = "<group>"; };
 		89886F49272C5E42003A626D /* 36.有效的数独.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "36.有效的数独.swift"; sourceTree = "<group>"; };
@@ -584,6 +586,7 @@
 				89B0B689276A2D0000A10203 /* 851.喧闹和富有.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
 				89AE78A42751E7D600598666 /* 859.亲密字符串.swift */,
+				8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */,
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
 				89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */,
 				89723786275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift */,
@@ -841,6 +844,7 @@
 				89C3FC2D26D0004700C87257 /* 870.优势洗牌.cpp */,
 				89C3FC3326D0EA7700C87257 /* 875.爱吃香蕉的珂珂.cpp */,
 				89C3FC4426D10D9A00C87257 /* 876.链表的中间结点.cpp */,
+				8984640527A693ED006D99B5 /* 884.两句话中的不常见单词.cpp */,
 				89B2F975272509C400DB5B34 /* 889.根据前序和后序遍历构造二叉树.cpp */,
 				89C3FC1C26CFEA6300C87257 /* 895.最大频率栈.cpp */,
 				895F9E3F2764310C00E2DF08 /* 911.在线选举.cpp */,
@@ -1088,7 +1092,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				891DCDE027A57C9A0068417B /* 1765.地图中的最高点.swift in Sources */,
+				8984640827A69483006D99B5 /* 884.两句话中的不常见单词.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
@@ -1100,10 +1104,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8984640627A693ED006D99B5 /* 884.两句话中的不常见单词.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
-				891DCDE227A57D220068417B /* 1765.地图中的最高点.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
