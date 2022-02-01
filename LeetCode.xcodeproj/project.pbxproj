@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8900694927A81AD600EBE650 /* 1342.将数字变成-0-的操作次数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8900694827A81AD500EBE650 /* 1342.将数字变成-0-的操作次数.swift */; };
-		8900694B27A81C8A00EBE650 /* 1342.将数字变成-0-的操作次数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8900694A27A81C8A00EBE650 /* 1342.将数字变成-0-的操作次数.cpp */; };
+		8900694D27A9813100EBE650 /* 1763.最长的美好子字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8900694C27A9813100EBE650 /* 1763.最长的美好子字符串.swift */; };
+		8900694F27A9815100EBE650 /* 1763.最长的美好子字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8900694E27A9815100EBE650 /* 1763.最长的美好子字符串.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
@@ -44,6 +44,8 @@
 		890044A1270E943000EC68D9 /* 434.字符串中的单词数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "434.字符串中的单词数.cpp"; sourceTree = "<group>"; };
 		8900694827A81AD500EBE650 /* 1342.将数字变成-0-的操作次数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1342.将数字变成-0-的操作次数.swift"; sourceTree = "<group>"; };
 		8900694A27A81C8A00EBE650 /* 1342.将数字变成-0-的操作次数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1342.将数字变成-0-的操作次数.cpp"; sourceTree = "<group>"; };
+		8900694C27A9813100EBE650 /* 1763.最长的美好子字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1763.最长的美好子字符串.swift"; sourceTree = "<group>"; };
+		8900694E27A9815100EBE650 /* 1763.最长的美好子字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1763.最长的美好子字符串.cpp"; sourceTree = "<group>"; };
 		890126E72736386300440D63 /* 268.丢失的数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "268.丢失的数字.cpp"; sourceTree = "<group>"; };
 		890126E92736395600440D63 /* 268.丢失的数字.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "268.丢失的数字.swift"; sourceTree = "<group>"; };
 		8902686526BEEDB600156215 /* 416.分割等和子集.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "416.分割等和子集.cpp"; sourceTree = "<group>"; };
@@ -613,6 +615,7 @@
 				89EDAC5F27A0459200BA4246 /* 1688.比赛中的配对次数.swift */,
 				8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */,
 				896BABCC2792F1420099C360 /* 1716.计算力扣银行的钱.swift */,
+				8900694C27A9813100EBE650 /* 1763.最长的美好子字符串.swift */,
 				891DCDDF27A57C9A0068417B /* 1765.地图中的最高点.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
 				8939CD87277F59A0009F0CEE /* 1995.统计特殊四元组.swift */,
@@ -886,6 +889,7 @@
 				89EDAC6127A045EA00BA4246 /* 1688.比赛中的配对次数.cpp */,
 				8973551E277620B20034C87A /* 1705.吃苹果的最大数目.cpp */,
 				896BABCE2792F15C0099C360 /* 1716.计算力扣银行的钱.cpp */,
+				8900694E27A9815100EBE650 /* 1763.最长的美好子字符串.cpp */,
 				891DCDE127A57D220068417B /* 1765.地图中的最高点.cpp */,
 				89A38F0F275E4948007FED61 /* 1816.截断句子.cpp */,
 				8966DE5E26EBA5E900AEA606 /* 1894.找到需要补充粉笔的学生编号.cpp */,
@@ -1098,9 +1102,9 @@
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
-				8900694927A81AD600EBE650 /* 1342.将数字变成-0-的操作次数.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				8900694D27A9813100EBE650 /* 1763.最长的美好子字符串.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1108,10 +1112,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8900694B27A81C8A00EBE650 /* 1342.将数字变成-0-的操作次数.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
+				8900694F27A9815100EBE650 /* 1763.最长的美好子字符串.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
