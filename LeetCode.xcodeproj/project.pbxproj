@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8953DFB627B15D6500FB2C00 /* 1405.最长快乐字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFB527B15D6500FB2C00 /* 1405.最长快乐字符串.cpp */; };
-		8953DFB827B15D7F00FB2C00 /* 1405.最长快乐字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFB727B15D7F00FB2C00 /* 1405.最长快乐字符串.swift */; };
+		8953DFBA27B2B55C00FB2C00 /* 1001.网格照明.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFB927B2B55C00FB2C00 /* 1001.网格照明.swift */; };
+		8953DFBC27B2B60700FB2C00 /* 1001.网格照明.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFBB27B2B60600FB2C00 /* 1001.网格照明.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
@@ -132,6 +132,8 @@
 		8953DFB327AF84A200FB2C00 /* 1748.唯一元素的和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1748.唯一元素的和.cpp"; sourceTree = "<group>"; };
 		8953DFB527B15D6500FB2C00 /* 1405.最长快乐字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1405.最长快乐字符串.cpp"; sourceTree = "<group>"; };
 		8953DFB727B15D7F00FB2C00 /* 1405.最长快乐字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1405.最长快乐字符串.swift"; sourceTree = "<group>"; };
+		8953DFB927B2B55C00FB2C00 /* 1001.网格照明.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1001.网格照明.swift"; sourceTree = "<group>"; };
+		8953DFBB27B2B60600FB2C00 /* 1001.网格照明.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1001.网格照明.cpp"; sourceTree = "<group>"; };
 		895522652711D6E300133464 /* 352.将数据流变为多个不相交区间.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "352.将数据流变为多个不相交区间.cpp"; sourceTree = "<group>"; };
 		89552267271296C200133464 /* 441.排列硬币.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "441.排列硬币.cpp"; sourceTree = "<group>"; };
 		89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "92.反转链表-ii.cpp"; sourceTree = "<group>"; };
@@ -603,6 +605,7 @@
 				8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */,
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
 				89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */,
+				8953DFB927B2B55C00FB2C00 /* 1001.网格照明.swift */,
 				89723786275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift */,
 				89943B38275FAF80002F1171 /* 1034.边框着色.swift */,
 				89B48639278F2BE600A6930A /* 1036.逃离大迷宫.swift */,
@@ -873,6 +876,7 @@
 				89B2F97727250A8C00DB5B34 /* 938.二叉搜索树的范围和.cpp */,
 				89C3FC1626CEA34000C87257 /* 990.等式方程的可满足性.cpp */,
 				8907514E276EFCC7009BA671 /* 997.找到小镇的法官.cpp */,
+				8953DFBB27B2B60600FB2C00 /* 1001.网格照明.cpp */,
 				8972377B275A655900EBC5C5 /* 1005.k-次取反后最大化的数组和.cpp */,
 				89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */,
 				89943B3A275FAF87002F1171 /* 1034.边框着色.cpp */,
@@ -1123,7 +1127,7 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				8953DFB827B15D7F00FB2C00 /* 1405.最长快乐字符串.swift in Sources */,
+				8953DFBA27B2B55C00FB2C00 /* 1001.网格照明.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1132,9 +1136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8953DFBC27B2B60700FB2C00 /* 1001.网格照明.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
-				8953DFB627B15D6500FB2C00 /* 1405.最长快乐字符串.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
