@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8953DFBA27B2B55C00FB2C00 /* 1001.网格照明.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFB927B2B55C00FB2C00 /* 1001.网格照明.swift */; };
-		8953DFBC27B2B60700FB2C00 /* 1001.网格照明.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFBB27B2B60600FB2C00 /* 1001.网格照明.cpp */; };
+		8953DFBE27B3FB2600FB2C00 /* 2006.差的绝对值为-k-的数对数目.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFBD27B3FB2600FB2C00 /* 2006.差的绝对值为-k-的数对数目.cpp */; };
+		8953DFC027B3FB3F00FB2C00 /* 2006.差的绝对值为-k-的数对数目.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFBF27B3FB3F00FB2C00 /* 2006.差的绝对值为-k-的数对数目.swift */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
@@ -134,6 +134,8 @@
 		8953DFB727B15D7F00FB2C00 /* 1405.最长快乐字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1405.最长快乐字符串.swift"; sourceTree = "<group>"; };
 		8953DFB927B2B55C00FB2C00 /* 1001.网格照明.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1001.网格照明.swift"; sourceTree = "<group>"; };
 		8953DFBB27B2B60600FB2C00 /* 1001.网格照明.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1001.网格照明.cpp"; sourceTree = "<group>"; };
+		8953DFBD27B3FB2600FB2C00 /* 2006.差的绝对值为-k-的数对数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2006.差的绝对值为-k-的数对数目.cpp"; sourceTree = "<group>"; };
+		8953DFBF27B3FB3F00FB2C00 /* 2006.差的绝对值为-k-的数对数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2006.差的绝对值为-k-的数对数目.swift"; sourceTree = "<group>"; };
 		895522652711D6E300133464 /* 352.将数据流变为多个不相交区间.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "352.将数据流变为多个不相交区间.cpp"; sourceTree = "<group>"; };
 		89552267271296C200133464 /* 441.排列硬币.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "441.排列硬币.cpp"; sourceTree = "<group>"; };
 		89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "92.反转链表-ii.cpp"; sourceTree = "<group>"; };
@@ -638,6 +640,7 @@
 				8939CD87277F59A0009F0CEE /* 1995.统计特殊四元组.swift */,
 				89518A0F27A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift */,
 				89BC761B27A99A4500C140F9 /* 2000.反转单词前缀.swift */,
+				8953DFBF27B3FB3F00FB2C00 /* 2006.差的绝对值为-k-的数对数目.swift */,
 				892EA22227A1996100E1E00D /* 2013.检测正方形.swift */,
 				89B6C494278056DE000F2DA5 /* 2022.将一维数组转变成二维数组.swift */,
 				89E8F9B02799A58B00310336 /* 2029.石子游戏-ix.swift */,
@@ -919,6 +922,7 @@
 				8939CD80277F5995009F0CEE /* 1995.统计特殊四元组.cpp */,
 				89518A0D27A390BA009CA2D8 /* 1996.游戏中弱角色的数量.cpp */,
 				89BC761927A998BA00C140F9 /* 2000.反转单词前缀.cpp */,
+				8953DFBD27B3FB2600FB2C00 /* 2006.差的绝对值为-k-的数对数目.cpp */,
 				892EA22027A1994F00E1E00D /* 2013.检测正方形.cpp */,
 				89B6C492278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp */,
 				89E8F9AE2799A55A00310336 /* 2029.石子游戏-ix.cpp */,
@@ -1127,8 +1131,8 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				8953DFBA27B2B55C00FB2C00 /* 1001.网格照明.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				8953DFC027B3FB3F00FB2C00 /* 2006.差的绝对值为-k-的数对数目.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1136,8 +1140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8953DFBC27B2B60700FB2C00 /* 1001.网格照明.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
+				8953DFBE27B3FB2600FB2C00 /* 2006.差的绝对值为-k-的数对数目.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
