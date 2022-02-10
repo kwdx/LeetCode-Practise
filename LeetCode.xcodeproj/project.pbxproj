@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8953DFBE27B3FB2600FB2C00 /* 2006.差的绝对值为-k-的数对数目.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFBD27B3FB2600FB2C00 /* 2006.差的绝对值为-k-的数对数目.cpp */; };
-		8953DFC027B3FB3F00FB2C00 /* 2006.差的绝对值为-k-的数对数目.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFBF27B3FB3F00FB2C00 /* 2006.差的绝对值为-k-的数对数目.swift */; };
+		8953DFC227B5540200FB2C00 /* 1447.最简分数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */; };
+		8953DFC427B5541F00FB2C00 /* 1447.最简分数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFC327B5541F00FB2C00 /* 1447.最简分数.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
@@ -136,6 +136,8 @@
 		8953DFBB27B2B60600FB2C00 /* 1001.网格照明.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1001.网格照明.cpp"; sourceTree = "<group>"; };
 		8953DFBD27B3FB2600FB2C00 /* 2006.差的绝对值为-k-的数对数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2006.差的绝对值为-k-的数对数目.cpp"; sourceTree = "<group>"; };
 		8953DFBF27B3FB3F00FB2C00 /* 2006.差的绝对值为-k-的数对数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2006.差的绝对值为-k-的数对数目.swift"; sourceTree = "<group>"; };
+		8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1447.最简分数.swift"; sourceTree = "<group>"; };
+		8953DFC327B5541F00FB2C00 /* 1447.最简分数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1447.最简分数.cpp"; sourceTree = "<group>"; };
 		895522652711D6E300133464 /* 352.将数据流变为多个不相交区间.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "352.将数据流变为多个不相交区间.cpp"; sourceTree = "<group>"; };
 		89552267271296C200133464 /* 441.排列硬币.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "441.排列硬币.cpp"; sourceTree = "<group>"; };
 		89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "92.反转链表-ii.cpp"; sourceTree = "<group>"; };
@@ -623,6 +625,7 @@
 				8953DFB727B15D7F00FB2C00 /* 1405.最长快乐字符串.swift */,
 				89AE440227ABA2A30023C3DC /* 1414.和为-k-的最少斐波那契数字数目.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
+				8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */,
 				89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */,
 				89F7B9972785DAC1000326DC /* 1576.替换所有的问号.swift */,
 				8973552327776F7E0034C87A /* 1609.奇偶树.swift */,
@@ -903,6 +906,7 @@
 				89AE440527ABA5900023C3DC /* 1414.和为-k-的最少斐波那契数字数目.cpp */,
 				8969847727072BB30070F99C /* 1436.旅行终点站.cpp */,
 				8972377C275A655900EBC5C5 /* 1446.连续字符.cpp */,
+				8953DFC327B5541F00FB2C00 /* 1447.最简分数.cpp */,
 				8907625D26D9455F00A93668 /* 1480.一维数组的动态和.cpp */,
 				89E391E6276CD90B0049A907 /* 1518.换酒问题.cpp */,
 				89F7B9952785DAB7000326DC /* 1576.替换所有的问号.cpp */,
@@ -1131,8 +1135,8 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				8953DFC227B5540200FB2C00 /* 1447.最简分数.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				8953DFC027B3FB3F00FB2C00 /* 2006.差的绝对值为-k-的数对数目.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1141,7 +1145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				8953DFBE27B3FB2600FB2C00 /* 2006.差的绝对值为-k-的数对数目.cpp in Sources */,
+				8953DFC427B5541F00FB2C00 /* 1447.最简分数.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
