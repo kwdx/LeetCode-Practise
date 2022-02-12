@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8953DFC227B5540200FB2C00 /* 1447.最简分数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */; };
-		8953DFC427B5541F00FB2C00 /* 1447.最简分数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8953DFC327B5541F00FB2C00 /* 1447.最简分数.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
+		8988F48F27B802470009A23E /* 1020.飞地的数量.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8988F48E27B802470009A23E /* 1020.飞地的数量.swift */; };
+		8988F49127B8029C0009A23E /* 1020.飞地的数量.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8988F49027B8029C0009A23E /* 1020.飞地的数量.cpp */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
@@ -138,6 +138,7 @@
 		8953DFBF27B3FB3F00FB2C00 /* 2006.差的绝对值为-k-的数对数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2006.差的绝对值为-k-的数对数目.swift"; sourceTree = "<group>"; };
 		8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1447.最简分数.swift"; sourceTree = "<group>"; };
 		8953DFC327B5541F00FB2C00 /* 1447.最简分数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1447.最简分数.cpp"; sourceTree = "<group>"; };
+		8953DFC527B6B87800FB2C00 /* 1984.学生分数的最小差值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1984.学生分数的最小差值.cpp"; sourceTree = "<group>"; };
 		895522652711D6E300133464 /* 352.将数据流变为多个不相交区间.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "352.将数据流变为多个不相交区间.cpp"; sourceTree = "<group>"; };
 		89552267271296C200133464 /* 441.排列硬币.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "441.排列硬币.cpp"; sourceTree = "<group>"; };
 		89554F7D26BD840B00FEDFF1 /* 92.反转链表-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "92.反转链表-ii.cpp"; sourceTree = "<group>"; };
@@ -225,6 +226,9 @@
 		89886F6F272EC8B2003A626D /* 500.键盘行.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "500.键盘行.swift"; sourceTree = "<group>"; };
 		8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "748.最短补全词.swift"; sourceTree = "<group>"; };
 		8988F1EB2763999200CDBAA9 /* 748.最短补全词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "748.最短补全词.cpp"; sourceTree = "<group>"; };
+		8988F48C27B801DF0009A23E /* 1984.学生分数的最小差值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1984.学生分数的最小差值.swift"; sourceTree = "<group>"; };
+		8988F48E27B802470009A23E /* 1020.飞地的数量.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1020.飞地的数量.swift"; sourceTree = "<group>"; };
+		8988F49027B8029C0009A23E /* 1020.飞地的数量.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1020.飞地的数量.cpp"; sourceTree = "<group>"; };
 		8989CF5527034A8A00DB244B /* 437.路径总和-iii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "437.路径总和-iii.cpp"; sourceTree = "<group>"; };
 		898F272226C8B8EE0077B621 /* 5832.构造元素不等于两相邻元素平均值的数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5832.构造元素不等于两相邻元素平均值的数组.cpp"; sourceTree = "<group>"; };
 		898F272426C8BE780077B621 /* 5844.数组元素的最小非零乘积.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5844.数组元素的最小非零乘积.cpp"; sourceTree = "<group>"; };
@@ -611,6 +615,7 @@
 				89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */,
 				8953DFB927B2B55C00FB2C00 /* 1001.网格照明.swift */,
 				89723786275A656900EBC5C5 /* 1005.k-次取反后最大化的数组和.swift */,
+				8988F48E27B802470009A23E /* 1020.飞地的数量.swift */,
 				89943B38275FAF80002F1171 /* 1034.边框着色.swift */,
 				89B48639278F2BE600A6930A /* 1036.逃离大迷宫.swift */,
 				89D44118277823E0006B0055 /* 1078.bigram-分词.swift */,
@@ -640,6 +645,7 @@
 				8900694C27A9813100EBE650 /* 1763.最长的美好子字符串.swift */,
 				891DCDDF27A57C9A0068417B /* 1765.地图中的最高点.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
+				8988F48C27B801DF0009A23E /* 1984.学生分数的最小差值.swift */,
 				8939CD87277F59A0009F0CEE /* 1995.统计特殊四元组.swift */,
 				89518A0F27A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift */,
 				89BC761B27A99A4500C140F9 /* 2000.反转单词前缀.swift */,
@@ -885,6 +891,7 @@
 				8953DFBB27B2B60600FB2C00 /* 1001.网格照明.cpp */,
 				8972377B275A655900EBC5C5 /* 1005.k-次取反后最大化的数组和.cpp */,
 				89C3FC3526D0F95300C87257 /* 1011.在-d-天内送达包裹的能力.cpp */,
+				8988F49027B8029C0009A23E /* 1020.飞地的数量.cpp */,
 				89943B3A275FAF87002F1171 /* 1034.边框着色.cpp */,
 				89B48634278F2B9E00A6930A /* 1036.逃离大迷宫.cpp */,
 				89CC84B526C2D493009483EF /* 1038.把二叉搜索树转换为累加树.cpp */,
@@ -923,6 +930,7 @@
 				891DCDE127A57D220068417B /* 1765.地图中的最高点.cpp */,
 				89A38F0F275E4948007FED61 /* 1816.截断句子.cpp */,
 				8966DE5E26EBA5E900AEA606 /* 1894.找到需要补充粉笔的学生编号.cpp */,
+				8953DFC527B6B87800FB2C00 /* 1984.学生分数的最小差值.cpp */,
 				8939CD80277F5995009F0CEE /* 1995.统计特殊四元组.cpp */,
 				89518A0D27A390BA009CA2D8 /* 1996.游戏中弱角色的数量.cpp */,
 				89BC761927A998BA00C140F9 /* 2000.反转单词前缀.cpp */,
@@ -1135,8 +1143,8 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				8953DFC227B5540200FB2C00 /* 1447.最简分数.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				8988F48F27B802470009A23E /* 1020.飞地的数量.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1145,9 +1153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				8953DFC427B5541F00FB2C00 /* 1447.最简分数.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
+				8988F49127B8029C0009A23E /* 1020.飞地的数量.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
