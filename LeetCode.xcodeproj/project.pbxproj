@@ -10,8 +10,8 @@
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
-		89955F9F27C13B0F00E03BC0 /* 969.煎饼排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89955F9E27C13B0F00E03BC0 /* 969.煎饼排序.swift */; };
-		89955FA127C13B2000E03BC0 /* 969.煎饼排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89955FA027C13B2000E03BC0 /* 969.煎饼排序.cpp */; };
+		89955FA327C2898000E03BC0 /* 717.1-比特与-2-比特字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89955FA227C2897F00E03BC0 /* 717.1-比特与-2-比特字符.swift */; };
+		89955FA527C289CF00E03BC0 /* 717.1-比特与-2-比特字符.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89955FA427C289CE00E03BC0 /* 717.1-比特与-2-比特字符.cpp */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
@@ -245,6 +245,8 @@
 		89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "689.三个无重叠子数组的最大和.swift"; sourceTree = "<group>"; };
 		89955F9E27C13B0F00E03BC0 /* 969.煎饼排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "969.煎饼排序.swift"; sourceTree = "<group>"; };
 		89955FA027C13B2000E03BC0 /* 969.煎饼排序.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "969.煎饼排序.cpp"; sourceTree = "<group>"; };
+		89955FA227C2897F00E03BC0 /* 717.1-比特与-2-比特字符.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "717.1-比特与-2-比特字符.swift"; sourceTree = "<group>"; };
+		89955FA427C289CE00E03BC0 /* 717.1-比特与-2-比特字符.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "717.1-比特与-2-比特字符.cpp"; sourceTree = "<group>"; };
 		8995D89C27303094001A499C /* 575.分糖果.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "575.分糖果.swift"; sourceTree = "<group>"; };
 		8998BD1627ACE0AB00ABE29A /* 1725.可以形成最大正方形的矩形数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1725.可以形成最大正方形的矩形数目.cpp"; sourceTree = "<group>"; };
 		8998BD1827ACE11A00ABE29A /* 1725.可以形成最大正方形的矩形数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1725.可以形成最大正方形的矩形数目.swift"; sourceTree = "<group>"; };
@@ -615,6 +617,7 @@
 				89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */,
 				89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */,
 				89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */,
+				89955FA227C2897F00E03BC0 /* 717.1-比特与-2-比特字符.swift */,
 				89B4863E27907D5200A6930A /* 747.至少是其他数字两倍的最大数.swift */,
 				8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */,
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
@@ -883,6 +886,7 @@
 				89B69A1A2765FF43004A2892 /* 709.转换成小写字母.cpp */,
 				89A51CBB26D3F3CE0013B3F2 /* 710.黑名单中的随机数.cpp */,
 				8907627426DE89B900A93668 /* 714.买卖股票的最佳时机含手续费.cpp */,
+				89955FA427C289CE00E03BC0 /* 717.1-比特与-2-比特字符.cpp */,
 				8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */,
 				89C3FC2426CFF58700C87257 /* 739.每日温度.cpp */,
 				89B4864027907D7900A6930A /* 747.至少是其他数字两倍的最大数.cpp */,
@@ -1165,10 +1169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89955F9F27C13B0F00E03BC0 /* 969.煎饼排序.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
+				89955FA327C2898000E03BC0 /* 717.1-比特与-2-比特字符.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
@@ -1178,8 +1182,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89955FA527C289CF00E03BC0 /* 717.1-比特与-2-比特字符.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				89955FA127C13B2000E03BC0 /* 969.煎饼排序.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
