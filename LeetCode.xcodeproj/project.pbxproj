@@ -10,8 +10,8 @@
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
-		89955FA327C2898000E03BC0 /* 717.1-比特与-2-比特字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89955FA227C2897F00E03BC0 /* 717.1-比特与-2-比特字符.swift */; };
-		89955FA527C289CF00E03BC0 /* 717.1-比特与-2-比特字符.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89955FA427C289CE00E03BC0 /* 717.1-比特与-2-比特字符.cpp */; };
+		89955FA727C3C74500E03BC0 /* 838.推多米诺.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89955FA627C3C74400E03BC0 /* 838.推多米诺.cpp */; };
+		89955FA927C3C75900E03BC0 /* 838.推多米诺.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89955FA827C3C75900E03BC0 /* 838.推多米诺.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
@@ -247,6 +247,8 @@
 		89955FA027C13B2000E03BC0 /* 969.煎饼排序.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "969.煎饼排序.cpp"; sourceTree = "<group>"; };
 		89955FA227C2897F00E03BC0 /* 717.1-比特与-2-比特字符.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "717.1-比特与-2-比特字符.swift"; sourceTree = "<group>"; };
 		89955FA427C289CE00E03BC0 /* 717.1-比特与-2-比特字符.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "717.1-比特与-2-比特字符.cpp"; sourceTree = "<group>"; };
+		89955FA627C3C74400E03BC0 /* 838.推多米诺.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "838.推多米诺.cpp"; sourceTree = "<group>"; };
+		89955FA827C3C75900E03BC0 /* 838.推多米诺.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "838.推多米诺.swift"; sourceTree = "<group>"; };
 		8995D89C27303094001A499C /* 575.分糖果.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "575.分糖果.swift"; sourceTree = "<group>"; };
 		8998BD1627ACE0AB00ABE29A /* 1725.可以形成最大正方形的矩形数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1725.可以形成最大正方形的矩形数目.cpp"; sourceTree = "<group>"; };
 		8998BD1827ACE11A00ABE29A /* 1725.可以形成最大正方形的矩形数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1725.可以形成最大正方形的矩形数目.swift"; sourceTree = "<group>"; };
@@ -624,6 +626,7 @@
 				892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */,
 				89D65EC927678B8600B855E3 /* 807.保持城市天际线.swift */,
 				8939CD86277F59A0009F0CEE /* 825.适龄的朋友.swift */,
+				89955FA827C3C75900E03BC0 /* 838.推多米诺.swift */,
 				8939CD83277F59A0009F0CEE /* 846.一手顺子.swift */,
 				89B0B689276A2D0000A10203 /* 851.喧闹和富有.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
@@ -897,6 +900,7 @@
 				89CC84BB26C42537009483EF /* 797.所有可能的路径.cpp */,
 				89D65ECB27678B9500B855E3 /* 807.保持城市天际线.cpp */,
 				8939CD82277F5995009F0CEE /* 825.适龄的朋友.cpp */,
+				89955FA627C3C74400E03BC0 /* 838.推多米诺.cpp */,
 				8939CD81277F5995009F0CEE /* 846.一手顺子.cpp */,
 				89B0B68B276A2D9100A10203 /* 851.喧闹和富有.cpp */,
 				89B2F96B272505AB00DB5B34 /* 856.括号的分数.cpp */,
@@ -1171,8 +1175,8 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
+				89955FA927C3C75900E03BC0 /* 838.推多米诺.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
-				89955FA327C2898000E03BC0 /* 717.1-比特与-2-比特字符.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
@@ -1182,8 +1186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89955FA527C289CF00E03BC0 /* 717.1-比特与-2-比特字符.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
+				89955FA727C3C74500E03BC0 /* 838.推多米诺.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
