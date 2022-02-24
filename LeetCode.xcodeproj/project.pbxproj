@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8919169E27C673A5002B8702 /* 917.仅仅反转字母.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8919169D27C673A5002B8702 /* 917.仅仅反转字母.cpp */; };
-		891916A027C673B5002B8702 /* 917.仅仅反转字母.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8919169F27C673B5002B8702 /* 917.仅仅反转字母.swift */; };
+		891916A227C7C705002B8702 /* 1706.球会落何处.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891916A127C7C705002B8702 /* 1706.球会落何处.swift */; };
+		891916A427C7C715002B8702 /* 1706.球会落何处.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891916A327C7C715002B8702 /* 1706.球会落何处.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
@@ -90,6 +90,8 @@
 		8917C6A327C51A6000B62E24 /* 1994.好子集的数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1994.好子集的数目.cpp"; sourceTree = "<group>"; };
 		8919169D27C673A5002B8702 /* 917.仅仅反转字母.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "917.仅仅反转字母.cpp"; sourceTree = "<group>"; };
 		8919169F27C673B5002B8702 /* 917.仅仅反转字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "917.仅仅反转字母.swift"; sourceTree = "<group>"; };
+		891916A127C7C705002B8702 /* 1706.球会落何处.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1706.球会落何处.swift"; sourceTree = "<group>"; };
+		891916A327C7C715002B8702 /* 1706.球会落何处.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1706.球会落何处.cpp"; sourceTree = "<group>"; };
 		8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "725.分隔链表.cpp"; sourceTree = "<group>"; };
 		891C5A60273F6FDB0047E46E /* 520.检测大写字母.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "520.检测大写字母.cpp"; sourceTree = "<group>"; };
 		891C5A62273F718D0047E46E /* 520.检测大写字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "520.检测大写字母.swift"; sourceTree = "<group>"; };
@@ -667,6 +669,7 @@
 				89B4862C278A9E8B00A6930A /* 1629.按键持续时间最长的键.swift */,
 				89EDAC5F27A0459200BA4246 /* 1688.比赛中的配对次数.swift */,
 				8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */,
+				891916A127C7C705002B8702 /* 1706.球会落何处.swift */,
 				896BABCC2792F1420099C360 /* 1716.计算力扣银行的钱.swift */,
 				8998BD1827ACE11A00ABE29A /* 1725.可以形成最大正方形的矩形数目.swift */,
 				8953DFB127AF844900FB2C00 /* 1748.唯一元素的和.swift */,
@@ -960,6 +963,7 @@
 				89B4862E278A9EA000A6930A /* 1629.按键持续时间最长的键.cpp */,
 				89EDAC6127A045EA00BA4246 /* 1688.比赛中的配对次数.cpp */,
 				8973551E277620B20034C87A /* 1705.吃苹果的最大数目.cpp */,
+				891916A327C7C715002B8702 /* 1706.球会落何处.cpp */,
 				896BABCE2792F15C0099C360 /* 1716.计算力扣银行的钱.cpp */,
 				89AF725327BD46B200BD2211 /* 1719.重构一棵树的方案数.cpp */,
 				8998BD1627ACE0AB00ABE29A /* 1725.可以形成最大正方形的矩形数目.cpp */,
@@ -1183,8 +1187,8 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				891916A227C7C705002B8702 /* 1706.球会落何处.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				891916A027C673B5002B8702 /* 917.仅仅反转字母.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1193,8 +1197,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				8919169E27C673A5002B8702 /* 917.仅仅反转字母.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				891916A427C7C715002B8702 /* 1706.球会落何处.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
