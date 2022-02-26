@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		891916A627C92688002B8702 /* 537.复数乘法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891916A527C92688002B8702 /* 537.复数乘法.cpp */; };
-		891916A827C92694002B8702 /* 537.复数乘法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891916A727C92694002B8702 /* 537.复数乘法.swift */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
+		89B070C927CA7E0B00DD7E68 /* 2016.增量元素之间的最大差值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B070C827CA7E0B00DD7E68 /* 2016.增量元素之间的最大差值.swift */; };
+		89B070CB27CA7E1F00DD7E68 /* 2016.增量元素之间的最大差值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B070CA27CA7E1F00DD7E68 /* 2016.增量元素之间的最大差值.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -315,6 +315,8 @@
 		89AF725827BE987300BD2211 /* 688.马-在棋盘上的概率.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "688.马-在棋盘上的概率.cpp"; sourceTree = "<group>"; };
 		89AF725A27BFEC8100BD2211 /* 1791.找出星型图的中心节点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1791.找出星型图的中心节点.cpp"; sourceTree = "<group>"; };
 		89AF725C27BFEC9200BD2211 /* 1791.找出星型图的中心节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1791.找出星型图的中心节点.swift"; sourceTree = "<group>"; };
+		89B070C827CA7E0B00DD7E68 /* 2016.增量元素之间的最大差值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2016.增量元素之间的最大差值.swift"; sourceTree = "<group>"; };
+		89B070CA27CA7E1F00DD7E68 /* 2016.增量元素之间的最大差值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2016.增量元素之间的最大差值.cpp"; sourceTree = "<group>"; };
 		89B0B689276A2D0000A10203 /* 851.喧闹和富有.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "851.喧闹和富有.swift"; sourceTree = "<group>"; };
 		89B0B68B276A2D9100A10203 /* 851.喧闹和富有.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "851.喧闹和富有.cpp"; sourceTree = "<group>"; };
 		89B2F93227245D2800DB5B34 /* 99.恢复二叉搜索树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "99.恢复二叉搜索树.cpp"; sourceTree = "<group>"; };
@@ -561,6 +563,7 @@
 		89554FA126BEDED300FEDFF1 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				89B070C827CA7E0B00DD7E68 /* 2016.增量元素之间的最大差值.swift */,
 				89886F54272CDE00003A626D /* 20.有效的括号.swift */,
 				89886F64272CE221003A626D /* 21.合并两个有序链表.swift */,
 				89886F67272CE4B9003A626D /* 23.合并k个升序链表.swift */,
@@ -712,6 +715,7 @@
 		89A6BF0026BD8182007BDF6B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				89B070CA27CA7E1F00DD7E68 /* 2016.增量元素之间的最大差值.cpp */,
 				89A51CCA26D3F8540013B3F2 /* 1.两数之和.cpp */,
 				89B2F9402724668C00DB5B34 /* 2.两数相加.cpp */,
 				89A51CB726D3EE9A0013B3F2 /* 3.无重复字符的最长子串.cpp */,
@@ -1191,8 +1195,8 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				891916A827C92694002B8702 /* 537.复数乘法.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				89B070C927CA7E0B00DD7E68 /* 2016.增量元素之间的最大差值.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1200,8 +1204,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B070CB27CA7E1F00DD7E68 /* 2016.增量元素之间的最大差值.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				891916A627C92688002B8702 /* 537.复数乘法.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
