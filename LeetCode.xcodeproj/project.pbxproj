@@ -11,8 +11,8 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89B070CD27CB8DCF00DD7E68 /* 553.最优除法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B070CC27CB8DCF00DD7E68 /* 553.最优除法.swift */; };
-		89B070CF27CB8DEF00DD7E68 /* 553.最优除法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B070CE27CB8DEF00DD7E68 /* 553.最优除法.cpp */; };
+		89B070D127CD1ED500DD7E68 /* 1601.最多可达成的换楼请求数目.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B070D027CD1ED500DD7E68 /* 1601.最多可达成的换楼请求数目.cpp */; };
+		89B070D327CD1F2B00DD7E68 /* 1601.最多可达成的换楼请求数目.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B070D227CD1F2B00DD7E68 /* 1601.最多可达成的换楼请求数目.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -319,6 +319,8 @@
 		89B070CA27CA7E1F00DD7E68 /* 2016.增量元素之间的最大差值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2016.增量元素之间的最大差值.cpp"; sourceTree = "<group>"; };
 		89B070CC27CB8DCF00DD7E68 /* 553.最优除法.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "553.最优除法.swift"; sourceTree = "<group>"; };
 		89B070CE27CB8DEF00DD7E68 /* 553.最优除法.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "553.最优除法.cpp"; sourceTree = "<group>"; };
+		89B070D027CD1ED500DD7E68 /* 1601.最多可达成的换楼请求数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1601.最多可达成的换楼请求数目.cpp"; sourceTree = "<group>"; };
+		89B070D227CD1F2B00DD7E68 /* 1601.最多可达成的换楼请求数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1601.最多可达成的换楼请求数目.swift"; sourceTree = "<group>"; };
 		89B0B689276A2D0000A10203 /* 851.喧闹和富有.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "851.喧闹和富有.swift"; sourceTree = "<group>"; };
 		89B0B68B276A2D9100A10203 /* 851.喧闹和富有.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "851.喧闹和富有.cpp"; sourceTree = "<group>"; };
 		89B2F93227245D2800DB5B34 /* 99.恢复二叉搜索树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "99.恢复二叉搜索树.cpp"; sourceTree = "<group>"; };
@@ -671,6 +673,7 @@
 				8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */,
 				89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */,
 				89F7B9972785DAC1000326DC /* 1576.替换所有的问号.swift */,
+				89B070D227CD1F2B00DD7E68 /* 1601.最多可达成的换楼请求数目.swift */,
 				8973552327776F7E0034C87A /* 1609.奇偶树.swift */,
 				89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */,
 				89B48624278883B500A6930A /* 1614.括号的最大嵌套深度.swift */,
@@ -968,6 +971,7 @@
 				8907625D26D9455F00A93668 /* 1480.一维数组的动态和.cpp */,
 				89E391E6276CD90B0049A907 /* 1518.换酒问题.cpp */,
 				89F7B9952785DAB7000326DC /* 1576.替换所有的问号.cpp */,
+				89B070D027CD1ED500DD7E68 /* 1601.最多可达成的换楼请求数目.cpp */,
 				8973552527776F8C0034C87A /* 1609.奇偶树.cpp */,
 				89075152276F673C009BA671 /* 1610.可见点的最大数目.cpp */,
 				89B48626278883BE00A6930A /* 1614.括号的最大嵌套深度.cpp */,
@@ -1199,8 +1203,8 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				89B070D327CD1F2B00DD7E68 /* 1601.最多可达成的换楼请求数目.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				89B070CD27CB8DCF00DD7E68 /* 553.最优除法.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1208,8 +1212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B070D127CD1ED500DD7E68 /* 1601.最多可达成的换楼请求数目.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				89B070CF27CB8DEF00DD7E68 /* 553.最优除法.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
