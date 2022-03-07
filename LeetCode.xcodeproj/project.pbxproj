@@ -11,8 +11,8 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89A955B627D5041C003B556A /* 2100.适合打劫银行的日子.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A955B527D5041C003B556A /* 2100.适合打劫银行的日子.cpp */; };
-		89A955B827D504AD003B556A /* 2100.适合打劫银行的日子.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A955B727D504AD003B556A /* 2100.适合打劫银行的日子.swift */; };
+		89A8999F27D651D800A7A6D1 /* 504.七进制数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A8999E27D651D700A7A6D1 /* 504.七进制数.swift */; };
+		89A899A127D651E700A7A6D1 /* 504.七进制数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A899A027D651E600A7A6D1 /* 504.七进制数.cpp */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -290,6 +290,8 @@
 		89A6BEFF26BD8182007BDF6B /* Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A779E8276DD2C700B7CDA9 /* 419.甲板上的战舰.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "419.甲板上的战舰.cpp"; sourceTree = "<group>"; };
 		89A779EA276DD35B00B7CDA9 /* 419.甲板上的战舰.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "419.甲板上的战舰.swift"; sourceTree = "<group>"; };
+		89A8999E27D651D700A7A6D1 /* 504.七进制数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "504.七进制数.swift"; sourceTree = "<group>"; };
+		89A899A027D651E600A7A6D1 /* 504.七进制数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "504.七进制数.cpp"; sourceTree = "<group>"; };
 		89A955B127D3B873003B556A /* 521.最长特殊序列-ⅰ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "521.最长特殊序列-ⅰ.swift"; sourceTree = "<group>"; };
 		89A955B327D3B927003B556A /* 521.最长特殊序列-ⅰ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "521.最长特殊序列-ⅰ.cpp"; sourceTree = "<group>"; };
 		89A955B527D5041C003B556A /* 2100.适合打劫银行的日子.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2100.适合打劫银行的日子.cpp"; sourceTree = "<group>"; };
@@ -625,6 +627,7 @@
 				897355192776209C0034C87A /* 475.供暖器.swift */,
 				8976631B273C1B2600507E1F /* 495.提莫攻击.swift */,
 				89886F6F272EC8B2003A626D /* 500.键盘行.swift */,
+				89A8999E27D651D700A7A6D1 /* 504.七进制数.swift */,
 				89723783275A656800EBC5C5 /* 506.相对名次.swift */,
 				8939CD7C277F587E009F0CEE /* 507.完美数.swift */,
 				89886F51272CDCE6003A626D /* 509.斐波那契数.swift */,
@@ -889,6 +892,7 @@
 				89886F6D272EC283003A626D /* 500.键盘行.cpp */,
 				8966DE5A26E90CAD00AEA606 /* 502.ipo.cpp */,
 				89C3FC2226CFF41300C87257 /* 503.下一个更大元素-ii.cpp */,
+				89A899A027D651E600A7A6D1 /* 504.七进制数.cpp */,
 				8972377A275A655900EBC5C5 /* 506.相对名次.cpp */,
 				8939CD7A277F5733009F0CEE /* 507.完美数.cpp */,
 				8907627626DE89EB00A93668 /* 509.斐波那契数.cpp */,
@@ -1223,7 +1227,7 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
-				89A955B827D504AD003B556A /* 2100.适合打劫银行的日子.swift in Sources */,
+				89A8999F27D651D800A7A6D1 /* 504.七进制数.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
@@ -1234,7 +1238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A955B627D5041C003B556A /* 2100.适合打劫银行的日子.cpp in Sources */,
+				89A899A127D651E700A7A6D1 /* 504.七进制数.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
