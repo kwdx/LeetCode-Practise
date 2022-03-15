@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8952093627E0DDA600BA01F2 /* 2044.统计按位或能得到最大值的子集数目.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8952093227E0DDA600BA01F2 /* 2044.统计按位或能得到最大值的子集数目.cpp */; };
+		8952093A27E0DDE200BA01F2 /* 2044.统计按位或能得到最大值的子集数目.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952093727E0DDE200BA01F2 /* 2044.统计按位或能得到最大值的子集数目.swift */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89A899B627DB93D200A7A6D1 /* 2049.统计最高分的节点数目.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A899B527DB93D200A7A6D1 /* 2049.统计最高分的节点数目.cpp */; };
-		89A899B827DB93E200A7A6D1 /* 2049.统计最高分的节点数目.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A899B727DB93E200A7A6D1 /* 2049.统计最高分的节点数目.swift */; };
 		89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FC1126CE988000C87257 /* UnionFind.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
@@ -135,6 +135,12 @@
 		89518A0D27A390BA009CA2D8 /* 1996.游戏中弱角色的数量.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1996.游戏中弱角色的数量.cpp"; sourceTree = "<group>"; };
 		89518A0F27A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1996.游戏中弱角色的数量.swift"; sourceTree = "<group>"; };
 		8951E5DC270CA00000E891F6 /* 284.顶端迭代器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "284.顶端迭代器.cpp"; sourceTree = "<group>"; };
+		8952092F27E0DDA500BA01F2 /* 393.utf-8-编码验证.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "393.utf-8-编码验证.cpp"; sourceTree = "<group>"; };
+		8952093127E0DDA600BA01F2 /* 599.两个列表的最小索引总和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "599.两个列表的最小索引总和.cpp"; sourceTree = "<group>"; };
+		8952093227E0DDA600BA01F2 /* 2044.统计按位或能得到最大值的子集数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2044.统计按位或能得到最大值的子集数目.cpp"; sourceTree = "<group>"; };
+		8952093727E0DDE200BA01F2 /* 2044.统计按位或能得到最大值的子集数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2044.统计按位或能得到最大值的子集数目.swift"; sourceTree = "<group>"; };
+		8952093827E0DDE200BA01F2 /* 393.utf-8-编码验证.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "393.utf-8-编码验证.swift"; sourceTree = "<group>"; };
+		8952093927E0DDE200BA01F2 /* 599.两个列表的最小索引总和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "599.两个列表的最小索引总和.swift"; sourceTree = "<group>"; };
 		8953DFB127AF844900FB2C00 /* 1748.唯一元素的和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1748.唯一元素的和.swift"; sourceTree = "<group>"; };
 		8953DFB327AF84A200FB2C00 /* 1748.唯一元素的和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1748.唯一元素的和.cpp"; sourceTree = "<group>"; };
 		8953DFB527B15D6500FB2C00 /* 1405.最长快乐字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1405.最长快乐字符串.cpp"; sourceTree = "<group>"; };
@@ -626,6 +632,7 @@
 				89AE78A52751E7D600598666 /* 384.打乱数组.swift */,
 				898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */,
 				899A76D12747F6F6006DA530 /* 391.完美矩形-1.swift */,
+				8952093827E0DDE200BA01F2 /* 393.utf-8-编码验证.swift */,
 				899A76D92747F753006DA530 /* 397.整数替换.swift */,
 				89723784275A656900EBC5C5 /* 400.第-n-位数字.swift */,
 				89A779EA276DD35B00B7CDA9 /* 419.甲板上的战舰.swift */,
@@ -656,6 +663,7 @@
 				89A899AB27DA4A9C00A7A6D1 /* 590.n-叉树的后序遍历.swift */,
 				89E5AAC927493A7E007DB9B9 /* 594.最长和谐子序列.swift */,
 				898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */,
+				8952093927E0DDE200BA01F2 /* 599.两个列表的最小索引总和.swift */,
 				89766320273D6A5600507E1F /* 629.k个逆序对数组.swift */,
 				89D65EDE2768D73B00B855E3 /* 630.课程表-iii.swift */,
 				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
@@ -729,6 +737,7 @@
 				89B6C494278056DE000F2DA5 /* 2022.将一维数组转变成二维数组.swift */,
 				89E8F9B02799A58B00310336 /* 2029.石子游戏-ix.swift */,
 				8972B692279D1CAF00D14CE7 /* 2034.股票价格波动.swift */,
+				8952093727E0DDE200BA01F2 /* 2044.统计按位或能得到最大值的子集数目.swift */,
 				8916EA1A279EE5B8000B26A9 /* 2045.到达目的地的第二短时间.swift */,
 				892EA22427A2E7EB00E1E00D /* 2047.句子中的有效单词数.swift */,
 				89A899B727DB93E200A7A6D1 /* 2049.统计最高分的节点数目.swift */,
@@ -876,6 +885,7 @@
 				89AE789F2751E79400598666 /* 384.打乱数组.cpp */,
 				898F4E6927815B4100A89BD8 /* 390.消除游戏.cpp */,
 				899A76C52747F67C006DA530 /* 391.完美矩形.cpp */,
+				8952092F27E0DDA500BA01F2 /* 393.utf-8-编码验证.cpp */,
 				899A76CC2747F6BD006DA530 /* 397.整数替换.cpp */,
 				89723779275A655900EBC5C5 /* 400.第-n-位数字.cpp */,
 				891095872734200C00981C0D /* 407.接雨水-ii.cpp */,
@@ -931,6 +941,7 @@
 				89A899B127DA4AF100A7A6D1 /* 590.n-叉树的后序遍历.cpp */,
 				89E5AAC727493969007DB9B9 /* 594.最长和谐子序列.cpp */,
 				898F44A22737DAE00051A08C /* 598.范围求和-ii.cpp */,
+				8952093127E0DDA600BA01F2 /* 599.两个列表的最小索引总和.cpp */,
 				89CF305326ECFAD90029D7B6 /* 600.不含连续-1-的非负整数.cpp */,
 				8976631E273D698000507E1F /* 629.k个逆序对数组.cpp */,
 				89D65EE22768D99A00B855E3 /* 630.课程表-iii.cpp */,
@@ -1041,6 +1052,7 @@
 				89B6C492278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp */,
 				89E8F9AE2799A55A00310336 /* 2029.石子游戏-ix.cpp */,
 				8972B694279D1D4400D14CE7 /* 2034.股票价格波动.cpp */,
+				8952093227E0DDA600BA01F2 /* 2044.统计按位或能得到最大值的子集数目.cpp */,
 				8916EA18279EE59C000B26A9 /* 2045.到达目的地的第二短时间.cpp */,
 				892EA22627A2E80000E1E00D /* 2047.句子中的有效单词数.cpp */,
 				89A899B527DB93D200A7A6D1 /* 2049.统计最高分的节点数目.cpp */,
@@ -1248,8 +1260,8 @@
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
-				89A899B827DB93E200A7A6D1 /* 2049.统计最高分的节点数目.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				8952093A27E0DDE200BA01F2 /* 2044.统计按位或能得到最大值的子集数目.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1259,8 +1271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				89A899B627DB93D200A7A6D1 /* 2049.统计最高分的节点数目.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				8952093627E0DDA600BA01F2 /* 2044.统计按位或能得到最大值的子集数目.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
