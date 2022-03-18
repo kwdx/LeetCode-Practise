@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8952094227E2C3F500BA01F2 /* 720.词典中最长的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952094127E2C3F400BA01F2 /* 720.词典中最长的单词.swift */; };
-		8952094427E2C85100BA01F2 /* 720.词典中最长的单词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8952094327E2C85100BA01F2 /* 720.词典中最长的单词.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
+		895A04BE27E4B3BA00AB66B9 /* 2043.简易银行系统.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 895A04BD27E4B3BA00AB66B9 /* 2043.简易银行系统.cpp */; };
+		895A04C027E4B3D200AB66B9 /* 2043.简易银行系统.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895A04BF27E4B3D200AB66B9 /* 2043.简易银行系统.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -176,6 +176,8 @@
 		8956A90D27242E8E0006474A /* 229.求众数-ii-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "229.求众数-ii-1.cpp"; sourceTree = "<group>"; };
 		8956A90E27242E8E0006474A /* 66.加一-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "66.加一-1.cpp"; sourceTree = "<group>"; };
 		8957EDB527302F1600A67CCA /* 575.分糖果.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "575.分糖果.cpp"; sourceTree = "<group>"; };
+		895A04BD27E4B3BA00AB66B9 /* 2043.简易银行系统.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2043.简易银行系统.cpp"; sourceTree = "<group>"; };
+		895A04BF27E4B3D200AB66B9 /* 2043.简易银行系统.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2043.简易银行系统.swift"; sourceTree = "<group>"; };
 		895F9E3F2764310C00E2DF08 /* 911.在线选举.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "911.在线选举.cpp"; sourceTree = "<group>"; };
 		895F9E412764311D00E2DF08 /* 911.在线选举.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "911.在线选举.swift"; sourceTree = "<group>"; };
 		8966DE5826E7BBF400AEA606 /* 1221.分割平衡字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1221.分割平衡字符串.cpp"; sourceTree = "<group>"; };
@@ -743,6 +745,7 @@
 				89B6C494278056DE000F2DA5 /* 2022.将一维数组转变成二维数组.swift */,
 				89E8F9B02799A58B00310336 /* 2029.石子游戏-ix.swift */,
 				8972B692279D1CAF00D14CE7 /* 2034.股票价格波动.swift */,
+				895A04BF27E4B3D200AB66B9 /* 2043.简易银行系统.swift */,
 				8952093727E0DDE200BA01F2 /* 2044.统计按位或能得到最大值的子集数目.swift */,
 				8916EA1A279EE5B8000B26A9 /* 2045.到达目的地的第二短时间.swift */,
 				892EA22427A2E7EB00E1E00D /* 2047.句子中的有效单词数.swift */,
@@ -1060,6 +1063,7 @@
 				89B6C492278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp */,
 				89E8F9AE2799A55A00310336 /* 2029.石子游戏-ix.cpp */,
 				8972B694279D1D4400D14CE7 /* 2034.股票价格波动.cpp */,
+				895A04BD27E4B3BA00AB66B9 /* 2043.简易银行系统.cpp */,
 				8952093227E0DDA600BA01F2 /* 2044.统计按位或能得到最大值的子集数目.cpp */,
 				8916EA18279EE59C000B26A9 /* 2045.到达目的地的第二短时间.cpp */,
 				892EA22627A2E80000E1E00D /* 2047.句子中的有效单词数.cpp */,
@@ -1267,10 +1271,10 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
+				895A04C027E4B3D200AB66B9 /* 2043.简易银行系统.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				8952094227E2C3F500BA01F2 /* 720.词典中最长的单词.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1278,9 +1282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8952094427E2C85100BA01F2 /* 720.词典中最长的单词.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				895A04BE27E4B3BA00AB66B9 /* 2043.简易银行系统.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
