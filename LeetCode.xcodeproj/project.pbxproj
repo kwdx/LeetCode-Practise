@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
-		895A04CB27E8B93B00AB66B9 /* 653.两数之和-iv-输入-bst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 895A04CA27E8B93B00AB66B9 /* 653.两数之和-iv-输入-bst.cpp */; };
-		895A04CD27E8B97F00AB66B9 /* 653.两数之和-iv-输入-bst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895A04CC27E8B97F00AB66B9 /* 653.两数之和-iv-输入-bst.swift */; };
+		895A04CF27EA16C300AB66B9 /* 2038.如果相邻两个颜色均相同则删除当前颜色.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 895A04CE27EA16C300AB66B9 /* 2038.如果相邻两个颜色均相同则删除当前颜色.cpp */; };
+		895A04D127EA16DC00AB66B9 /* 2038.如果相邻两个颜色均相同则删除当前颜色.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895A04D027EA16DC00AB66B9 /* 2038.如果相邻两个颜色均相同则删除当前颜色.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -184,6 +184,8 @@
 		895A04C727E775D800AB66B9 /* 2039.网络空闲的时刻.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2039.网络空闲的时刻.swift"; sourceTree = "<group>"; };
 		895A04CA27E8B93B00AB66B9 /* 653.两数之和-iv-输入-bst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "653.两数之和-iv-输入-bst.cpp"; sourceTree = "<group>"; };
 		895A04CC27E8B97F00AB66B9 /* 653.两数之和-iv-输入-bst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "653.两数之和-iv-输入-bst.swift"; sourceTree = "<group>"; };
+		895A04CE27EA16C300AB66B9 /* 2038.如果相邻两个颜色均相同则删除当前颜色.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2038.如果相邻两个颜色均相同则删除当前颜色.cpp"; sourceTree = "<group>"; };
+		895A04D027EA16DC00AB66B9 /* 2038.如果相邻两个颜色均相同则删除当前颜色.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2038.如果相邻两个颜色均相同则删除当前颜色.swift"; sourceTree = "<group>"; };
 		895F9E3F2764310C00E2DF08 /* 911.在线选举.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "911.在线选举.cpp"; sourceTree = "<group>"; };
 		895F9E412764311D00E2DF08 /* 911.在线选举.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "911.在线选举.swift"; sourceTree = "<group>"; };
 		8966DE5826E7BBF400AEA606 /* 1221.分割平衡字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1221.分割平衡字符串.cpp"; sourceTree = "<group>"; };
@@ -753,6 +755,7 @@
 				89B6C494278056DE000F2DA5 /* 2022.将一维数组转变成二维数组.swift */,
 				89E8F9B02799A58B00310336 /* 2029.石子游戏-ix.swift */,
 				8972B692279D1CAF00D14CE7 /* 2034.股票价格波动.swift */,
+				895A04D027EA16DC00AB66B9 /* 2038.如果相邻两个颜色均相同则删除当前颜色.swift */,
 				895A04C727E775D800AB66B9 /* 2039.网络空闲的时刻.swift */,
 				895A04BF27E4B3D200AB66B9 /* 2043.简易银行系统.swift */,
 				8952093727E0DDE200BA01F2 /* 2044.统计按位或能得到最大值的子集数目.swift */,
@@ -1074,6 +1077,7 @@
 				89B6C492278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp */,
 				89E8F9AE2799A55A00310336 /* 2029.石子游戏-ix.cpp */,
 				8972B694279D1D4400D14CE7 /* 2034.股票价格波动.cpp */,
+				895A04CE27EA16C300AB66B9 /* 2038.如果相邻两个颜色均相同则删除当前颜色.cpp */,
 				895A04C527E7755900AB66B9 /* 2039.网络空闲的时刻.cpp */,
 				895A04BD27E4B3BA00AB66B9 /* 2043.简易银行系统.cpp */,
 				8952093227E0DDA600BA01F2 /* 2044.统计按位或能得到最大值的子集数目.cpp */,
@@ -1281,8 +1285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895A04D127EA16DC00AB66B9 /* 2038.如果相邻两个颜色均相同则删除当前颜色.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				895A04CD27E8B97F00AB66B9 /* 653.两数之和-iv-输入-bst.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
@@ -1295,8 +1299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				895A04CB27E8B93B00AB66B9 /* 653.两数之和-iv-输入-bst.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				895A04CF27EA16C300AB66B9 /* 2038.如果相邻两个颜色均相同则删除当前颜色.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
