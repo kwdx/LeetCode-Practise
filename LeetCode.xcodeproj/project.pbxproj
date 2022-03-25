@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
-		895A04D727ECC7DD00AB66B9 /* 661.图片平滑器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 895A04D627ECC7DD00AB66B9 /* 661.图片平滑器.cpp */; };
-		895A04D927ECC87100AB66B9 /* 661.图片平滑器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895A04D827ECC87100AB66B9 /* 661.图片平滑器.swift */; };
+		895A04DB27EE088100AB66B9 /* 172.阶乘后的零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895A04DA27EE088100AB66B9 /* 172.阶乘后的零.swift */; };
+		895A04DD27EE089500AB66B9 /* 172.阶乘后的零.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 895A04DC27EE089500AB66B9 /* 172.阶乘后的零.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -190,6 +190,8 @@
 		895A04D427EB65FC00AB66B9 /* 440.字典序的第k小数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "440.字典序的第k小数字.cpp"; sourceTree = "<group>"; };
 		895A04D627ECC7DD00AB66B9 /* 661.图片平滑器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "661.图片平滑器.cpp"; sourceTree = "<group>"; };
 		895A04D827ECC87100AB66B9 /* 661.图片平滑器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "661.图片平滑器.swift"; sourceTree = "<group>"; };
+		895A04DA27EE088100AB66B9 /* 172.阶乘后的零.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "172.阶乘后的零.swift"; sourceTree = "<group>"; };
+		895A04DC27EE089500AB66B9 /* 172.阶乘后的零.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "172.阶乘后的零.cpp"; sourceTree = "<group>"; };
 		895F9E3F2764310C00E2DF08 /* 911.在线选举.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "911.在线选举.cpp"; sourceTree = "<group>"; };
 		895F9E412764311D00E2DF08 /* 911.在线选举.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "911.在线选举.swift"; sourceTree = "<group>"; };
 		8966DE5826E7BBF400AEA606 /* 1221.分割平衡字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1221.分割平衡字符串.cpp"; sourceTree = "<group>"; };
@@ -623,6 +625,7 @@
 				89886F4F272CDC20003A626D /* 88.合并两个有序数组.swift */,
 				89B4862A2789DF0200A6930A /* 89.格雷编码.swift */,
 				89886F56272CDF2D003A626D /* 150.逆波兰表达式求值.swift */,
+				895A04DA27EE088100AB66B9 /* 172.阶乘后的零.swift */,
 				893E1231272C51AD00EAC6FD /* 198.打家劫舍.swift */,
 				893E1234272C554D00EAC6FD /* 215.数组中的第k个最大元素.swift */,
 				89E8F9AA279852E000310336 /* 219.存在重复元素-ii.swift */,
@@ -851,6 +854,7 @@
 				89DEB29026F248FC009A4894 /* 162.寻找峰值.cpp */,
 				89A484372709E04200EEF031 /* 166.分数到小数.cpp */,
 				89C3FC3E26D1062600C87257 /* 167.两数之和-ii-输入有序数组.cpp */,
+				895A04DC27EE089500AB66B9 /* 172.阶乘后的零.cpp */,
 				89B2F96D2725068200DB5B34 /* 173.二叉搜索树迭代器.cpp */,
 				8909E65427107658005ABD25 /* 187.重复的dna序列.cpp */,
 				8907627026DE896300A93668 /* 188.买卖股票的最佳时机-iv.cpp */,
@@ -1295,9 +1299,9 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
-				895A04D927ECC87100AB66B9 /* 661.图片平滑器.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				895A04DB27EE088100AB66B9 /* 172.阶乘后的零.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1306,9 +1310,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895A04D727ECC7DD00AB66B9 /* 661.图片平滑器.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
+				895A04DD27EE089500AB66B9 /* 172.阶乘后的零.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
