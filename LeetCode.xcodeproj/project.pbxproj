@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890C2DDA27EF68CE00F5191D /* 682.棒球比赛.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 890C2DD927EF68CE00F5191D /* 682.棒球比赛.cpp */; };
+		890C2DDC27EF694600F5191D /* 682.棒球比赛.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
-		895A04DB27EE088100AB66B9 /* 172.阶乘后的零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895A04DA27EE088100AB66B9 /* 172.阶乘后的零.swift */; };
-		895A04DD27EE089500AB66B9 /* 172.阶乘后的零.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 895A04DC27EE089500AB66B9 /* 172.阶乘后的零.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -76,6 +76,8 @@
 		8907628726E47A9800A93668 /* 470.用-rand-7-实现-rand-10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "470.用-rand-7-实现-rand-10.cpp"; sourceTree = "<group>"; };
 		8909653A26F77737005E17EA /* 650.只有两个键的键盘.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "650.只有两个键的键盘.cpp"; sourceTree = "<group>"; };
 		8909E65427107658005ABD25 /* 187.重复的dna序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "187.重复的dna序列.cpp"; sourceTree = "<group>"; };
+		890C2DD927EF68CE00F5191D /* 682.棒球比赛.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "682.棒球比赛.cpp"; sourceTree = "<group>"; };
+		890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "682.棒球比赛.swift"; sourceTree = "<group>"; };
 		890E21FB270AA8E80081372B /* 482.密钥格式化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "482.密钥格式化.cpp"; sourceTree = "<group>"; };
 		890E883D2740C9CB0073633B /* 677.键值映射.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "677.键值映射.cpp"; sourceTree = "<group>"; };
 		890E883F2740CB8C0073633B /* 677.键值映射.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "677.键值映射.swift"; sourceTree = "<group>"; };
@@ -693,6 +695,7 @@
 				895A04CC27E8B97F00AB66B9 /* 653.两数之和-iv-输入-bst.swift */,
 				895A04D827ECC87100AB66B9 /* 661.图片平滑器.swift */,
 				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
+				890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */,
 				8973551B2776209C0034C87A /* 686.重复叠加字符串匹配.swift */,
 				89AF725627BE986000BD2211 /* 688.马-在棋盘上的概率.swift */,
 				89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */,
@@ -989,6 +992,7 @@
 				89DE25C126F8D411005999E0 /* 673.最长递增子序列的个数.cpp */,
 				890E883D2740C9CB0073633B /* 677.键值映射.cpp */,
 				89CF305526EE51560029D7B6 /* 678.有效的括号字符串.cpp */,
+				890C2DD927EF68CE00F5191D /* 682.棒球比赛.cpp */,
 				8973551D277620B20034C87A /* 686.重复叠加字符串匹配.cpp */,
 				89AF725827BE987300BD2211 /* 688.马-在棋盘上的概率.cpp */,
 				89943B3F2760F480002F1171 /* 689.三个无重叠子数组的最大和.cpp */,
@@ -1301,7 +1305,7 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				895A04DB27EE088100AB66B9 /* 172.阶乘后的零.swift in Sources */,
+				890C2DDC27EF694600F5191D /* 682.棒球比赛.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1311,8 +1315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
+				890C2DDA27EF68CE00F5191D /* 682.棒球比赛.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
-				895A04DD27EE089500AB66B9 /* 172.阶乘后的零.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
