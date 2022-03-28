@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		890C2DDE27F0126B00F5191D /* 2028.找出缺失的观测数据.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C2DDD27F0126B00F5191D /* 2028.找出缺失的观测数据.swift */; };
-		890C2DE027F0170700F5191D /* 2028.找出缺失的观测数据.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 890C2DDF27F0170700F5191D /* 2028.找出缺失的观测数据.cpp */; };
+		892023CD27F1E2EA00F3C7E2 /* 693.交替位二进制数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 892023CC27F1E2EA00F3C7E2 /* 693.交替位二进制数.cpp */; };
+		892023CF27F1E30100F3C7E2 /* 693.交替位二进制数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892023CE27F1E30100F3C7E2 /* 693.交替位二进制数.swift */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
@@ -103,6 +103,8 @@
 		891C5A62273F718D0047E46E /* 520.检测大写字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "520.检测大写字母.swift"; sourceTree = "<group>"; };
 		891DCDDF27A57C9A0068417B /* 1765.地图中的最高点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1765.地图中的最高点.swift"; sourceTree = "<group>"; };
 		891DCDE127A57D220068417B /* 1765.地图中的最高点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1765.地图中的最高点.cpp"; sourceTree = "<group>"; };
+		892023CC27F1E2EA00F3C7E2 /* 693.交替位二进制数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "693.交替位二进制数.cpp"; sourceTree = "<group>"; };
+		892023CE27F1E30100F3C7E2 /* 693.交替位二进制数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "693.交替位二进制数.swift"; sourceTree = "<group>"; };
 		892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "794.有效的井字游戏.swift"; sourceTree = "<group>"; };
 		892396E127624BD40041A3B9 /* 794.有效的井字游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "794.有效的井字游戏.cpp"; sourceTree = "<group>"; };
 		89239D0F2715D0D200489E2B /* 29.两数相除.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "29.两数相除.cpp"; sourceTree = "<group>"; };
@@ -701,6 +703,7 @@
 				8973551B2776209C0034C87A /* 686.重复叠加字符串匹配.swift */,
 				89AF725627BE986000BD2211 /* 688.马-在棋盘上的概率.swift */,
 				89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */,
+				892023CE27F1E30100F3C7E2 /* 693.交替位二进制数.swift */,
 				89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */,
 				89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */,
 				89955FA227C2897F00E03BC0 /* 717.1-比特与-2-比特字符.swift */,
@@ -999,6 +1002,7 @@
 				8973551D277620B20034C87A /* 686.重复叠加字符串匹配.cpp */,
 				89AF725827BE987300BD2211 /* 688.马-在棋盘上的概率.cpp */,
 				89943B3F2760F480002F1171 /* 689.三个无重叠子数组的最大和.cpp */,
+				892023CC27F1E2EA00F3C7E2 /* 693.交替位二进制数.cpp */,
 				89CC84B126C2D2C8009483EF /* 700.二叉搜索树中的搜索.cpp */,
 				89CC84B326C2D3BF009483EF /* 701.二叉搜索树中的插入操作.cpp */,
 				89C3FC2F26D0C3B800C87257 /* 704.二分查找.cpp */,
@@ -1306,10 +1310,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				892023CF27F1E30100F3C7E2 /* 693.交替位二进制数.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				890C2DDE27F0126B00F5191D /* 2028.找出缺失的观测数据.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1319,7 +1323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				890C2DE027F0170700F5191D /* 2028.找出缺失的观测数据.cpp in Sources */,
+				892023CD27F1E2EA00F3C7E2 /* 693.交替位二进制数.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
