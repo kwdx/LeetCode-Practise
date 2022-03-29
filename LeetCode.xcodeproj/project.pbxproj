@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		892023CD27F1E2EA00F3C7E2 /* 693.交替位二进制数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 892023CC27F1E2EA00F3C7E2 /* 693.交替位二进制数.cpp */; };
-		892023CF27F1E30100F3C7E2 /* 693.交替位二进制数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892023CE27F1E30100F3C7E2 /* 693.交替位二进制数.swift */; };
+		892023D127F35DA400F3C7E2 /* 2024.考试的最大困扰度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892023D027F35DA400F3C7E2 /* 2024.考试的最大困扰度.swift */; };
+		892023D327F35DC300F3C7E2 /* 2024.考试的最大困扰度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 892023D227F35DC300F3C7E2 /* 2024.考试的最大困扰度.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
@@ -105,6 +105,8 @@
 		891DCDE127A57D220068417B /* 1765.地图中的最高点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1765.地图中的最高点.cpp"; sourceTree = "<group>"; };
 		892023CC27F1E2EA00F3C7E2 /* 693.交替位二进制数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "693.交替位二进制数.cpp"; sourceTree = "<group>"; };
 		892023CE27F1E30100F3C7E2 /* 693.交替位二进制数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "693.交替位二进制数.swift"; sourceTree = "<group>"; };
+		892023D027F35DA400F3C7E2 /* 2024.考试的最大困扰度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2024.考试的最大困扰度.swift"; sourceTree = "<group>"; };
+		892023D227F35DC300F3C7E2 /* 2024.考试的最大困扰度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2024.考试的最大困扰度.cpp"; sourceTree = "<group>"; };
 		892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "794.有效的井字游戏.swift"; sourceTree = "<group>"; };
 		892396E127624BD40041A3B9 /* 794.有效的井字游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "794.有效的井字游戏.cpp"; sourceTree = "<group>"; };
 		89239D0F2715D0D200489E2B /* 29.两数相除.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "29.两数相除.cpp"; sourceTree = "<group>"; };
@@ -770,6 +772,7 @@
 				892EA22227A1996100E1E00D /* 2013.检测正方形.swift */,
 				89B070C827CA7E0B00DD7E68 /* 2016.增量元素之间的最大差值.swift */,
 				89B6C494278056DE000F2DA5 /* 2022.将一维数组转变成二维数组.swift */,
+				892023D027F35DA400F3C7E2 /* 2024.考试的最大困扰度.swift */,
 				890C2DDD27F0126B00F5191D /* 2028.找出缺失的观测数据.swift */,
 				89E8F9B02799A58B00310336 /* 2029.石子游戏-ix.swift */,
 				8972B692279D1CAF00D14CE7 /* 2034.股票价格波动.swift */,
@@ -1098,6 +1101,7 @@
 				892EA22027A1994F00E1E00D /* 2013.检测正方形.cpp */,
 				89B070CA27CA7E1F00DD7E68 /* 2016.增量元素之间的最大差值.cpp */,
 				89B6C492278056D2000F2DA5 /* 2022.将一维数组转变成二维数组.cpp */,
+				892023D227F35DC300F3C7E2 /* 2024.考试的最大困扰度.cpp */,
 				890C2DDF27F0170700F5191D /* 2028.找出缺失的观测数据.cpp */,
 				89E8F9AE2799A55A00310336 /* 2029.石子游戏-ix.cpp */,
 				8972B694279D1D4400D14CE7 /* 2034.股票价格波动.cpp */,
@@ -1310,8 +1314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				892023CF27F1E30100F3C7E2 /* 693.交替位二进制数.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
+				892023D127F35DA400F3C7E2 /* 2024.考试的最大困扰度.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
@@ -1322,8 +1326,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892023D327F35DC300F3C7E2 /* 2024.考试的最大困扰度.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
-				892023CD27F1E2EA00F3C7E2 /* 693.交替位二进制数.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
