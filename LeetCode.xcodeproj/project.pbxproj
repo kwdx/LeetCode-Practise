@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		892023D527F4A24900F3C7E2 /* 1606.找到处理最多请求的服务器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 892023D427F4A24900F3C7E2 /* 1606.找到处理最多请求的服务器.cpp */; };
-		892023D727F4A25D00F3C7E2 /* 1606.找到处理最多请求的服务器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892023D627F4A25C00F3C7E2 /* 1606.找到处理最多请求的服务器.swift */; };
+		891A3A8227F5F0EC0003D731 /* 728.自除数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891A3A8127F5F0EC0003D731 /* 728.自除数.swift */; };
+		891A3A8427F5F0FC0003D731 /* 728.自除数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891A3A8327F5F0FC0003D731 /* 728.自除数.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
@@ -99,6 +99,8 @@
 		891916A527C92688002B8702 /* 537.复数乘法.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "537.复数乘法.cpp"; sourceTree = "<group>"; };
 		891916A727C92694002B8702 /* 537.复数乘法.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "537.复数乘法.swift"; sourceTree = "<group>"; };
 		8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "725.分隔链表.cpp"; sourceTree = "<group>"; };
+		891A3A8127F5F0EC0003D731 /* 728.自除数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "728.自除数.swift"; sourceTree = "<group>"; };
+		891A3A8327F5F0FC0003D731 /* 728.自除数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "728.自除数.cpp"; sourceTree = "<group>"; };
 		891C5A60273F6FDB0047E46E /* 520.检测大写字母.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "520.检测大写字母.cpp"; sourceTree = "<group>"; };
 		891C5A62273F718D0047E46E /* 520.检测大写字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "520.检测大写字母.swift"; sourceTree = "<group>"; };
 		891DCDDF27A57C9A0068417B /* 1765.地图中的最高点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1765.地图中的最高点.swift"; sourceTree = "<group>"; };
@@ -712,6 +714,7 @@
 				89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */,
 				89955FA227C2897F00E03BC0 /* 717.1-比特与-2-比特字符.swift */,
 				8952094127E2C3F400BA01F2 /* 720.词典中最长的单词.swift */,
+				891A3A8127F5F0EC0003D731 /* 728.自除数.swift */,
 				89B4863E27907D5200A6930A /* 747.至少是其他数字两倍的最大数.swift */,
 				8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */,
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
@@ -1018,6 +1021,7 @@
 				89955FA427C289CE00E03BC0 /* 717.1-比特与-2-比特字符.cpp */,
 				8952094327E2C85100BA01F2 /* 720.词典中最长的单词.cpp */,
 				8919B45D26FAC9B600A9F0C2 /* 725.分隔链表.cpp */,
+				891A3A8327F5F0FC0003D731 /* 728.自除数.cpp */,
 				89C3FC2426CFF58700C87257 /* 739.每日温度.cpp */,
 				89B4864027907D7900A6930A /* 747.至少是其他数字两倍的最大数.cpp */,
 				8988F1EB2763999200CDBAA9 /* 748.最短补全词.cpp */,
@@ -1319,8 +1323,8 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
-				892023D727F4A25D00F3C7E2 /* 1606.找到处理最多请求的服务器.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
+				891A3A8227F5F0EC0003D731 /* 728.自除数.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
@@ -1331,9 +1335,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
+				891A3A8427F5F0FC0003D731 /* 728.自除数.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
-				892023D527F4A24900F3C7E2 /* 1606.找到处理最多请求的服务器.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
