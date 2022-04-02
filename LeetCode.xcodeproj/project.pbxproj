@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		891A3A8627F74DD90003D731 /* 954.二倍数对数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891A3A8527F74DD90003D731 /* 954.二倍数对数组.cpp */; };
-		891A3A8827F74DEE0003D731 /* 954.二倍数对数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891A3A8727F74DEE0003D731 /* 954.二倍数对数组.swift */; };
+		891A3A8A27F89D3F0003D731 /* 420.强密码检验器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891A3A8927F89D3F0003D731 /* 420.强密码检验器.swift */; };
+		891A3A8C27F89D510003D731 /* 420.强密码检验器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891A3A8B27F89D510003D731 /* 420.强密码检验器.cpp */; };
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
@@ -103,6 +103,8 @@
 		891A3A8327F5F0FC0003D731 /* 728.自除数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "728.自除数.cpp"; sourceTree = "<group>"; };
 		891A3A8527F74DD90003D731 /* 954.二倍数对数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "954.二倍数对数组.cpp"; sourceTree = "<group>"; };
 		891A3A8727F74DEE0003D731 /* 954.二倍数对数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "954.二倍数对数组.swift"; sourceTree = "<group>"; };
+		891A3A8927F89D3F0003D731 /* 420.强密码检验器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "420.强密码检验器.swift"; sourceTree = "<group>"; };
+		891A3A8B27F89D510003D731 /* 420.强密码检验器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "420.强密码检验器.cpp"; sourceTree = "<group>"; };
 		891C5A60273F6FDB0047E46E /* 520.检测大写字母.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "520.检测大写字母.cpp"; sourceTree = "<group>"; };
 		891C5A62273F718D0047E46E /* 520.检测大写字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "520.检测大写字母.swift"; sourceTree = "<group>"; };
 		891DCDDF27A57C9A0068417B /* 1765.地图中的最高点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1765.地图中的最高点.swift"; sourceTree = "<group>"; };
@@ -671,6 +673,7 @@
 				899A76D92747F753006DA530 /* 397.整数替换.swift */,
 				89723784275A656900EBC5C5 /* 400.第-n-位数字.swift */,
 				89A779EA276DD35B00B7CDA9 /* 419.甲板上的战舰.swift */,
+				891A3A8927F89D3F0003D731 /* 420.强密码检验器.swift */,
 				89AE78A62751E7D600598666 /* 423.从英文中重建数字.swift */,
 				8952093F27E1C85200BA01F2 /* 432.全-o-1-的数据结构.swift */,
 				89F7BA2A2753D1570075865E /* 438.找到字符串中所有字母异位词.swift */,
@@ -946,6 +949,7 @@
 				892B78BA270DD01D00923EA9 /* 414.第三大的数.cpp */,
 				8902686526BEEDB600156215 /* 416.分割等和子集.cpp */,
 				89A779E8276DD2C700B7CDA9 /* 419.甲板上的战舰.cpp */,
+				891A3A8B27F89D510003D731 /* 420.强密码检验器.cpp */,
 				89AE78A02751E7A100598666 /* 423.从英文中重建数字.cpp */,
 				89CEC83326FD805F000F9EC7 /* 430.扁平化多级双向链表.cpp */,
 				8952093D27E1C78C00BA01F2 /* 432.全-o-1-的数据结构.cpp */,
@@ -1327,9 +1331,9 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
+				891A3A8A27F89D3F0003D731 /* 420.强密码检验器.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				891A3A8827F74DEE0003D731 /* 954.二倍数对数组.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1338,7 +1342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891A3A8627F74DD90003D731 /* 954.二倍数对数组.cpp in Sources */,
+				891A3A8C27F89D510003D731 /* 420.强密码检验器.cpp in Sources */,
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
