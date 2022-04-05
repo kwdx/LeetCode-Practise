@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89554F8226BD848F00FEDFF1 /* ListNode.cpp */; };
+		897A7ECC27FC7ED80006B830 /* 762.二进制表示中质数个计算置位.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 897A7ECB27FC7ED80006B830 /* 762.二进制表示中质数个计算置位.cpp */; };
+		897A7ECE27FC7F480006B830 /* 762.二进制表示中质数个计算置位.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A7ECD27FC7F480006B830 /* 762.二进制表示中质数个计算置位.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -15,8 +17,6 @@
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC849926C1759A009483EF /* TreeNode.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
-		89D82E7827FAEA6D00EA9A92 /* 307.区域和检索-数组可修改.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D82E7727FAEA6D00EA9A92 /* 307.区域和检索-数组可修改.swift */; };
-		89D82E7A27FAEA8A00EA9A92 /* 307.区域和检索-数组可修改.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89D82E7927FAEA8A00EA9A92 /* 307.区域和检索-数组可修改.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -250,6 +250,8 @@
 		8976631E273D698000507E1F /* 629.k个逆序对数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "629.k个逆序对数组.cpp"; sourceTree = "<group>"; };
 		89766320273D6A5600507E1F /* 629.k个逆序对数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "629.k个逆序对数组.swift"; sourceTree = "<group>"; };
 		89782A0E26F98B86000428A0 /* 58.最后一个单词的长度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "58.最后一个单词的长度.cpp"; sourceTree = "<group>"; };
+		897A7ECB27FC7ED80006B830 /* 762.二进制表示中质数个计算置位.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "762.二进制表示中质数个计算置位.cpp"; sourceTree = "<group>"; };
+		897A7ECD27FC7F480006B830 /* 762.二进制表示中质数个计算置位.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "762.二进制表示中质数个计算置位.swift"; sourceTree = "<group>"; };
 		8983473E270613D800B8946E /* 223.矩形面积.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "223.矩形面积.cpp"; sourceTree = "<group>"; };
 		898379132701FFD200A1E293 /* 639.解码方法-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "639.解码方法-ii.cpp"; sourceTree = "<group>"; };
 		8984640527A693ED006D99B5 /* 884.两句话中的不常见单词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "884.两句话中的不常见单词.cpp"; sourceTree = "<group>"; };
@@ -728,6 +730,7 @@
 				89D82E7527F9EC7400EA9A92 /* 744.寻找比目标字母大的最小字母.swift */,
 				89B4863E27907D5200A6930A /* 747.至少是其他数字两倍的最大数.swift */,
 				8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */,
+				897A7ECD27FC7F480006B830 /* 762.二进制表示中质数个计算置位.swift */,
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
 				892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */,
 				89A899A827D8FB6300A7A6D1 /* 798.得分最高的最小轮调.swift */,
@@ -1040,6 +1043,7 @@
 				89D82E7327F9E55400EA9A92 /* 744.寻找比目标字母大的最小字母.cpp */,
 				89B4864027907D7900A6930A /* 747.至少是其他数字两倍的最大数.cpp */,
 				8988F1EB2763999200CDBAA9 /* 748.最短补全词.cpp */,
+				897A7ECB27FC7ED80006B830 /* 762.二进制表示中质数个计算置位.cpp */,
 				89B2F9732725094000DB5B34 /* 783.二叉搜索树节点最小距离.cpp */,
 				8972377D275A655900EBC5C5 /* 786.第-k-个最小的素数分数.cpp */,
 				892396E127624BD40041A3B9 /* 794.有效的井字游戏.cpp */,
@@ -1339,7 +1343,7 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
-				89D82E7827FAEA6D00EA9A92 /* 307.区域和检索-数组可修改.swift in Sources */,
+				897A7ECE27FC7F480006B830 /* 762.二进制表示中质数个计算置位.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
@@ -1352,7 +1356,7 @@
 			files = (
 				89C3FC1326CE988000C87257 /* UnionFind.cpp in Sources */,
 				89CC849B26C1759A009483EF /* TreeNode.cpp in Sources */,
-				89D82E7A27FAEA8A00EA9A92 /* 307.区域和检索-数组可修改.cpp in Sources */,
+				897A7ECC27FC7ED80006B830 /* 762.二进制表示中质数个计算置位.cpp in Sources */,
 				89554F8326BD848F00FEDFF1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
