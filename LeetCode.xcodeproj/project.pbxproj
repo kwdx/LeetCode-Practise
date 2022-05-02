@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8975E6C0281ED1AB006F4F6A /* 1305.两棵二叉搜索树中的所有元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E593281ED164006F4F6A /* 1305.两棵二叉搜索树中的所有元素.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89B7F06E281ECF5500F3498F /* 1305.两棵二叉搜索树中的所有元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B7F06D281ECF5500F3498F /* 1305.两棵二叉搜索树中的所有元素.swift */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
+		89E5D877281FCC1600216365 /* 591.标签验证器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E5D876281FCC1600216365 /* 591.标签验证器.cpp */; };
+		89E5D879281FCF1200216365 /* 591.标签验证器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E5D878281FCF1200216365 /* 591.标签验证器.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -582,6 +582,8 @@
 		89E1BE51281D8940009176A4 /* 396.旋转函数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "396.旋转函数.swift"; sourceTree = "<group>"; };
 		89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1518.换酒问题.swift"; sourceTree = "<group>"; };
 		89E5AAC927493A7E007DB9B9 /* 594.最长和谐子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "594.最长和谐子序列.swift"; sourceTree = "<group>"; };
+		89E5D876281FCC1600216365 /* 591.标签验证器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "591.标签验证器.cpp"; sourceTree = "<group>"; };
+		89E5D878281FCF1200216365 /* 591.标签验证器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "591.标签验证器.swift"; sourceTree = "<group>"; };
 		89E8F9A02793ED8100310336 /* 382.链表随机节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "382.链表随机节点.swift"; sourceTree = "<group>"; };
 		89E8F9A22795BEA600310336 /* 1220.统计元音字母序列的数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1220.统计元音字母序列的数目.swift"; sourceTree = "<group>"; };
 		89E8F9A82796FFF100310336 /* 539.最小时间差.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "539.最小时间差.swift"; sourceTree = "<group>"; };
@@ -696,6 +698,7 @@
 				8995D89C27303094001A499C /* 575.分糖果.swift */,
 				89A899AA27DA4A9C00A7A6D1 /* 589.n-叉树的前序遍历.swift */,
 				89A899AB27DA4A9C00A7A6D1 /* 590.n-叉树的后序遍历.swift */,
+				89E5D878281FCF1200216365 /* 591.标签验证器.swift */,
 				89E5AAC927493A7E007DB9B9 /* 594.最长和谐子序列.swift */,
 				898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */,
 				8952093927E0DDE200BA01F2 /* 599.两个列表的最小索引总和.swift */,
@@ -1009,6 +1012,7 @@
 				8975E69D281ED190006F4F6A /* 575.分糖果.cpp */,
 				8975E667281ED189006F4F6A /* 589.n-叉树的前序遍历.cpp */,
 				8975E59A281ED166006F4F6A /* 590.n-叉树的后序遍历.cpp */,
+				89E5D876281FCC1600216365 /* 591.标签验证器.cpp */,
 				8975E5C7281ED16E006F4F6A /* 594.最长和谐子序列.cpp */,
 				8975E68B281ED18D006F4F6A /* 598.范围求和-ii.cpp */,
 				8975E631281ED181006F4F6A /* 599.两个列表的最小索引总和.cpp */,
@@ -1291,11 +1295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				89E5D879281FCF1200216365 /* 591.标签验证器.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				89B7F06E281ECF5500F3498F /* 1305.两棵二叉搜索树中的所有元素.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1303,7 +1307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8975E6C0281ED1AB006F4F6A /* 1305.两棵二叉搜索树中的所有元素.cpp in Sources */,
+				89E5D877281FCC1600216365 /* 591.标签验证器.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
