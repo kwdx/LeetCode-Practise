@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		894579FE2820EC1800168863 /* 937.重新排列日志文件.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */; };
-		89457A002820EC3D00168863 /* 937.重新排列日志文件.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */; };
+		8928424D2822351900484B59 /* 1823.找出游戏的获胜者.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8928424C2822351800484B59 /* 1823.找出游戏的获胜者.cpp */; };
+		8928424F282235AF00484B59 /* 1823.找出游戏的获胜者.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8928424E282235AF00484B59 /* 1823.找出游戏的获胜者.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -62,6 +62,8 @@
 		892023D027F35DA400F3C7E2 /* 2024.考试的最大困扰度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2024.考试的最大困扰度.swift"; sourceTree = "<group>"; };
 		892023D627F4A25C00F3C7E2 /* 1606.找到处理最多请求的服务器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1606.找到处理最多请求的服务器.swift"; sourceTree = "<group>"; };
 		892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "794.有效的井字游戏.swift"; sourceTree = "<group>"; };
+		8928424C2822351800484B59 /* 1823.找出游戏的获胜者.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1823.找出游戏的获胜者.cpp"; sourceTree = "<group>"; };
+		8928424E282235AF00484B59 /* 1823.找出游戏的获胜者.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1823.找出游戏的获胜者.swift"; sourceTree = "<group>"; };
 		892EA22227A1996100E1E00D /* 2013.检测正方形.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2013.检测正方形.swift"; sourceTree = "<group>"; };
 		892EA22427A2E7EB00E1E00D /* 2047.句子中的有效单词数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2047.句子中的有效单词数.swift"; sourceTree = "<group>"; };
 		892EC6A2275C994D00CD0593 /* 372.超级次方.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "372.超级次方.swift"; sourceTree = "<group>"; };
@@ -792,6 +794,7 @@
 				891DCDDF27A57C9A0068417B /* 1765.地图中的最高点.swift */,
 				89AF725C27BFEC9200BD2211 /* 1791.找出星型图的中心节点.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
+				8928424E282235AF00484B59 /* 1823.找出游戏的获胜者.swift */,
 				8988F48C27B801DF0009A23E /* 1984.学生分数的最小差值.swift */,
 				8939CD87277F59A0009F0CEE /* 1995.统计特殊四元组.swift */,
 				89518A0F27A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift */,
@@ -1131,6 +1134,7 @@
 				8975E696281ED18F006F4F6A /* 1765.地图中的最高点.cpp */,
 				8975E692281ED18E006F4F6A /* 1791.找出星型图的中心节点.cpp */,
 				8975E625281ED17F006F4F6A /* 1816.截断句子.cpp */,
+				8928424C2822351800484B59 /* 1823.找出游戏的获胜者.cpp */,
 				8975E6A8281ED191006F4F6A /* 1894.找到需要补充粉笔的学生编号.cpp */,
 				8975E6AF281ED192006F4F6A /* 1962.移除石子使总数最小.cpp */,
 				8975E65E281ED187006F4F6A /* 1984.学生分数的最小差值.cpp */,
@@ -1298,7 +1302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				894579FE2820EC1800168863 /* 937.重新排列日志文件.swift in Sources */,
+				8928424F282235AF00484B59 /* 1823.找出游戏的获胜者.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
@@ -1311,7 +1315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89457A002820EC3D00168863 /* 937.重新排列日志文件.cpp in Sources */,
+				8928424D2822351900484B59 /* 1823.找出游戏的获胜者.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,22 +3,4 @@
    uuid = "9AE076C5-600C-4410-8BE8-250E402E967A"
    type = "1"
    version = "2.0">
-   <Breakpoints>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8915CDE9-BEBE-4C69-A5FB-802B30804F8E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Cpp/937.&#x91cd;&#x65b0;&#x6392;&#x5217;&#x65e5;&#x5fd7;&#x6587;&#x4ef6;.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "reorderLogFiles(logs)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-   </Breakpoints>
 </Bucket>
