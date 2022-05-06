@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		894F524D282415FB00EA6C32 /* 713.乘积小于k的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894F524C282415FA00EA6C32 /* 713.乘积小于k的子数组.swift */; };
-		894F524F2824161B00EA6C32 /* 713.乘积小于k的子数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 894F524E2824161B00EA6C32 /* 713.乘积小于k的子数组.cpp */; };
+		894F52512825753F00EA6C32 /* 933.最近的请求次数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 894F52502825753F00EA6C32 /* 933.最近的请求次数.cpp */; };
+		894F52532825755400EA6C32 /* 933.最近的请求次数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894F52522825755400EA6C32 /* 933.最近的请求次数.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -79,6 +79,8 @@
 		894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "937.重新排列日志文件.cpp"; sourceTree = "<group>"; };
 		894F524C282415FA00EA6C32 /* 713.乘积小于k的子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "713.乘积小于k的子数组.swift"; sourceTree = "<group>"; };
 		894F524E2824161B00EA6C32 /* 713.乘积小于k的子数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "713.乘积小于k的子数组.cpp"; sourceTree = "<group>"; };
+		894F52502825753F00EA6C32 /* 933.最近的请求次数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "933.最近的请求次数.cpp"; sourceTree = "<group>"; };
+		894F52522825755400EA6C32 /* 933.最近的请求次数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "933.最近的请求次数.swift"; sourceTree = "<group>"; };
 		89518A0F27A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1996.游戏中弱角色的数量.swift"; sourceTree = "<group>"; };
 		8952093727E0DDE200BA01F2 /* 2044.统计按位或能得到最大值的子集数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2044.统计按位或能得到最大值的子集数目.swift"; sourceTree = "<group>"; };
 		8952093827E0DDE200BA01F2 /* 393.utf-8-编码验证.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "393.utf-8-编码验证.swift"; sourceTree = "<group>"; };
@@ -753,6 +755,7 @@
 				89E1BCD9281D8570009176A4 /* 908.最小差值-i.swift */,
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
 				8919169F27C673B5002B8702 /* 917.仅仅反转字母.swift */,
+				894F52522825755400EA6C32 /* 933.最近的请求次数.swift */,
 				894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */,
 				891A3A8727F74DEE0003D731 /* 954.二倍数对数组.swift */,
 				89955F9E27C13B0F00E03BC0 /* 969.煎饼排序.swift */,
@@ -1083,6 +1086,7 @@
 				8975E587281ED163006F4F6A /* 911.在线选举.cpp */,
 				8975E650281ED186006F4F6A /* 913.猫和老鼠.cpp */,
 				8975E564281ED15E006F4F6A /* 917.仅仅反转字母.cpp */,
+				894F52502825753F00EA6C32 /* 933.最近的请求次数.cpp */,
 				894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */,
 				8975E633281ED181006F4F6A /* 938.二叉搜索树的范围和.cpp */,
 				8975E695281ED18F006F4F6A /* 954.二倍数对数组.cpp */,
@@ -1306,7 +1310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				894F524D282415FB00EA6C32 /* 713.乘积小于k的子数组.swift in Sources */,
+				894F52532825755400EA6C32 /* 933.最近的请求次数.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
@@ -1319,7 +1323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				894F524F2824161B00EA6C32 /* 713.乘积小于k的子数组.cpp in Sources */,
+				894F52512825753F00EA6C32 /* 933.最近的请求次数.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
