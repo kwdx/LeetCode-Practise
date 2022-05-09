@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		894F52592827C1C300EA6C32 /* 442.数组中重复的数据.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894F52582827C1C300EA6C32 /* 442.数组中重复的数据.swift */; };
-		894F525B2827C23500EA6C32 /* 442.数组中重复的数据.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 894F525A2827C23400EA6C32 /* 442.数组中重复的数据.cpp */; };
+		894F525D28294A4200EA6C32 /* 942.增减字符串匹配.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 894F525C28294A4100EA6C32 /* 942.增减字符串匹配.cpp */; };
+		894F525F28294F0800EA6C32 /* 942.增减字符串匹配.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894F525E28294F0700EA6C32 /* 942.增减字符串匹配.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -85,6 +85,8 @@
 		894F52562826C88100EA6C32 /* 433.最小基因变化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "433.最小基因变化.cpp"; sourceTree = "<group>"; };
 		894F52582827C1C300EA6C32 /* 442.数组中重复的数据.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "442.数组中重复的数据.swift"; sourceTree = "<group>"; };
 		894F525A2827C23400EA6C32 /* 442.数组中重复的数据.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "442.数组中重复的数据.cpp"; sourceTree = "<group>"; };
+		894F525C28294A4100EA6C32 /* 942.增减字符串匹配.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "942.增减字符串匹配.cpp"; sourceTree = "<group>"; };
+		894F525E28294F0700EA6C32 /* 942.增减字符串匹配.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "942.增减字符串匹配.swift"; sourceTree = "<group>"; };
 		89518A0F27A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1996.游戏中弱角色的数量.swift"; sourceTree = "<group>"; };
 		8952093727E0DDE200BA01F2 /* 2044.统计按位或能得到最大值的子集数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2044.统计按位或能得到最大值的子集数目.swift"; sourceTree = "<group>"; };
 		8952093827E0DDE200BA01F2 /* 393.utf-8-编码验证.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "393.utf-8-编码验证.swift"; sourceTree = "<group>"; };
@@ -763,6 +765,7 @@
 				8919169F27C673B5002B8702 /* 917.仅仅反转字母.swift */,
 				894F52522825755400EA6C32 /* 933.最近的请求次数.swift */,
 				894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */,
+				894F525E28294F0700EA6C32 /* 942.增减字符串匹配.swift */,
 				891A3A8727F74DEE0003D731 /* 954.二倍数对数组.swift */,
 				89955F9E27C13B0F00E03BC0 /* 969.煎饼排序.swift */,
 				89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */,
@@ -1097,6 +1100,7 @@
 				894F52502825753F00EA6C32 /* 933.最近的请求次数.cpp */,
 				894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */,
 				8975E633281ED181006F4F6A /* 938.二叉搜索树的范围和.cpp */,
+				894F525C28294A4100EA6C32 /* 942.增减字符串匹配.cpp */,
 				8975E695281ED18F006F4F6A /* 954.二倍数对数组.cpp */,
 				8975E5DB281ED171006F4F6A /* 969.煎饼排序.cpp */,
 				8975E5E3281ED173006F4F6A /* 990.等式方程的可满足性.cpp */,
@@ -1321,9 +1325,9 @@
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
+				894F525F28294F0800EA6C32 /* 942.增减字符串匹配.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				894F52592827C1C300EA6C32 /* 442.数组中重复的数据.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1331,7 +1335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				894F525B2827C23500EA6C32 /* 442.数组中重复的数据.cpp in Sources */,
+				894F525D28294A4200EA6C32 /* 942.增减字符串匹配.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

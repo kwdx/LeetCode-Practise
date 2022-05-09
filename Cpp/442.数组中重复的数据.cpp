@@ -9,7 +9,6 @@
 
 using namespace std;
 
-
 // @lc code=start
 class Solution {
 public:
@@ -35,7 +34,6 @@ public:
     }
 };
 // @lc code=end
-
 
 int main(int argc, const char * argv[]) {
     // insert code here...
