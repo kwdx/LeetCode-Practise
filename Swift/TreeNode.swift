@@ -91,3 +91,22 @@ func printTreeByLevel(_ root: TreeNode?) {
     }
     print(vals)
 }
+
+/// 按照层序遍历打印二叉树
+func getTreeByLevel(_ root: TreeNode?) -> [Int] {
+    var vals = [Int]()
+
+    guard root != nil else {
+        return vals
+    }
+    var nodes = [root]
+    while !nodes.isEmpty {
+        let node = nodes.removeFirst()
+        if node != nil {
+            vals.append(node!.val)
+            nodes.append(node!.left)
+            nodes.append(node!.right)
+        }
+    }
+    return vals
+}
