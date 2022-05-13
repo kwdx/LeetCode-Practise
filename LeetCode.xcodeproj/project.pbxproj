@@ -10,8 +10,8 @@
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
-		89951E79282D527F00B98F5D /* 944.删列造序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89951E78282D527E00B98F5D /* 944.删列造序.cpp */; };
-		89951E7B282D52B300B98F5D /* 944.删列造序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89951E7A282D52B300B98F5D /* 944.删列造序.swift */; };
+		89951E7D282EAC7400B98F5D /* A.面试题-01.05-一次编辑.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89951E7C282EAC7400B98F5D /* A.面试题-01.05-一次编辑.swift */; };
+		89951E7F282EAC7A00B98F5D /* A.面试题-01.05-一次编辑.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89951E7E282EAC7A00B98F5D /* A.面试题-01.05-一次编辑.cpp */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -514,6 +514,8 @@
 		89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "689.三个无重叠子数组的最大和.swift"; sourceTree = "<group>"; };
 		89951E78282D527E00B98F5D /* 944.删列造序.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "944.删列造序.cpp"; sourceTree = "<group>"; };
 		89951E7A282D52B300B98F5D /* 944.删列造序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "944.删列造序.swift"; sourceTree = "<group>"; };
+		89951E7C282EAC7400B98F5D /* A.面试题-01.05-一次编辑.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "A.面试题-01.05-一次编辑.swift"; sourceTree = "<group>"; };
+		89951E7E282EAC7A00B98F5D /* A.面试题-01.05-一次编辑.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "A.面试题-01.05-一次编辑.cpp"; sourceTree = "<group>"; };
 		89955F9E27C13B0F00E03BC0 /* 969.煎饼排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "969.煎饼排序.swift"; sourceTree = "<group>"; };
 		89955FA227C2897F00E03BC0 /* 717.1-比特与-2-比特字符.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "717.1-比特与-2-比特字符.swift"; sourceTree = "<group>"; };
 		89955FA827C3C75900E03BC0 /* 838.推多米诺.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "838.推多米诺.swift"; sourceTree = "<group>"; };
@@ -842,6 +844,7 @@
 				89B070E127D2626800DD7E68 /* 2104.子数组范围和.swift */,
 				89886F61272CE1FF003A626D /* 链表 */,
 				89C3FC4B26D1ED6600C87257 /* 排序 */,
+				89951E7C282EAC7400B98F5D /* A.面试题-01.05-一次编辑.swift */,
 				89554FA326BEDED300FEDFF1 /* main.swift */,
 				89C84275274A09F400A73FAB /* Node.swift */,
 				89D65EE02768D97200B855E3 /* PriorityQueue.swift */,
@@ -1217,6 +1220,7 @@
 				8975E678281ED18B006F4F6A /* 剑指 Offer II 069.山峰数组的顶部.cpp */,
 				8975E61E281ED17D006F4F6A /* 冒泡排序.cpp */,
 				8975E644281ED184006F4F6A /* 面试题17.14.最小K个数.cpp */,
+				89951E7E282EAC7A00B98F5D /* A.面试题-01.05-一次编辑.cpp */,
 				8975E5C1281ED16D006F4F6A /* Google_1.cpp */,
 				8975E62A281ED180006F4F6A /* ListNode.cpp */,
 				8975E61F281ED17E006F4F6A /* ListNode.h */,
@@ -1334,8 +1338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				89951E7D282EAC7400B98F5D /* A.面试题-01.05-一次编辑.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
-				89951E7B282D52B300B98F5D /* 944.删列造序.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
@@ -1346,8 +1350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89951E79282D527F00B98F5D /* 944.删列造序.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
+				89951E7F282EAC7A00B98F5D /* A.面试题-01.05-一次编辑.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
