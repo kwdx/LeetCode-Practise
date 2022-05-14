@@ -10,9 +10,9 @@
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
-		89951E7D282EAC7400B98F5D /* A.面试题-01.05-一次编辑.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89951E7C282EAC7400B98F5D /* A.面试题-01.05-一次编辑.swift */; };
-		89951E7F282EAC7A00B98F5D /* A.面试题-01.05-一次编辑.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89951E7E282EAC7A00B98F5D /* A.面试题-01.05-一次编辑.cpp */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
+		89A12CEA282FFDCD000B7192 /* 691.贴纸拼词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A12CE9282FFDCC000B7192 /* 691.贴纸拼词.swift */; };
+		89A12CEC282FFDEF000B7192 /* 691.贴纸拼词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A12CEB282FFDEF000B7192 /* 691.贴纸拼词.cpp */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -528,6 +528,8 @@
 		899A76D72747F72E006DA530 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		899A76D92747F753006DA530 /* 397.整数替换.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "397.整数替换.swift"; sourceTree = "<group>"; };
 		899EF52727395E5700CCB02F /* 299.猜数字游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "299.猜数字游戏.swift"; sourceTree = "<group>"; };
+		89A12CE9282FFDCC000B7192 /* 691.贴纸拼词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "691.贴纸拼词.swift"; sourceTree = "<group>"; };
+		89A12CEB282FFDEF000B7192 /* 691.贴纸拼词.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "691.贴纸拼词.cpp"; sourceTree = "<group>"; };
 		89A38F0D275E4942007FED61 /* 1816.截断句子.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1816.截断句子.swift"; sourceTree = "<group>"; };
 		89A6BEFF26BD8182007BDF6B /* Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A779EA276DD35B00B7CDA9 /* 419.甲板上的战舰.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "419.甲板上的战舰.swift"; sourceTree = "<group>"; };
@@ -737,6 +739,7 @@
 				8973551B2776209C0034C87A /* 686.重复叠加字符串匹配.swift */,
 				89AF725627BE986000BD2211 /* 688.马-在棋盘上的概率.swift */,
 				89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */,
+				89A12CE9282FFDCC000B7192 /* 691.贴纸拼词.swift */,
 				892023CE27F1E30100F3C7E2 /* 693.交替位二进制数.swift */,
 				89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */,
 				89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */,
@@ -1069,6 +1072,7 @@
 				8975E5C4281ED16D006F4F6A /* 686.重复叠加字符串匹配.cpp */,
 				8975E693281ED18E006F4F6A /* 688.马-在棋盘上的概率.cpp */,
 				8975E63C281ED183006F4F6A /* 689.三个无重叠子数组的最大和.cpp */,
+				89A12CEB282FFDEF000B7192 /* 691.贴纸拼词.cpp */,
 				8975E5A2281ED167006F4F6A /* 693.交替位二进制数.cpp */,
 				8975E5E8281ED174006F4F6A /* 700.二叉搜索树中的搜索.cpp */,
 				8975E5D2281ED170006F4F6A /* 701.二叉搜索树中的插入操作.cpp */,
@@ -1338,8 +1342,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				89951E7D282EAC7400B98F5D /* A.面试题-01.05-一次编辑.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
+				89A12CEA282FFDCD000B7192 /* 691.贴纸拼词.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
@@ -1351,7 +1355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89951E7F282EAC7A00B98F5D /* A.面试题-01.05-一次编辑.cpp in Sources */,
+				89A12CEC282FFDEF000B7192 /* 691.贴纸拼词.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
