@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		8923BB982830C53C0034AA0D /* 812.最大三角形面积.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8923BB972830C53B0034AA0D /* 812.最大三角形面积.cpp */; };
-		8923BB9A2830C5990034AA0D /* 812.最大三角形面积.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8923BB992830C5990034AA0D /* 812.最大三角形面积.swift */; };
+		8923BB9C2833EB310034AA0D /* 953.验证外星语词典.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8923BB9B2833EB300034AA0D /* 953.验证外星语词典.swift */; };
+		8923BB9E2833EB970034AA0D /* 953.验证外星语词典.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8923BB9D2833EB970034AA0D /* 953.验证外星语词典.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -67,6 +67,9 @@
 		892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "794.有效的井字游戏.swift"; sourceTree = "<group>"; };
 		8923BB972830C53B0034AA0D /* 812.最大三角形面积.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "812.最大三角形面积.cpp"; sourceTree = "<group>"; };
 		8923BB992830C5990034AA0D /* 812.最大三角形面积.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "812.最大三角形面积.swift"; sourceTree = "<group>"; };
+		8923BB9B2833EB300034AA0D /* 953.验证外星语词典.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "953.验证外星语词典.swift"; sourceTree = "<group>"; };
+		8923BB9D2833EB970034AA0D /* 953.验证外星语词典.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "953.验证外星语词典.cpp"; sourceTree = "<group>"; };
+		8923BB9F2833EB9D0034AA0D /* A.面试题04.06.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "A.面试题04.06.cpp"; sourceTree = "<group>"; };
 		8928424C2822351800484B59 /* 1823.找出游戏的获胜者.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1823.找出游戏的获胜者.cpp"; sourceTree = "<group>"; };
 		8928424E282235AF00484B59 /* 1823.找出游戏的获胜者.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1823.找出游戏的获胜者.swift"; sourceTree = "<group>"; };
 		892EA22227A1996100E1E00D /* 2013.检测正方形.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2013.检测正方形.swift"; sourceTree = "<group>"; };
@@ -782,6 +785,7 @@
 				894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */,
 				894F525E28294F0700EA6C32 /* 942.增减字符串匹配.swift */,
 				89951E7A282D52B300B98F5D /* 944.删列造序.swift */,
+				8923BB9B2833EB300034AA0D /* 953.验证外星语词典.swift */,
 				891A3A8727F74DEE0003D731 /* 954.二倍数对数组.swift */,
 				89955F9E27C13B0F00E03BC0 /* 969.煎饼排序.swift */,
 				89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */,
@@ -1122,6 +1126,7 @@
 				8975E633281ED181006F4F6A /* 938.二叉搜索树的范围和.cpp */,
 				894F525C28294A4100EA6C32 /* 942.增减字符串匹配.cpp */,
 				89951E78282D527E00B98F5D /* 944.删列造序.cpp */,
+				8923BB9D2833EB970034AA0D /* 953.验证外星语词典.cpp */,
 				8975E695281ED18F006F4F6A /* 954.二倍数对数组.cpp */,
 				8975E5DB281ED171006F4F6A /* 969.煎饼排序.cpp */,
 				8975E5E3281ED173006F4F6A /* 990.等式方程的可满足性.cpp */,
@@ -1229,6 +1234,7 @@
 				8975E61E281ED17D006F4F6A /* 冒泡排序.cpp */,
 				8975E644281ED184006F4F6A /* 面试题17.14.最小K个数.cpp */,
 				89951E7E282EAC7A00B98F5D /* A.面试题-01.05-一次编辑.cpp */,
+				8923BB9F2833EB9D0034AA0D /* A.面试题04.06.cpp */,
 				8975E5C1281ED16D006F4F6A /* Google_1.cpp */,
 				8975E62A281ED180006F4F6A /* ListNode.cpp */,
 				8975E61F281ED17E006F4F6A /* ListNode.h */,
@@ -1347,10 +1353,10 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
+				8923BB9C2833EB310034AA0D /* 953.验证外星语词典.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				8923BB9A2830C5990034AA0D /* 812.最大三角形面积.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1359,7 +1365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				8923BB982830C53C0034AA0D /* 812.最大三角形面积.cpp in Sources */,
+				8923BB9E2833EB970034AA0D /* 953.验证外星语词典.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
