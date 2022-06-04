@@ -11,9 +11,8 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89AFB1D6284A4B9200760FC7 /* 829.连续整数求和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AFB1D5284A4B9200760FC7 /* 829.连续整数求和.swift */; };
-		89AFB1D9284A4BED00760FC7 /* 829.连续整数求和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89AFB1D8284A4BED00760FC7 /* 829.连续整数求和.cpp */; };
-		89AFB1DD284A58D300760FC7 /* 473.火柴拼正方形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AFB1DC284A58D200760FC7 /* 473.火柴拼正方形.swift */; };
+		89AFB1DF284BA8A100760FC7 /* 929.独特的电子邮件地址.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89AFB1DE284BA8A000760FC7 /* 929.独特的电子邮件地址.cpp */; };
+		89AFB1E1284BA94B00760FC7 /* 929.独特的电子邮件地址.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AFB1E0284BA94B00760FC7 /* 929.独特的电子邮件地址.swift */; };
 		89C84276274A09F400A73FAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C84275274A09F400A73FAB /* Node.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -589,6 +588,8 @@
 		89AFB1D8284A4BED00760FC7 /* 829.连续整数求和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "829.连续整数求和.cpp"; sourceTree = "<group>"; };
 		89AFB1DA284A58C200760FC7 /* 473.火柴拼正方形.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "473.火柴拼正方形.cpp"; sourceTree = "<group>"; };
 		89AFB1DC284A58D200760FC7 /* 473.火柴拼正方形.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "473.火柴拼正方形.swift"; sourceTree = "<group>"; };
+		89AFB1DE284BA8A000760FC7 /* 929.独特的电子邮件地址.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "929.独特的电子邮件地址.cpp"; sourceTree = "<group>"; };
+		89AFB1E0284BA94B00760FC7 /* 929.独特的电子邮件地址.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "929.独特的电子邮件地址.swift"; sourceTree = "<group>"; };
 		89B070C827CA7E0B00DD7E68 /* 2016.增量元素之间的最大差值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2016.增量元素之间的最大差值.swift"; sourceTree = "<group>"; };
 		89B070CC27CB8DCF00DD7E68 /* 553.最优除法.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "553.最优除法.swift"; sourceTree = "<group>"; };
 		89B070D227CD1F2B00DD7E68 /* 1601.最多可达成的换楼请求数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1601.最多可达成的换楼请求数目.swift"; sourceTree = "<group>"; };
@@ -824,6 +825,7 @@
 				89E1BCD9281D8570009176A4 /* 908.最小差值-i.swift */,
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
 				8919169F27C673B5002B8702 /* 917.仅仅反转字母.swift */,
+				89AFB1E0284BA94B00760FC7 /* 929.独特的电子邮件地址.swift */,
 				894F52522825755400EA6C32 /* 933.最近的请求次数.swift */,
 				894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */,
 				894F525E28294F0700EA6C32 /* 942.增减字符串匹配.swift */,
@@ -1180,6 +1182,7 @@
 				8975E587281ED163006F4F6A /* 911.在线选举.cpp */,
 				8975E650281ED186006F4F6A /* 913.猫和老鼠.cpp */,
 				8975E564281ED15E006F4F6A /* 917.仅仅反转字母.cpp */,
+				89AFB1DE284BA8A000760FC7 /* 929.独特的电子邮件地址.cpp */,
 				894F52502825753F00EA6C32 /* 933.最近的请求次数.cpp */,
 				894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */,
 				8975E633281ED181006F4F6A /* 938.二叉搜索树的范围和.cpp */,
@@ -1416,12 +1419,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AFB1E1284BA94B00760FC7 /* 929.独特的电子邮件地址.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
-				89AFB1D6284A4B9200760FC7 /* 829.连续整数求和.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				89AFB1DD284A58D300760FC7 /* 473.火柴拼正方形.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1431,7 +1433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89AFB1D9284A4BED00760FC7 /* 829.连续整数求和.cpp in Sources */,
+				89AFB1DF284BA8A100760FC7 /* 929.独特的电子邮件地址.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
