@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		8972D8E82850EAE300DB6595 /* 1037.有效的回旋镖.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8E72850EAE300DB6595 /* 1037.有效的回旋镖.swift */; };
-		8972D8EA2850EAEF00DB6595 /* 1037.有效的回旋镖.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8E92850EAEF00DB6595 /* 1037.有效的回旋镖.cpp */; };
+		8972D8EC285235F600DB6595 /* 497.非重叠矩形中的随机点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8EB285235F600DB6595 /* 497.非重叠矩形中的随机点.cpp */; };
+		8972D8EE2852360700DB6595 /* 497.非重叠矩形中的随机点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8ED2852360700DB6595 /* 497.非重叠矩形中的随机点.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -135,6 +135,8 @@
 		8972D8E2284FA9B000DB6595 /* 732.我的日程安排表-iii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "732.我的日程安排表-iii.cpp"; sourceTree = "<group>"; };
 		8972D8E72850EAE300DB6595 /* 1037.有效的回旋镖.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1037.有效的回旋镖.swift"; sourceTree = "<group>"; };
 		8972D8E92850EAEF00DB6595 /* 1037.有效的回旋镖.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1037.有效的回旋镖.cpp"; sourceTree = "<group>"; };
+		8972D8EB285235F600DB6595 /* 497.非重叠矩形中的随机点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "497.非重叠矩形中的随机点.cpp"; sourceTree = "<group>"; };
+		8972D8ED2852360700DB6595 /* 497.非重叠矩形中的随机点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "497.非重叠矩形中的随机点.swift"; sourceTree = "<group>"; };
 		897355182776209C0034C87A /* 1154.一年中的第几天.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1154.一年中的第几天.swift"; sourceTree = "<group>"; };
 		897355192776209C0034C87A /* 475.供暖器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "475.供暖器.swift"; sourceTree = "<group>"; };
 		8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1705.吃苹果的最大数目.swift"; sourceTree = "<group>"; };
@@ -760,6 +762,7 @@
 				89AFB1E2284CFA5800760FC7 /* 478.在圆内随机生成点.swift */,
 				89E1BE43281D893C009176A4 /* 479.最大回文数乘积.swift */,
 				8976631B273C1B2600507E1F /* 495.提莫攻击.swift */,
+				8972D8ED2852360700DB6595 /* 497.非重叠矩形中的随机点.swift */,
 				89886F6F272EC8B2003A626D /* 500.键盘行.swift */,
 				89A8999E27D651D700A7A6D1 /* 504.七进制数.swift */,
 				89723783275A656800EBC5C5 /* 506.相对名次.swift */,
@@ -1101,6 +1104,7 @@
 				8975E65B281ED187006F4F6A /* 492.构造矩形.cpp */,
 				8975E65C281ED187006F4F6A /* 495.提莫攻击.cpp */,
 				8975E5F4281ED176006F4F6A /* 496.下一个更大元素-i.cpp */,
+				8972D8EB285235F600DB6595 /* 497.非重叠矩形中的随机点.cpp */,
 				8975E568281ED15F006F4F6A /* 500.键盘行.cpp */,
 				8975E5A6281ED168006F4F6A /* 502.ipo.cpp */,
 				8975E59F281ED166006F4F6A /* 503.下一个更大元素-ii.cpp */,
@@ -1434,10 +1438,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				8972D8E82850EAE300DB6595 /* 1037.有效的回旋镖.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				8972D8EE2852360700DB6595 /* 497.非重叠矩形中的随机点.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1446,8 +1450,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8972D8EC285235F600DB6595 /* 497.非重叠矩形中的随机点.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				8972D8EA2850EAEF00DB6595 /* 1037.有效的回旋镖.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
