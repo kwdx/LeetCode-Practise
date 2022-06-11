@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		8972D8EC285235F600DB6595 /* 497.非重叠矩形中的随机点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8EB285235F600DB6595 /* 497.非重叠矩形中的随机点.cpp */; };
-		8972D8EE2852360700DB6595 /* 497.非重叠矩形中的随机点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8ED2852360700DB6595 /* 497.非重叠矩形中的随机点.swift */; };
+		8972D8F02854EF9100DB6595 /* 926.将字符串翻转到单调递增.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8EF2854EF9100DB6595 /* 926.将字符串翻转到单调递增.swift */; };
+		8972D8F22854F07300DB6595 /* 926.将字符串翻转到单调递增.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8F12854F07300DB6595 /* 926.将字符串翻转到单调递增.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -137,6 +137,10 @@
 		8972D8E92850EAEF00DB6595 /* 1037.有效的回旋镖.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1037.有效的回旋镖.cpp"; sourceTree = "<group>"; };
 		8972D8EB285235F600DB6595 /* 497.非重叠矩形中的随机点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "497.非重叠矩形中的随机点.cpp"; sourceTree = "<group>"; };
 		8972D8ED2852360700DB6595 /* 497.非重叠矩形中的随机点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "497.非重叠矩形中的随机点.swift"; sourceTree = "<group>"; };
+		8972D8EF2854EF9100DB6595 /* 926.将字符串翻转到单调递增.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "926.将字符串翻转到单调递增.swift"; sourceTree = "<group>"; };
+		8972D8F12854F07300DB6595 /* 926.将字符串翻转到单调递增.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "926.将字符串翻转到单调递增.cpp"; sourceTree = "<group>"; };
+		8972D8F32854F64800DB6595 /* 730.统计不同回文子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "730.统计不同回文子序列.cpp"; sourceTree = "<group>"; };
+		8972D8F52854F65C00DB6595 /* 730.统计不同回文子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "730.统计不同回文子序列.swift"; sourceTree = "<group>"; };
 		897355182776209C0034C87A /* 1154.一年中的第几天.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1154.一年中的第几天.swift"; sourceTree = "<group>"; };
 		897355192776209C0034C87A /* 475.供暖器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "475.供暖器.swift"; sourceTree = "<group>"; };
 		8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1705.吃苹果的最大数目.swift"; sourceTree = "<group>"; };
@@ -806,6 +810,7 @@
 				89955FA227C2897F00E03BC0 /* 717.1-比特与-2-比特字符.swift */,
 				8952094127E2C3F400BA01F2 /* 720.词典中最长的单词.swift */,
 				891A3A8127F5F0EC0003D731 /* 728.自除数.swift */,
+				8972D8F52854F65C00DB6595 /* 730.统计不同回文子序列.swift */,
 				8972D8DE284FA99D00DB6595 /* 732.我的日程安排表-iii.swift */,
 				89D82E7527F9EC7400EA9A92 /* 744.寻找比目标字母大的最小字母.swift */,
 				89B4863E27907D5200A6930A /* 747.至少是其他数字两倍的最大数.swift */,
@@ -838,6 +843,7 @@
 				89E1BCD9281D8570009176A4 /* 908.最小差值-i.swift */,
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
 				8919169F27C673B5002B8702 /* 917.仅仅反转字母.swift */,
+				8972D8EF2854EF9100DB6595 /* 926.将字符串翻转到单调递增.swift */,
 				89AFB1E0284BA94B00760FC7 /* 929.独特的电子邮件地址.swift */,
 				894F52522825755400EA6C32 /* 933.最近的请求次数.swift */,
 				894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */,
@@ -1168,6 +1174,7 @@
 				8975E609281ED17A006F4F6A /* 720.词典中最长的单词.cpp */,
 				8975E5D5281ED170006F4F6A /* 725.分隔链表.cpp */,
 				8975E694281ED18E006F4F6A /* 728.自除数.cpp */,
+				8972D8F32854F64800DB6595 /* 730.统计不同回文子序列.cpp */,
 				8972D8E2284FA9B000DB6595 /* 732.我的日程安排表-iii.cpp */,
 				8975E6A3281ED190006F4F6A /* 739.每日温度.cpp */,
 				8975E575281ED162006F4F6A /* 744.寻找比目标字母大的最小字母.cpp */,
@@ -1199,6 +1206,7 @@
 				8975E587281ED163006F4F6A /* 911.在线选举.cpp */,
 				8975E650281ED186006F4F6A /* 913.猫和老鼠.cpp */,
 				8975E564281ED15E006F4F6A /* 917.仅仅反转字母.cpp */,
+				8972D8F12854F07300DB6595 /* 926.将字符串翻转到单调递增.cpp */,
 				89AFB1DE284BA8A000760FC7 /* 929.独特的电子邮件地址.cpp */,
 				894F52502825753F00EA6C32 /* 933.最近的请求次数.cpp */,
 				894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */,
@@ -1441,8 +1449,8 @@
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				8972D8EE2852360700DB6595 /* 497.非重叠矩形中的随机点.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				8972D8F02854EF9100DB6595 /* 926.将字符串翻转到单调递增.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1450,8 +1458,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8972D8EC285235F600DB6595 /* 497.非重叠矩形中的随机点.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
+				8972D8F22854F07300DB6595 /* 926.将字符串翻转到单调递增.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
