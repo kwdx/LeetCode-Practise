@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		8972D8F02854EF9100DB6595 /* 926.将字符串翻转到单调递增.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8EF2854EF9100DB6595 /* 926.将字符串翻转到单调递增.swift */; };
-		8972D8F22854F07300DB6595 /* 926.将字符串翻转到单调递增.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8F12854F07300DB6595 /* 926.将字符串翻转到单调递增.cpp */; };
+		8972D8F8285630AF00DB6595 /* 890.查找和替换模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8F7285630AE00DB6595 /* 890.查找和替换模式.swift */; };
+		8972D8FA285630F100DB6595 /* 890.查找和替换模式.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8F9285630F100DB6595 /* 890.查找和替换模式.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -141,6 +141,8 @@
 		8972D8F12854F07300DB6595 /* 926.将字符串翻转到单调递增.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "926.将字符串翻转到单调递增.cpp"; sourceTree = "<group>"; };
 		8972D8F32854F64800DB6595 /* 730.统计不同回文子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "730.统计不同回文子序列.cpp"; sourceTree = "<group>"; };
 		8972D8F52854F65C00DB6595 /* 730.统计不同回文子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "730.统计不同回文子序列.swift"; sourceTree = "<group>"; };
+		8972D8F7285630AE00DB6595 /* 890.查找和替换模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "890.查找和替换模式.swift"; sourceTree = "<group>"; };
+		8972D8F9285630F100DB6595 /* 890.查找和替换模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "890.查找和替换模式.cpp"; sourceTree = "<group>"; };
 		897355182776209C0034C87A /* 1154.一年中的第几天.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1154.一年中的第几天.swift"; sourceTree = "<group>"; };
 		897355192776209C0034C87A /* 475.供暖器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "475.供暖器.swift"; sourceTree = "<group>"; };
 		8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1705.吃苹果的最大数目.swift"; sourceTree = "<group>"; };
@@ -839,6 +841,7 @@
 				8972D8DF284FA99D00DB6595 /* 875.爱吃香蕉的珂珂.swift */,
 				89E1BE48281D893D009176A4 /* 883.三维形体投影面积.swift */,
 				8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */,
+				8972D8F7285630AE00DB6595 /* 890.查找和替换模式.swift */,
 				89E1BE41281D893C009176A4 /* 905.按奇偶排序数组.swift */,
 				89E1BCD9281D8570009176A4 /* 908.最小差值-i.swift */,
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
@@ -1201,6 +1204,7 @@
 				8975E5EF281ED175006F4F6A /* 876.链表的中间结点.cpp */,
 				8975E597281ED165006F4F6A /* 884.两句话中的不常见单词.cpp */,
 				8975E67C281ED18B006F4F6A /* 889.根据前序和后序遍历构造二叉树.cpp */,
+				8972D8F9285630F100DB6595 /* 890.查找和替换模式.cpp */,
 				8975E583281ED163006F4F6A /* 895.最大频率栈.cpp */,
 				8975E5D1281ED170006F4F6A /* 908.最小差值-i.cpp */,
 				8975E587281ED163006F4F6A /* 911.在线选举.cpp */,
@@ -1447,10 +1451,10 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
+				8972D8F8285630AF00DB6595 /* 890.查找和替换模式.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				8972D8F02854EF9100DB6595 /* 926.将字符串翻转到单调递增.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1459,7 +1463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				8972D8F22854F07300DB6595 /* 926.将字符串翻转到单调递增.cpp in Sources */,
+				8972D8FA285630F100DB6595 /* 890.查找和替换模式.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
