@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		8972D8F8285630AF00DB6595 /* 890.查找和替换模式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8F7285630AE00DB6595 /* 890.查找和替换模式.swift */; };
-		8972D8FA285630F100DB6595 /* 890.查找和替换模式.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8F9285630F100DB6595 /* 890.查找和替换模式.cpp */; };
+		8972D8FC2857927300DB6595 /* 1051.高度检查器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8FB2857927200DB6595 /* 1051.高度检查器.cpp */; };
+		8972D8FE2857928700DB6595 /* 1051.高度检查器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972D8FD2857928700DB6595 /* 1051.高度检查器.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89886F63272CE20B003A626D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -143,6 +143,8 @@
 		8972D8F52854F65C00DB6595 /* 730.统计不同回文子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "730.统计不同回文子序列.swift"; sourceTree = "<group>"; };
 		8972D8F7285630AE00DB6595 /* 890.查找和替换模式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "890.查找和替换模式.swift"; sourceTree = "<group>"; };
 		8972D8F9285630F100DB6595 /* 890.查找和替换模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "890.查找和替换模式.cpp"; sourceTree = "<group>"; };
+		8972D8FB2857927200DB6595 /* 1051.高度检查器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1051.高度检查器.cpp"; sourceTree = "<group>"; };
+		8972D8FD2857928700DB6595 /* 1051.高度检查器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1051.高度检查器.swift"; sourceTree = "<group>"; };
 		897355182776209C0034C87A /* 1154.一年中的第几天.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1154.一年中的第几天.swift"; sourceTree = "<group>"; };
 		897355192776209C0034C87A /* 475.供暖器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "475.供暖器.swift"; sourceTree = "<group>"; };
 		8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1705.吃苹果的最大数目.swift"; sourceTree = "<group>"; };
@@ -866,6 +868,7 @@
 				89943B38275FAF80002F1171 /* 1034.边框着色.swift */,
 				89B48639278F2BE600A6930A /* 1036.逃离大迷宫.swift */,
 				8972D8E72850EAE300DB6595 /* 1037.有效的回旋镖.swift */,
+				8972D8FD2857928700DB6595 /* 1051.高度检查器.swift */,
 				89D44118277823E0006B0055 /* 1078.bigram-分词.swift */,
 				897355182776209C0034C87A /* 1154.一年中的第几天.swift */,
 				8955A7F42783456F00AB2F8D /* 1185.一周中的第几天.swift */,
@@ -1235,6 +1238,7 @@
 				8972D8E92850EAEF00DB6595 /* 1037.有效的回旋镖.cpp */,
 				8975E624281ED17F006F4F6A /* 1038.把二叉搜索树转换为累加树.cpp */,
 				8975E676281ED18B006F4F6A /* 1044.最长重复子串.cpp */,
+				8972D8FB2857927200DB6595 /* 1051.高度检查器.cpp */,
 				8975E662281ED188006F4F6A /* 1078.bigram-分词.cpp */,
 				8975E5EB281ED174006F4F6A /* 1081.不同字符的最小子序列.cpp */,
 				8975E655281ED186006F4F6A /* 1143.最长公共子序列.cpp */,
@@ -1450,8 +1454,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				8972D8FE2857928700DB6595 /* 1051.高度检查器.swift in Sources */,
 				89C84276274A09F400A73FAB /* Node.swift in Sources */,
-				8972D8F8285630AF00DB6595 /* 890.查找和替换模式.swift in Sources */,
 				89886F63272CE20B003A626D /* ListNode.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
@@ -1463,7 +1467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				8972D8FA285630F100DB6595 /* 890.查找和替换模式.cpp in Sources */,
+				8972D8FC2857927300DB6595 /* 1051.高度检查器.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
