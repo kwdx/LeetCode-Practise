@@ -530,6 +530,8 @@
 		8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "748.最短补全词.swift"; sourceTree = "<group>"; };
 		8988F48C27B801DF0009A23E /* 1984.学生分数的最小差值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1984.学生分数的最小差值.swift"; sourceTree = "<group>"; };
 		8988F48E27B802470009A23E /* 1020.飞地的数量.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1020.飞地的数量.swift"; sourceTree = "<group>"; };
+		898BC874285B779600B04A33 /* 532.数组中的-k-diff-数对.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "532.数组中的-k-diff-数对.swift"; sourceTree = "<group>"; };
+		898BC876285B77AF00B04A33 /* 532.数组中的-k-diff-数对.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "532.数组中的-k-diff-数对.cpp"; sourceTree = "<group>"; };
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
 		898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "390.消除游戏.swift"; sourceTree = "<group>"; };
 		8992BF50275B2675007E107F /* 383.赎金信.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "383.赎金信.swift"; sourceTree = "<group>"; };
@@ -782,6 +784,7 @@
 				89AE789B2751CDF000598666 /* 519.随机翻转矩阵.swift */,
 				891C5A62273F718D0047E46E /* 520.检测大写字母.swift */,
 				89A955B127D3B873003B556A /* 521.最长特殊序列-ⅰ.swift */,
+				898BC874285B779600B04A33 /* 532.数组中的-k-diff-数对.swift */,
 				891916A727C92694002B8702 /* 537.复数乘法.swift */,
 				89E8F9A82796FFF100310336 /* 539.最小时间差.swift */,
 				89AF724927BA9C6100BD2211 /* 540.有序数组中的单一元素.swift */,
@@ -1135,6 +1138,7 @@
 				8975E623281ED17E006F4F6A /* 521.最长特殊序列-ⅰ.cpp */,
 				8975E629281ED180006F4F6A /* 524.通过删除字母匹配到字典里最长单词.cpp */,
 				8975E578281ED162006F4F6A /* 530.二叉搜索树的最小绝对差.cpp */,
+				898BC876285B77AF00B04A33 /* 532.数组中的-k-diff-数对.cpp */,
 				8975E652281ED186006F4F6A /* 537.复数乘法.cpp */,
 				8975E6A4281ED191006F4F6A /* 538.把二叉搜索树转换为累加树.cpp */,
 				8975E5F7281ED176006F4F6A /* 539.最小时间差.cpp */,
