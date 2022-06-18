@@ -1,5 +1,5 @@
 //
-//  A.剑指-Offer-II-114.外星文字典.swift
+//  114.外星文字典.swift
 //  swift_
 //
 //  Created by kingsoft on 2022/5/31.

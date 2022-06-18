@@ -1,5 +1,5 @@
 //
-//  A.剑指-Offer-II-114.外星文字典.cpp
+//  114.外星文字典.cpp
 //  cpp
 //
 //  Created by kingsoft on 2022/5/31.

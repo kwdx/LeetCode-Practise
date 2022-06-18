@@ -1,5 +1,5 @@
 //
-//  剑指 Offer II 069.山峰数组的顶部.cpp
+//  069.山峰数组的顶部.cpp
 //  Cpp
 //
 //  Created by warden on 2021/9/5.
