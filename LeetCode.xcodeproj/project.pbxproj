@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		898BC89B286205DD00B04A33 /* 1108.ip-地址无效化.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898BC89A286205DD00B04A33 /* 1108.ip-地址无效化.swift */; };
-		898BC89D286205E900B04A33 /* 1108.ip-地址无效化.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898BC89C286205E900B04A33 /* 1108.ip-地址无效化.cpp */; };
+		898BC8A12863633000B04A33 /* 513.找树左下角的值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8A02863633000B04A33 /* 513.找树左下角的值.cpp */; };
+		898BC8A32863633C00B04A33 /* 513.找树左下角的值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8A22863633C00B04A33 /* 513.找树左下角的值.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -546,6 +546,8 @@
 		898BC8962860C47700B04A33 /* 715.range-模块.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "715.range-模块.swift"; sourceTree = "<group>"; };
 		898BC89A286205DD00B04A33 /* 1108.ip-地址无效化.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1108.ip-地址无效化.swift"; sourceTree = "<group>"; };
 		898BC89C286205E900B04A33 /* 1108.ip-地址无效化.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1108.ip-地址无效化.cpp"; sourceTree = "<group>"; };
+		898BC8A02863633000B04A33 /* 513.找树左下角的值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "513.找树左下角的值.cpp"; sourceTree = "<group>"; };
+		898BC8A22863633C00B04A33 /* 513.找树左下角的值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "513.找树左下角的值.swift"; sourceTree = "<group>"; };
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
 		898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "390.消除游戏.swift"; sourceTree = "<group>"; };
 		8992BF50275B2675007E107F /* 383.赎金信.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "383.赎金信.swift"; sourceTree = "<group>"; };
@@ -790,6 +792,7 @@
 				8939CD7C277F587E009F0CEE /* 507.完美数.swift */,
 				898BC88F285EF12A00B04A33 /* 508.出现次数最多的子树元素和.swift */,
 				89886F51272CDCE6003A626D /* 509.斐波那契数.swift */,
+				898BC8A22863633C00B04A33 /* 513.找树左下角的值.swift */,
 				89AE789B2751CDF000598666 /* 519.随机翻转矩阵.swift */,
 				891C5A62273F718D0047E46E /* 520.检测大写字母.swift */,
 				89A955B127D3B873003B556A /* 521.最长特殊序列-ⅰ.swift */,
@@ -1182,6 +1185,7 @@
 				8975E5F8281ED177006F4F6A /* 507.完美数.cpp */,
 				898BC891285EF14700B04A33 /* 508.出现次数最多的子树元素和.cpp */,
 				8975E69B281ED18F006F4F6A /* 509.斐波那契数.cpp */,
+				898BC8A02863633000B04A33 /* 513.找树左下角的值.cpp */,
 				8975E659281ED187006F4F6A /* 517.超级洗衣机.cpp */,
 				8975E5B4281ED16A006F4F6A /* 519.随机翻转矩阵.cpp */,
 				8975E59D281ED166006F4F6A /* 520.检测大写字母.cpp */,
@@ -1512,8 +1516,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				898BC8A32863633C00B04A33 /* 513.找树左下角的值.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				898BC89B286205DD00B04A33 /* 1108.ip-地址无效化.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1522,8 +1526,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898BC89D286205E900B04A33 /* 1108.ip-地址无效化.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
+				898BC8A12863633000B04A33 /* 513.找树左下角的值.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
