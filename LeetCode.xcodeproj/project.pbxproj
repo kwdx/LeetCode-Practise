@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		898BC8AE286835B800B04A33 /* 710.黑名单中的随机数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8AD286835B800B04A33 /* 710.黑名单中的随机数.swift */; };
+		898BC8BA286A002300B04A33 /* 522.最长特殊序列-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8B9286A002300B04A33 /* 522.最长特殊序列-ii.swift */; };
+		898BC8BC286A003100B04A33 /* 522.最长特殊序列-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8BB286A003100B04A33 /* 522.最长特殊序列-ii.cpp */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -553,6 +554,8 @@
 		898BC8AB286764AF00B04A33 /* 515.在每个树行中找最大值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "515.在每个树行中找最大值.cpp"; sourceTree = "<group>"; };
 		898BC8AC286764BE00B04A33 /* 515.在每个树行中找最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "515.在每个树行中找最大值.swift"; sourceTree = "<group>"; };
 		898BC8AD286835B800B04A33 /* 710.黑名单中的随机数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "710.黑名单中的随机数.swift"; sourceTree = "<group>"; };
+		898BC8B9286A002300B04A33 /* 522.最长特殊序列-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "522.最长特殊序列-ii.swift"; sourceTree = "<group>"; };
+		898BC8BB286A003100B04A33 /* 522.最长特殊序列-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "522.最长特殊序列-ii.cpp"; sourceTree = "<group>"; };
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
 		898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "390.消除游戏.swift"; sourceTree = "<group>"; };
 		8992BF50275B2675007E107F /* 383.赎金信.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "383.赎金信.swift"; sourceTree = "<group>"; };
@@ -802,6 +805,7 @@
 				89AE789B2751CDF000598666 /* 519.随机翻转矩阵.swift */,
 				891C5A62273F718D0047E46E /* 520.检测大写字母.swift */,
 				89A955B127D3B873003B556A /* 521.最长特殊序列-ⅰ.swift */,
+				898BC8B9286A002300B04A33 /* 522.最长特殊序列-ii.swift */,
 				898BC874285B779600B04A33 /* 532.数组中的-k-diff-数对.swift */,
 				891916A727C92694002B8702 /* 537.复数乘法.swift */,
 				89E8F9A82796FFF100310336 /* 539.最小时间差.swift */,
@@ -1201,6 +1205,7 @@
 				8975E5B4281ED16A006F4F6A /* 519.随机翻转矩阵.cpp */,
 				8975E59D281ED166006F4F6A /* 520.检测大写字母.cpp */,
 				8975E623281ED17E006F4F6A /* 521.最长特殊序列-ⅰ.cpp */,
+				898BC8BB286A003100B04A33 /* 522.最长特殊序列-ii.cpp */,
 				8975E629281ED180006F4F6A /* 524.通过删除字母匹配到字典里最长单词.cpp */,
 				8975E578281ED162006F4F6A /* 530.二叉搜索树的最小绝对差.cpp */,
 				898BC876285B77AF00B04A33 /* 532.数组中的-k-diff-数对.cpp */,
@@ -1526,9 +1531,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898BC8BA286A002300B04A33 /* 522.最长特殊序列-ii.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				898BC8AE286835B800B04A33 /* 710.黑名单中的随机数.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1537,6 +1542,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898BC8BC286A003100B04A33 /* 522.最长特殊序列-ii.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
