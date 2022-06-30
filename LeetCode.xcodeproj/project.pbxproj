@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		898BC8BE286B476700B04A33 /* 324.摆动排序-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8BD286B476700B04A33 /* 324.摆动排序-ii.cpp */; };
-		898BC8C0286B477800B04A33 /* 324.摆动排序-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8BF286B477800B04A33 /* 324.摆动排序-ii.swift */; };
+		898BC8C5286DE31800B04A33 /* 1175.质数排列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8C3286DE31800B04A33 /* 1175.质数排列.cpp */; };
+		898BC8CB286DE35600B04A33 /* 1175.质数排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8C8286DE35600B04A33 /* 1175.质数排列.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -558,6 +558,12 @@
 		898BC8BB286A003100B04A33 /* 522.最长特殊序列-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "522.最长特殊序列-ii.cpp"; sourceTree = "<group>"; };
 		898BC8BD286B476700B04A33 /* 324.摆动排序-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "324.摆动排序-ii.cpp"; sourceTree = "<group>"; };
 		898BC8BF286B477800B04A33 /* 324.摆动排序-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "324.摆动排序-ii.swift"; sourceTree = "<group>"; };
+		898BC8C1286DE30A00B04A33 /* 535.tiny-url-的加密与解密.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "535.tiny-url-的加密与解密.cpp"; sourceTree = "<group>"; };
+		898BC8C3286DE31800B04A33 /* 1175.质数排列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1175.质数排列.cpp"; sourceTree = "<group>"; };
+		898BC8C4286DE31800B04A33 /* 1089.复写零.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1089.复写零.cpp"; sourceTree = "<group>"; };
+		898BC8C7286DE35600B04A33 /* 535.tiny-url-的加密与解密.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "535.tiny-url-的加密与解密.swift"; sourceTree = "<group>"; };
+		898BC8C8286DE35600B04A33 /* 1175.质数排列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1175.质数排列.swift"; sourceTree = "<group>"; };
+		898BC8C9286DE35600B04A33 /* 1089.复写零.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1089.复写零.swift"; sourceTree = "<group>"; };
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
 		898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "390.消除游戏.swift"; sourceTree = "<group>"; };
 		8992BF50275B2675007E107F /* 383.赎金信.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "383.赎金信.swift"; sourceTree = "<group>"; };
@@ -810,6 +816,7 @@
 				89A955B127D3B873003B556A /* 521.最长特殊序列-ⅰ.swift */,
 				898BC8B9286A002300B04A33 /* 522.最长特殊序列-ii.swift */,
 				898BC874285B779600B04A33 /* 532.数组中的-k-diff-数对.swift */,
+				898BC8C7286DE35600B04A33 /* 535.tiny-url-的加密与解密.swift */,
 				891916A727C92694002B8702 /* 537.复数乘法.swift */,
 				89E8F9A82796FFF100310336 /* 539.最小时间差.swift */,
 				89AF724927BA9C6100BD2211 /* 540.有序数组中的单一元素.swift */,
@@ -904,8 +911,10 @@
 				8972D8E72850EAE300DB6595 /* 1037.有效的回旋镖.swift */,
 				8972D8FD2857928700DB6595 /* 1051.高度检查器.swift */,
 				89D44118277823E0006B0055 /* 1078.bigram-分词.swift */,
+				898BC8C9286DE35600B04A33 /* 1089.复写零.swift */,
 				898BC89A286205DD00B04A33 /* 1108.ip-地址无效化.swift */,
 				897355182776209C0034C87A /* 1154.一年中的第几天.swift */,
+				898BC8C8286DE35600B04A33 /* 1175.质数排列.swift */,
 				8955A7F42783456F00AB2F8D /* 1185.一周中的第几天.swift */,
 				89AF724727B8FCED00BD2211 /* 1189.气球-的最大数量.swift */,
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
@@ -1213,6 +1222,7 @@
 				8975E629281ED180006F4F6A /* 524.通过删除字母匹配到字典里最长单词.cpp */,
 				8975E578281ED162006F4F6A /* 530.二叉搜索树的最小绝对差.cpp */,
 				898BC876285B77AF00B04A33 /* 532.数组中的-k-diff-数对.cpp */,
+				898BC8C1286DE30A00B04A33 /* 535.tiny-url-的加密与解密.cpp */,
 				8975E652281ED186006F4F6A /* 537.复数乘法.cpp */,
 				8975E6A4281ED191006F4F6A /* 538.把二叉搜索树转换为累加树.cpp */,
 				8975E5F7281ED176006F4F6A /* 539.最小时间差.cpp */,
@@ -1326,9 +1336,11 @@
 				8972D8FB2857927200DB6595 /* 1051.高度检查器.cpp */,
 				8975E662281ED188006F4F6A /* 1078.bigram-分词.cpp */,
 				8975E5EB281ED174006F4F6A /* 1081.不同字符的最小子序列.cpp */,
+				898BC8C4286DE31800B04A33 /* 1089.复写零.cpp */,
 				898BC89C286205E900B04A33 /* 1108.ip-地址无效化.cpp */,
 				8975E655281ED186006F4F6A /* 1143.最长公共子序列.cpp */,
 				8975E6BB281ED193006F4F6A /* 1154.一年中的第几天.cpp */,
+				898BC8C3286DE31800B04A33 /* 1175.质数排列.cpp */,
 				8975E5A4281ED167006F4F6A /* 1185.一周中的第几天.cpp */,
 				8975E671281ED18A006F4F6A /* 1189.气球-的最大数量.cpp */,
 				8975E56A281ED15F006F4F6A /* 1218.最长定差子序列.cpp */,
@@ -1536,9 +1548,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				898BC8C0286B477800B04A33 /* 324.摆动排序-ii.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				898BC8CB286DE35600B04A33 /* 1175.质数排列.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1546,8 +1558,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898BC8BE286B476700B04A33 /* 324.摆动排序-ii.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
+				898BC8C5286DE31800B04A33 /* 1175.质数排列.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
