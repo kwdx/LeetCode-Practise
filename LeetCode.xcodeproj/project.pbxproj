@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		898BC8D42870906800B04A33 /* 871.最低加油次数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8D32870906800B04A33 /* 871.最低加油次数.cpp */; };
-		898BC8D6287090F100B04A33 /* 871.最低加油次数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8D5287090F100B04A33 /* 871.最低加油次数.swift */; };
+		898BC8D82871DB1D00B04A33 /* 556.下一个更大元素-iii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8D72871DB1D00B04A33 /* 556.下一个更大元素-iii.swift */; };
+		898BC8DA2871DB6600B04A33 /* 556.下一个更大元素-iii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8D92871DB6600B04A33 /* 556.下一个更大元素-iii.cpp */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -568,6 +568,8 @@
 		898BC8D1286F48F600B04A33 /* 241.为运算表达式设计优先级.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "241.为运算表达式设计优先级.cpp"; sourceTree = "<group>"; };
 		898BC8D32870906800B04A33 /* 871.最低加油次数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "871.最低加油次数.cpp"; sourceTree = "<group>"; };
 		898BC8D5287090F100B04A33 /* 871.最低加油次数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "871.最低加油次数.swift"; sourceTree = "<group>"; };
+		898BC8D72871DB1D00B04A33 /* 556.下一个更大元素-iii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "556.下一个更大元素-iii.swift"; sourceTree = "<group>"; };
+		898BC8D92871DB6600B04A33 /* 556.下一个更大元素-iii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "556.下一个更大元素-iii.cpp"; sourceTree = "<group>"; };
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
 		898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "390.消除游戏.swift"; sourceTree = "<group>"; };
 		8992BF50275B2675007E107F /* 383.赎金信.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "383.赎金信.swift"; sourceTree = "<group>"; };
@@ -826,6 +828,7 @@
 				89E8F9A82796FFF100310336 /* 539.最小时间差.swift */,
 				89AF724927BA9C6100BD2211 /* 540.有序数组中的单一元素.swift */,
 				89B070CC27CB8DCF00DD7E68 /* 553.最优除法.swift */,
+				898BC8D72871DB1D00B04A33 /* 556.下一个更大元素-iii.swift */,
 				89C84273274A081700A73FAB /* 559.n-叉树的最大深度.swift */,
 				899A76D52747F710006DA530 /* 563.二叉树的坡度-2.swift */,
 				89B070D927CFBC8000DD7E68 /* 564.寻找最近的回文数.swift */,
@@ -1235,6 +1238,7 @@
 				8975E5F7281ED176006F4F6A /* 539.最小时间差.cpp */,
 				8975E683281ED18C006F4F6A /* 540.有序数组中的单一元素.cpp */,
 				8975E6AC281ED192006F4F6A /* 553.最优除法.cpp */,
+				898BC8D92871DB6600B04A33 /* 556.下一个更大元素-iii.cpp */,
 				8975E657281ED187006F4F6A /* 559.n-叉树的最大深度.cpp */,
 				8975E562281ED15E006F4F6A /* 563.二叉树的坡度.cpp */,
 				8975E5FC281ED177006F4F6A /* 564.寻找最近的回文数.cpp */,
@@ -1557,7 +1561,7 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				898BC8D6287090F100B04A33 /* 871.最低加油次数.swift in Sources */,
+				898BC8D82871DB1D00B04A33 /* 556.下一个更大元素-iii.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1566,7 +1570,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898BC8D42870906800B04A33 /* 871.最低加油次数.cpp in Sources */,
+				898BC8DA2871DB6600B04A33 /* 556.下一个更大元素-iii.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
