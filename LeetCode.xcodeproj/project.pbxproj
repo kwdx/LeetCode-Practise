@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
+		893D3CC72879D40400732C88 /* 873.最长的斐波那契子序列的长度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D3CC62879D40400732C88 /* 873.最长的斐波那契子序列的长度.swift */; };
+		893D3CC92879D42300732C88 /* 873.最长的斐波那契子序列的长度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 893D3CC82879D42300732C88 /* 873.最长的斐波那契子序列的长度.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		898BC8EC287883F400B04A33 /* 1217.玩筹码.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8EB287883F400B04A33 /* 1217.玩筹码.swift */; };
-		898BC8EE2878840600B04A33 /* 1217.玩筹码.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898BC8ED2878840600B04A33 /* 1217.玩筹码.cpp */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -80,6 +80,8 @@
 		8939CD85277F59A0009F0CEE /* 1296.划分数组为连续数字的集合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1296.划分数组为连续数字的集合.swift"; sourceTree = "<group>"; };
 		8939CD86277F59A0009F0CEE /* 825.适龄的朋友.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "825.适龄的朋友.swift"; sourceTree = "<group>"; };
 		8939CD87277F59A0009F0CEE /* 1995.统计特殊四元组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1995.统计特殊四元组.swift"; sourceTree = "<group>"; };
+		893D3CC62879D40400732C88 /* 873.最长的斐波那契子序列的长度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "873.最长的斐波那契子序列的长度.swift"; sourceTree = "<group>"; };
+		893D3CC82879D42300732C88 /* 873.最长的斐波那契子序列的长度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "873.最长的斐波那契子序列的长度.cpp"; sourceTree = "<group>"; };
 		893E1231272C51AD00EAC6FD /* 198.打家劫舍.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "198.打家劫舍.swift"; sourceTree = "<group>"; };
 		893E1234272C554D00EAC6FD /* 215.数组中的第k个最大元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "215.数组中的第k个最大元素.swift"; sourceTree = "<group>"; };
 		894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "937.重新排列日志文件.swift"; sourceTree = "<group>"; };
@@ -901,6 +903,7 @@
 				89AE78A42751E7D600598666 /* 859.亲密字符串.swift */,
 				89E1BE42281D893C009176A4 /* 868.二进制间距.swift */,
 				898BC8D5287090F100B04A33 /* 871.最低加油次数.swift */,
+				893D3CC62879D40400732C88 /* 873.最长的斐波那契子序列的长度.swift */,
 				8972D8DF284FA99D00DB6595 /* 875.爱吃香蕉的珂珂.swift */,
 				89E1BE48281D893D009176A4 /* 883.三维形体投影面积.swift */,
 				8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */,
@@ -1326,6 +1329,7 @@
 				8975E57B281ED162006F4F6A /* 869.重新排序得到-2-的幂.cpp */,
 				8975E636281ED182006F4F6A /* 870.优势洗牌.cpp */,
 				898BC8D32870906800B04A33 /* 871.最低加油次数.cpp */,
+				893D3CC82879D42300732C88 /* 873.最长的斐波那契子序列的长度.cpp */,
 				8975E5E2281ED173006F4F6A /* 875.爱吃香蕉的珂珂.cpp */,
 				8975E5EF281ED175006F4F6A /* 876.链表的中间结点.cpp */,
 				8975E597281ED165006F4F6A /* 884.两句话中的不常见单词.cpp */,
@@ -1577,7 +1581,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898BC8EC287883F400B04A33 /* 1217.玩筹码.swift in Sources */,
+				893D3CC72879D40400732C88 /* 873.最长的斐波那契子序列的长度.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
@@ -1589,7 +1593,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				898BC8EE2878840600B04A33 /* 1217.玩筹码.cpp in Sources */,
+				893D3CC92879D42300732C88 /* 873.最长的斐波那契子序列的长度.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
