@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		893D3CC72879D40400732C88 /* 873.最长的斐波那契子序列的长度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D3CC62879D40400732C88 /* 873.最长的斐波那契子序列的长度.swift */; };
-		893D3CC92879D42300732C88 /* 873.最长的斐波那契子序列的长度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 893D3CC82879D42300732C88 /* 873.最长的斐波那契子序列的长度.cpp */; };
+		893D3CCF287C5D2A00732C88 /* 676.实现一个魔法字典.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D3CCE287C5D2A00732C88 /* 676.实现一个魔法字典.swift */; };
+		893D3CD1287C5D3F00732C88 /* 676.实现一个魔法字典.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 893D3CD0287C5D3F00732C88 /* 676.实现一个魔法字典.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -82,6 +82,9 @@
 		8939CD87277F59A0009F0CEE /* 1995.统计特殊四元组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1995.统计特殊四元组.swift"; sourceTree = "<group>"; };
 		893D3CC62879D40400732C88 /* 873.最长的斐波那契子序列的长度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "873.最长的斐波那契子序列的长度.swift"; sourceTree = "<group>"; };
 		893D3CC82879D42300732C88 /* 873.最长的斐波那契子序列的长度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "873.最长的斐波那契子序列的长度.cpp"; sourceTree = "<group>"; };
+		893D3CCA287B1A2900732C88 /* 741.摘樱桃.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "741.摘樱桃.cpp"; sourceTree = "<group>"; };
+		893D3CCE287C5D2A00732C88 /* 676.实现一个魔法字典.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "676.实现一个魔法字典.swift"; sourceTree = "<group>"; };
+		893D3CD0287C5D3F00732C88 /* 676.实现一个魔法字典.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "676.实现一个魔法字典.cpp"; sourceTree = "<group>"; };
 		893E1231272C51AD00EAC6FD /* 198.打家劫舍.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "198.打家劫舍.swift"; sourceTree = "<group>"; };
 		893E1234272C554D00EAC6FD /* 215.数组中的第k个最大元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "215.数组中的第k个最大元素.swift"; sourceTree = "<group>"; };
 		894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "937.重新排列日志文件.swift"; sourceTree = "<group>"; };
@@ -858,6 +861,7 @@
 				895A04D827ECC87100AB66B9 /* 661.图片平滑器.swift */,
 				892C1003283539E000470959 /* 668.乘法表中第k小的数.swift */,
 				89AB11A0283BCEF200574DB4 /* 675.为高尔夫比赛砍树.swift */,
+				893D3CCE287C5D2A00732C88 /* 676.实现一个魔法字典.swift */,
 				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
 				890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */,
 				8973551B2776209C0034C87A /* 686.重复叠加字符串匹配.swift */,
@@ -1281,6 +1285,7 @@
 				892C1005283539F300470959 /* 668.乘法表中第k小的数.cpp */,
 				8975E5D8281ED171006F4F6A /* 673.最长递增子序列的个数.cpp */,
 				89AB11A2283BCF0700574DB4 /* 675.为高尔夫比赛砍树.cpp */,
+				893D3CD0287C5D3F00732C88 /* 676.实现一个魔法字典.cpp */,
 				8975E65F281ED188006F4F6A /* 677.键值映射.cpp */,
 				8975E56B281ED15F006F4F6A /* 678.有效的括号字符串.cpp */,
 				8975E653281ED186006F4F6A /* 682.棒球比赛.cpp */,
@@ -1308,6 +1313,7 @@
 				8972D8E2284FA9B000DB6595 /* 732.我的日程安排表-iii.cpp */,
 				898BC8E52875DEFC00B04A33 /* 736.lisp-语法解析.cpp */,
 				8975E6A3281ED190006F4F6A /* 739.每日温度.cpp */,
+				893D3CCA287B1A2900732C88 /* 741.摘樱桃.cpp */,
 				8975E575281ED162006F4F6A /* 744.寻找比目标字母大的最小字母.cpp */,
 				8975E6B3281ED192006F4F6A /* 747.至少是其他数字两倍的最大数.cpp */,
 				8975E6BA281ED193006F4F6A /* 748.最短补全词.cpp */,
@@ -1581,9 +1587,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893D3CC72879D40400732C88 /* 873.最长的斐波那契子序列的长度.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				893D3CCF287C5D2A00732C88 /* 676.实现一个魔法字典.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1592,8 +1598,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893D3CD1287C5D3F00732C88 /* 676.实现一个魔法字典.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				893D3CC92879D42300732C88 /* 873.最长的斐波那契子序列的长度.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
