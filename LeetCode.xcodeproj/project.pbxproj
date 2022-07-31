@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
+		8937DD5B2896890F00D9624C /* 1161.最大层内元素和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD5A2896890F00D9624C /* 1161.最大层内元素和.cpp */; };
+		8937DD5D2896906E00D9624C /* 1161.最大层内元素和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD5C2896906E00D9624C /* 1161.最大层内元素和.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89CC176E2892D910000EEDE8 /* 1331.数组序号转换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CC176D2892D910000EEDE8 /* 1331.数组序号转换.swift */; };
-		89CC17702892D922000EEDE8 /* 1331.数组序号转换.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CC176F2892D921000EEDE8 /* 1331.数组序号转换.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +74,12 @@
 		892EA22227A1996100E1E00D /* 2013.检测正方形.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2013.检测正方形.swift"; sourceTree = "<group>"; };
 		892EA22427A2E7EB00E1E00D /* 2047.句子中的有效单词数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2047.句子中的有效单词数.swift"; sourceTree = "<group>"; };
 		892EC6A2275C994D00CD0593 /* 372.超级次方.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "372.超级次方.swift"; sourceTree = "<group>"; };
+		8937DD5228943B2900D9624C /* 593.有效的正方形.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "593.有效的正方形.cpp"; sourceTree = "<group>"; };
+		8937DD5428943BDD00D9624C /* 593.有效的正方形.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "593.有效的正方形.swift"; sourceTree = "<group>"; };
+		8937DD562895093C00D9624C /* 952.按公因数计算最大组件大小.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "952.按公因数计算最大组件大小.swift"; sourceTree = "<group>"; };
+		8937DD582895099700D9624C /* 952.按公因数计算最大组件大小.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "952.按公因数计算最大组件大小.cpp"; sourceTree = "<group>"; };
+		8937DD5A2896890F00D9624C /* 1161.最大层内元素和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1161.最大层内元素和.cpp"; sourceTree = "<group>"; };
+		8937DD5C2896906E00D9624C /* 1161.最大层内元素和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1161.最大层内元素和.swift"; sourceTree = "<group>"; };
 		8939CD7C277F587E009F0CEE /* 507.完美数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "507.完美数.swift"; sourceTree = "<group>"; };
 		8939CD83277F59A0009F0CEE /* 846.一手顺子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "846.一手顺子.swift"; sourceTree = "<group>"; };
 		8939CD84277F59A0009F0CEE /* 472.连接词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "472.连接词.swift"; sourceTree = "<group>"; };
@@ -886,6 +892,7 @@
 				89A899AB27DA4A9C00A7A6D1 /* 590.n-叉树的后序遍历.swift */,
 				89E5D878281FCF1200216365 /* 591.标签验证器.swift */,
 				89EB26A528917E63002BB7EF /* 592.分数加减运算.swift */,
+				8937DD5428943BDD00D9624C /* 593.有效的正方形.swift */,
 				89E5AAC927493A7E007DB9B9 /* 594.最长和谐子序列.swift */,
 				898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */,
 				8952093927E0DDE200BA01F2 /* 599.两个列表的最小索引总和.swift */,
@@ -964,6 +971,7 @@
 				894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */,
 				894F525E28294F0700EA6C32 /* 942.增减字符串匹配.swift */,
 				89951E7A282D52B300B98F5D /* 944.删列造序.swift */,
+				8937DD562895093C00D9624C /* 952.按公因数计算最大组件大小.swift */,
 				8923BB9B2833EB300034AA0D /* 953.验证外星语词典.swift */,
 				891A3A8727F74DEE0003D731 /* 954.二倍数对数组.swift */,
 				89AB11942839418C00574DB4 /* 961.在长度-2-n-的数组中找出重复-n-次的元素.swift */,
@@ -983,6 +991,7 @@
 				898BC8C9286DE35600B04A33 /* 1089.复写零.swift */,
 				898BC89A286205DD00B04A33 /* 1108.ip-地址无效化.swift */,
 				897355182776209C0034C87A /* 1154.一年中的第几天.swift */,
+				8937DD5C2896906E00D9624C /* 1161.最大层内元素和.swift */,
 				898BC8C8286DE35600B04A33 /* 1175.质数排列.swift */,
 				893D3D19288C543700732C88 /* 1184.公交站间的距离.swift */,
 				8955A7F42783456F00AB2F8D /* 1185.一周中的第几天.swift */,
@@ -1321,6 +1330,7 @@
 				8975E59A281ED166006F4F6A /* 590.n-叉树的后序遍历.cpp */,
 				89E5D876281FCC1600216365 /* 591.标签验证器.cpp */,
 				89EB26AD28917E84002BB7EF /* 592.分数加减运算.cpp */,
+				8937DD5228943B2900D9624C /* 593.有效的正方形.cpp */,
 				8975E5C7281ED16E006F4F6A /* 594.最长和谐子序列.cpp */,
 				8975E68B281ED18D006F4F6A /* 598.范围求和-ii.cpp */,
 				8975E631281ED181006F4F6A /* 599.两个列表的最小索引总和.cpp */,
@@ -1414,6 +1424,7 @@
 				8975E633281ED181006F4F6A /* 938.二叉搜索树的范围和.cpp */,
 				894F525C28294A4100EA6C32 /* 942.增减字符串匹配.cpp */,
 				89951E78282D527E00B98F5D /* 944.删列造序.cpp */,
+				8937DD582895099700D9624C /* 952.按公因数计算最大组件大小.cpp */,
 				8923BB9D2833EB970034AA0D /* 953.验证外星语词典.cpp */,
 				8975E695281ED18F006F4F6A /* 954.二倍数对数组.cpp */,
 				89AB1196283942CA00574DB4 /* 961.在长度-2-n-的数组中找出重复-n-次的元素.cpp */,
@@ -1439,6 +1450,7 @@
 				898BC89C286205E900B04A33 /* 1108.ip-地址无效化.cpp */,
 				8975E655281ED186006F4F6A /* 1143.最长公共子序列.cpp */,
 				8975E6BB281ED193006F4F6A /* 1154.一年中的第几天.cpp */,
+				8937DD5A2896890F00D9624C /* 1161.最大层内元素和.cpp */,
 				898BC8C3286DE31800B04A33 /* 1175.质数排列.cpp */,
 				893D3D17288C53B700732C88 /* 1184.公交站间的距离.cpp */,
 				8975E5A4281ED167006F4F6A /* 1185.一周中的第几天.cpp */,
@@ -1655,7 +1667,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				89CC176E2892D910000EEDE8 /* 1331.数组序号转换.swift in Sources */,
+				8937DD5D2896906E00D9624C /* 1161.最大层内元素和.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
@@ -1665,7 +1677,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89CC17702892D922000EEDE8 /* 1331.数组序号转换.cpp in Sources */,
+				8937DD5B2896890F00D9624C /* 1161.最大层内元素和.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
