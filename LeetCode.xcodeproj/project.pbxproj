@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		8937DD5B2896890F00D9624C /* 1161.最大层内元素和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD5A2896890F00D9624C /* 1161.最大层内元素和.cpp */; };
-		8937DD5D2896906E00D9624C /* 1161.最大层内元素和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD5C2896906E00D9624C /* 1161.最大层内元素和.swift */; };
+		8937DD5F2898123200D9624C /* 1374.生成每种字符都是奇数个的字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD5E2898123200D9624C /* 1374.生成每种字符都是奇数个的字符串.swift */; };
+		8937DD612898124200D9624C /* 1374.生成每种字符都是奇数个的字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD602898124200D9624C /* 1374.生成每种字符都是奇数个的字符串.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -80,6 +80,8 @@
 		8937DD582895099700D9624C /* 952.按公因数计算最大组件大小.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "952.按公因数计算最大组件大小.cpp"; sourceTree = "<group>"; };
 		8937DD5A2896890F00D9624C /* 1161.最大层内元素和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1161.最大层内元素和.cpp"; sourceTree = "<group>"; };
 		8937DD5C2896906E00D9624C /* 1161.最大层内元素和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1161.最大层内元素和.swift"; sourceTree = "<group>"; };
+		8937DD5E2898123200D9624C /* 1374.生成每种字符都是奇数个的字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1374.生成每种字符都是奇数个的字符串.swift"; sourceTree = "<group>"; };
+		8937DD602898124200D9624C /* 1374.生成每种字符都是奇数个的字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1374.生成每种字符都是奇数个的字符串.cpp"; sourceTree = "<group>"; };
 		8939CD7C277F587E009F0CEE /* 507.完美数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "507.完美数.swift"; sourceTree = "<group>"; };
 		8939CD83277F59A0009F0CEE /* 846.一手顺子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "846.一手顺子.swift"; sourceTree = "<group>"; };
 		8939CD84277F59A0009F0CEE /* 472.连接词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "472.连接词.swift"; sourceTree = "<group>"; };
@@ -1009,6 +1011,7 @@
 				8972B690279C14A600D14CE7 /* 1332.删除回文子序列.swift */,
 				8900694827A81AD500EBE650 /* 1342.将数字变成-0-的操作次数.swift */,
 				89E8F9B2279AFE9B00310336 /* 1345.跳跃游戏-iv.swift */,
+				8937DD5E2898123200D9624C /* 1374.生成每种字符都是奇数个的字符串.swift */,
 				89AF724F27BBE97F00BD2211 /* 1380.矩阵中的幸运数.swift */,
 				8953DFB727B15D7F00FB2C00 /* 1405.最长快乐字符串.swift */,
 				89AE440227ABA2A30023C3DC /* 1414.和为-k-的最少斐波那契数字数目.swift */,
@@ -1470,6 +1473,7 @@
 				8975E576281ED162006F4F6A /* 1342.将数字变成-0-的操作次数.cpp */,
 				8975E6B1281ED192006F4F6A /* 1345.跳跃游戏-iv.cpp */,
 				8975E5A5281ED167006F4F6A /* 1373.二叉搜索子树的最大键值和.cpp */,
+				8937DD602898124200D9624C /* 1374.生成每种字符都是奇数个的字符串.cpp */,
 				8975E577281ED162006F4F6A /* 1380.矩阵中的幸运数.cpp */,
 				8975E5B1281ED16A006F4F6A /* 1405.最长快乐字符串.cpp */,
 				8975E668281ED189006F4F6A /* 1414.和为-k-的最少斐波那契数字数目.cpp */,
@@ -1667,7 +1671,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				8937DD5D2896906E00D9624C /* 1161.最大层内元素和.swift in Sources */,
+				8937DD5F2898123200D9624C /* 1374.生成每种字符都是奇数个的字符串.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
@@ -1677,7 +1681,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8937DD5B2896890F00D9624C /* 1161.最大层内元素和.cpp in Sources */,
+				8937DD612898124200D9624C /* 1374.生成每种字符都是奇数个的字符串.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
