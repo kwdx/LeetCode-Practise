@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		8937DD5F2898123200D9624C /* 1374.生成每种字符都是奇数个的字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD5E2898123200D9624C /* 1374.生成每种字符都是奇数个的字符串.swift */; };
-		8937DD612898124200D9624C /* 1374.生成每种字符都是奇数个的字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD602898124200D9624C /* 1374.生成每种字符都是奇数个的字符串.cpp */; };
+		8937DD6C289ABC8B00D9624C /* 899.有序队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD6B289ABC8B00D9624C /* 899.有序队列.swift */; };
+		8937DD6E289ABC9900D9624C /* 899.有序队列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD6D289ABC9900D9624C /* 899.有序队列.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -82,6 +82,10 @@
 		8937DD5C2896906E00D9624C /* 1161.最大层内元素和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1161.最大层内元素和.swift"; sourceTree = "<group>"; };
 		8937DD5E2898123200D9624C /* 1374.生成每种字符都是奇数个的字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1374.生成每种字符都是奇数个的字符串.swift"; sourceTree = "<group>"; };
 		8937DD602898124200D9624C /* 1374.生成每种字符都是奇数个的字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1374.生成每种字符都是奇数个的字符串.cpp"; sourceTree = "<group>"; };
+		8937DD652899775B00D9624C /* 622.设计循环队列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "622.设计循环队列.cpp"; sourceTree = "<group>"; };
+		8937DD672899776E00D9624C /* 622.设计循环队列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "622.设计循环队列.swift"; sourceTree = "<group>"; };
+		8937DD6B289ABC8B00D9624C /* 899.有序队列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "899.有序队列.swift"; sourceTree = "<group>"; };
+		8937DD6D289ABC9900D9624C /* 899.有序队列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "899.有序队列.cpp"; sourceTree = "<group>"; };
 		8939CD7C277F587E009F0CEE /* 507.完美数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "507.完美数.swift"; sourceTree = "<group>"; };
 		8939CD83277F59A0009F0CEE /* 846.一手顺子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "846.一手顺子.swift"; sourceTree = "<group>"; };
 		8939CD84277F59A0009F0CEE /* 472.连接词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "472.连接词.swift"; sourceTree = "<group>"; };
@@ -899,6 +903,7 @@
 				898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */,
 				8952093927E0DDE200BA01F2 /* 599.两个列表的最小索引总和.swift */,
 				895A04C127E76EF500AB66B9 /* 606.根据二叉树创建字符串.swift */,
+				8937DD672899776E00D9624C /* 622.设计循环队列.swift */,
 				89766320273D6A5600507E1F /* 629.k个逆序对数组.swift */,
 				89D65EDE2768D73B00B855E3 /* 630.课程表-iii.swift */,
 				898BC8E928772D4D00B04A33 /* 648.单词替换.swift */,
@@ -962,6 +967,7 @@
 				89E1BE48281D893D009176A4 /* 883.三维形体投影面积.swift */,
 				8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */,
 				8972D8F7285630AE00DB6595 /* 890.查找和替换模式.swift */,
+				8937DD6B289ABC8B00D9624C /* 899.有序队列.swift */,
 				89E1BE41281D893C009176A4 /* 905.按奇偶排序数组.swift */,
 				89E1BCD9281D8570009176A4 /* 908.最小差值-i.swift */,
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
@@ -1339,6 +1345,7 @@
 				8975E631281ED181006F4F6A /* 599.两个列表的最小索引总和.cpp */,
 				8975E5A1281ED167006F4F6A /* 600.不含连续-1-的非负整数.cpp */,
 				8975E5F3281ED176006F4F6A /* 606.根据二叉树创建字符串.cpp */,
+				8937DD652899775B00D9624C /* 622.设计循环队列.cpp */,
 				8975E57A281ED162006F4F6A /* 629.k个逆序对数组.cpp */,
 				8975E5CF281ED16F006F4F6A /* 630.课程表-iii.cpp */,
 				8975E5DF281ED172006F4F6A /* 638.大礼包.cpp */,
@@ -1415,6 +1422,7 @@
 				8975E67C281ED18B006F4F6A /* 889.根据前序和后序遍历构造二叉树.cpp */,
 				8972D8F9285630F100DB6595 /* 890.查找和替换模式.cpp */,
 				8975E583281ED163006F4F6A /* 895.最大频率栈.cpp */,
+				8937DD6D289ABC9900D9624C /* 899.有序队列.cpp */,
 				8975E5D1281ED170006F4F6A /* 908.最小差值-i.cpp */,
 				8975E587281ED163006F4F6A /* 911.在线选举.cpp */,
 				8975E650281ED186006F4F6A /* 913.猫和老鼠.cpp */,
@@ -1671,7 +1679,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				8937DD5F2898123200D9624C /* 1374.生成每种字符都是奇数个的字符串.swift in Sources */,
+				8937DD6C289ABC8B00D9624C /* 899.有序队列.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
@@ -1681,8 +1689,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8937DD612898124200D9624C /* 1374.生成每种字符都是奇数个的字符串.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
+				8937DD6E289ABC9900D9624C /* 899.有序队列.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
