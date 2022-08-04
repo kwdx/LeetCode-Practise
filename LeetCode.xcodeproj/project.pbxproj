@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		8937DD6C289ABC8B00D9624C /* 899.有序队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD6B289ABC8B00D9624C /* 899.有序队列.swift */; };
-		8937DD6E289ABC9900D9624C /* 899.有序队列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8937DD6D289ABC9900D9624C /* 899.有序队列.cpp */; };
+		89816B25289C1062000D7C8F /* 1403.非递增顺序的最小子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89816B24289C1062000D7C8F /* 1403.非递增顺序的最小子序列.cpp */; };
+		89816B27289C1070000D7C8F /* 1403.非递增顺序的最小子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89816B26289C1070000D7C8F /* 1403.非递增顺序的最小子序列.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -548,6 +548,8 @@
 		89766320273D6A5600507E1F /* 629.k个逆序对数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "629.k个逆序对数组.swift"; sourceTree = "<group>"; };
 		897A7ECD27FC7F480006B830 /* 762.二进制表示中质数个计算置位.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "762.二进制表示中质数个计算置位.swift"; sourceTree = "<group>"; };
 		897A7ED127FC84710006B830 /* 191.位-1-的个数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "191.位-1-的个数.swift"; sourceTree = "<group>"; };
+		89816B24289C1062000D7C8F /* 1403.非递增顺序的最小子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1403.非递增顺序的最小子序列.cpp"; sourceTree = "<group>"; };
+		89816B26289C1070000D7C8F /* 1403.非递增顺序的最小子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1403.非递增顺序的最小子序列.swift"; sourceTree = "<group>"; };
 		8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "884.两句话中的不常见单词.swift"; sourceTree = "<group>"; };
 		89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "347.前-k-个高频元素.swift"; sourceTree = "<group>"; };
 		89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "451.根据字符出现频率排序.swift"; sourceTree = "<group>"; };
@@ -1019,6 +1021,7 @@
 				89E8F9B2279AFE9B00310336 /* 1345.跳跃游戏-iv.swift */,
 				8937DD5E2898123200D9624C /* 1374.生成每种字符都是奇数个的字符串.swift */,
 				89AF724F27BBE97F00BD2211 /* 1380.矩阵中的幸运数.swift */,
+				89816B26289C1070000D7C8F /* 1403.非递增顺序的最小子序列.swift */,
 				8953DFB727B15D7F00FB2C00 /* 1405.最长快乐字符串.swift */,
 				89AE440227ABA2A30023C3DC /* 1414.和为-k-的最少斐波那契数字数目.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
@@ -1483,6 +1486,7 @@
 				8975E5A5281ED167006F4F6A /* 1373.二叉搜索子树的最大键值和.cpp */,
 				8937DD602898124200D9624C /* 1374.生成每种字符都是奇数个的字符串.cpp */,
 				8975E577281ED162006F4F6A /* 1380.矩阵中的幸运数.cpp */,
+				89816B24289C1062000D7C8F /* 1403.非递增顺序的最小子序列.cpp */,
 				8975E5B1281ED16A006F4F6A /* 1405.最长快乐字符串.cpp */,
 				8975E668281ED189006F4F6A /* 1414.和为-k-的最少斐波那契数字数目.cpp */,
 				8975E634281ED182006F4F6A /* 1436.旅行终点站.cpp */,
@@ -1679,9 +1683,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				8937DD6C289ABC8B00D9624C /* 899.有序队列.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				89816B27289C1070000D7C8F /* 1403.非递增顺序的最小子序列.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1690,7 +1694,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				8937DD6E289ABC9900D9624C /* 899.有序队列.cpp in Sources */,
+				89816B25289C1062000D7C8F /* 1403.非递增顺序的最小子序列.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
