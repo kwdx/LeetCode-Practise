@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89816B25289C1062000D7C8F /* 1403.非递增顺序的最小子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89816B24289C1062000D7C8F /* 1403.非递增顺序的最小子序列.cpp */; };
-		89816B27289C1070000D7C8F /* 1403.非递增顺序的最小子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89816B26289C1070000D7C8F /* 1403.非递增顺序的最小子序列.swift */; };
+		89816B8328A153AA000D7C8F /* 761.特殊的二进制序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89816B8228A153AA000D7C8F /* 761.特殊的二进制序列.swift */; };
+		89816B8528A153BD000D7C8F /* 761.特殊的二进制序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89816B8428A153BD000D7C8F /* 761.特殊的二进制序列.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -550,6 +550,14 @@
 		897A7ED127FC84710006B830 /* 191.位-1-的个数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "191.位-1-的个数.swift"; sourceTree = "<group>"; };
 		89816B24289C1062000D7C8F /* 1403.非递增顺序的最小子序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1403.非递增顺序的最小子序列.cpp"; sourceTree = "<group>"; };
 		89816B26289C1070000D7C8F /* 1403.非递增顺序的最小子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1403.非递增顺序的最小子序列.swift"; sourceTree = "<group>"; };
+		89816B28289EB56E000D7C8F /* 1408.数组中的字符串匹配.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1408.数组中的字符串匹配.cpp"; sourceTree = "<group>"; };
+		89816B2A289EB67A000D7C8F /* 1408.数组中的字符串匹配.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1408.数组中的字符串匹配.swift"; sourceTree = "<group>"; };
+		89816B2C289EB989000D7C8F /* 623.在二叉树中增加一行.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "623.在二叉树中增加一行.swift"; sourceTree = "<group>"; };
+		89816B2F289EB9AB000D7C8F /* 623.在二叉树中增加一行.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "623.在二叉树中增加一行.cpp"; sourceTree = "<group>"; };
+		89816B7C289FA303000D7C8F /* 636.函数的独占时间.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "636.函数的独占时间.cpp"; sourceTree = "<group>"; };
+		89816B7E289FA415000D7C8F /* 636.函数的独占时间.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "636.函数的独占时间.swift"; sourceTree = "<group>"; };
+		89816B8228A153AA000D7C8F /* 761.特殊的二进制序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "761.特殊的二进制序列.swift"; sourceTree = "<group>"; };
+		89816B8428A153BD000D7C8F /* 761.特殊的二进制序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "761.特殊的二进制序列.cpp"; sourceTree = "<group>"; };
 		8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "884.两句话中的不常见单词.swift"; sourceTree = "<group>"; };
 		89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "347.前-k-个高频元素.swift"; sourceTree = "<group>"; };
 		89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "451.根据字符出现频率排序.swift"; sourceTree = "<group>"; };
@@ -906,8 +914,10 @@
 				8952093927E0DDE200BA01F2 /* 599.两个列表的最小索引总和.swift */,
 				895A04C127E76EF500AB66B9 /* 606.根据二叉树创建字符串.swift */,
 				8937DD672899776E00D9624C /* 622.设计循环队列.swift */,
+				89816B2C289EB989000D7C8F /* 623.在二叉树中增加一行.swift */,
 				89766320273D6A5600507E1F /* 629.k个逆序对数组.swift */,
 				89D65EDE2768D73B00B855E3 /* 630.课程表-iii.swift */,
+				89816B7E289FA415000D7C8F /* 636.函数的独占时间.swift */,
 				898BC8E928772D4D00B04A33 /* 648.单词替换.swift */,
 				895A04CC27E8B97F00AB66B9 /* 653.两数之和-iv-输入-bst.swift */,
 				895A04D827ECC87100AB66B9 /* 661.图片平滑器.swift */,
@@ -941,6 +951,7 @@
 				89B4863E27907D5200A6930A /* 747.至少是其他数字两倍的最大数.swift */,
 				8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */,
 				893D3D1B288C560100732C88 /* 757.设置交集大小至少为-2.swift */,
+				89816B8228A153AA000D7C8F /* 761.特殊的二进制序列.swift */,
 				897A7ECD27FC7F480006B830 /* 762.二进制表示中质数个计算置位.swift */,
 				89E1BE4E281D893F009176A4 /* 780.到达终点.swift */,
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
@@ -1023,6 +1034,7 @@
 				89AF724F27BBE97F00BD2211 /* 1380.矩阵中的幸运数.swift */,
 				89816B26289C1070000D7C8F /* 1403.非递增顺序的最小子序列.swift */,
 				8953DFB727B15D7F00FB2C00 /* 1405.最长快乐字符串.swift */,
+				89816B2A289EB67A000D7C8F /* 1408.数组中的字符串匹配.swift */,
 				89AE440227ABA2A30023C3DC /* 1414.和为-k-的最少斐波那契数字数目.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
 				8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */,
@@ -1349,8 +1361,10 @@
 				8975E5A1281ED167006F4F6A /* 600.不含连续-1-的非负整数.cpp */,
 				8975E5F3281ED176006F4F6A /* 606.根据二叉树创建字符串.cpp */,
 				8937DD652899775B00D9624C /* 622.设计循环队列.cpp */,
+				89816B2F289EB9AB000D7C8F /* 623.在二叉树中增加一行.cpp */,
 				8975E57A281ED162006F4F6A /* 629.k个逆序对数组.cpp */,
 				8975E5CF281ED16F006F4F6A /* 630.课程表-iii.cpp */,
+				89816B7C289FA303000D7C8F /* 636.函数的独占时间.cpp */,
 				8975E5DF281ED172006F4F6A /* 638.大礼包.cpp */,
 				8975E5BD281ED16C006F4F6A /* 639.解码方法-ii.cpp */,
 				898BC8E728772D3500B04A33 /* 648.单词替换.cpp */,
@@ -1399,6 +1413,7 @@
 				8975E6BA281ED193006F4F6A /* 748.最短补全词.cpp */,
 				893D3D042885AFED00732C88 /* 749.隔离病毒.cpp */,
 				893D3D1C288C560C00732C88 /* 757.设置交集大小至少为-2.cpp */,
+				89816B8428A153BD000D7C8F /* 761.特殊的二进制序列.cpp */,
 				8975E63D281ED183006F4F6A /* 762.二进制表示中质数个计算置位.cpp */,
 				8975E68C281ED18D006F4F6A /* 783.二叉搜索树节点最小距离.cpp */,
 				8975E669281ED189006F4F6A /* 786.第-k-个最小的素数分数.cpp */,
@@ -1488,6 +1503,7 @@
 				8975E577281ED162006F4F6A /* 1380.矩阵中的幸运数.cpp */,
 				89816B24289C1062000D7C8F /* 1403.非递增顺序的最小子序列.cpp */,
 				8975E5B1281ED16A006F4F6A /* 1405.最长快乐字符串.cpp */,
+				89816B28289EB56E000D7C8F /* 1408.数组中的字符串匹配.cpp */,
 				8975E668281ED189006F4F6A /* 1414.和为-k-的最少斐波那契数字数目.cpp */,
 				8975E634281ED182006F4F6A /* 1436.旅行终点站.cpp */,
 				8975E56C281ED15F006F4F6A /* 1446.连续字符.cpp */,
@@ -1684,8 +1700,8 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				89816B8328A153AA000D7C8F /* 761.特殊的二进制序列.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				89816B27289C1070000D7C8F /* 1403.非递增顺序的最小子序列.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1694,7 +1710,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89816B25289C1062000D7C8F /* 1403.非递增顺序的最小子序列.cpp in Sources */,
+				89816B8528A153BD000D7C8F /* 761.特殊的二进制序列.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
