@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89816B8D28A3F99C000D7C8F /* 640.求解方程.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89816B8C28A3F99C000D7C8F /* 640.求解方程.swift */; };
-		89816B8F28A3F9E8000D7C8F /* 640.求解方程.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89816B8E28A3F9E7000D7C8F /* 640.求解方程.cpp */; };
+		89816B9128A546A3000D7C8F /* 1417.重新格式化字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89816B9028A546A2000D7C8F /* 1417.重新格式化字符串.cpp */; };
+		89816B9328A546BD000D7C8F /* 1417.重新格式化字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89816B9228A546BD000D7C8F /* 1417.重新格式化字符串.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -562,6 +562,8 @@
 		89816B8828A2AC10000D7C8F /* 1413.逐步求和得到正数的最小值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1413.逐步求和得到正数的最小值.cpp"; sourceTree = "<group>"; };
 		89816B8C28A3F99C000D7C8F /* 640.求解方程.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "640.求解方程.swift"; sourceTree = "<group>"; };
 		89816B8E28A3F9E7000D7C8F /* 640.求解方程.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "640.求解方程.cpp"; path = "../../../../Downloads/640.求解方程.cpp"; sourceTree = "<group>"; };
+		89816B9028A546A2000D7C8F /* 1417.重新格式化字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1417.重新格式化字符串.cpp"; sourceTree = "<group>"; };
+		89816B9228A546BD000D7C8F /* 1417.重新格式化字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1417.重新格式化字符串.swift"; sourceTree = "<group>"; };
 		8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "884.两句话中的不常见单词.swift"; sourceTree = "<group>"; };
 		89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "347.前-k-个高频元素.swift"; sourceTree = "<group>"; };
 		89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "451.根据字符出现频率排序.swift"; sourceTree = "<group>"; };
@@ -1042,6 +1044,7 @@
 				89816B2A289EB67A000D7C8F /* 1408.数组中的字符串匹配.swift */,
 				89816B8628A2ABFC000D7C8F /* 1413.逐步求和得到正数的最小值.swift */,
 				89AE440227ABA2A30023C3DC /* 1414.和为-k-的最少斐波那契数字数目.swift */,
+				89816B9228A546BD000D7C8F /* 1417.重新格式化字符串.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
 				8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */,
 				89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */,
@@ -1513,6 +1516,7 @@
 				89816B28289EB56E000D7C8F /* 1408.数组中的字符串匹配.cpp */,
 				89816B8828A2AC10000D7C8F /* 1413.逐步求和得到正数的最小值.cpp */,
 				8975E668281ED189006F4F6A /* 1414.和为-k-的最少斐波那契数字数目.cpp */,
+				89816B9028A546A2000D7C8F /* 1417.重新格式化字符串.cpp */,
 				8975E634281ED182006F4F6A /* 1436.旅行终点站.cpp */,
 				8975E56C281ED15F006F4F6A /* 1446.连续字符.cpp */,
 				8975E588281ED163006F4F6A /* 1447.最简分数.cpp */,
@@ -1707,8 +1711,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				89816B8D28A3F99C000D7C8F /* 640.求解方程.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
+				89816B9328A546BD000D7C8F /* 1417.重新格式化字符串.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1718,7 +1722,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89816B8F28A3F9E8000D7C8F /* 640.求解方程.cpp in Sources */,
+				89816B9128A546A3000D7C8F /* 1417.重新格式化字符串.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
