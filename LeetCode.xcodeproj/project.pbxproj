@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89816B9128A546A3000D7C8F /* 1417.重新格式化字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89816B9028A546A2000D7C8F /* 1417.重新格式化字符串.cpp */; };
-		89816B9328A546BD000D7C8F /* 1417.重新格式化字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89816B9228A546BD000D7C8F /* 1417.重新格式化字符串.swift */; };
+		89816B9528A6958D000D7C8F /* 1282.用户分组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89816B9428A6958D000D7C8F /* 1282.用户分组.swift */; };
+		89816B9728A6959B000D7C8F /* 1282.用户分组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89816B9628A6959B000D7C8F /* 1282.用户分组.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -564,6 +564,8 @@
 		89816B8E28A3F9E7000D7C8F /* 640.求解方程.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "640.求解方程.cpp"; path = "../../../../Downloads/640.求解方程.cpp"; sourceTree = "<group>"; };
 		89816B9028A546A2000D7C8F /* 1417.重新格式化字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1417.重新格式化字符串.cpp"; sourceTree = "<group>"; };
 		89816B9228A546BD000D7C8F /* 1417.重新格式化字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1417.重新格式化字符串.swift"; sourceTree = "<group>"; };
+		89816B9428A6958D000D7C8F /* 1282.用户分组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1282.用户分组.swift"; sourceTree = "<group>"; };
+		89816B9628A6959B000D7C8F /* 1282.用户分组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1282.用户分组.cpp"; sourceTree = "<group>"; };
 		8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "884.两句话中的不常见单词.swift"; sourceTree = "<group>"; };
 		89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "347.前-k-个高频元素.swift"; sourceTree = "<group>"; };
 		89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "451.根据字符出现频率排序.swift"; sourceTree = "<group>"; };
@@ -1031,6 +1033,7 @@
 				89E8F9A22795BEA600310336 /* 1220.统计元音字母序列的数目.swift */,
 				893D3CD2287DBDCF00732C88 /* 1252.奇数值单元格的数目.swift */,
 				893D3D0A28884B6E00732C88 /* 1260.二维网格迁移.swift */,
+				89816B9428A6958D000D7C8F /* 1282.用户分组.swift */,
 				8939CD85277F59A0009F0CEE /* 1296.划分数组为连续数字的集合.swift */,
 				89B7F06D281ECF5500F3498F /* 1305.两棵二叉搜索树中的所有元素.swift */,
 				89CC176D2892D910000EEDE8 /* 1331.数组序号转换.swift */,
@@ -1502,6 +1505,7 @@
 				8975E5B8281ED16B006F4F6A /* 1221.分割平衡字符串.cpp */,
 				893D3CD4287DBDDF00732C88 /* 1252.奇数值单元格的数目.cpp */,
 				893D3D0C28884B8000732C88 /* 1260.二维网格迁移.cpp */,
+				89816B9628A6959B000D7C8F /* 1282.用户分组.cpp */,
 				8975E5E9281ED174006F4F6A /* 1296.划分数组为连续数字的集合.cpp */,
 				8975E593281ED164006F4F6A /* 1305.两棵二叉搜索树中的所有元素.cpp */,
 				89CC176F2892D921000EEDE8 /* 1331.数组序号转换.cpp */,
@@ -1712,7 +1716,7 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				89816B9328A546BD000D7C8F /* 1417.重新格式化字符串.swift in Sources */,
+				89816B9528A6958D000D7C8F /* 1282.用户分组.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1721,8 +1725,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89816B9728A6959B000D7C8F /* 1282.用户分组.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89816B9128A546A3000D7C8F /* 1417.重新格式化字符串.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
