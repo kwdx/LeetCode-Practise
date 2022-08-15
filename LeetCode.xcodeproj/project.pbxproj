@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89816B9F28A93E14000D7C8F /* 1422.分割字符串的最大得分.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89816B9E28A93E14000D7C8F /* 1422.分割字符串的最大得分.cpp */; };
-		89816BA128A93E8E000D7C8F /* 1422.分割字符串的最大得分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89816BA028A93E8E000D7C8F /* 1422.分割字符串的最大得分.swift */; };
+		89816BA328AA8BA6000D7C8F /* 641.设计循环双端队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89816BA228AA8BA6000D7C8F /* 641.设计循环双端队列.swift */; };
+		89816BA528AA8BBA000D7C8F /* 641.设计循环双端队列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89816BA428AA8BBA000D7C8F /* 641.设计循环双端队列.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -570,6 +570,8 @@
 		89816B9C28A7F9DE000D7C8F /* 768.最多能完成排序的块-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "768.最多能完成排序的块-ii.cpp"; sourceTree = "<group>"; };
 		89816B9E28A93E14000D7C8F /* 1422.分割字符串的最大得分.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1422.分割字符串的最大得分.cpp"; sourceTree = "<group>"; };
 		89816BA028A93E8E000D7C8F /* 1422.分割字符串的最大得分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1422.分割字符串的最大得分.swift"; sourceTree = "<group>"; };
+		89816BA228AA8BA6000D7C8F /* 641.设计循环双端队列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "641.设计循环双端队列.swift"; sourceTree = "<group>"; };
+		89816BA428AA8BBA000D7C8F /* 641.设计循环双端队列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "641.设计循环双端队列.cpp"; sourceTree = "<group>"; };
 		8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "884.两句话中的不常见单词.swift"; sourceTree = "<group>"; };
 		89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "347.前-k-个高频元素.swift"; sourceTree = "<group>"; };
 		89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "451.根据字符出现频率排序.swift"; sourceTree = "<group>"; };
@@ -931,6 +933,7 @@
 				89D65EDE2768D73B00B855E3 /* 630.课程表-iii.swift */,
 				89816B7E289FA415000D7C8F /* 636.函数的独占时间.swift */,
 				89816B8C28A3F99C000D7C8F /* 640.求解方程.swift */,
+				89816BA228AA8BA6000D7C8F /* 641.设计循环双端队列.swift */,
 				898BC8E928772D4D00B04A33 /* 648.单词替换.swift */,
 				895A04CC27E8B97F00AB66B9 /* 653.两数之和-iv-输入-bst.swift */,
 				895A04D827ECC87100AB66B9 /* 661.图片平滑器.swift */,
@@ -1386,6 +1389,7 @@
 				8975E5DF281ED172006F4F6A /* 638.大礼包.cpp */,
 				8975E5BD281ED16C006F4F6A /* 639.解码方法-ii.cpp */,
 				89816B8E28A3F9E7000D7C8F /* 640.求解方程.cpp */,
+				89816BA428AA8BBA000D7C8F /* 641.设计循环双端队列.cpp */,
 				898BC8E728772D3500B04A33 /* 648.单词替换.cpp */,
 				8975E62E281ED180006F4F6A /* 650.只有两个键的键盘.cpp */,
 				8975E62F281ED181006F4F6A /* 652.寻找重复的子树.cpp */,
@@ -1724,8 +1728,8 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
-				89816BA128A93E8E000D7C8F /* 1422.分割字符串的最大得分.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				89816BA328AA8BA6000D7C8F /* 641.设计循环双端队列.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1733,8 +1737,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89816B9F28A93E14000D7C8F /* 1422.分割字符串的最大得分.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
+				89816BA528AA8BBA000D7C8F /* 641.设计循环双端队列.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
