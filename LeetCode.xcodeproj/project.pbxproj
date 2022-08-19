@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		898C36F728AE844B00C51192 /* 1224.最大相等频率.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898C36F628AE844B00C51192 /* 1224.最大相等频率.cpp */; };
-		898C36FA28AE845D00C51192 /* 1224.最大相等频率.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C36F828AE845B00C51192 /* 1224.最大相等频率.swift */; };
+		898C36FC28AFD43F00C51192 /* 1450.在既定时间做作业的学生人数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C36FB28AFD43F00C51192 /* 1450.在既定时间做作业的学生人数.swift */; };
+		898C36FE28AFD45100C51192 /* 1450.在既定时间做作业的学生人数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898C36FD28AFD45100C51192 /* 1450.在既定时间做作业的学生人数.cpp */; };
 		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -651,6 +651,8 @@
 		898C36F428AD330F00C51192 /* 1302.层数最深叶子节点的和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1302.层数最深叶子节点的和.cpp"; sourceTree = "<group>"; };
 		898C36F628AE844B00C51192 /* 1224.最大相等频率.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1224.最大相等频率.cpp"; sourceTree = "<group>"; };
 		898C36F828AE845B00C51192 /* 1224.最大相等频率.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1224.最大相等频率.swift"; sourceTree = "<group>"; };
+		898C36FB28AFD43F00C51192 /* 1450.在既定时间做作业的学生人数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1450.在既定时间做作业的学生人数.swift"; sourceTree = "<group>"; };
+		898C36FD28AFD45100C51192 /* 1450.在既定时间做作业的学生人数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1450.在既定时间做作业的学生人数.cpp"; sourceTree = "<group>"; };
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
 		898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "390.消除游戏.swift"; sourceTree = "<group>"; };
 		8992BF50275B2675007E107F /* 383.赎金信.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "383.赎金信.swift"; sourceTree = "<group>"; };
@@ -1067,6 +1069,7 @@
 				89816BA028A93E8E000D7C8F /* 1422.分割字符串的最大得分.swift */,
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
 				8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */,
+				898C36FB28AFD43F00C51192 /* 1450.在既定时间做作业的学生人数.swift */,
 				89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */,
 				89F7B9972785DAC1000326DC /* 1576.替换所有的问号.swift */,
 				89B070D227CD1F2B00DD7E68 /* 1601.最多可达成的换楼请求数目.swift */,
@@ -1547,6 +1550,7 @@
 				8975E634281ED182006F4F6A /* 1436.旅行终点站.cpp */,
 				8975E56C281ED15F006F4F6A /* 1446.连续字符.cpp */,
 				8975E588281ED163006F4F6A /* 1447.最简分数.cpp */,
+				898C36FD28AFD45100C51192 /* 1450.在既定时间做作业的学生人数.cpp */,
 				8975E57F281ED163006F4F6A /* 1480.一维数组的动态和.cpp */,
 				8975E645281ED184006F4F6A /* 1518.换酒问题.cpp */,
 				8975E59E281ED166006F4F6A /* 1576.替换所有的问号.cpp */,
@@ -1738,10 +1742,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898C36FC28AFD43F00C51192 /* 1450.在既定时间做作业的学生人数.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				898C36FA28AE845D00C51192 /* 1224.最大相等频率.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1749,7 +1753,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898C36F728AE844B00C51192 /* 1224.最大相等频率.cpp in Sources */,
+				898C36FE28AFD45100C51192 /* 1450.在既定时间做作业的学生人数.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
