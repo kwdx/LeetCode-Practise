@@ -93,20 +93,23 @@ func printTreeByLevel(_ root: TreeNode?) {
 }
 
 /// 按照层序遍历打印二叉树
-func getTreeByLevel(_ root: TreeNode?) -> [Int] {
-    var vals = [Int]()
-
+func getTreeByLevel(_ root: TreeNode?) -> [Int?] {
     guard root != nil else {
-        return vals
+        return []
     }
     var nodes = [root]
+    var vals = [Int?]()
     while !nodes.isEmpty {
-        let node = nodes.removeFirst()
-        if node != nil {
-            vals.append(node!.val)
-            nodes.append(node!.left)
-            nodes.append(node!.right)
+        if let node = nodes.removeFirst() {
+            vals.append(node.val)
+            nodes.append(node.left)
+            nodes.append(node.right)
+        } else {
+            vals.append(nil)
         }
+    }
+    while !vals.isEmpty, vals.last! == nil {
+        vals.removeLast()
     }
     return vals
 }
