@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		898C370A28B124F800C51192 /* 654.最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C370928B124F700C51192 /* 654.最大二叉树.swift */; };
-		898C370B28B1251B00C51192 /* 654.最大二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5C8281ED16E006F4F6A /* 654.最大二叉树.cpp */; };
-		899A76D82747F72E006DA530 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
+		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
+		89C47C3228B27216004FE194 /* 1455.检查单词是否为句中其他单词的前缀.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C47C3128B27216004FE194 /* 1455.检查单词是否为句中其他单词的前缀.swift */; };
+		89C47C3428B275F1004FE194 /* 1455.检查单词是否为句中其他单词的前缀.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C47C3328B275F1004FE194 /* 1455.检查单词是否为句中其他单词的前缀.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -750,6 +750,8 @@
 		89B7F06D281ECF5500F3498F /* 1305.两棵二叉搜索树中的所有元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1305.两棵二叉搜索树中的所有元素.swift"; sourceTree = "<group>"; };
 		89BC761B27A99A4500C140F9 /* 2000.反转单词前缀.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2000.反转单词前缀.swift"; sourceTree = "<group>"; };
 		89C3FC4C26D1ED8600C87257 /* sorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sorts.swift; sourceTree = "<group>"; };
+		89C47C3128B27216004FE194 /* 1455.检查单词是否为句中其他单词的前缀.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1455.检查单词是否为句中其他单词的前缀.swift"; sourceTree = "<group>"; };
+		89C47C3328B275F1004FE194 /* 1455.检查单词是否为句中其他单词的前缀.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1455.检查单词是否为句中其他单词的前缀.cpp"; sourceTree = "<group>"; };
 		89C84273274A081700A73FAB /* 559.n-叉树的最大深度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "559.n-叉树的最大深度.swift"; sourceTree = "<group>"; };
 		89C84275274A09F400A73FAB /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		89CC176D2892D910000EEDE8 /* 1331.数组序号转换.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1331.数组序号转换.swift"; sourceTree = "<group>"; };
@@ -1072,6 +1074,7 @@
 				89723787275A656900EBC5C5 /* 1446.连续字符.swift */,
 				8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */,
 				898C36FB28AFD43F00C51192 /* 1450.在既定时间做作业的学生人数.swift */,
+				89C47C3128B27216004FE194 /* 1455.检查单词是否为句中其他单词的前缀.swift */,
 				89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */,
 				89F7B9972785DAC1000326DC /* 1576.替换所有的问号.swift */,
 				89B070D227CD1F2B00DD7E68 /* 1601.最多可达成的换楼请求数目.swift */,
@@ -1553,6 +1556,7 @@
 				8975E56C281ED15F006F4F6A /* 1446.连续字符.cpp */,
 				8975E588281ED163006F4F6A /* 1447.最简分数.cpp */,
 				898C36FD28AFD45100C51192 /* 1450.在既定时间做作业的学生人数.cpp */,
+				89C47C3328B275F1004FE194 /* 1455.检查单词是否为句中其他单词的前缀.cpp */,
 				8975E57F281ED163006F4F6A /* 1480.一维数组的动态和.cpp */,
 				8975E645281ED184006F4F6A /* 1518.换酒问题.cpp */,
 				8975E59E281ED166006F4F6A /* 1576.替换所有的问号.cpp */,
@@ -1744,10 +1748,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898C370A28B124F800C51192 /* 654.最大二叉树.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				899A76D82747F72E006DA530 /* TreeNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				89C47C3228B27216004FE194 /* 1455.检查单词是否为句中其他单词的前缀.swift in Sources */,
+				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1755,8 +1759,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898C370B28B1251B00C51192 /* 654.最大二叉树.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
+				89C47C3428B275F1004FE194 /* 1455.检查单词是否为句中其他单词的前缀.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
