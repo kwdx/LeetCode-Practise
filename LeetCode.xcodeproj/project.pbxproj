@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
+		8985D78828B51DFD000E687D /* 782.变为棋盘.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8985D78728B51DFD000E687D /* 782.变为棋盘.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89920C8F28B3B8B20001143D /* 655.输出二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89920C8E28B3B8B20001143D /* 655.输出二叉树.swift */; };
-		89920C9128B3B8BD0001143D /* 655.输出二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89920C9028B3B8BD0001143D /* 655.输出二叉树.cpp */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -575,6 +575,7 @@
 		89816BA628ABCCEC000D7C8F /* 1656.设计有序流.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1656.设计有序流.cpp"; sourceTree = "<group>"; };
 		89816BA828ABCCFF000D7C8F /* 1656.设计有序流.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1656.设计有序流.swift"; sourceTree = "<group>"; };
 		8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "884.两句话中的不常见单词.swift"; sourceTree = "<group>"; };
+		8985D78728B51DFD000E687D /* 782.变为棋盘.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "782.变为棋盘.cpp"; sourceTree = "<group>"; };
 		89886F45272C5A7E003A626D /* 347.前-k-个高频元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "347.前-k-个高频元素.swift"; sourceTree = "<group>"; };
 		89886F47272C5DA1003A626D /* 451.根据字符出现频率排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "451.根据字符出现频率排序.swift"; sourceTree = "<group>"; };
 		89886F49272C5E42003A626D /* 36.有效的数独.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "36.有效的数独.swift"; sourceTree = "<group>"; };
@@ -1460,6 +1461,7 @@
 				89816B8428A153BD000D7C8F /* 761.特殊的二进制序列.cpp */,
 				8975E63D281ED183006F4F6A /* 762.二进制表示中质数个计算置位.cpp */,
 				89816B9C28A7F9DE000D7C8F /* 768.最多能完成排序的块-ii.cpp */,
+				8985D78728B51DFD000E687D /* 782.变为棋盘.cpp */,
 				8975E68C281ED18D006F4F6A /* 783.二叉搜索树节点最小距离.cpp */,
 				8975E669281ED189006F4F6A /* 786.第-k-个最小的素数分数.cpp */,
 				8975E61B281ED17D006F4F6A /* 794.有效的井字游戏.cpp */,
@@ -1764,7 +1766,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89920C9128B3B8BD0001143D /* 655.输出二叉树.cpp in Sources */,
+				8985D78828B51DFD000E687D /* 782.变为棋盘.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
