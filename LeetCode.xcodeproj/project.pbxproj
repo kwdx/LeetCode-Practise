@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		8985D78828B51DFD000E687D /* 782.变为棋盘.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8985D78728B51DFD000E687D /* 782.变为棋盘.cpp */; };
+		89544F3028B66FF700B60705 /* 1460.通过翻转子数组使两个数组相等.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89544F2F28B66FF600B60705 /* 1460.通过翻转子数组使两个数组相等.swift */; };
+		89544F3228B6700900B60705 /* 1460.通过翻转子数组使两个数组相等.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89544F3128B6700900B60705 /* 1460.通过翻转子数组使两个数组相等.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		89920C8F28B3B8B20001143D /* 655.输出二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89920C8E28B3B8B20001143D /* 655.输出二叉树.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -147,6 +147,8 @@
 		8953DFB927B2B55C00FB2C00 /* 1001.网格照明.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1001.网格照明.swift"; sourceTree = "<group>"; };
 		8953DFBF27B3FB3F00FB2C00 /* 2006.差的绝对值为-k-的数对数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2006.差的绝对值为-k-的数对数目.swift"; sourceTree = "<group>"; };
 		8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1447.最简分数.swift"; sourceTree = "<group>"; };
+		89544F2F28B66FF600B60705 /* 1460.通过翻转子数组使两个数组相等.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1460.通过翻转子数组使两个数组相等.swift"; sourceTree = "<group>"; };
+		89544F3128B6700900B60705 /* 1460.通过翻转子数组使两个数组相等.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1460.通过翻转子数组使两个数组相等.cpp"; sourceTree = "<group>"; };
 		89554F9A26BEDE7100FEDFF1 /* Swift_ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_; sourceTree = BUILT_PRODUCTS_DIR; };
 		89554FA226BEDED300FEDFF1 /* 322.零钱兑换.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "322.零钱兑换.swift"; sourceTree = "<group>"; };
 		89554FA326BEDED300FEDFF1 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -1079,6 +1081,7 @@
 				8953DFC127B5540200FB2C00 /* 1447.最简分数.swift */,
 				898C36FB28AFD43F00C51192 /* 1450.在既定时间做作业的学生人数.swift */,
 				89C47C3128B27216004FE194 /* 1455.检查单词是否为句中其他单词的前缀.swift */,
+				89544F2F28B66FF600B60705 /* 1460.通过翻转子数组使两个数组相等.swift */,
 				89E391E4276CD8DE0049A907 /* 1518.换酒问题.swift */,
 				89F7B9972785DAC1000326DC /* 1576.替换所有的问号.swift */,
 				89B070D227CD1F2B00DD7E68 /* 1601.最多可达成的换楼请求数目.swift */,
@@ -1563,6 +1566,7 @@
 				8975E588281ED163006F4F6A /* 1447.最简分数.cpp */,
 				898C36FD28AFD45100C51192 /* 1450.在既定时间做作业的学生人数.cpp */,
 				89C47C3328B275F1004FE194 /* 1455.检查单词是否为句中其他单词的前缀.cpp */,
+				89544F3128B6700900B60705 /* 1460.通过翻转子数组使两个数组相等.cpp */,
 				8975E57F281ED163006F4F6A /* 1480.一维数组的动态和.cpp */,
 				8975E645281ED184006F4F6A /* 1518.换酒问题.cpp */,
 				8975E59E281ED166006F4F6A /* 1576.替换所有的问号.cpp */,
@@ -1756,8 +1760,8 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				89544F3028B66FF700B60705 /* 1460.通过翻转子数组使两个数组相等.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
-				89920C8F28B3B8B20001143D /* 655.输出二叉树.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1766,7 +1770,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				8985D78828B51DFD000E687D /* 782.变为棋盘.cpp in Sources */,
+				89544F3228B6700900B60705 /* 1460.通过翻转子数组使两个数组相等.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
