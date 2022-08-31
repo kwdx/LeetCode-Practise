@@ -10,8 +10,8 @@
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89CA463528BE51BB00C9B5F2 /* 998.最大二叉树-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA463428BE51BB00C9B5F2 /* 998.最大二叉树-ii.swift */; };
-		89CA463728BE51C900C9B5F2 /* 998.最大二叉树-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CA463628BE51C900C9B5F2 /* 998.最大二叉树-ii.cpp */; };
+		89CA463928BFB80E00C9B5F2 /* 946.验证栈序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA463828BFB80E00C9B5F2 /* 946.验证栈序列.swift */; };
+		89CA463B28BFB81E00C9B5F2 /* 946.验证栈序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CA463A28BFB81E00C9B5F2 /* 946.验证栈序列.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -771,6 +771,8 @@
 		89CA463228BCF1A400C9B5F2 /* 1470.重新排列数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1470.重新排列数组.cpp"; sourceTree = "<group>"; };
 		89CA463428BE51BB00C9B5F2 /* 998.最大二叉树-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "998.最大二叉树-ii.swift"; sourceTree = "<group>"; };
 		89CA463628BE51C900C9B5F2 /* 998.最大二叉树-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "998.最大二叉树-ii.cpp"; sourceTree = "<group>"; };
+		89CA463828BFB80E00C9B5F2 /* 946.验证栈序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "946.验证栈序列.swift"; sourceTree = "<group>"; };
+		89CA463A28BFB81E00C9B5F2 /* 946.验证栈序列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "946.验证栈序列.cpp"; sourceTree = "<group>"; };
 		89CC176D2892D910000EEDE8 /* 1331.数组序号转换.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1331.数组序号转换.swift"; sourceTree = "<group>"; };
 		89CC176F2892D921000EEDE8 /* 1331.数组序号转换.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1331.数组序号转换.cpp"; sourceTree = "<group>"; };
 		89D44118277823E0006B0055 /* 1078.bigram-分词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1078.bigram-分词.swift"; sourceTree = "<group>"; };
@@ -1042,6 +1044,7 @@
 				894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */,
 				894F525E28294F0700EA6C32 /* 942.增减字符串匹配.swift */,
 				89951E7A282D52B300B98F5D /* 944.删列造序.swift */,
+				89CA463828BFB80E00C9B5F2 /* 946.验证栈序列.swift */,
 				8937DD562895093C00D9624C /* 952.按公因数计算最大组件大小.swift */,
 				8923BB9B2833EB300034AA0D /* 953.验证外星语词典.swift */,
 				891A3A8727F74DEE0003D731 /* 954.二倍数对数组.swift */,
@@ -1524,6 +1527,7 @@
 				8975E633281ED181006F4F6A /* 938.二叉搜索树的范围和.cpp */,
 				894F525C28294A4100EA6C32 /* 942.增减字符串匹配.cpp */,
 				89951E78282D527E00B98F5D /* 944.删列造序.cpp */,
+				89CA463A28BFB81E00C9B5F2 /* 946.验证栈序列.cpp */,
 				8937DD582895099700D9624C /* 952.按公因数计算最大组件大小.cpp */,
 				8923BB9D2833EB970034AA0D /* 953.验证外星语词典.cpp */,
 				8975E695281ED18F006F4F6A /* 954.二倍数对数组.cpp */,
@@ -1783,8 +1787,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				89CA463528BE51BB00C9B5F2 /* 998.最大二叉树-ii.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				89CA463928BFB80E00C9B5F2 /* 946.验证栈序列.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1793,8 +1797,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89CA463B28BFB81E00C9B5F2 /* 946.验证栈序列.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89CA463728BE51C900C9B5F2 /* 998.最大二叉树-ii.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
