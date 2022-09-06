@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		898E959928C4EB8C00CBDDFE /* 1582.二进制矩阵中的特殊位置.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898E959828C4EB8C00CBDDFE /* 1582.二进制矩阵中的特殊位置.cpp */; };
-		898E959B28C4EC7300CBDDFE /* 1582.二进制矩阵中的特殊位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E959A28C4EC7200CBDDFE /* 1582.二进制矩阵中的特殊位置.swift */; };
+		89A928DC28C795060031B4BE /* 828.统计子串中的唯一字符.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A928DB28C795060031B4BE /* 828.统计子串中的唯一字符.cpp */; };
+		89A928DE28C795160031B4BE /* 828.统计子串中的唯一字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A928DD28C795160031B4BE /* 828.统计子串中的唯一字符.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -701,6 +701,9 @@
 		89A899AA27DA4A9C00A7A6D1 /* 589.n-叉树的前序遍历.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "589.n-叉树的前序遍历.swift"; sourceTree = "<group>"; };
 		89A899AB27DA4A9C00A7A6D1 /* 590.n-叉树的后序遍历.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "590.n-叉树的后序遍历.swift"; sourceTree = "<group>"; };
 		89A899B727DB93E200A7A6D1 /* 2049.统计最高分的节点数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2049.统计最高分的节点数目.swift"; sourceTree = "<group>"; };
+		89A928A528C655EC0031B4BE /* 652.寻找重复的子树.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "652.寻找重复的子树.swift"; sourceTree = "<group>"; };
+		89A928DB28C795060031B4BE /* 828.统计子串中的唯一字符.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "828.统计子串中的唯一字符.cpp"; sourceTree = "<group>"; };
+		89A928DD28C795160031B4BE /* 828.统计子串中的唯一字符.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "828.统计子串中的唯一字符.swift"; sourceTree = "<group>"; };
 		89A955B127D3B873003B556A /* 521.最长特殊序列-ⅰ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "521.最长特殊序列-ⅰ.swift"; sourceTree = "<group>"; };
 		89A955B727D504AD003B556A /* 2100.适合打劫银行的日子.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2100.适合打劫银行的日子.swift"; sourceTree = "<group>"; };
 		89AB11942839418C00574DB4 /* 961.在长度-2-n-的数组中找出重复-n-次的元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "961.在长度-2-n-的数组中找出重复-n-次的元素.swift"; sourceTree = "<group>"; };
@@ -974,6 +977,7 @@
 				89816BA228AA8BA6000D7C8F /* 641.设计循环双端队列.swift */,
 				898E955028C3557300CBDDFE /* 646.最长数对链.swift */,
 				898BC8E928772D4D00B04A33 /* 648.单词替换.swift */,
+				89A928A528C655EC0031B4BE /* 652.寻找重复的子树.swift */,
 				895A04CC27E8B97F00AB66B9 /* 653.两数之和-iv-输入-bst.swift */,
 				898C370928B124F700C51192 /* 654.最大二叉树.swift */,
 				89920C8E28B3B8B20001143D /* 655.输出二叉树.swift */,
@@ -1029,6 +1033,7 @@
 				89E1BE45281D893D009176A4 /* 821.字符的最短距离.swift */,
 				89E1BE44281D893C009176A4 /* 824.山羊拉丁文.swift */,
 				8939CD86277F59A0009F0CEE /* 825.适龄的朋友.swift */,
+				89A928DD28C795160031B4BE /* 828.统计子串中的唯一字符.swift */,
 				89AFB1D5284A4B9200760FC7 /* 829.连续整数求和.swift */,
 				89955FA827C3C75900E03BC0 /* 838.推多米诺.swift */,
 				8939CD83277F59A0009F0CEE /* 846.一手顺子.swift */,
@@ -1512,6 +1517,7 @@
 				8923BB972830C53B0034AA0D /* 812.最大三角形面积.cpp */,
 				893D3D1028899CC000732C88 /* 814.二叉树剪枝.cpp */,
 				8975E6B7281ED193006F4F6A /* 825.适龄的朋友.cpp */,
+				89A928DB28C795060031B4BE /* 828.统计子串中的唯一字符.cpp */,
 				89AFB1D8284A4BED00760FC7 /* 829.连续整数求和.cpp */,
 				8975E6BC281ED194006F4F6A /* 838.推多米诺.cpp */,
 				8975E6A5281ED191006F4F6A /* 846.一手顺子.cpp */,
@@ -1802,9 +1808,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A928DE28C795160031B4BE /* 828.统计子串中的唯一字符.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				898E959B28C4EC7300CBDDFE /* 1582.二进制矩阵中的特殊位置.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1813,8 +1819,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A928DC28C795060031B4BE /* 828.统计子串中的唯一字符.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				898E959928C4EB8C00CBDDFE /* 1582.二进制矩阵中的特殊位置.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
