@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		89A928E028C8EBFD0031B4BE /* 1592.重新排列单词间的空格.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A928DF28C8EBFD0031B4BE /* 1592.重新排列单词间的空格.cpp */; };
-		89A928E228C8EC0F0031B4BE /* 1592.重新排列单词间的空格.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A928E128C8EC0F0031B4BE /* 1592.重新排列单词间的空格.swift */; };
+		89A928E428CA3A880031B4BE /* 667.优美的排列-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A928E328CA3A880031B4BE /* 667.优美的排列-ii.swift */; };
+		89A928E628CA3A950031B4BE /* 667.优美的排列-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A928E528CA3A950031B4BE /* 667.优美的排列-ii.cpp */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -706,6 +706,8 @@
 		89A928DD28C795160031B4BE /* 828.统计子串中的唯一字符.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "828.统计子串中的唯一字符.swift"; sourceTree = "<group>"; };
 		89A928DF28C8EBFD0031B4BE /* 1592.重新排列单词间的空格.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1592.重新排列单词间的空格.cpp"; sourceTree = "<group>"; };
 		89A928E128C8EC0F0031B4BE /* 1592.重新排列单词间的空格.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1592.重新排列单词间的空格.swift"; sourceTree = "<group>"; };
+		89A928E328CA3A880031B4BE /* 667.优美的排列-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "667.优美的排列-ii.swift"; sourceTree = "<group>"; };
+		89A928E528CA3A950031B4BE /* 667.优美的排列-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "667.优美的排列-ii.cpp"; sourceTree = "<group>"; };
 		89A955B127D3B873003B556A /* 521.最长特殊序列-ⅰ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "521.最长特殊序列-ⅰ.swift"; sourceTree = "<group>"; };
 		89A955B727D504AD003B556A /* 2100.适合打劫银行的日子.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2100.适合打劫银行的日子.swift"; sourceTree = "<group>"; };
 		89AB11942839418C00574DB4 /* 961.在长度-2-n-的数组中找出重复-n-次的元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "961.在长度-2-n-的数组中找出重复-n-次的元素.swift"; sourceTree = "<group>"; };
@@ -986,6 +988,7 @@
 				89544F3328B7C5F300B60705 /* 658.找到-k-个最接近的元素.swift */,
 				895A04D827ECC87100AB66B9 /* 661.图片平滑器.swift */,
 				89C4633028BA5FA3000D9788 /* 662.二叉树最大宽度.swift */,
+				89A928E328CA3A880031B4BE /* 667.优美的排列-ii.swift */,
 				892C1003283539E000470959 /* 668.乘法表中第k小的数.swift */,
 				89AB11A0283BCEF200574DB4 /* 675.为高尔夫比赛砍树.swift */,
 				893D3CCE287C5D2A00732C88 /* 676.实现一个魔法字典.swift */,
@@ -1465,6 +1468,7 @@
 				89544F3528B7C60600B60705 /* 658.找到-k-个最接近的元素.cpp */,
 				8975E5E4281ED173006F4F6A /* 661.图片平滑器.cpp */,
 				89C4633228BA603D000D9788 /* 662.二叉树最大宽度.cpp */,
+				89A928E528CA3A950031B4BE /* 667.优美的排列-ii.cpp */,
 				892C1005283539F300470959 /* 668.乘法表中第k小的数.cpp */,
 				8975E5D8281ED171006F4F6A /* 673.最长递增子序列的个数.cpp */,
 				89AB11A2283BCF0700574DB4 /* 675.为高尔夫比赛砍树.cpp */,
@@ -1812,8 +1816,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A928E428CA3A880031B4BE /* 667.优美的排列-ii.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				89A928E228C8EC0F0031B4BE /* 1592.重新排列单词间的空格.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
@@ -1823,8 +1827,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A928E628CA3A950031B4BE /* 667.优美的排列-ii.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89A928E028C8EBFD0031B4BE /* 1592.重新排列单词间的空格.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
