@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		89A928EC28CB9C670031B4BE /* 669.修剪二叉搜索树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89A928EB28CB9C670031B4BE /* 669.修剪二叉搜索树.cpp */; };
-		89A928EE28CBA1380031B4BE /* 669.修剪二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A928ED28CBA1380031B4BE /* 669.修剪二叉搜索树.swift */; };
+		899155A928CF4ED500028726 /* 1608.特殊数组的特征值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899155A828CF4ED500028726 /* 1608.特殊数组的特征值.swift */; };
+		899155AB28CF4F4800028726 /* 1608.特殊数组的特征值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 899155AA28CF4F4800028726 /* 1608.特殊数组的特征值.cpp */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -668,6 +668,9 @@
 		898E959A28C4EC7200CBDDFE /* 1582.二进制矩阵中的特殊位置.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1582.二进制矩阵中的特殊位置.swift"; sourceTree = "<group>"; };
 		898F44A42737DBDC0051A08C /* 598.范围求和-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "598.范围求和-ii.swift"; sourceTree = "<group>"; };
 		898F4E6B27815C3E00A89BD8 /* 390.消除游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "390.消除游戏.swift"; sourceTree = "<group>"; };
+		8991558628CE1BB800028726 /* 857.雇佣-k-名工人的最低成本.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "857.雇佣-k-名工人的最低成本.cpp"; sourceTree = "<group>"; };
+		899155A828CF4ED500028726 /* 1608.特殊数组的特征值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1608.特殊数组的特征值.swift"; sourceTree = "<group>"; };
+		899155AA28CF4F4800028726 /* 1608.特殊数组的特征值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1608.特殊数组的特征值.cpp"; sourceTree = "<group>"; };
 		89920C8E28B3B8B20001143D /* 655.输出二叉树.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "655.输出二叉树.swift"; sourceTree = "<group>"; };
 		89920C9028B3B8BD0001143D /* 655.输出二叉树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "655.输出二叉树.cpp"; sourceTree = "<group>"; };
 		8992BF50275B2675007E107F /* 383.赎金信.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "383.赎金信.swift"; sourceTree = "<group>"; };
@@ -1136,6 +1139,7 @@
 				89A928E728CB9B450031B4BE /* 1598.文件夹操作日志搜集器.swift */,
 				89B070D227CD1F2B00DD7E68 /* 1601.最多可达成的换楼请求数目.swift */,
 				892023D627F4A25C00F3C7E2 /* 1606.找到处理最多请求的服务器.swift */,
+				899155A828CF4ED500028726 /* 1608.特殊数组的特征值.swift */,
 				8973552327776F7E0034C87A /* 1609.奇偶树.swift */,
 				89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */,
 				89B48624278883B500A6930A /* 1614.括号的最大嵌套深度.swift */,
@@ -1537,6 +1541,7 @@
 				8975E6A5281ED191006F4F6A /* 846.一手顺子.cpp */,
 				8975E5C3281ED16D006F4F6A /* 851.喧闹和富有.cpp */,
 				8975E660281ED188006F4F6A /* 856.括号的分数.cpp */,
+				8991558628CE1BB800028726 /* 857.雇佣-k-名工人的最低成本.cpp */,
 				8975E5CC281ED16F006F4F6A /* 859.亲密字符串.cpp */,
 				8975E57B281ED162006F4F6A /* 869.重新排序得到-2-的幂.cpp */,
 				8975E636281ED182006F4F6A /* 870.优势洗牌.cpp */,
@@ -1638,6 +1643,7 @@
 				89A928E928CB9BB20031B4BE /* 1598.文件夹操作日志搜集器.cpp */,
 				8975E5BE281ED16C006F4F6A /* 1601.最多可达成的换楼请求数目.cpp */,
 				8975E638281ED182006F4F6A /* 1606.找到处理最多请求的服务器.cpp */,
+				899155AA28CF4F4800028726 /* 1608.特殊数组的特征值.cpp */,
 				8975E65D281ED187006F4F6A /* 1609.奇偶树.cpp */,
 				8975E6AD281ED192006F4F6A /* 1610.可见点的最大数目.cpp */,
 				8975E5B9281ED16B006F4F6A /* 1614.括号的最大嵌套深度.cpp */,
@@ -1824,8 +1830,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899155A928CF4ED500028726 /* 1608.特殊数组的特征值.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				89A928EE28CBA1380031B4BE /* 669.修剪二叉搜索树.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
@@ -1835,8 +1841,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A928EC28CB9C670031B4BE /* 669.修剪二叉搜索树.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
+				899155AB28CF4F4800028726 /* 1608.特殊数组的特征值.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
