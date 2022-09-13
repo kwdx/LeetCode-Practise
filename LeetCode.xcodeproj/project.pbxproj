@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		899155A928CF4ED500028726 /* 1608.特殊数组的特征值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899155A828CF4ED500028726 /* 1608.特殊数组的特征值.swift */; };
-		899155AB28CF4F4800028726 /* 1608.特殊数组的特征值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 899155AA28CF4F4800028726 /* 1608.特殊数组的特征值.cpp */; };
+		899A92D928D0CF0D00849747 /* 670.最大交换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A92D828D0CF0D00849747 /* 670.最大交换.swift */; };
+		899A92DB28D0CF1F00849747 /* 670.最大交换.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 899A92DA28D0CF1F00849747 /* 670.最大交换.cpp */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -690,6 +690,8 @@
 		899A76D52747F710006DA530 /* 563.二叉树的坡度-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "563.二叉树的坡度-2.swift"; sourceTree = "<group>"; };
 		899A76D72747F72E006DA530 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		899A76D92747F753006DA530 /* 397.整数替换.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "397.整数替换.swift"; sourceTree = "<group>"; };
+		899A92D828D0CF0D00849747 /* 670.最大交换.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "670.最大交换.swift"; sourceTree = "<group>"; };
+		899A92DA28D0CF1F00849747 /* 670.最大交换.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "670.最大交换.cpp"; sourceTree = "<group>"; };
 		899B1524283D1C180040D36D /* 965.单值二叉树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "965.单值二叉树.cpp"; sourceTree = "<group>"; };
 		899B1526283D1C4D0040D36D /* 965.单值二叉树.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "965.单值二叉树.swift"; sourceTree = "<group>"; };
 		899EF52727395E5700CCB02F /* 299.猜数字游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "299.猜数字游戏.swift"; sourceTree = "<group>"; };
@@ -998,6 +1000,7 @@
 				89A928E328CA3A880031B4BE /* 667.优美的排列-ii.swift */,
 				892C1003283539E000470959 /* 668.乘法表中第k小的数.swift */,
 				89A928ED28CBA1380031B4BE /* 669.修剪二叉搜索树.swift */,
+				899A92D828D0CF0D00849747 /* 670.最大交换.swift */,
 				89AB11A0283BCEF200574DB4 /* 675.为高尔夫比赛砍树.swift */,
 				893D3CCE287C5D2A00732C88 /* 676.实现一个魔法字典.swift */,
 				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
@@ -1481,6 +1484,7 @@
 				89A928E528CA3A950031B4BE /* 667.优美的排列-ii.cpp */,
 				892C1005283539F300470959 /* 668.乘法表中第k小的数.cpp */,
 				89A928EB28CB9C670031B4BE /* 669.修剪二叉搜索树.cpp */,
+				899A92DA28D0CF1F00849747 /* 670.最大交换.cpp */,
 				8975E5D8281ED171006F4F6A /* 673.最长递增子序列的个数.cpp */,
 				89AB11A2283BCF0700574DB4 /* 675.为高尔夫比赛砍树.cpp */,
 				893D3CD0287C5D3F00732C88 /* 676.实现一个魔法字典.cpp */,
@@ -1830,8 +1834,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899155A928CF4ED500028726 /* 1608.特殊数组的特征值.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				899A92D928D0CF0D00849747 /* 670.最大交换.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
@@ -1842,7 +1846,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				899155AB28CF4F4800028726 /* 1608.特殊数组的特征值.cpp in Sources */,
+				899A92DB28D0CF1F00849747 /* 670.最大交换.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
