@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
-		899A92DD28D21FBB00849747 /* 1619.删除某些元素后的数组均值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 899A92DC28D21FBB00849747 /* 1619.删除某些元素后的数组均值.cpp */; };
-		899A92DF28D21FCB00849747 /* 1619.删除某些元素后的数组均值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A92DE28D21FCB00849747 /* 1619.删除某些元素后的数组均值.swift */; };
+		899A92E128D3734700849747 /* 672.灯泡开关-ⅱ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A92E028D3734700849747 /* 672.灯泡开关-ⅱ.swift */; };
+		899A92E328D3735400849747 /* 672.灯泡开关-ⅱ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 899A92E228D3735400849747 /* 672.灯泡开关-ⅱ.cpp */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
@@ -694,6 +694,8 @@
 		899A92DA28D0CF1F00849747 /* 670.最大交换.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "670.最大交换.cpp"; sourceTree = "<group>"; };
 		899A92DC28D21FBB00849747 /* 1619.删除某些元素后的数组均值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1619.删除某些元素后的数组均值.cpp"; sourceTree = "<group>"; };
 		899A92DE28D21FCB00849747 /* 1619.删除某些元素后的数组均值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1619.删除某些元素后的数组均值.swift"; sourceTree = "<group>"; };
+		899A92E028D3734700849747 /* 672.灯泡开关-ⅱ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "672.灯泡开关-ⅱ.swift"; sourceTree = "<group>"; };
+		899A92E228D3735400849747 /* 672.灯泡开关-ⅱ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "672.灯泡开关-ⅱ.cpp"; sourceTree = "<group>"; };
 		899B1524283D1C180040D36D /* 965.单值二叉树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "965.单值二叉树.cpp"; sourceTree = "<group>"; };
 		899B1526283D1C4D0040D36D /* 965.单值二叉树.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "965.单值二叉树.swift"; sourceTree = "<group>"; };
 		899EF52727395E5700CCB02F /* 299.猜数字游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "299.猜数字游戏.swift"; sourceTree = "<group>"; };
@@ -1003,6 +1005,7 @@
 				892C1003283539E000470959 /* 668.乘法表中第k小的数.swift */,
 				89A928ED28CBA1380031B4BE /* 669.修剪二叉搜索树.swift */,
 				899A92D828D0CF0D00849747 /* 670.最大交换.swift */,
+				899A92E028D3734700849747 /* 672.灯泡开关-ⅱ.swift */,
 				89AB11A0283BCEF200574DB4 /* 675.为高尔夫比赛砍树.swift */,
 				893D3CCE287C5D2A00732C88 /* 676.实现一个魔法字典.swift */,
 				890E883F2740CB8C0073633B /* 677.键值映射.swift */,
@@ -1488,6 +1491,7 @@
 				892C1005283539F300470959 /* 668.乘法表中第k小的数.cpp */,
 				89A928EB28CB9C670031B4BE /* 669.修剪二叉搜索树.cpp */,
 				899A92DA28D0CF1F00849747 /* 670.最大交换.cpp */,
+				899A92E228D3735400849747 /* 672.灯泡开关-ⅱ.cpp */,
 				8975E5D8281ED171006F4F6A /* 673.最长递增子序列的个数.cpp */,
 				89AB11A2283BCF0700574DB4 /* 675.为高尔夫比赛砍树.cpp */,
 				893D3CD0287C5D3F00732C88 /* 676.实现一个魔法字典.cpp */,
@@ -1838,10 +1842,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899A92DF28D21FCB00849747 /* 1619.删除某些元素后的数组均值.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
+				899A92E128D3734700849747 /* 672.灯泡开关-ⅱ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1849,8 +1853,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899A92DD28D21FBB00849747 /* 1619.删除某些元素后的数组均值.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
+				899A92E328D3735400849747 /* 672.灯泡开关-ⅱ.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
