@@ -11,8 +11,8 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
-		89FDD5EE28D609D0000B124A /* 1624.两个相同字符之间的最长子字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89FDD5ED28D609D0000B124A /* 1624.两个相同字符之间的最长子字符串.cpp */; };
-		89FDD5F028D60A38000B124A /* 1624.两个相同字符之间的最长子字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FDD5EF28D60A38000B124A /* 1624.两个相同字符之间的最长子字符串.swift */; };
+		89FDD5F228D76310000B124A /* 827.最大人工岛.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FDD5F128D76310000B124A /* 827.最大人工岛.swift */; };
+		89FDD5F428D76389000B124A /* 827.最大人工岛.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89FDD5F328D76388000B124A /* 827.最大人工岛.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -854,6 +854,8 @@
 		89FA69B8273EC786005D1B5D /* 375.猜数字大小-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "375.猜数字大小-ii.swift"; sourceTree = "<group>"; };
 		89FDD5ED28D609D0000B124A /* 1624.两个相同字符之间的最长子字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1624.两个相同字符之间的最长子字符串.cpp"; sourceTree = "<group>"; };
 		89FDD5EF28D60A38000B124A /* 1624.两个相同字符之间的最长子字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1624.两个相同字符之间的最长子字符串.swift"; sourceTree = "<group>"; };
+		89FDD5F128D76310000B124A /* 827.最大人工岛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "827.最大人工岛.swift"; sourceTree = "<group>"; };
+		89FDD5F328D76388000B124A /* 827.最大人工岛.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "827.最大人工岛.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1057,6 +1059,7 @@
 				89E1BE45281D893D009176A4 /* 821.字符的最短距离.swift */,
 				89E1BE44281D893C009176A4 /* 824.山羊拉丁文.swift */,
 				8939CD86277F59A0009F0CEE /* 825.适龄的朋友.swift */,
+				89FDD5F128D76310000B124A /* 827.最大人工岛.swift */,
 				89A928DD28C795160031B4BE /* 828.统计子串中的唯一字符.swift */,
 				89AFB1D5284A4B9200760FC7 /* 829.连续整数求和.swift */,
 				89955FA827C3C75900E03BC0 /* 838.推多米诺.swift */,
@@ -1550,6 +1553,7 @@
 				8923BB972830C53B0034AA0D /* 812.最大三角形面积.cpp */,
 				893D3D1028899CC000732C88 /* 814.二叉树剪枝.cpp */,
 				8975E6B7281ED193006F4F6A /* 825.适龄的朋友.cpp */,
+				89FDD5F328D76388000B124A /* 827.最大人工岛.cpp */,
 				89A928DB28C795060031B4BE /* 828.统计子串中的唯一字符.cpp */,
 				89AFB1D8284A4BED00760FC7 /* 829.连续整数求和.cpp */,
 				8975E6BC281ED194006F4F6A /* 838.推多米诺.cpp */,
@@ -1848,10 +1852,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89FDD5F028D60A38000B124A /* 1624.两个相同字符之间的最长子字符串.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
+				89FDD5F228D76310000B124A /* 827.最大人工岛.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1860,7 +1864,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89FDD5EE28D609D0000B124A /* 1624.两个相同字符之间的最长子字符串.cpp in Sources */,
+				89FDD5F428D76389000B124A /* 827.最大人工岛.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
