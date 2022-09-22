@@ -11,8 +11,8 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
-		89FDD5F228D76310000B124A /* 827.最大人工岛.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FDD5F128D76310000B124A /* 827.最大人工岛.swift */; };
-		89FDD5F428D76389000B124A /* 827.最大人工岛.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89FDD5F328D76388000B124A /* 827.最大人工岛.cpp */; };
+		89DCE48228DBE9DD00F7FD48 /* 1640.能否连接形成数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DCE47A28DBE73100F7FD48 /* 1640.能否连接形成数组.swift */; };
+		89DCE48928DBEA1E00F7FD48 /* 1640.能否连接形成数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89DCE47828DBE65900F7FD48 /* 1640.能否连接形成数组.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -810,6 +810,14 @@
 		89D65EE02768D97200B855E3 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		89D82E7527F9EC7400EA9A92 /* 744.寻找比目标字母大的最小字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "744.寻找比目标字母大的最小字母.swift"; sourceTree = "<group>"; };
 		89D82E7727FAEA6D00EA9A92 /* 307.区域和检索-数组可修改.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "307.区域和检索-数组可修改.swift"; sourceTree = "<group>"; };
+		89DCE47828DBE65900F7FD48 /* 1640.能否连接形成数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1640.能否连接形成数组.cpp"; sourceTree = "<group>"; };
+		89DCE47A28DBE73100F7FD48 /* 1640.能否连接形成数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1640.能否连接形成数组.swift"; sourceTree = "<group>"; };
+		89DCE47C28DBE9BB00F7FD48 /* 698.划分为k个相等的子集.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "698.划分为k个相等的子集.swift"; sourceTree = "<group>"; };
+		89DCE47E28DBE9C800F7FD48 /* 854.相似度为-k-的字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "854.相似度为-k-的字符串.swift"; sourceTree = "<group>"; };
+		89DCE48028DBE9D500F7FD48 /* 1636.按照频率将数组升序排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1636.按照频率将数组升序排序.swift"; sourceTree = "<group>"; };
+		89DCE48328DBE9E900F7FD48 /* 698.划分为k个相等的子集.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "698.划分为k个相等的子集.cpp"; sourceTree = "<group>"; };
+		89DCE48528DBE9F800F7FD48 /* 854.相似度为-k-的字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "854.相似度为-k-的字符串.cpp"; sourceTree = "<group>"; };
+		89DCE48728DBEA0400F7FD48 /* 1636.按照频率将数组升序排序.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1636.按照频率将数组升序排序.cpp"; sourceTree = "<group>"; };
 		89E1BCD9281D8570009176A4 /* 908.最小差值-i.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "908.最小差值-i.swift"; sourceTree = "<group>"; };
 		89E1BE3D281D893A009176A4 /* 819.最常见的单词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "819.最常见的单词.swift"; sourceTree = "<group>"; };
 		89E1BE3E281D893A009176A4 /* 357.计算各个位数不同的数字个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "357.计算各个位数不同的数字个数.swift"; sourceTree = "<group>"; };
@@ -1021,6 +1029,7 @@
 				89943B412760F48C002F1171 /* 689.三个无重叠子数组的最大和.swift */,
 				89A12CE9282FFDCC000B7192 /* 691.贴纸拼词.swift */,
 				892023CE27F1E30100F3C7E2 /* 693.交替位二进制数.swift */,
+				89DCE47C28DBE9BB00F7FD48 /* 698.划分为k个相等的子集.swift */,
 				89AFB1A0283FBF0600760FC7 /* 699.掉落的方块.swift */,
 				89AE78A32751E7D600598666 /* 700.二叉搜索树中的搜索.swift */,
 				89B69A182765FEEC004A2892 /* 709.转换成小写字母.swift */,
@@ -1065,6 +1074,7 @@
 				89955FA827C3C75900E03BC0 /* 838.推多米诺.swift */,
 				8939CD83277F59A0009F0CEE /* 846.一手顺子.swift */,
 				89B0B689276A2D0000A10203 /* 851.喧闹和富有.swift */,
+				89DCE47E28DBE9C800F7FD48 /* 854.相似度为-k-的字符串.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
 				89AE78A42751E7D600598666 /* 859.亲密字符串.swift */,
 				89E1BE42281D893C009176A4 /* 868.二进制间距.swift */,
@@ -1160,6 +1170,8 @@
 				899A92DE28D21FCB00849747 /* 1619.删除某些元素后的数组均值.swift */,
 				89FDD5EF28D60A38000B124A /* 1624.两个相同字符之间的最长子字符串.swift */,
 				89B4862C278A9E8B00A6930A /* 1629.按键持续时间最长的键.swift */,
+				89DCE48028DBE9D500F7FD48 /* 1636.按照频率将数组升序排序.swift */,
+				89DCE47A28DBE73100F7FD48 /* 1640.能否连接形成数组.swift */,
 				89816BA828ABCCFF000D7C8F /* 1656.设计有序流.swift */,
 				89E1BE49281D893E009176A4 /* 1672.最富有客户的资产总量.swift */,
 				89EDAC5F27A0459200BA4246 /* 1688.比赛中的配对次数.swift */,
@@ -1511,6 +1523,7 @@
 				8975E63C281ED183006F4F6A /* 689.三个无重叠子数组的最大和.cpp */,
 				89A12CEB282FFDEF000B7192 /* 691.贴纸拼词.cpp */,
 				8975E5A2281ED167006F4F6A /* 693.交替位二进制数.cpp */,
+				89DCE48328DBE9E900F7FD48 /* 698.划分为k个相等的子集.cpp */,
 				89AFB1A4283FBF1A00760FC7 /* 699.掉落的方块.cpp */,
 				8975E5E8281ED174006F4F6A /* 700.二叉搜索树中的搜索.cpp */,
 				8975E5D2281ED170006F4F6A /* 701.二叉搜索树中的插入操作.cpp */,
@@ -1560,6 +1573,7 @@
 				8975E6A5281ED191006F4F6A /* 846.一手顺子.cpp */,
 				89938F3528D4CBA60013BBEF /* 850.矩形面积-ii.cpp */,
 				8975E5C3281ED16D006F4F6A /* 851.喧闹和富有.cpp */,
+				89DCE48528DBE9F800F7FD48 /* 854.相似度为-k-的字符串.cpp */,
 				8975E660281ED188006F4F6A /* 856.括号的分数.cpp */,
 				8991558628CE1BB800028726 /* 857.雇佣-k-名工人的最低成本.cpp */,
 				8975E5CC281ED16F006F4F6A /* 859.亲密字符串.cpp */,
@@ -1670,6 +1684,8 @@
 				899A92DC28D21FBB00849747 /* 1619.删除某些元素后的数组均值.cpp */,
 				89FDD5ED28D609D0000B124A /* 1624.两个相同字符之间的最长子字符串.cpp */,
 				8975E56D281ED15F006F4F6A /* 1629.按键持续时间最长的键.cpp */,
+				89DCE48728DBEA0400F7FD48 /* 1636.按照频率将数组升序排序.cpp */,
+				89DCE47828DBE65900F7FD48 /* 1640.能否连接形成数组.cpp */,
 				89816BA628ABCCEC000D7C8F /* 1656.设计有序流.cpp */,
 				8975E5DC281ED172006F4F6A /* 1688.比赛中的配对次数.cpp */,
 				8975E5A7281ED168006F4F6A /* 1705.吃苹果的最大数目.cpp */,
@@ -1855,7 +1871,7 @@
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
-				89FDD5F228D76310000B124A /* 827.最大人工岛.swift in Sources */,
+				89DCE48228DBE9DD00F7FD48 /* 1640.能否连接形成数组.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1864,7 +1880,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89FDD5F428D76389000B124A /* 827.最大人工岛.cpp in Sources */,
+				89DCE48928DBEA1E00F7FD48 /* 1640.能否连接形成数组.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
