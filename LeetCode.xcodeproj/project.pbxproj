@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		8969EDDA28E1E74A00A0D6EF /* 17.19.消失的两个数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8969EDD928E1E74A00A0D6EF /* 17.19.消失的两个数字.cpp */; };
-		8969EDDC28E1E79A00A0D6EF /* 17.19.消失的两个数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969EDDB28E1E79A00A0D6EF /* 17.19.消失的两个数字.swift */; };
+		8969EDDE28E33C0E00A0D6EF /* 01.02.判定是否互为字符重排.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969EDDD28E33C0E00A0D6EF /* 01.02.判定是否互为字符重排.swift */; };
+		8969EDE028E33C2200A0D6EF /* 01.02.判定是否互为字符重排.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8969EDDF28E33C2200A0D6EF /* 01.02.判定是否互为字符重排.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -174,6 +174,8 @@
 		8969EDD728E07BFA00A0D6EF /* 788.旋转数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "788.旋转数字.cpp"; sourceTree = "<group>"; };
 		8969EDD928E1E74A00A0D6EF /* 17.19.消失的两个数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "17.19.消失的两个数字.cpp"; sourceTree = "<group>"; };
 		8969EDDB28E1E79A00A0D6EF /* 17.19.消失的两个数字.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "17.19.消失的两个数字.swift"; sourceTree = "<group>"; };
+		8969EDDD28E33C0E00A0D6EF /* 01.02.判定是否互为字符重排.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "01.02.判定是否互为字符重排.swift"; sourceTree = "<group>"; };
+		8969EDDF28E33C2200A0D6EF /* 01.02.判定是否互为字符重排.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "01.02.判定是否互为字符重排.cpp"; sourceTree = "<group>"; };
 		896BABCA2791C9CD0099C360 /* 373.查找和最小的k对数字.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "373.查找和最小的k对数字.swift"; sourceTree = "<group>"; };
 		896BABCC2792F1420099C360 /* 1716.计算力扣银行的钱.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1716.计算力扣银行的钱.swift"; sourceTree = "<group>"; };
 		89723783275A656800EBC5C5 /* 506.相对名次.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "506.相对名次.swift"; sourceTree = "<group>"; };
@@ -1241,9 +1243,10 @@
 		898BC87E285E2D2400B04A33 /* 面试题 */ = {
 			isa = PBXGroup;
 			children = (
-				8969EDDB28E1E79A00A0D6EF /* 17.19.消失的两个数字.swift */,
+				8969EDDD28E33C0E00A0D6EF /* 01.02.判定是否互为字符重排.swift */,
 				898BC87F285E2D2400B04A33 /* 01.05.一次编辑.swift.swift */,
 				898BC880285E2D2400B04A33 /* 17.11.单词距离.swift */,
+				8969EDDB28E1E79A00A0D6EF /* 17.19.消失的两个数字.swift */,
 			);
 			path = "面试题";
 			sourceTree = "<group>";
@@ -1263,11 +1266,12 @@
 		898BC885285E2EB000B04A33 /* 面试题 */ = {
 			isa = PBXGroup;
 			children = (
-				8969EDD928E1E74A00A0D6EF /* 17.19.消失的两个数字.cpp */,
-				898BC886285E2EB000B04A33 /* 17.11.-单词距离.cpp */,
-				898BC887285E2EB000B04A33 /* 04.06.cpp */,
+				8969EDDF28E33C2200A0D6EF /* 01.02.判定是否互为字符重排.cpp */,
 				898BC888285E2EB000B04A33 /* 01.05-一次编辑.cpp */,
+				898BC887285E2EB000B04A33 /* 04.06.cpp */,
+				898BC886285E2EB000B04A33 /* 17.11.-单词距离.cpp */,
 				898BC889285E2EB000B04A33 /* 17.14.最小K个数.cpp */,
+				8969EDD928E1E74A00A0D6EF /* 17.19.消失的两个数字.cpp */,
 			);
 			path = "面试题";
 			sourceTree = "<group>";
@@ -1886,8 +1890,8 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
+				8969EDDE28E33C0E00A0D6EF /* 01.02.判定是否互为字符重排.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
-				8969EDDC28E1E79A00A0D6EF /* 17.19.消失的两个数字.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1896,7 +1900,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				8969EDDA28E1E74A00A0D6EF /* 17.19.消失的两个数字.cpp in Sources */,
+				8969EDE028E33C2200A0D6EF /* 01.02.判定是否互为字符重排.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
