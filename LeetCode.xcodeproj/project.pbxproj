@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8904330A28E947E300F2255A /* 777.在lr字符串中交换相邻字符.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8904330928E947E300F2255A /* 777.在lr字符串中交换相邻字符.cpp */; };
-		8904330C28E9543900F2255A /* 777.在lr字符串中交换相邻字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904330B28E9543900F2255A /* 777.在lr字符串中交换相邻字符.swift */; };
+		8904331E28F0639500F2255A /* 1800.最大升序子数组和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904331D28F0639500F2255A /* 1800.最大升序子数组和.swift */; };
+		8904332028F0642D00F2255A /* 1800.最大升序子数组和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8904331F28F0642D00F2255A /* 1800.最大升序子数组和.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -44,6 +44,16 @@
 		8904330728E888BB00F2255A /* 1694.重新格式化电话号码.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1694.重新格式化电话号码.cpp"; sourceTree = "<group>"; };
 		8904330928E947E300F2255A /* 777.在lr字符串中交换相邻字符.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "777.在lr字符串中交换相邻字符.cpp"; sourceTree = "<group>"; };
 		8904330B28E9543900F2255A /* 777.在lr字符串中交换相邻字符.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "777.在lr字符串中交换相邻字符.swift"; sourceTree = "<group>"; };
+		8904330D28EB2BE300F2255A /* 1784.检查二进制字符串字段.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1784.检查二进制字符串字段.swift"; sourceTree = "<group>"; };
+		8904330F28EB2C3F00F2255A /* 1784.检查二进制字符串字段.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1784.检查二进制字符串字段.cpp"; sourceTree = "<group>"; };
+		8904331128EC7DF200F2255A /* 921.使括号有效的最少添加.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "921.使括号有效的最少添加.cpp"; sourceTree = "<group>"; };
+		8904331328EC7E3D00F2255A /* 921.使括号有效的最少添加.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "921.使括号有效的最少添加.swift"; sourceTree = "<group>"; };
+		8904331528EDDED600F2255A /* 811.子域名访问计数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "811.子域名访问计数.swift"; sourceTree = "<group>"; };
+		8904331728EDDF3E00F2255A /* 811.子域名访问计数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "811.子域名访问计数.cpp"; sourceTree = "<group>"; };
+		8904331928EDE36600F2255A /* 927.三等分.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "927.三等分.cpp"; sourceTree = "<group>"; };
+		8904331B28EDE40D00F2255A /* 927.三等分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "927.三等分.swift"; sourceTree = "<group>"; };
+		8904331D28F0639500F2255A /* 1800.最大升序子数组和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1800.最大升序子数组和.swift"; sourceTree = "<group>"; };
+		8904331F28F0642D00F2255A /* 1800.最大升序子数组和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1800.最大升序子数组和.cpp"; sourceTree = "<group>"; };
 		89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "997.找到小镇的法官.swift"; sourceTree = "<group>"; };
 		89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1610.可见点的最大数目.swift"; sourceTree = "<group>"; };
 		890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "682.棒球比赛.swift"; sourceTree = "<group>"; };
@@ -1085,6 +1095,7 @@
 				89E1BE3F281D893A009176A4 /* 804.唯一摩尔斯密码词.swift */,
 				89E1BE47281D893D009176A4 /* 806.写字符串需要的行数.swift */,
 				89D65EC927678B8600B855E3 /* 807.保持城市天际线.swift */,
+				8904331528EDDED600F2255A /* 811.子域名访问计数.swift */,
 				8923BB992830C5990034AA0D /* 812.最大三角形面积.swift */,
 				893D3D0E28899CB800732C88 /* 814.二叉树剪枝.swift */,
 				89E1BE3D281D893A009176A4 /* 819.最常见的单词.swift */,
@@ -1113,7 +1124,9 @@
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
 				8919169F27C673B5002B8702 /* 917.仅仅反转字母.swift */,
 				89EB26A428917E63002BB7EF /* 919.完全二叉树插入器.swift */,
+				8904331328EC7E3D00F2255A /* 921.使括号有效的最少添加.swift */,
 				8972D8EF2854EF9100DB6595 /* 926.将字符串翻转到单调递增.swift */,
+				8904331B28EDE40D00F2255A /* 927.三等分.swift */,
 				89AFB1E0284BA94B00760FC7 /* 929.独特的电子邮件地址.swift */,
 				894F52522825755400EA6C32 /* 933.最近的请求次数.swift */,
 				894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */,
@@ -1207,7 +1220,9 @@
 				8953DFB127AF844900FB2C00 /* 1748.唯一元素的和.swift */,
 				8900694C27A9813100EBE650 /* 1763.最长的美好子字符串.swift */,
 				891DCDDF27A57C9A0068417B /* 1765.地图中的最高点.swift */,
+				8904330D28EB2BE300F2255A /* 1784.检查二进制字符串字段.swift */,
 				89AF725C27BFEC9200BD2211 /* 1791.找出星型图的中心节点.swift */,
+				8904331D28F0639500F2255A /* 1800.最大升序子数组和.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
 				8928424E282235AF00484B59 /* 1823.找出游戏的获胜者.swift */,
 				8988F48C27B801DF0009A23E /* 1984.学生分数的最小差值.swift */,
@@ -1601,6 +1616,7 @@
 				8975E649281ED185006F4F6A /* 797.所有可能的路径.cpp */,
 				8975E60A281ED17A006F4F6A /* 798.得分最高的最小轮调.cpp */,
 				8975E6B0281ED192006F4F6A /* 807.保持城市天际线.cpp */,
+				8904331728EDDF3E00F2255A /* 811.子域名访问计数.cpp */,
 				8923BB972830C53B0034AA0D /* 812.最大三角形面积.cpp */,
 				893D3D1028899CC000732C88 /* 814.二叉树剪枝.cpp */,
 				8975E6B7281ED193006F4F6A /* 825.适龄的朋友.cpp */,
@@ -1631,7 +1647,9 @@
 				8975E650281ED186006F4F6A /* 913.猫和老鼠.cpp */,
 				8975E564281ED15E006F4F6A /* 917.仅仅反转字母.cpp */,
 				89EB26AB28917E84002BB7EF /* 919.完全二叉树插入器.cpp */,
+				8904331128EC7DF200F2255A /* 921.使括号有效的最少添加.cpp */,
 				8972D8F12854F07300DB6595 /* 926.将字符串翻转到单调递增.cpp */,
+				8904331928EDE36600F2255A /* 927.三等分.cpp */,
 				89AFB1DE284BA8A000760FC7 /* 929.独特的电子邮件地址.cpp */,
 				894F52502825753F00EA6C32 /* 933.最近的请求次数.cpp */,
 				894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */,
@@ -1737,7 +1755,9 @@
 				8975E611281ED17B006F4F6A /* 1748.唯一元素的和.cpp */,
 				8975E688281ED18D006F4F6A /* 1763.最长的美好子字符串.cpp */,
 				8975E696281ED18F006F4F6A /* 1765.地图中的最高点.cpp */,
+				8904330F28EB2C3F00F2255A /* 1784.检查二进制字符串字段.cpp */,
 				8975E692281ED18E006F4F6A /* 1791.找出星型图的中心节点.cpp */,
+				8904331F28F0642D00F2255A /* 1800.最大升序子数组和.cpp */,
 				8975E625281ED17F006F4F6A /* 1816.截断句子.cpp */,
 				8928424C2822351800484B59 /* 1823.找出游戏的获胜者.cpp */,
 				8975E6A8281ED191006F4F6A /* 1894.找到需要补充粉笔的学生编号.cpp */,
@@ -1911,7 +1931,7 @@
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
-				8904330C28E9543900F2255A /* 777.在lr字符串中交换相邻字符.swift in Sources */,
+				8904331E28F0639500F2255A /* 1800.最大升序子数组和.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1919,7 +1939,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8904330A28E947E300F2255A /* 777.在lr字符串中交换相邻字符.cpp in Sources */,
+				8904332028F0642D00F2255A /* 1800.最大升序子数组和.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
