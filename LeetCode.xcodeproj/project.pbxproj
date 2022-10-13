@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8904332D28F7052E00F2255A /* 817.链表组件.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904332C28F7052E00F2255A /* 817.链表组件.swift */; };
-		8904332F28F7054400F2255A /* 817.链表组件.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8904332E28F7054300F2255A /* 817.链表组件.cpp */; };
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
+		8904333328F85AED00F2255A /* 769.最多能完成排序的块.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8904333228F85AED00F2255A /* 769.最多能完成排序的块.cpp */; };
+		8904333528F85AF900F2255A /* 769.最多能完成排序的块.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904333428F85AF900F2255A /* 769.最多能完成排序的块.swift */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -63,6 +63,8 @@
 		8904332A28F5AFBC00F2255A /* 1790.仅执行一次字符串交换能否使两个字符串相等.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1790.仅执行一次字符串交换能否使两个字符串相等.swift"; sourceTree = "<group>"; };
 		8904332C28F7052E00F2255A /* 817.链表组件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "817.链表组件.swift"; sourceTree = "<group>"; };
 		8904332E28F7054300F2255A /* 817.链表组件.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "817.链表组件.cpp"; sourceTree = "<group>"; };
+		8904333228F85AED00F2255A /* 769.最多能完成排序的块.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "769.最多能完成排序的块.cpp"; sourceTree = "<group>"; };
+		8904333428F85AF900F2255A /* 769.最多能完成排序的块.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "769.最多能完成排序的块.swift"; sourceTree = "<group>"; };
 		89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "997.找到小镇的法官.swift"; sourceTree = "<group>"; };
 		89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1610.可见点的最大数目.swift"; sourceTree = "<group>"; };
 		890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "682.棒球比赛.swift"; sourceTree = "<group>"; };
@@ -1093,6 +1095,7 @@
 				89816B8228A153AA000D7C8F /* 761.特殊的二进制序列.swift */,
 				897A7ECD27FC7F480006B830 /* 762.二进制表示中质数个计算置位.swift */,
 				89816B9A28A7F90A000D7C8F /* 768.最多能完成排序的块-ii.swift */,
+				8904333428F85AF900F2255A /* 769.最多能完成排序的块.swift */,
 				8904330B28E9543900F2255A /* 777.在lr字符串中交换相邻字符.swift */,
 				89E1BE4E281D893F009176A4 /* 780.到达终点.swift */,
 				89723785275A656900EBC5C5 /* 786.第-k-个最小的素数分数.swift */,
@@ -1338,6 +1341,7 @@
 		89A6BF0026BD8182007BDF6B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				8904333228F85AED00F2255A /* 769.最多能完成排序的块.cpp */,
 				8975E62D281ED180006F4F6A /* 1.两数之和.cpp */,
 				8975E640281ED184006F4F6A /* 2.两数相加.cpp */,
 				8975E5B3281ED16A006F4F6A /* 3.无重复字符的最长子串.cpp */,
@@ -1945,10 +1949,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				8904333528F85AF900F2255A /* 769.最多能完成排序的块.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
-				8904332D28F7052E00F2255A /* 817.链表组件.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1958,7 +1962,7 @@
 			files = (
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				8904332F28F7054400F2255A /* 817.链表组件.cpp in Sources */,
+				8904333328F85AED00F2255A /* 769.最多能完成排序的块.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
