@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
-		890433A129051F9900F2255A /* 1768.交替合并字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890433A029051F9900F2255A /* 1768.交替合并字符串.swift */; };
-		890433A32905204100F2255A /* 1768.交替合并字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 890433A22905204100F2255A /* 1768.交替合并字符串.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
+		89C71DE32906CA16004E3387 /* 915.分割数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C71DE22906CA16004E3387 /* 915.分割数组.swift */; };
+		89C71DE52906CA25004E3387 /* 915.分割数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C71DE42906CA24004E3387 /* 915.分割数组.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -849,6 +849,8 @@
 		89C4633428BA634B000D9788 /* 640.求解方程.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "640.求解方程.cpp"; sourceTree = "<group>"; };
 		89C47C3128B27216004FE194 /* 1455.检查单词是否为句中其他单词的前缀.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1455.检查单词是否为句中其他单词的前缀.swift"; sourceTree = "<group>"; };
 		89C47C3328B275F1004FE194 /* 1455.检查单词是否为句中其他单词的前缀.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1455.检查单词是否为句中其他单词的前缀.cpp"; sourceTree = "<group>"; };
+		89C71DE22906CA16004E3387 /* 915.分割数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "915.分割数组.swift"; sourceTree = "<group>"; };
+		89C71DE42906CA24004E3387 /* 915.分割数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "915.分割数组.cpp"; sourceTree = "<group>"; };
 		89C84273274A081700A73FAB /* 559.n-叉树的最大深度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "559.n-叉树的最大深度.swift"; sourceTree = "<group>"; };
 		89C84275274A09F400A73FAB /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		89CA463028BCF18700C9B5F2 /* 1470.重新排列数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1470.重新排列数组.swift"; sourceTree = "<group>"; };
@@ -1162,6 +1164,7 @@
 				89E1BE41281D893C009176A4 /* 905.按奇偶排序数组.swift */,
 				89E1BCD9281D8570009176A4 /* 908.最小差值-i.swift */,
 				895F9E412764311D00E2DF08 /* 911.在线选举.swift */,
+				89C71DE22906CA16004E3387 /* 915.分割数组.swift */,
 				8919169F27C673B5002B8702 /* 917.仅仅反转字母.swift */,
 				89EB26A428917E63002BB7EF /* 919.完全二叉树插入器.swift */,
 				8904331328EC7E3D00F2255A /* 921.使括号有效的最少添加.swift */,
@@ -1206,6 +1209,7 @@
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				89E8F9A22795BEA600310336 /* 1220.统计元音字母序列的数目.swift */,
 				898C36F828AE845B00C51192 /* 1224.最大相等频率.swift */,
+				890433942903D0B400F2255A /* 1235.规划兼职工作.swift */,
 				893D3CD2287DBDCF00732C88 /* 1252.奇数值单元格的数目.swift */,
 				893D3D0A28884B6E00732C88 /* 1260.二维网格迁移.swift */,
 				89816B9428A6958D000D7C8F /* 1282.用户分组.swift */,
@@ -1214,7 +1218,6 @@
 				89B7F06D281ECF5500F3498F /* 1305.两棵二叉搜索树中的所有元素.swift */,
 				89CC176D2892D910000EEDE8 /* 1331.数组序号转换.swift */,
 				8972B690279C14A600D14CE7 /* 1332.删除回文子序列.swift */,
-				890433942903D0B400F2255A /* 1235.规划兼职工作.swift */,
 				8900694827A81AD500EBE650 /* 1342.将数字变成-0-的操作次数.swift */,
 				89E8F9B2279AFE9B00310336 /* 1345.跳跃游戏-iv.swift */,
 				8937DD5E2898123200D9624C /* 1374.生成每种字符都是奇数个的字符串.swift */,
@@ -1699,6 +1702,7 @@
 				8975E5D1281ED170006F4F6A /* 908.最小差值-i.cpp */,
 				8975E587281ED163006F4F6A /* 911.在线选举.cpp */,
 				8975E650281ED186006F4F6A /* 913.猫和老鼠.cpp */,
+				89C71DE42906CA24004E3387 /* 915.分割数组.cpp */,
 				8975E564281ED15E006F4F6A /* 917.仅仅反转字母.cpp */,
 				89EB26AB28917E84002BB7EF /* 919.完全二叉树插入器.cpp */,
 				8904331128EC7DF200F2255A /* 921.使括号有效的最少添加.cpp */,
@@ -1990,8 +1994,8 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
+				89C71DE32906CA16004E3387 /* 915.分割数组.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				890433A129051F9900F2255A /* 1768.交替合并字符串.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2001,7 +2005,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
-				890433A32905204100F2255A /* 1768.交替合并字符串.cpp in Sources */,
+				89C71DE52906CA25004E3387 /* 915.分割数组.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
