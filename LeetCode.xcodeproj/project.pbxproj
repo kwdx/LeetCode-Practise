@@ -12,8 +12,8 @@
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89C71DE7290824D2004E3387 /* 934.最短的桥.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C71DE6290824D2004E3387 /* 934.最短的桥.cpp */; };
-		89C71DE9290824E2004E3387 /* 934.最短的桥.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C71DE8290824E2004E3387 /* 934.最短的桥.swift */; };
+		89C71DEB29097715004E3387 /* 862.和至少为-k-的最短子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C71DEA29097715004E3387 /* 862.和至少为-k-的最短子数组.swift */; };
+		89C71DED29097725004E3387 /* 862.和至少为-k-的最短子数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C71DEC29097725004E3387 /* 862.和至少为-k-的最短子数组.cpp */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -853,6 +853,8 @@
 		89C71DE42906CA24004E3387 /* 915.分割数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "915.分割数组.cpp"; sourceTree = "<group>"; };
 		89C71DE6290824D2004E3387 /* 934.最短的桥.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "934.最短的桥.cpp"; sourceTree = "<group>"; };
 		89C71DE8290824E2004E3387 /* 934.最短的桥.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "934.最短的桥.swift"; sourceTree = "<group>"; };
+		89C71DEA29097715004E3387 /* 862.和至少为-k-的最短子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "862.和至少为-k-的最短子数组.swift"; sourceTree = "<group>"; };
+		89C71DEC29097725004E3387 /* 862.和至少为-k-的最短子数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "862.和至少为-k-的最短子数组.cpp"; sourceTree = "<group>"; };
 		89C84273274A081700A73FAB /* 559.n-叉树的最大深度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "559.n-叉树的最大深度.swift"; sourceTree = "<group>"; };
 		89C84275274A09F400A73FAB /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		89CA463028BCF18700C9B5F2 /* 1470.重新排列数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1470.重新排列数组.swift"; sourceTree = "<group>"; };
@@ -1150,6 +1152,7 @@
 				89DCE47E28DBE9C800F7FD48 /* 854.相似度为-k-的字符串.swift */,
 				89886F5F272CE174003A626D /* 856.括号的分数.swift */,
 				89AE78A42751E7D600598666 /* 859.亲密字符串.swift */,
+				89C71DEA29097715004E3387 /* 862.和至少为-k-的最短子数组.swift */,
 				89E1BE42281D893C009176A4 /* 868.二进制间距.swift */,
 				8904332228F1C32700F2255A /* 870.优势洗牌.swift */,
 				898BC8D5287090F100B04A33 /* 871.最低加油次数.swift */,
@@ -1687,6 +1690,7 @@
 				8975E660281ED188006F4F6A /* 856.括号的分数.cpp */,
 				8991558628CE1BB800028726 /* 857.雇佣-k-名工人的最低成本.cpp */,
 				8975E5CC281ED16F006F4F6A /* 859.亲密字符串.cpp */,
+				89C71DEC29097725004E3387 /* 862.和至少为-k-的最短子数组.cpp */,
 				8975E57B281ED162006F4F6A /* 869.重新排序得到-2-的幂.cpp */,
 				8975E636281ED182006F4F6A /* 870.优势洗牌.cpp */,
 				898BC8D32870906800B04A33 /* 871.最低加油次数.cpp */,
@@ -1998,9 +2002,9 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
-				89C71DE9290824E2004E3387 /* 934.最短的桥.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
+				89C71DEB29097715004E3387 /* 862.和至少为-k-的最短子数组.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2009,8 +2013,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
+				89C71DED29097725004E3387 /* 862.和至少为-k-的最短子数组.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89C71DE7290824D2004E3387 /* 934.最短的桥.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
