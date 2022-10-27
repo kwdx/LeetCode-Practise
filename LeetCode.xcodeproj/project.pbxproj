@@ -12,8 +12,8 @@
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
-		89C71DEB29097715004E3387 /* 862.和至少为-k-的最短子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C71DEA29097715004E3387 /* 862.和至少为-k-的最短子数组.swift */; };
-		89C71DED29097725004E3387 /* 862.和至少为-k-的最短子数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C71DEC29097725004E3387 /* 862.和至少为-k-的最短子数组.cpp */; };
+		89C71DEF290AD496004E3387 /* 1822.数组元素积的符号.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C71DEE290AD496004E3387 /* 1822.数组元素积的符号.cpp */; };
+		89C71DF1290AD49C004E3387 /* 1822.数组元素积的符号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C71DF0290AD49C004E3387 /* 1822.数组元素积的符号.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -855,6 +855,8 @@
 		89C71DE8290824E2004E3387 /* 934.最短的桥.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "934.最短的桥.swift"; sourceTree = "<group>"; };
 		89C71DEA29097715004E3387 /* 862.和至少为-k-的最短子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "862.和至少为-k-的最短子数组.swift"; sourceTree = "<group>"; };
 		89C71DEC29097725004E3387 /* 862.和至少为-k-的最短子数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "862.和至少为-k-的最短子数组.cpp"; sourceTree = "<group>"; };
+		89C71DEE290AD496004E3387 /* 1822.数组元素积的符号.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1822.数组元素积的符号.cpp"; sourceTree = "<group>"; };
+		89C71DF0290AD49C004E3387 /* 1822.数组元素积的符号.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1822.数组元素积的符号.swift"; sourceTree = "<group>"; };
 		89C84273274A081700A73FAB /* 559.n-叉树的最大深度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "559.n-叉树的最大深度.swift"; sourceTree = "<group>"; };
 		89C84275274A09F400A73FAB /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		89CA463028BCF18700C9B5F2 /* 1470.重新排列数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1470.重新排列数组.swift"; sourceTree = "<group>"; };
@@ -1279,6 +1281,7 @@
 				89AF725C27BFEC9200BD2211 /* 1791.找出星型图的中心节点.swift */,
 				8904331D28F0639500F2255A /* 1800.最大升序子数组和.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
+				89C71DF0290AD49C004E3387 /* 1822.数组元素积的符号.swift */,
 				8928424E282235AF00484B59 /* 1823.找出游戏的获胜者.swift */,
 				8988F48C27B801DF0009A23E /* 1984.学生分数的最小差值.swift */,
 				8939CD87277F59A0009F0CEE /* 1995.统计特殊四元组.swift */,
@@ -1831,6 +1834,7 @@
 				8975E692281ED18E006F4F6A /* 1791.找出星型图的中心节点.cpp */,
 				8904331F28F0642D00F2255A /* 1800.最大升序子数组和.cpp */,
 				8975E625281ED17F006F4F6A /* 1816.截断句子.cpp */,
+				89C71DEE290AD496004E3387 /* 1822.数组元素积的符号.cpp */,
 				8928424C2822351800484B59 /* 1823.找出游戏的获胜者.cpp */,
 				8975E6A8281ED191006F4F6A /* 1894.找到需要补充粉笔的学生编号.cpp */,
 				8975E6AF281ED192006F4F6A /* 1962.移除石子使总数最小.cpp */,
@@ -2004,7 +2008,7 @@
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
-				89C71DEB29097715004E3387 /* 862.和至少为-k-的最短子数组.swift in Sources */,
+				89C71DF1290AD49C004E3387 /* 1822.数组元素积的符号.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2012,8 +2016,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C71DEF290AD496004E3387 /* 1822.数组元素积的符号.cpp in Sources */,
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
-				89C71DED29097725004E3387 /* 862.和至少为-k-的最短子数组.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
