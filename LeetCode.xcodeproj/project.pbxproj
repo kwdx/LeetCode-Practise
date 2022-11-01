@@ -10,8 +10,8 @@
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89438AF229101DD80013B0D6 /* 481.神奇字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438AF129101DD80013B0D6 /* 481.神奇字符串.swift */; };
-		89438AF429101DE60013B0D6 /* 481.神奇字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438AF329101DE60013B0D6 /* 481.神奇字符串.cpp */; };
+		89438AF62911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438AF52911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp */; };
+		89438AF82911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438AF72911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -177,6 +177,8 @@
 		89438A6F290E442D0013B0D6 /* 784.字母大小写全排列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "784.字母大小写全排列.swift"; sourceTree = "<group>"; };
 		89438AF129101DD80013B0D6 /* 481.神奇字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "481.神奇字符串.swift"; sourceTree = "<group>"; };
 		89438AF329101DE60013B0D6 /* 481.神奇字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "481.神奇字符串.cpp"; sourceTree = "<group>"; };
+		89438AF52911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1662.检查两个字符串数组是否相等.cpp"; sourceTree = "<group>"; };
+		89438AF72911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1662.检查两个字符串数组是否相等.swift"; sourceTree = "<group>"; };
 		894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "937.重新排列日志文件.swift"; sourceTree = "<group>"; };
 		894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "937.重新排列日志文件.cpp"; sourceTree = "<group>"; };
 		894F524C282415FA00EA6C32 /* 713.乘积小于k的子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "713.乘积小于k的子数组.swift"; sourceTree = "<group>"; };
@@ -1275,6 +1277,7 @@
 				89DCE47A28DBE73100F7FD48 /* 1640.能否连接形成数组.swift */,
 				8969EDD328DF502A00A0D6EF /* 1652.拆炸弹.swift */,
 				89816BA828ABCCFF000D7C8F /* 1656.设计有序流.swift */,
+				89438AF72911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift */,
 				89E1BE49281D893E009176A4 /* 1672.最富有客户的资产总量.swift */,
 				89EDAC5F27A0459200BA4246 /* 1688.比赛中的配对次数.swift */,
 				8904330528E887F900F2255A /* 1694.重新格式化电话号码.swift */,
@@ -1831,6 +1834,7 @@
 				89DCE47828DBE65900F7FD48 /* 1640.能否连接形成数组.cpp */,
 				8969EDD128DF4FB500A0D6EF /* 1652.拆炸弹.cpp */,
 				89816BA628ABCCEC000D7C8F /* 1656.设计有序流.cpp */,
+				89438AF52911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp */,
 				8975E5DC281ED172006F4F6A /* 1688.比赛中的配对次数.cpp */,
 				8904330728E888BB00F2255A /* 1694.重新格式化电话号码.cpp */,
 				8904336C2900386100F2255A /* 1700.无法吃午餐的学生数量.cpp */,
@@ -2022,7 +2026,7 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
-				89438AF229101DD80013B0D6 /* 481.神奇字符串.swift in Sources */,
+				89438AF82911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
@@ -2033,7 +2037,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
-				89438AF429101DE60013B0D6 /* 481.神奇字符串.cpp in Sources */,
+				89438AF62911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
