@@ -10,8 +10,8 @@
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89438AF62911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438AF52911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp */; };
-		89438AF82911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438AF72911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift */; };
+		89438B072916468E0013B0D6 /* 1106.解析布尔表达式.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B032916413D0013B0D6 /* 1106.解析布尔表达式.cpp */; };
+		89438B0A291646A60013B0D6 /* 1106.解析布尔表达式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B012916408B0013B0D6 /* 1106.解析布尔表达式.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -179,6 +179,14 @@
 		89438AF329101DE60013B0D6 /* 481.神奇字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "481.神奇字符串.cpp"; sourceTree = "<group>"; };
 		89438AF52911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1662.检查两个字符串数组是否相等.cpp"; sourceTree = "<group>"; };
 		89438AF72911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1662.检查两个字符串数组是否相等.swift"; sourceTree = "<group>"; };
+		89438AF9291409DC0013B0D6 /* 1620.网络信号最好的坐标.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1620.网络信号最好的坐标.cpp"; sourceTree = "<group>"; };
+		89438AFB291409EA0013B0D6 /* 1668.最大重复子字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1668.最大重复子字符串.cpp"; sourceTree = "<group>"; };
+		89438AFD291409FE0013B0D6 /* 1620.网络信号最好的坐标.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1620.网络信号最好的坐标.swift"; sourceTree = "<group>"; };
+		89438AFF29140A070013B0D6 /* 1668.最大重复子字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1668.最大重复子字符串.swift"; sourceTree = "<group>"; };
+		89438B012916408B0013B0D6 /* 1106.解析布尔表达式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1106.解析布尔表达式.swift"; sourceTree = "<group>"; };
+		89438B032916413D0013B0D6 /* 1106.解析布尔表达式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1106.解析布尔表达式.cpp"; sourceTree = "<group>"; };
+		89438B05291646790013B0D6 /* 754.到达终点数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "754.到达终点数字.cpp"; sourceTree = "<group>"; };
+		89438B08291646950013B0D6 /* 754.到达终点数字.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "754.到达终点数字.swift"; sourceTree = "<group>"; };
 		894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "937.重新排列日志文件.swift"; sourceTree = "<group>"; };
 		894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "937.重新排列日志文件.cpp"; sourceTree = "<group>"; };
 		894F524C282415FA00EA6C32 /* 713.乘积小于k的子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "713.乘积小于k的子数组.swift"; sourceTree = "<group>"; };
@@ -1130,6 +1138,7 @@
 				893D3CF228805F5400732C88 /* 745.前缀和后缀搜索.swift */,
 				89B4863E27907D5200A6930A /* 747.至少是其他数字两倍的最大数.swift */,
 				8988F1E92763997B00CDBAA9 /* 748.最短补全词.swift */,
+				89438B08291646950013B0D6 /* 754.到达终点数字.swift */,
 				893D3D1B288C560100732C88 /* 757.设置交集大小至少为-2.swift */,
 				89816B8228A153AA000D7C8F /* 761.特殊的二进制序列.swift */,
 				897A7ECD27FC7F480006B830 /* 762.二进制表示中质数个计算置位.swift */,
@@ -1217,6 +1226,7 @@
 				8972D8FD2857928700DB6595 /* 1051.高度检查器.swift */,
 				89D44118277823E0006B0055 /* 1078.bigram-分词.swift */,
 				898BC8C9286DE35600B04A33 /* 1089.复写零.swift */,
+				89438B012916408B0013B0D6 /* 1106.解析布尔表达式.swift */,
 				898BC89A286205DD00B04A33 /* 1108.ip-地址无效化.swift */,
 				897355182776209C0034C87A /* 1154.一年中的第几天.swift */,
 				8937DD5C2896906E00D9624C /* 1161.最大层内元素和.swift */,
@@ -1271,6 +1281,7 @@
 				89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */,
 				89B48624278883B500A6930A /* 1614.括号的最大嵌套深度.swift */,
 				899A92DE28D21FCB00849747 /* 1619.删除某些元素后的数组均值.swift */,
+				89438AFD291409FE0013B0D6 /* 1620.网络信号最好的坐标.swift */,
 				89FDD5EF28D60A38000B124A /* 1624.两个相同字符之间的最长子字符串.swift */,
 				89B4862C278A9E8B00A6930A /* 1629.按键持续时间最长的键.swift */,
 				89DCE48028DBE9D500F7FD48 /* 1636.按照频率将数组升序排序.swift */,
@@ -1278,6 +1289,7 @@
 				8969EDD328DF502A00A0D6EF /* 1652.拆炸弹.swift */,
 				89816BA828ABCCFF000D7C8F /* 1656.设计有序流.swift */,
 				89438AF72911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift */,
+				89438AFF29140A070013B0D6 /* 1668.最大重复子字符串.swift */,
 				89E1BE49281D893E009176A4 /* 1672.最富有客户的资产总量.swift */,
 				89EDAC5F27A0459200BA4246 /* 1688.比赛中的配对次数.swift */,
 				8904330528E887F900F2255A /* 1694.重新格式化电话号码.swift */,
@@ -1676,6 +1688,7 @@
 				8975E6B3281ED192006F4F6A /* 747.至少是其他数字两倍的最大数.cpp */,
 				8975E6BA281ED193006F4F6A /* 748.最短补全词.cpp */,
 				893D3D042885AFED00732C88 /* 749.隔离病毒.cpp */,
+				89438B05291646790013B0D6 /* 754.到达终点数字.cpp */,
 				893D3D1C288C560C00732C88 /* 757.设置交集大小至少为-2.cpp */,
 				89816B8428A153BD000D7C8F /* 761.特殊的二进制序列.cpp */,
 				8975E63D281ED183006F4F6A /* 762.二进制表示中质数个计算置位.cpp */,
@@ -1769,6 +1782,7 @@
 				8975E662281ED188006F4F6A /* 1078.bigram-分词.cpp */,
 				8975E5EB281ED174006F4F6A /* 1081.不同字符的最小子序列.cpp */,
 				898BC8C4286DE31800B04A33 /* 1089.复写零.cpp */,
+				89438B032916413D0013B0D6 /* 1106.解析布尔表达式.cpp */,
 				898BC89C286205E900B04A33 /* 1108.ip-地址无效化.cpp */,
 				8975E655281ED186006F4F6A /* 1143.最长公共子序列.cpp */,
 				8975E6BB281ED193006F4F6A /* 1154.一年中的第几天.cpp */,
@@ -1828,6 +1842,7 @@
 				8975E6AD281ED192006F4F6A /* 1610.可见点的最大数目.cpp */,
 				8975E5B9281ED16B006F4F6A /* 1614.括号的最大嵌套深度.cpp */,
 				899A92DC28D21FBB00849747 /* 1619.删除某些元素后的数组均值.cpp */,
+				89438AF9291409DC0013B0D6 /* 1620.网络信号最好的坐标.cpp */,
 				89FDD5ED28D609D0000B124A /* 1624.两个相同字符之间的最长子字符串.cpp */,
 				8975E56D281ED15F006F4F6A /* 1629.按键持续时间最长的键.cpp */,
 				89DCE48728DBEA0400F7FD48 /* 1636.按照频率将数组升序排序.cpp */,
@@ -1835,6 +1850,7 @@
 				8969EDD128DF4FB500A0D6EF /* 1652.拆炸弹.cpp */,
 				89816BA628ABCCEC000D7C8F /* 1656.设计有序流.cpp */,
 				89438AF52911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp */,
+				89438AFB291409EA0013B0D6 /* 1668.最大重复子字符串.cpp */,
 				8975E5DC281ED172006F4F6A /* 1688.比赛中的配对次数.cpp */,
 				8904330728E888BB00F2255A /* 1694.重新格式化电话号码.cpp */,
 				8904336C2900386100F2255A /* 1700.无法吃午餐的学生数量.cpp */,
@@ -2024,9 +2040,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89438B0A291646A60013B0D6 /* 1106.解析布尔表达式.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
-				89438AF82911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
@@ -2037,8 +2053,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
-				89438AF62911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
+				89438B072916468E0013B0D6 /* 1106.解析布尔表达式.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
