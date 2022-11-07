@@ -10,8 +10,8 @@
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89438B0C2917D6CB0013B0D6 /* 1678.设计-goal-解析器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B0B2917D6CB0013B0D6 /* 1678.设计-goal-解析器.cpp */; };
-		89438B0E2917D7610013B0D6 /* 1678.设计-goal-解析器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B0D2917D7610013B0D6 /* 1678.设计-goal-解析器.swift */; };
+		89438B10291946F70013B0D6 /* 816.模糊坐标.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B0F291946F70013B0D6 /* 816.模糊坐标.cpp */; };
+		89438B12291947080013B0D6 /* 816.模糊坐标.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B11291947080013B0D6 /* 816.模糊坐标.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -189,6 +189,8 @@
 		89438B08291646950013B0D6 /* 754.到达终点数字.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "754.到达终点数字.swift"; sourceTree = "<group>"; };
 		89438B0B2917D6CB0013B0D6 /* 1678.设计-goal-解析器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1678.设计-goal-解析器.cpp"; sourceTree = "<group>"; };
 		89438B0D2917D7610013B0D6 /* 1678.设计-goal-解析器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1678.设计-goal-解析器.swift"; sourceTree = "<group>"; };
+		89438B0F291946F70013B0D6 /* 816.模糊坐标.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "816.模糊坐标.cpp"; sourceTree = "<group>"; };
+		89438B11291947080013B0D6 /* 816.模糊坐标.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "816.模糊坐标.swift"; sourceTree = "<group>"; };
 		894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "937.重新排列日志文件.swift"; sourceTree = "<group>"; };
 		894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "937.重新排列日志文件.cpp"; sourceTree = "<group>"; };
 		894F524C282415FA00EA6C32 /* 713.乘积小于k的子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "713.乘积小于k的子数组.swift"; sourceTree = "<group>"; };
@@ -1163,6 +1165,7 @@
 				8904331528EDDED600F2255A /* 811.子域名访问计数.swift */,
 				8923BB992830C5990034AA0D /* 812.最大三角形面积.swift */,
 				893D3D0E28899CB800732C88 /* 814.二叉树剪枝.swift */,
+				89438B11291947080013B0D6 /* 816.模糊坐标.swift */,
 				8904332C28F7052E00F2255A /* 817.链表组件.swift */,
 				89E1BE3D281D893A009176A4 /* 819.最常见的单词.swift */,
 				89E1BE45281D893D009176A4 /* 821.字符的最短距离.swift */,
@@ -1713,6 +1716,7 @@
 				8904331728EDDF3E00F2255A /* 811.子域名访问计数.cpp */,
 				8923BB972830C53B0034AA0D /* 812.最大三角形面积.cpp */,
 				893D3D1028899CC000732C88 /* 814.二叉树剪枝.cpp */,
+				89438B0F291946F70013B0D6 /* 816.模糊坐标.cpp */,
 				8904332E28F7054300F2255A /* 817.链表组件.cpp */,
 				8975E6B7281ED193006F4F6A /* 825.适龄的朋友.cpp */,
 				89FDD5F328D76388000B124A /* 827.最大人工岛.cpp */,
@@ -2046,9 +2050,9 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
+				89438B12291947080013B0D6 /* 816.模糊坐标.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
-				89438B0E2917D7610013B0D6 /* 1678.设计-goal-解析器.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2056,7 +2060,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89438B0C2917D6CB0013B0D6 /* 1678.设计-goal-解析器.cpp in Sources */,
+				89438B10291946F70013B0D6 /* 816.模糊坐标.cpp in Sources */,
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
