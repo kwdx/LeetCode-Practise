@@ -10,8 +10,8 @@
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89438B27292143C10013B0D6 /* 791.自定义字符串排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B1D292139E20013B0D6 /* 791.自定义字符串排序.cpp */; };
-		89438B2A292143D80013B0D6 /* 791.自定义字符串排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B1F29213A690013B0D6 /* 791.自定义字符串排序.swift */; };
+		89438B2E2923B38A0013B0D6 /* 1710.卡车上的最大单元数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B2D2923B38A0013B0D6 /* 1710.卡车上的最大单元数.cpp */; };
+		89438B302923B3A10013B0D6 /* 1710.卡车上的最大单元数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B2F2923B3A00013B0D6 /* 1710.卡车上的最大单元数.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -202,6 +202,9 @@
 		89438B23292142650013B0D6 /* 790.多米诺和托米诺平铺.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "790.多米诺和托米诺平铺.cpp"; sourceTree = "<group>"; };
 		89438B25292143B70013B0D6 /* 1704.判断字符串的两半是否相似.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1704.判断字符串的两半是否相似.cpp"; sourceTree = "<group>"; };
 		89438B28292143CD0013B0D6 /* 1704.判断字符串的两半是否相似.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1704.判断字符串的两半是否相似.swift"; sourceTree = "<group>"; };
+		89438B2B29227E450013B0D6 /* 805.数组的均值分割.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "805.数组的均值分割.cpp"; sourceTree = "<group>"; };
+		89438B2D2923B38A0013B0D6 /* 1710.卡车上的最大单元数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1710.卡车上的最大单元数.cpp"; sourceTree = "<group>"; };
+		89438B2F2923B3A00013B0D6 /* 1710.卡车上的最大单元数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1710.卡车上的最大单元数.swift"; sourceTree = "<group>"; };
 		894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "937.重新排列日志文件.swift"; sourceTree = "<group>"; };
 		894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "937.重新排列日志文件.cpp"; sourceTree = "<group>"; };
 		894F524C282415FA00EA6C32 /* 713.乘积小于k的子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "713.乘积小于k的子数组.swift"; sourceTree = "<group>"; };
@@ -1318,6 +1321,7 @@
 				89438B28292143CD0013B0D6 /* 1704.判断字符串的两半是否相似.swift */,
 				8973551A2776209C0034C87A /* 1705.吃苹果的最大数目.swift */,
 				891916A127C7C705002B8702 /* 1706.球会落何处.swift */,
+				89438B2F2923B3A00013B0D6 /* 1710.卡车上的最大单元数.swift */,
 				896BABCC2792F1420099C360 /* 1716.计算力扣银行的钱.swift */,
 				8998BD1827ACE11A00ABE29A /* 1725.可以形成最大正方形的矩形数目.swift */,
 				8953DFB127AF844900FB2C00 /* 1748.唯一元素的和.swift */,
@@ -1731,6 +1735,7 @@
 				8975E649281ED185006F4F6A /* 797.所有可能的路径.cpp */,
 				8975E60A281ED17A006F4F6A /* 798.得分最高的最小轮调.cpp */,
 				8904332628F4602D00F2255A /* 801.使序列递增的最小交换次数.cpp */,
+				89438B2B29227E450013B0D6 /* 805.数组的均值分割.cpp */,
 				8975E6B0281ED192006F4F6A /* 807.保持城市天际线.cpp */,
 				8904331728EDDF3E00F2255A /* 811.子域名访问计数.cpp */,
 				8923BB972830C53B0034AA0D /* 812.最大三角形面积.cpp */,
@@ -1886,6 +1891,7 @@
 				89438B25292143B70013B0D6 /* 1704.判断字符串的两半是否相似.cpp */,
 				8975E5A7281ED168006F4F6A /* 1705.吃苹果的最大数目.cpp */,
 				8975E580281ED163006F4F6A /* 1706.球会落何处.cpp */,
+				89438B2D2923B38A0013B0D6 /* 1710.卡车上的最大单元数.cpp */,
 				8975E5AA281ED168006F4F6A /* 1716.计算力扣银行的钱.cpp */,
 				8975E589281ED164006F4F6A /* 1719.重构一棵树的方案数.cpp */,
 				8975E58D281ED164006F4F6A /* 1725.可以形成最大正方形的矩形数目.cpp */,
@@ -2070,8 +2076,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89438B2A292143D80013B0D6 /* 791.自定义字符串排序.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				89438B302923B3A10013B0D6 /* 1710.卡车上的最大单元数.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
@@ -2082,7 +2088,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89438B27292143C10013B0D6 /* 791.自定义字符串排序.cpp in Sources */,
+				89438B2E2923B38A0013B0D6 /* 1710.卡车上的最大单元数.cpp in Sources */,
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
