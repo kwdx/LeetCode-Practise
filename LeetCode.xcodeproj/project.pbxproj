@@ -10,8 +10,8 @@
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89438B2E2923B38A0013B0D6 /* 1710.卡车上的最大单元数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B2D2923B38A0013B0D6 /* 1710.卡车上的最大单元数.cpp */; };
-		89438B302923B3A10013B0D6 /* 1710.卡车上的最大单元数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B2F2923B3A00013B0D6 /* 1710.卡车上的最大单元数.swift */; };
+		89438B33292529560013B0D6 /* 775.全局倒置与局部倒置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B32292529560013B0D6 /* 775.全局倒置与局部倒置.swift */; };
+		89438B35292529630013B0D6 /* 775.全局倒置与局部倒置.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B34292529630013B0D6 /* 775.全局倒置与局部倒置.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -205,6 +205,8 @@
 		89438B2B29227E450013B0D6 /* 805.数组的均值分割.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "805.数组的均值分割.cpp"; sourceTree = "<group>"; };
 		89438B2D2923B38A0013B0D6 /* 1710.卡车上的最大单元数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1710.卡车上的最大单元数.cpp"; sourceTree = "<group>"; };
 		89438B2F2923B3A00013B0D6 /* 1710.卡车上的最大单元数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1710.卡车上的最大单元数.swift"; sourceTree = "<group>"; };
+		89438B32292529560013B0D6 /* 775.全局倒置与局部倒置.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "775.全局倒置与局部倒置.swift"; sourceTree = "<group>"; };
+		89438B34292529630013B0D6 /* 775.全局倒置与局部倒置.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "775.全局倒置与局部倒置.cpp"; sourceTree = "<group>"; };
 		894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "937.重新排列日志文件.swift"; sourceTree = "<group>"; };
 		894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "937.重新排列日志文件.cpp"; sourceTree = "<group>"; };
 		894F524C282415FA00EA6C32 /* 713.乘积小于k的子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "713.乘积小于k的子数组.swift"; sourceTree = "<group>"; };
@@ -1163,6 +1165,7 @@
 				89438B19291BF0B50013B0D6 /* 764.最大加号标志.swift */,
 				89816B9A28A7F90A000D7C8F /* 768.最多能完成排序的块-ii.swift */,
 				8904333428F85AF900F2255A /* 769.最多能完成排序的块.swift */,
+				89438B32292529560013B0D6 /* 775.全局倒置与局部倒置.swift */,
 				8904330B28E9543900F2255A /* 777.在lr字符串中交换相邻字符.swift */,
 				8904337029018A8F00F2255A /* 779.第k个语法符号.swift */,
 				89E1BE4E281D893F009176A4 /* 780.到达终点.swift */,
@@ -1721,6 +1724,7 @@
 				89438B17291BF0AA0013B0D6 /* 764.最大加号标志.cpp */,
 				89816B9C28A7F9DE000D7C8F /* 768.最多能完成排序的块-ii.cpp */,
 				8904333228F85AED00F2255A /* 769.最多能完成排序的块.cpp */,
+				89438B34292529630013B0D6 /* 775.全局倒置与局部倒置.cpp */,
 				8904330928E947E300F2255A /* 777.在lr字符串中交换相邻字符.cpp */,
 				8904337229018A9F00F2255A /* 779.第k个语法符号.cpp */,
 				8985D78728B51DFD000E687D /* 782.变为棋盘.cpp */,
@@ -2077,8 +2081,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
-				89438B302923B3A10013B0D6 /* 1710.卡车上的最大单元数.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
+				89438B33292529560013B0D6 /* 775.全局倒置与局部倒置.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
@@ -2088,8 +2092,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89438B2E2923B38A0013B0D6 /* 1710.卡车上的最大单元数.cpp in Sources */,
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
+				89438B35292529630013B0D6 /* 775.全局倒置与局部倒置.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
