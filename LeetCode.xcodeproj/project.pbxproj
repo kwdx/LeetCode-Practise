@@ -10,8 +10,8 @@
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89438B33292529560013B0D6 /* 775.全局倒置与局部倒置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B32292529560013B0D6 /* 775.全局倒置与局部倒置.swift */; };
-		89438B35292529630013B0D6 /* 775.全局倒置与局部倒置.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B34292529630013B0D6 /* 775.全局倒置与局部倒置.cpp */; };
+		89438B3729267D720013B0D6 /* 792.匹配子序列的单词数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B3629267D720013B0D6 /* 792.匹配子序列的单词数.cpp */; };
+		89438B3929267D9F0013B0D6 /* 792.匹配子序列的单词数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B3829267D9F0013B0D6 /* 792.匹配子序列的单词数.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -207,6 +207,8 @@
 		89438B2F2923B3A00013B0D6 /* 1710.卡车上的最大单元数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1710.卡车上的最大单元数.swift"; sourceTree = "<group>"; };
 		89438B32292529560013B0D6 /* 775.全局倒置与局部倒置.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "775.全局倒置与局部倒置.swift"; sourceTree = "<group>"; };
 		89438B34292529630013B0D6 /* 775.全局倒置与局部倒置.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "775.全局倒置与局部倒置.cpp"; sourceTree = "<group>"; };
+		89438B3629267D720013B0D6 /* 792.匹配子序列的单词数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "792.匹配子序列的单词数.cpp"; sourceTree = "<group>"; };
+		89438B3829267D9F0013B0D6 /* 792.匹配子序列的单词数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "792.匹配子序列的单词数.swift"; sourceTree = "<group>"; };
 		894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "937.重新排列日志文件.swift"; sourceTree = "<group>"; };
 		894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "937.重新排列日志文件.cpp"; sourceTree = "<group>"; };
 		894F524C282415FA00EA6C32 /* 713.乘积小于k的子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "713.乘积小于k的子数组.swift"; sourceTree = "<group>"; };
@@ -1174,6 +1176,7 @@
 				8969EDD528E0790600A0D6EF /* 788.旋转数字.swift */,
 				89438B21292140BC0013B0D6 /* 790.多米诺和托米诺平铺.swift */,
 				89438B1F29213A690013B0D6 /* 791.自定义字符串排序.swift */,
+				89438B3829267D9F0013B0D6 /* 792.匹配子序列的单词数.swift */,
 				892F8CEC28BAFA2E00BD6AC6 /* 793.阶乘函数后-k-个零.swift */,
 				892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */,
 				89E1BE4A281D893E009176A4 /* 796.旋转字符串.swift */,
@@ -1734,6 +1737,7 @@
 				8969EDD728E07BFA00A0D6EF /* 788.旋转数字.cpp */,
 				89438B23292142650013B0D6 /* 790.多米诺和托米诺平铺.cpp */,
 				89438B1D292139E20013B0D6 /* 791.自定义字符串排序.cpp */,
+				89438B3629267D720013B0D6 /* 792.匹配子序列的单词数.cpp */,
 				892F8CEA28BAF9DC00BD6AC6 /* 793.阶乘函数后-k-个零.cpp */,
 				8975E61B281ED17D006F4F6A /* 794.有效的井字游戏.cpp */,
 				8975E649281ED185006F4F6A /* 797.所有可能的路径.cpp */,
@@ -2080,9 +2084,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89438B3929267D9F0013B0D6 /* 792.匹配子序列的单词数.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
-				89438B33292529560013B0D6 /* 775.全局倒置与局部倒置.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
@@ -2092,8 +2096,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89438B3729267D720013B0D6 /* 792.匹配子序列的单词数.cpp in Sources */,
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
-				89438B35292529630013B0D6 /* 775.全局倒置与局部倒置.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
