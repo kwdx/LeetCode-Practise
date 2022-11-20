@@ -10,8 +10,8 @@
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89438B3729267D720013B0D6 /* 792.匹配子序列的单词数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B3629267D720013B0D6 /* 792.匹配子序列的单词数.cpp */; };
-		89438B3929267D9F0013B0D6 /* 792.匹配子序列的单词数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B3829267D9F0013B0D6 /* 792.匹配子序列的单词数.swift */; };
+		89438B432929D8FD0013B0D6 /* 799.香槟塔.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B422929D8FC0013B0D6 /* 799.香槟塔.cpp */; };
+		89438B452929DA320013B0D6 /* 799.香槟塔.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B442929DA310013B0D6 /* 799.香槟塔.swift */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -209,6 +209,12 @@
 		89438B34292529630013B0D6 /* 775.全局倒置与局部倒置.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "775.全局倒置与局部倒置.cpp"; sourceTree = "<group>"; };
 		89438B3629267D720013B0D6 /* 792.匹配子序列的单词数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "792.匹配子序列的单词数.cpp"; sourceTree = "<group>"; };
 		89438B3829267D9F0013B0D6 /* 792.匹配子序列的单词数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "792.匹配子序列的单词数.swift"; sourceTree = "<group>"; };
+		89438B3A2927BB5C0013B0D6 /* 891.子序列宽度之和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "891.子序列宽度之和.cpp"; sourceTree = "<group>"; };
+		89438B3C2927BB720013B0D6 /* 891.子序列宽度之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "891.子序列宽度之和.swift"; sourceTree = "<group>"; };
+		89438B3E29291E130013B0D6 /* 1732.找到最高海拔.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1732.找到最高海拔.swift"; sourceTree = "<group>"; };
+		89438B4029291ED10013B0D6 /* 1732.找到最高海拔.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1732.找到最高海拔.cpp"; sourceTree = "<group>"; };
+		89438B422929D8FC0013B0D6 /* 799.香槟塔.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "799.香槟塔.cpp"; sourceTree = "<group>"; };
+		89438B442929DA310013B0D6 /* 799.香槟塔.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "799.香槟塔.swift"; sourceTree = "<group>"; };
 		894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "937.重新排列日志文件.swift"; sourceTree = "<group>"; };
 		894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "937.重新排列日志文件.cpp"; sourceTree = "<group>"; };
 		894F524C282415FA00EA6C32 /* 713.乘积小于k的子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "713.乘积小于k的子数组.swift"; sourceTree = "<group>"; };
@@ -1181,6 +1187,7 @@
 				892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */,
 				89E1BE4A281D893E009176A4 /* 796.旋转字符串.swift */,
 				89A899A827D8FB6300A7A6D1 /* 798.得分最高的最小轮调.swift */,
+				89438B442929DA310013B0D6 /* 799.香槟塔.swift */,
 				8904332428F4601C00F2255A /* 801.使序列递增的最小交换次数.swift */,
 				89E1BE3F281D893A009176A4 /* 804.唯一摩尔斯密码词.swift */,
 				89E1BE47281D893D009176A4 /* 806.写字符串需要的行数.swift */,
@@ -1213,6 +1220,7 @@
 				8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */,
 				8904334028FC3FE000F2255A /* 886.可能的二分法.swift */,
 				8972D8F7285630AE00DB6595 /* 890.查找和替换模式.swift */,
+				89438B3C2927BB720013B0D6 /* 891.子序列宽度之和.swift */,
 				8937DD6B289ABC8B00D9624C /* 899.有序队列.swift */,
 				890433902902EC4A00F2255A /* 901.股票价格跨度.swift */,
 				8904336A28FEEB4000F2255A /* 902.最大为-n-的数字组合.swift */,
@@ -1330,6 +1338,7 @@
 				89438B2F2923B3A00013B0D6 /* 1710.卡车上的最大单元数.swift */,
 				896BABCC2792F1420099C360 /* 1716.计算力扣银行的钱.swift */,
 				8998BD1827ACE11A00ABE29A /* 1725.可以形成最大正方形的矩形数目.swift */,
+				89438B3E29291E130013B0D6 /* 1732.找到最高海拔.swift */,
 				8953DFB127AF844900FB2C00 /* 1748.唯一元素的和.swift */,
 				8900694C27A9813100EBE650 /* 1763.最长的美好子字符串.swift */,
 				891DCDDF27A57C9A0068417B /* 1765.地图中的最高点.swift */,
@@ -1742,6 +1751,7 @@
 				8975E61B281ED17D006F4F6A /* 794.有效的井字游戏.cpp */,
 				8975E649281ED185006F4F6A /* 797.所有可能的路径.cpp */,
 				8975E60A281ED17A006F4F6A /* 798.得分最高的最小轮调.cpp */,
+				89438B422929D8FC0013B0D6 /* 799.香槟塔.cpp */,
 				8904332628F4602D00F2255A /* 801.使序列递增的最小交换次数.cpp */,
 				89438B2B29227E450013B0D6 /* 805.数组的均值分割.cpp */,
 				8975E6B0281ED192006F4F6A /* 807.保持城市天际线.cpp */,
@@ -1774,6 +1784,7 @@
 				8904333E28FC3F4E00F2255A /* 886.可能的二分法.cpp */,
 				8975E67C281ED18B006F4F6A /* 889.根据前序和后序遍历构造二叉树.cpp */,
 				8972D8F9285630F100DB6595 /* 890.查找和替换模式.cpp */,
+				89438B3A2927BB5C0013B0D6 /* 891.子序列宽度之和.cpp */,
 				8975E583281ED163006F4F6A /* 895.最大频率栈.cpp */,
 				8937DD6D289ABC9900D9624C /* 899.有序队列.cpp */,
 				8904338E2902EC3E00F2255A /* 901.股票价格跨度.cpp */,
@@ -1904,6 +1915,7 @@
 				8975E589281ED164006F4F6A /* 1719.重构一棵树的方案数.cpp */,
 				8975E58D281ED164006F4F6A /* 1725.可以形成最大正方形的矩形数目.cpp */,
 				89939A48282A9BFD00B9519C /* 1728.猫和老鼠-ii.cpp */,
+				89438B4029291ED10013B0D6 /* 1732.找到最高海拔.cpp */,
 				8975E611281ED17B006F4F6A /* 1748.唯一元素的和.cpp */,
 				8975E688281ED18D006F4F6A /* 1763.最长的美好子字符串.cpp */,
 				8975E696281ED18F006F4F6A /* 1765.地图中的最高点.cpp */,
@@ -2084,8 +2096,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89438B3929267D9F0013B0D6 /* 792.匹配子序列的单词数.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
+				89438B452929DA320013B0D6 /* 799.香槟塔.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
@@ -2096,9 +2108,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89438B3729267D720013B0D6 /* 792.匹配子序列的单词数.cpp in Sources */,
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
+				89438B432929D8FD0013B0D6 /* 799.香槟塔.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
