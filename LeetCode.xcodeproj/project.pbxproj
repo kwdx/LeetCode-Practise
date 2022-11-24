@@ -10,8 +10,8 @@
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
-		89438B4F292E5BBA0013B0D6 /* 1742.盒子中小球的最大数量.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B4E292E5BB90013B0D6 /* 1742.盒子中小球的最大数量.cpp */; };
-		89438B51292E5BC90013B0D6 /* 1742.盒子中小球的最大数量.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B50292E5BC80013B0D6 /* 1742.盒子中小球的最大数量.swift */; };
+		89438B53292FC1A90013B0D6 /* 795.区间子数组个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89438B52292FC1A90013B0D6 /* 795.区间子数组个数.swift */; };
+		89438B55292FC1B70013B0D6 /* 795.区间子数组个数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89438B54292FC1B70013B0D6 /* 795.区间子数组个数.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
@@ -221,6 +221,8 @@
 		89438B4C292CF4950013B0D6 /* 878.第-n-个神奇数字.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "878.第-n-个神奇数字.swift"; sourceTree = "<group>"; };
 		89438B4E292E5BB90013B0D6 /* 1742.盒子中小球的最大数量.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1742.盒子中小球的最大数量.cpp"; sourceTree = "<group>"; };
 		89438B50292E5BC80013B0D6 /* 1742.盒子中小球的最大数量.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1742.盒子中小球的最大数量.swift"; sourceTree = "<group>"; };
+		89438B52292FC1A90013B0D6 /* 795.区间子数组个数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "795.区间子数组个数.swift"; sourceTree = "<group>"; };
+		89438B54292FC1B70013B0D6 /* 795.区间子数组个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "795.区间子数组个数.cpp"; sourceTree = "<group>"; };
 		894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "937.重新排列日志文件.swift"; sourceTree = "<group>"; };
 		894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "937.重新排列日志文件.cpp"; sourceTree = "<group>"; };
 		894F524C282415FA00EA6C32 /* 713.乘积小于k的子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "713.乘积小于k的子数组.swift"; sourceTree = "<group>"; };
@@ -1191,6 +1193,7 @@
 				89438B3829267D9F0013B0D6 /* 792.匹配子序列的单词数.swift */,
 				892F8CEC28BAFA2E00BD6AC6 /* 793.阶乘函数后-k-个零.swift */,
 				892396DF27624BBD0041A3B9 /* 794.有效的井字游戏.swift */,
+				89438B52292FC1A90013B0D6 /* 795.区间子数组个数.swift */,
 				89E1BE4A281D893E009176A4 /* 796.旋转字符串.swift */,
 				89A899A827D8FB6300A7A6D1 /* 798.得分最高的最小轮调.swift */,
 				89438B442929DA310013B0D6 /* 799.香槟塔.swift */,
@@ -1758,6 +1761,7 @@
 				89438B3629267D720013B0D6 /* 792.匹配子序列的单词数.cpp */,
 				892F8CEA28BAF9DC00BD6AC6 /* 793.阶乘函数后-k-个零.cpp */,
 				8975E61B281ED17D006F4F6A /* 794.有效的井字游戏.cpp */,
+				89438B54292FC1B70013B0D6 /* 795.区间子数组个数.cpp */,
 				8975E649281ED185006F4F6A /* 797.所有可能的路径.cpp */,
 				8975E60A281ED17A006F4F6A /* 798.得分最高的最小轮调.cpp */,
 				89438B422929D8FC0013B0D6 /* 799.香槟塔.cpp */,
@@ -2108,7 +2112,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89438B51292E5BC90013B0D6 /* 1742.盒子中小球的最大数量.swift in Sources */,
+				89438B53292FC1A90013B0D6 /* 795.区间子数组个数.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
@@ -2120,7 +2124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89438B4F292E5BBA0013B0D6 /* 1742.盒子中小球的最大数量.cpp in Sources */,
+				89438B55292FC1B70013B0D6 /* 795.区间子数组个数.cpp in Sources */,
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
