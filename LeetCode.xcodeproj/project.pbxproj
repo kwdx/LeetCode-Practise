@@ -13,8 +13,8 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
-		89E791E6293113FA002B377A /* 809.情感丰富的文字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E791E5293113FA002B377A /* 809.情感丰富的文字.cpp */; };
-		89E791E82931140A002B377A /* 809.情感丰富的文字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E791E72931140A002B377A /* 809.情感丰富的文字.swift */; };
+		89E791EE29331A69002B377A /* 1752.检查数组是否经排序和轮转得到.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E791ED29331A69002B377A /* 1752.检查数组是否经排序和轮转得到.swift */; };
+		89E791F029331ACC002B377A /* 1752.检查数组是否经排序和轮转得到.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E791EF29331ACC002B377A /* 1752.检查数组是否经排序和轮转得到.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -969,6 +969,10 @@
 		89E5D878281FCF1200216365 /* 591.标签验证器.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "591.标签验证器.swift"; sourceTree = "<group>"; };
 		89E791E5293113FA002B377A /* 809.情感丰富的文字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "809.情感丰富的文字.cpp"; sourceTree = "<group>"; };
 		89E791E72931140A002B377A /* 809.情感丰富的文字.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "809.情感丰富的文字.swift"; sourceTree = "<group>"; };
+		89E791E92931FCF0002B377A /* 882.细分图中的可到达结点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "882.细分图中的可到达结点.swift"; sourceTree = "<group>"; };
+		89E791EB2931FD94002B377A /* 882.细分图中的可到达结点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "882.细分图中的可到达结点.cpp"; sourceTree = "<group>"; };
+		89E791ED29331A69002B377A /* 1752.检查数组是否经排序和轮转得到.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1752.检查数组是否经排序和轮转得到.swift"; sourceTree = "<group>"; };
+		89E791EF29331ACC002B377A /* 1752.检查数组是否经排序和轮转得到.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1752.检查数组是否经排序和轮转得到.cpp"; sourceTree = "<group>"; };
 		89E8F9A02793ED8100310336 /* 382.链表随机节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "382.链表随机节点.swift"; sourceTree = "<group>"; };
 		89E8F9A22795BEA600310336 /* 1220.统计元音字母序列的数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1220.统计元音字母序列的数目.swift"; sourceTree = "<group>"; };
 		89E8F9A82796FFF100310336 /* 539.最小时间差.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "539.最小时间差.swift"; sourceTree = "<group>"; };
@@ -1230,6 +1234,7 @@
 				893D3CC62879D40400732C88 /* 873.最长的斐波那契子序列的长度.swift */,
 				8972D8DF284FA99D00DB6595 /* 875.爱吃香蕉的珂珂.swift */,
 				89438B4C292CF4950013B0D6 /* 878.第-n-个神奇数字.swift */,
+				89E791E92931FCF0002B377A /* 882.细分图中的可到达结点.swift */,
 				89E1BE48281D893D009176A4 /* 883.三维形体投影面积.swift */,
 				8984640727A69483006D99B5 /* 884.两句话中的不常见单词.swift */,
 				8904334028FC3FE000F2255A /* 886.可能的二分法.swift */,
@@ -1355,6 +1360,7 @@
 				89438B3E29291E130013B0D6 /* 1732.找到最高海拔.swift */,
 				89438B50292E5BC80013B0D6 /* 1742.盒子中小球的最大数量.swift */,
 				8953DFB127AF844900FB2C00 /* 1748.唯一元素的和.swift */,
+				89E791ED29331A69002B377A /* 1752.检查数组是否经排序和轮转得到.swift */,
 				8900694C27A9813100EBE650 /* 1763.最长的美好子字符串.swift */,
 				891DCDDF27A57C9A0068417B /* 1765.地图中的最高点.swift */,
 				890433A029051F9900F2255A /* 1768.交替合并字符串.swift */,
@@ -1799,6 +1805,7 @@
 				8975E5E2281ED173006F4F6A /* 875.爱吃香蕉的珂珂.cpp */,
 				8975E5EF281ED175006F4F6A /* 876.链表的中间结点.cpp */,
 				89438B4A292CF4820013B0D6 /* 878.第-n-个神奇数字.cpp */,
+				89E791EB2931FD94002B377A /* 882.细分图中的可到达结点.cpp */,
 				8975E597281ED165006F4F6A /* 884.两句话中的不常见单词.cpp */,
 				8904333E28FC3F4E00F2255A /* 886.可能的二分法.cpp */,
 				8975E67C281ED18B006F4F6A /* 889.根据前序和后序遍历构造二叉树.cpp */,
@@ -1937,6 +1944,7 @@
 				89438B4029291ED10013B0D6 /* 1732.找到最高海拔.cpp */,
 				89438B4E292E5BB90013B0D6 /* 1742.盒子中小球的最大数量.cpp */,
 				8975E611281ED17B006F4F6A /* 1748.唯一元素的和.cpp */,
+				89E791EF29331ACC002B377A /* 1752.检查数组是否经排序和轮转得到.cpp */,
 				8975E688281ED18D006F4F6A /* 1763.最长的美好子字符串.cpp */,
 				8975E696281ED18F006F4F6A /* 1765.地图中的最高点.cpp */,
 				890433A22905204100F2255A /* 1768.交替合并字符串.cpp */,
@@ -2118,8 +2126,8 @@
 			files = (
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
+				89E791EE29331A69002B377A /* 1752.检查数组是否经排序和轮转得到.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				89E791E82931140A002B377A /* 809.情感丰富的文字.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2128,9 +2136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E791F029331ACC002B377A /* 1752.检查数组是否经排序和轮转得到.cpp in Sources */,
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89E791E6293113FA002B377A /* 809.情感丰富的文字.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
