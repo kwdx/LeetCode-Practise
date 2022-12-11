@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
-		89057BC5294376B900FA9CA0 /* 1780.判断一个数字是否可以表示成三的幂的和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89057BC4294376B800FA9CA0 /* 1780.判断一个数字是否可以表示成三的幂的和.cpp */; };
-		89057BC7294376C100FA9CA0 /* 1780.判断一个数字是否可以表示成三的幂的和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89057BC6294376C100FA9CA0 /* 1780.判断一个数字是否可以表示成三的幂的和.swift */; };
+		89057BCD2945A2A200FA9CA0 /* 1827.最少操作使数组递增.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89057BCC2945A2A200FA9CA0 /* 1827.最少操作使数组递增.swift */; };
+		89057BCF2945A3B600FA9CA0 /* 1827.最少操作使数组递增.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89057BCE2945A3B600FA9CA0 /* 1827.最少操作使数组递增.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -93,6 +93,10 @@
 		89057BC2294227A300FA9CA0 /* 1812.判断国际象棋棋盘中一个格子的颜色.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1812.判断国际象棋棋盘中一个格子的颜色.swift"; sourceTree = "<group>"; };
 		89057BC4294376B800FA9CA0 /* 1780.判断一个数字是否可以表示成三的幂的和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1780.判断一个数字是否可以表示成三的幂的和.cpp"; sourceTree = "<group>"; };
 		89057BC6294376C100FA9CA0 /* 1780.判断一个数字是否可以表示成三的幂的和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1780.判断一个数字是否可以表示成三的幂的和.swift"; sourceTree = "<group>"; };
+		89057BC82944D05500FA9CA0 /* 1691.堆叠长方体的最大高度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1691.堆叠长方体的最大高度.cpp"; sourceTree = "<group>"; };
+		89057BCA2944D11E00FA9CA0 /* 1691.堆叠长方体的最大高度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1691.堆叠长方体的最大高度.swift"; sourceTree = "<group>"; };
+		89057BCC2945A2A200FA9CA0 /* 1827.最少操作使数组递增.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1827.最少操作使数组递增.swift"; sourceTree = "<group>"; };
+		89057BCE2945A3B600FA9CA0 /* 1827.最少操作使数组递增.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1827.最少操作使数组递增.cpp"; sourceTree = "<group>"; };
 		89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "997.找到小镇的法官.swift"; sourceTree = "<group>"; };
 		89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1610.可见点的最大数目.swift"; sourceTree = "<group>"; };
 		890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "682.棒球比赛.swift"; sourceTree = "<group>"; };
@@ -1372,6 +1376,7 @@
 				89438B0D2917D7610013B0D6 /* 1678.设计-goal-解析器.swift */,
 				89438B15291A9E3A0013B0D6 /* 1684.统计一致字符串的数目.swift */,
 				89EDAC5F27A0459200BA4246 /* 1688.比赛中的配对次数.swift */,
+				89057BCA2944D11E00FA9CA0 /* 1691.堆叠长方体的最大高度.swift */,
 				8904330528E887F900F2255A /* 1694.重新格式化电话号码.swift */,
 				8904336E2900386900F2255A /* 1700.无法吃午餐的学生数量.swift */,
 				89438B28292143CD0013B0D6 /* 1704.判断字符串的两半是否相似.swift */,
@@ -1404,6 +1409,7 @@
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
 				89C71DF0290AD49C004E3387 /* 1822.数组元素积的符号.swift */,
 				8928424E282235AF00484B59 /* 1823.找出游戏的获胜者.swift */,
+				89057BCC2945A2A200FA9CA0 /* 1827.最少操作使数组递增.swift */,
 				8988F48C27B801DF0009A23E /* 1984.学生分数的最小差值.swift */,
 				8939CD87277F59A0009F0CEE /* 1995.统计特殊四元组.swift */,
 				89518A0F27A392D7009CA2D8 /* 1996.游戏中弱角色的数量.swift */,
@@ -1964,6 +1970,7 @@
 				89438B0B2917D6CB0013B0D6 /* 1678.设计-goal-解析器.cpp */,
 				89438B13291A9E320013B0D6 /* 1684.统计一致字符串的数目.cpp */,
 				8975E5DC281ED172006F4F6A /* 1688.比赛中的配对次数.cpp */,
+				89057BC82944D05500FA9CA0 /* 1691.堆叠长方体的最大高度.cpp */,
 				8904330728E888BB00F2255A /* 1694.重新格式化电话号码.cpp */,
 				8904336C2900386100F2255A /* 1700.无法吃午餐的学生数量.cpp */,
 				89438B25292143B70013B0D6 /* 1704.判断字符串的两半是否相似.cpp */,
@@ -1998,6 +2005,7 @@
 				8975E625281ED17F006F4F6A /* 1816.截断句子.cpp */,
 				89C71DEE290AD496004E3387 /* 1822.数组元素积的符号.cpp */,
 				8928424C2822351800484B59 /* 1823.找出游戏的获胜者.cpp */,
+				89057BCE2945A3B600FA9CA0 /* 1827.最少操作使数组递增.cpp */,
 				8975E6A8281ED191006F4F6A /* 1894.找到需要补充粉笔的学生编号.cpp */,
 				8975E6AF281ED192006F4F6A /* 1962.移除石子使总数最小.cpp */,
 				8975E65E281ED187006F4F6A /* 1984.学生分数的最小差值.cpp */,
@@ -2166,9 +2174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89057BC7294376C100FA9CA0 /* 1780.判断一个数字是否可以表示成三的幂的和.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
+				89057BCD2945A2A200FA9CA0 /* 1827.最少操作使数组递增.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
@@ -2178,8 +2186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89057BCF2945A3B600FA9CA0 /* 1827.最少操作使数组递增.cpp in Sources */,
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
-				89057BC5294376B900FA9CA0 /* 1780.判断一个数字是否可以表示成三的幂的和.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
