@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
-		89057C172951EEF800FA9CA0 /* 1760.袋子里最少数目的球.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89057C162951EEF800FA9CA0 /* 1760.袋子里最少数目的球.cpp */; };
-		89057C192951EF1100FA9CA0 /* 1760.袋子里最少数目的球.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89057C182951EF1100FA9CA0 /* 1760.袋子里最少数目的球.swift */; };
+		89057C1C295346D600FA9CA0 /* 1753.移除石子的最大得分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89057C1B295346D600FA9CA0 /* 1753.移除石子的最大得分.swift */; };
+		89057C1E295346E600FA9CA0 /* 1753.移除石子的最大得分.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89057C1D295346E600FA9CA0 /* 1753.移除石子的最大得分.cpp */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -110,6 +110,8 @@
 		89057BE6294FF11500FA9CA0 /* 1971.寻找图中是否存在路径.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1971.寻找图中是否存在路径.swift"; sourceTree = "<group>"; };
 		89057C162951EEF800FA9CA0 /* 1760.袋子里最少数目的球.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1760.袋子里最少数目的球.cpp"; sourceTree = "<group>"; };
 		89057C182951EF1100FA9CA0 /* 1760.袋子里最少数目的球.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1760.袋子里最少数目的球.swift"; sourceTree = "<group>"; };
+		89057C1B295346D600FA9CA0 /* 1753.移除石子的最大得分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1753.移除石子的最大得分.swift"; sourceTree = "<group>"; };
+		89057C1D295346E600FA9CA0 /* 1753.移除石子的最大得分.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1753.移除石子的最大得分.cpp"; sourceTree = "<group>"; };
 		89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "997.找到小镇的法官.swift"; sourceTree = "<group>"; };
 		89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1610.可见点的最大数目.swift"; sourceTree = "<group>"; };
 		890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "682.棒球比赛.swift"; sourceTree = "<group>"; };
@@ -1402,6 +1404,7 @@
 				89438B50292E5BC80013B0D6 /* 1742.盒子中小球的最大数量.swift */,
 				8953DFB127AF844900FB2C00 /* 1748.唯一元素的和.swift */,
 				89E791ED29331A69002B377A /* 1752.检查数组是否经排序和轮转得到.swift */,
+				89057C1B295346D600FA9CA0 /* 1753.移除石子的最大得分.swift */,
 				89F7968B293639E4007E8393 /* 1758.生成交替二进制字符串的最少操作数.swift */,
 				89057C182951EF1100FA9CA0 /* 1760.袋子里最少数目的球.swift */,
 				8900694C27A9813100EBE650 /* 1763.最长的美好子字符串.swift */,
@@ -2004,6 +2007,7 @@
 				89438B4E292E5BB90013B0D6 /* 1742.盒子中小球的最大数量.cpp */,
 				8975E611281ED17B006F4F6A /* 1748.唯一元素的和.cpp */,
 				89E791EF29331ACC002B377A /* 1752.检查数组是否经排序和轮转得到.cpp */,
+				89057C1D295346E600FA9CA0 /* 1753.移除石子的最大得分.cpp */,
 				89F7968D293639F1007E8393 /* 1758.生成交替二进制字符串的最少操作数.cpp */,
 				89057C162951EEF800FA9CA0 /* 1760.袋子里最少数目的球.cpp */,
 				8975E688281ED18D006F4F6A /* 1763.最长的美好子字符串.cpp */,
@@ -2203,8 +2207,8 @@
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				89057C192951EF1100FA9CA0 /* 1760.袋子里最少数目的球.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
+				89057C1C295346D600FA9CA0 /* 1753.移除石子的最大得分.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2213,8 +2217,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
+				89057C1E295346E600FA9CA0 /* 1753.移除石子的最大得分.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89057C172951EEF800FA9CA0 /* 1760.袋子里最少数目的球.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
