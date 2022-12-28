@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
-		89057C30295B24F600FA9CA0 /* 2027.转换字符串的最少操作次数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89057C2F295B24F600FA9CA0 /* 2027.转换字符串的最少操作次数.swift */; };
-		89057C32295B250800FA9CA0 /* 2027.转换字符串的最少操作次数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89057C31295B250800FA9CA0 /* 2027.转换字符串的最少操作次数.cpp */; };
+		89057C34295C78ED00FA9CA0 /* 1750.删除字符串两端相同字符后的最短长度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89057C33295C78ED00FA9CA0 /* 1750.删除字符串两端相同字符后的最短长度.cpp */; };
+		89057C36295C78FE00FA9CA0 /* 1750.删除字符串两端相同字符后的最短长度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89057C35295C78FD00FA9CA0 /* 1750.删除字符串两端相同字符后的最短长度.swift */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -122,6 +122,8 @@
 		89057C2D2959EFBE00FA9CA0 /* 1759.统计同构子字符串的数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1759.统计同构子字符串的数目.cpp"; sourceTree = "<group>"; };
 		89057C2F295B24F600FA9CA0 /* 2027.转换字符串的最少操作次数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2027.转换字符串的最少操作次数.swift"; sourceTree = "<group>"; };
 		89057C31295B250800FA9CA0 /* 2027.转换字符串的最少操作次数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2027.转换字符串的最少操作次数.cpp"; sourceTree = "<group>"; };
+		89057C33295C78ED00FA9CA0 /* 1750.删除字符串两端相同字符后的最短长度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1750.删除字符串两端相同字符后的最短长度.cpp"; sourceTree = "<group>"; };
+		89057C35295C78FD00FA9CA0 /* 1750.删除字符串两端相同字符后的最短长度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1750.删除字符串两端相同字符后的最短长度.swift"; sourceTree = "<group>"; };
 		89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "997.找到小镇的法官.swift"; sourceTree = "<group>"; };
 		89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1610.可见点的最大数目.swift"; sourceTree = "<group>"; };
 		890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "682.棒球比赛.swift"; sourceTree = "<group>"; };
@@ -1414,6 +1416,7 @@
 				89057C272957F97C00FA9CA0 /* 1739.放置盒子.swift */,
 				89438B50292E5BC80013B0D6 /* 1742.盒子中小球的最大数量.swift */,
 				8953DFB127AF844900FB2C00 /* 1748.唯一元素的和.swift */,
+				89057C35295C78FD00FA9CA0 /* 1750.删除字符串两端相同字符后的最短长度.swift */,
 				89E791ED29331A69002B377A /* 1752.检查数组是否经排序和轮转得到.swift */,
 				89057C1B295346D600FA9CA0 /* 1753.移除石子的最大得分.swift */,
 				89057C2329570F4F00FA9CA0 /* 1754.构造字典序最大的合并字符串.swift */,
@@ -2022,6 +2025,7 @@
 				89057C292957FB6000FA9CA0 /* 1739.放置盒子.cpp */,
 				89438B4E292E5BB90013B0D6 /* 1742.盒子中小球的最大数量.cpp */,
 				8975E611281ED17B006F4F6A /* 1748.唯一元素的和.cpp */,
+				89057C33295C78ED00FA9CA0 /* 1750.删除字符串两端相同字符后的最短长度.cpp */,
 				89E791EF29331ACC002B377A /* 1752.检查数组是否经排序和轮转得到.cpp */,
 				89057C1D295346E600FA9CA0 /* 1753.移除石子的最大得分.cpp */,
 				89057C2529570F9900FA9CA0 /* 1754.构造字典序最大的合并字符串.cpp */,
@@ -2224,9 +2228,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89057C36295C78FE00FA9CA0 /* 1750.删除字符串两端相同字符后的最短长度.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
-				89057C30295B24F600FA9CA0 /* 2027.转换字符串的最少操作次数.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
@@ -2238,7 +2242,7 @@
 			files = (
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89057C32295B250800FA9CA0 /* 2027.转换字符串的最少操作次数.cpp in Sources */,
+				89057C34295C78ED00FA9CA0 /* 1750.删除字符串两端相同字符后的最短长度.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
