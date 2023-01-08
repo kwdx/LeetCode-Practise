@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
-		89057C38295DD32E00FA9CA0 /* 2032.至少在两个数组中出现的值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89057C37295DD32E00FA9CA0 /* 2032.至少在两个数组中出现的值.swift */; };
-		89057C3A295DD33C00FA9CA0 /* 2032.至少在两个数组中出现的值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89057C39295DD33B00FA9CA0 /* 2032.至少在两个数组中出现的值.cpp */; };
+		89057C56296B046700FA9CA0 /* 2185.统计包含给定前缀的字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89057C55296B046600FA9CA0 /* 2185.统计包含给定前缀的字符串.cpp */; };
+		89057C58296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89057C57296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -126,6 +126,20 @@
 		89057C35295C78FD00FA9CA0 /* 1750.删除字符串两端相同字符后的最短长度.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1750.删除字符串两端相同字符后的最短长度.swift"; sourceTree = "<group>"; };
 		89057C37295DD32E00FA9CA0 /* 2032.至少在两个数组中出现的值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2032.至少在两个数组中出现的值.swift"; sourceTree = "<group>"; };
 		89057C39295DD33B00FA9CA0 /* 2032.至少在两个数组中出现的值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2032.至少在两个数组中出现的值.cpp"; sourceTree = "<group>"; };
+		89057C3B2960672C00FA9CA0 /* 2037.使每位学生都有座位的最少移动次数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2037.使每位学生都有座位的最少移动次数.cpp"; sourceTree = "<group>"; };
+		89057C3D296067C200FA9CA0 /* 2037.使每位学生都有座位的最少移动次数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2037.使每位学生都有座位的最少移动次数.swift"; sourceTree = "<group>"; };
+		89057C3F296138C500FA9CA0 /* 2351.第一个出现两次的字母.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2351.第一个出现两次的字母.cpp"; sourceTree = "<group>"; };
+		89057C412961394800FA9CA0 /* 2351.第一个出现两次的字母.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2351.第一个出现两次的字母.swift"; sourceTree = "<group>"; };
+		89057C452963038500FA9CA0 /* 1801.积压订单中的订单总数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1801.积压订单中的订单总数.cpp"; sourceTree = "<group>"; };
+		89057C47296720BB00FA9CA0 /* 2042.检查句子中的数字是否递增.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2042.检查句子中的数字是否递增.swift"; sourceTree = "<group>"; };
+		89057C49296720D200FA9CA0 /* 2042.检查句子中的数字是否递增.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2042.检查句子中的数字是否递增.cpp"; sourceTree = "<group>"; };
+		89057C4B296720DD00FA9CA0 /* 1802.有界数组中指定下标处的最大值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1802.有界数组中指定下标处的最大值.cpp"; sourceTree = "<group>"; };
+		89057C4D29693C5D00FA9CA0 /* 1658.将-x-减到-0-的最小操作数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1658.将-x-减到-0-的最小操作数.cpp"; sourceTree = "<group>"; };
+		89057C4F29694B5D00FA9CA0 /* 1658.将-x-减到-0-的最小操作数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1658.将-x-减到-0-的最小操作数.swift"; sourceTree = "<group>"; };
+		89057C512969509400FA9CA0 /* 2180.统计各位数字之和为偶数的整数个数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2180.统计各位数字之和为偶数的整数个数.swift"; sourceTree = "<group>"; };
+		89057C53296950A600FA9CA0 /* 2180.统计各位数字之和为偶数的整数个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2180.统计各位数字之和为偶数的整数个数.cpp"; sourceTree = "<group>"; };
+		89057C55296B046600FA9CA0 /* 2185.统计包含给定前缀的字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2185.统计包含给定前缀的字符串.cpp"; sourceTree = "<group>"; };
+		89057C57296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2185.统计包含给定前缀的字符串.swift"; sourceTree = "<group>"; };
 		89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "997.找到小镇的法官.swift"; sourceTree = "<group>"; };
 		89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1610.可见点的最大数目.swift"; sourceTree = "<group>"; };
 		890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "682.棒球比赛.swift"; sourceTree = "<group>"; };
@@ -1399,6 +1413,7 @@
 				89DCE47A28DBE73100F7FD48 /* 1640.能否连接形成数组.swift */,
 				8969EDD328DF502A00A0D6EF /* 1652.拆炸弹.swift */,
 				89816BA828ABCCFF000D7C8F /* 1656.设计有序流.swift */,
+				89057C4F29694B5D00FA9CA0 /* 1658.将-x-减到-0-的最小操作数.swift */,
 				89438AF72911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift */,
 				89438AFF29140A070013B0D6 /* 1668.最大重复子字符串.swift */,
 				89E1BE49281D893E009176A4 /* 1672.最富有客户的资产总量.swift */,
@@ -1465,8 +1480,10 @@
 				89E8F9B02799A58B00310336 /* 2029.石子游戏-ix.swift */,
 				89057C37295DD32E00FA9CA0 /* 2032.至少在两个数组中出现的值.swift */,
 				8972B692279D1CAF00D14CE7 /* 2034.股票价格波动.swift */,
+				89057C3D296067C200FA9CA0 /* 2037.使每位学生都有座位的最少移动次数.swift */,
 				895A04D027EA16DC00AB66B9 /* 2038.如果相邻两个颜色均相同则删除当前颜色.swift */,
 				895A04C727E775D800AB66B9 /* 2039.网络空闲的时刻.swift */,
+				89057C47296720BB00FA9CA0 /* 2042.检查句子中的数字是否递增.swift */,
 				895A04BF27E4B3D200AB66B9 /* 2043.简易银行系统.swift */,
 				8952093727E0DDE200BA01F2 /* 2044.统计按位或能得到最大值的子集数目.swift */,
 				8916EA1A279EE5B8000B26A9 /* 2045.到达目的地的第二短时间.swift */,
@@ -1475,6 +1492,9 @@
 				89A899A427D7AC8300A7A6D1 /* 2055.蜡烛之间的盘子.swift */,
 				89A955B727D504AD003B556A /* 2100.适合打劫银行的日子.swift */,
 				89B070E127D2626800DD7E68 /* 2104.子数组范围和.swift */,
+				89057C512969509400FA9CA0 /* 2180.统计各位数字之和为偶数的整数个数.swift */,
+				89057C57296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift */,
+				89057C412961394800FA9CA0 /* 2351.第一个出现两次的字母.swift */,
 				898BC881285E2D2400B04A33 /* 剑指 Offer II */,
 				89886F61272CE1FF003A626D /* 链表 */,
 				898BC87E285E2D2400B04A33 /* 面试题 */,
@@ -2008,6 +2028,7 @@
 				89DCE47828DBE65900F7FD48 /* 1640.能否连接形成数组.cpp */,
 				8969EDD128DF4FB500A0D6EF /* 1652.拆炸弹.cpp */,
 				89816BA628ABCCEC000D7C8F /* 1656.设计有序流.cpp */,
+				89057C4D29693C5D00FA9CA0 /* 1658.将-x-减到-0-的最小操作数.cpp */,
 				89438AF52911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp */,
 				89438AFB291409EA0013B0D6 /* 1668.最大重复子字符串.cpp */,
 				89438B0B2917D6CB0013B0D6 /* 1678.设计-goal-解析器.cpp */,
@@ -2052,6 +2073,8 @@
 				8975E692281ED18E006F4F6A /* 1791.找出星型图的中心节点.cpp */,
 				89F7969B293B9FCD007E8393 /* 1796.字符串中第二大的数字.cpp */,
 				8904331F28F0642D00F2255A /* 1800.最大升序子数组和.cpp */,
+				89057C452963038500FA9CA0 /* 1801.积压订单中的订单总数.cpp */,
+				89057C4B296720DD00FA9CA0 /* 1802.有界数组中指定下标处的最大值.cpp */,
 				89057B4A293F959500FA9CA0 /* 1805.字符串中不同整数的数目.cpp */,
 				89057BC02942279500FA9CA0 /* 1812.判断国际象棋棋盘中一个格子的颜色.cpp */,
 				8975E625281ED17F006F4F6A /* 1816.截断句子.cpp */,
@@ -2079,8 +2102,10 @@
 				8975E5BA281ED16B006F4F6A /* 2029.石子游戏-ix.cpp */,
 				89057C39295DD33B00FA9CA0 /* 2032.至少在两个数组中出现的值.cpp */,
 				8975E680281ED18C006F4F6A /* 2034.股票价格波动.cpp */,
+				89057C3B2960672C00FA9CA0 /* 2037.使每位学生都有座位的最少移动次数.cpp */,
 				8975E661281ED188006F4F6A /* 2038.如果相邻两个颜色均相同则删除当前颜色.cpp */,
 				8975E658281ED187006F4F6A /* 2039.网络空闲的时刻.cpp */,
+				89057C49296720D200FA9CA0 /* 2042.检查句子中的数字是否递增.cpp */,
 				8975E56E281ED15F006F4F6A /* 2043.简易银行系统.cpp */,
 				8975E5C9281ED16E006F4F6A /* 2044.统计按位或能得到最大值的子集数目.cpp */,
 				8975E5ED281ED175006F4F6A /* 2045.到达目的地的第二短时间.cpp */,
@@ -2089,6 +2114,9 @@
 				8975E591281ED164006F4F6A /* 2055.蜡烛之间的盘子.cpp */,
 				8975E664281ED188006F4F6A /* 2100.适合打劫银行的日子.cpp */,
 				8975E674281ED18A006F4F6A /* 2104.子数组范围和.cpp */,
+				89057C53296950A600FA9CA0 /* 2180.统计各位数字之和为偶数的整数个数.cpp */,
+				89057C55296B046600FA9CA0 /* 2185.统计包含给定前缀的字符串.cpp */,
+				89057C3F296138C500FA9CA0 /* 2351.第一个出现两次的字母.cpp */,
 				8975E5CB281ED16E006F4F6A /* 5187_收集足够苹果的最小花园周长.cpp */,
 				8975E69E281ED190006F4F6A /* 5381_你可以工作的最大周数.cpp */,
 				8975E6BE281ED194006F4F6A /* 5830_三除数.cpp */,
@@ -2232,10 +2260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89057C58296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
-				89057C38295DD32E00FA9CA0 /* 2032.至少在两个数组中出现的值.swift in Sources */,
 				89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2246,7 +2274,7 @@
 			files = (
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89057C3A295DD33C00FA9CA0 /* 2032.至少在两个数组中出现的值.cpp in Sources */,
+				89057C56296B046700FA9CA0 /* 2185.统计包含给定前缀的字符串.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
