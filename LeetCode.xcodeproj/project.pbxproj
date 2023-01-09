@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		8904333028F7054F00F2255A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89886F62272CE20B003A626D /* ListNode.swift */; };
 		8904333128F7085800F2255A /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E62A281ED180006F4F6A /* ListNode.cpp */; };
-		89057C56296B046700FA9CA0 /* 2185.统计包含给定前缀的字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89057C55296B046600FA9CA0 /* 2185.统计包含给定前缀的字符串.cpp */; };
-		89057C58296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89057C57296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift */; };
 		89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8975E5CD281ED16F006F4F6A /* TreeNode.cpp */; };
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
@@ -140,6 +138,8 @@
 		89057C53296950A600FA9CA0 /* 2180.统计各位数字之和为偶数的整数个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2180.统计各位数字之和为偶数的整数个数.cpp"; sourceTree = "<group>"; };
 		89057C55296B046600FA9CA0 /* 2185.统计包含给定前缀的字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2185.统计包含给定前缀的字符串.cpp"; sourceTree = "<group>"; };
 		89057C57296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2185.统计包含给定前缀的字符串.swift"; sourceTree = "<group>"; };
+		89057C59296C59B500FA9CA0 /* 1806.还原排列的最少操作步数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1806.还原排列的最少操作步数.cpp"; sourceTree = "<group>"; };
+		89057C5B296C59C600FA9CA0 /* 1806.还原排列的最少操作步数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1806.还原排列的最少操作步数.swift"; sourceTree = "<group>"; };
 		89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "997.找到小镇的法官.swift"; sourceTree = "<group>"; };
 		89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1610.可见点的最大数目.swift"; sourceTree = "<group>"; };
 		890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "682.棒球比赛.swift"; sourceTree = "<group>"; };
@@ -1457,6 +1457,7 @@
 				89F79699293B9F2F007E8393 /* 1796.字符串中第二大的数字.swift */,
 				8904331D28F0639500F2255A /* 1800.最大升序子数组和.swift */,
 				89057B4C293F95A500FA9CA0 /* 1805.字符串中不同整数的数目.swift */,
+				89057C5B296C59C600FA9CA0 /* 1806.还原排列的最少操作步数.swift */,
 				89057BC2294227A300FA9CA0 /* 1812.判断国际象棋棋盘中一个格子的颜色.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
 				89C71DF0290AD49C004E3387 /* 1822.数组元素积的符号.swift */,
@@ -2076,6 +2077,7 @@
 				89057C452963038500FA9CA0 /* 1801.积压订单中的订单总数.cpp */,
 				89057C4B296720DD00FA9CA0 /* 1802.有界数组中指定下标处的最大值.cpp */,
 				89057B4A293F959500FA9CA0 /* 1805.字符串中不同整数的数目.cpp */,
+				89057C59296C59B500FA9CA0 /* 1806.还原排列的最少操作步数.cpp */,
 				89057BC02942279500FA9CA0 /* 1812.判断国际象棋棋盘中一个格子的颜色.cpp */,
 				8975E625281ED17F006F4F6A /* 1816.截断句子.cpp */,
 				89C71DEE290AD496004E3387 /* 1822.数组元素积的符号.cpp */,
@@ -2260,7 +2262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89057C58296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift in Sources */,
 				89886F4B272C5E47003A626D /* main.swift in Sources */,
 				8904333028F7054F00F2255A /* ListNode.swift in Sources */,
 				89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */,
@@ -2274,7 +2275,6 @@
 			files = (
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
-				89057C56296B046700FA9CA0 /* 2185.统计包含给定前缀的字符串.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
