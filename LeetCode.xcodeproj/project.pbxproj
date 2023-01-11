@@ -140,6 +140,8 @@
 		89057C57296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2185.统计包含给定前缀的字符串.swift"; sourceTree = "<group>"; };
 		89057C59296C59B500FA9CA0 /* 1806.还原排列的最少操作步数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1806.还原排列的最少操作步数.cpp"; sourceTree = "<group>"; };
 		89057C5B296C59C600FA9CA0 /* 1806.还原排列的最少操作步数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1806.还原排列的最少操作步数.swift"; sourceTree = "<group>"; };
+		89057C5D296EFDD300FA9CA0 /* 2283.判断一个数的数字计数是否等于数位的值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2283.判断一个数的数字计数是否等于数位的值.swift"; sourceTree = "<group>"; };
+		89057C5F296EFDE700FA9CA0 /* 2283.判断一个数的数字计数是否等于数位的值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2283.判断一个数的数字计数是否等于数位的值.cpp"; sourceTree = "<group>"; };
 		89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "997.找到小镇的法官.swift"; sourceTree = "<group>"; };
 		89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1610.可见点的最大数目.swift"; sourceTree = "<group>"; };
 		890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "682.棒球比赛.swift"; sourceTree = "<group>"; };
@@ -1495,6 +1497,7 @@
 				89B070E127D2626800DD7E68 /* 2104.子数组范围和.swift */,
 				89057C512969509400FA9CA0 /* 2180.统计各位数字之和为偶数的整数个数.swift */,
 				89057C57296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift */,
+				89057C5D296EFDD300FA9CA0 /* 2283.判断一个数的数字计数是否等于数位的值.swift */,
 				89057C412961394800FA9CA0 /* 2351.第一个出现两次的字母.swift */,
 				898BC881285E2D2400B04A33 /* 剑指 Offer II */,
 				89886F61272CE1FF003A626D /* 链表 */,
@@ -2118,6 +2121,7 @@
 				8975E674281ED18A006F4F6A /* 2104.子数组范围和.cpp */,
 				89057C53296950A600FA9CA0 /* 2180.统计各位数字之和为偶数的整数个数.cpp */,
 				89057C55296B046600FA9CA0 /* 2185.统计包含给定前缀的字符串.cpp */,
+				89057C5F296EFDE700FA9CA0 /* 2283.判断一个数的数字计数是否等于数位的值.cpp */,
 				89057C3F296138C500FA9CA0 /* 2351.第一个出现两次的字母.cpp */,
 				8975E5CB281ED16E006F4F6A /* 5187_收集足够苹果的最小花园周长.cpp */,
 				8975E69E281ED190006F4F6A /* 5381_你可以工作的最大周数.cpp */,
