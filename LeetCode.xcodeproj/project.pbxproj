@@ -146,6 +146,10 @@
 		89057C6329703CAB00FA9CA0 /* 1807.替换字符串中的括号内容.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1807.替换字符串中的括号内容.swift"; sourceTree = "<group>"; };
 		89057C652971A45B00FA9CA0 /* 2287.重排字符形成目标字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2287.重排字符形成目标字符串.swift"; sourceTree = "<group>"; };
 		89057C672971A46A00FA9CA0 /* 2287.重排字符形成目标字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2287.重排字符形成目标字符串.cpp"; sourceTree = "<group>"; };
+		89057C6929741B9F00FA9CA0 /* 2293.极大极小游戏.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2293.极大极小游戏.swift"; sourceTree = "<group>"; };
+		89057C6B29741BEB00FA9CA0 /* 2293.极大极小游戏.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2293.极大极小游戏.cpp"; sourceTree = "<group>"; };
+		89057C6D29758D1700FA9CA0 /* 1813.句子相似性-iii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1813.句子相似性-iii.cpp"; sourceTree = "<group>"; };
+		89057C6F29758D8800FA9CA0 /* 1813.句子相似性-iii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1813.句子相似性-iii.swift"; sourceTree = "<group>"; };
 		89075150276EFD7B009BA671 /* 997.找到小镇的法官.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "997.找到小镇的法官.swift"; sourceTree = "<group>"; };
 		89075154276F674C009BA671 /* 1610.可见点的最大数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1610.可见点的最大数目.swift"; sourceTree = "<group>"; };
 		890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "682.棒球比赛.swift"; sourceTree = "<group>"; };
@@ -1466,6 +1470,7 @@
 				89057C5B296C59C600FA9CA0 /* 1806.还原排列的最少操作步数.swift */,
 				89057C6329703CAB00FA9CA0 /* 1807.替换字符串中的括号内容.swift */,
 				89057BC2294227A300FA9CA0 /* 1812.判断国际象棋棋盘中一个格子的颜色.swift */,
+				89057C6F29758D8800FA9CA0 /* 1813.句子相似性-iii.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
 				89C71DF0290AD49C004E3387 /* 1822.数组元素积的符号.swift */,
 				8928424E282235AF00484B59 /* 1823.找出游戏的获胜者.swift */,
@@ -1504,6 +1509,7 @@
 				89057C57296B052A00FA9CA0 /* 2185.统计包含给定前缀的字符串.swift */,
 				89057C5D296EFDD300FA9CA0 /* 2283.判断一个数的数字计数是否等于数位的值.swift */,
 				89057C652971A45B00FA9CA0 /* 2287.重排字符形成目标字符串.swift */,
+				89057C6929741B9F00FA9CA0 /* 2293.极大极小游戏.swift */,
 				89057C412961394800FA9CA0 /* 2351.第一个出现两次的字母.swift */,
 				898BC881285E2D2400B04A33 /* 剑指 Offer II */,
 				89886F61272CE1FF003A626D /* 链表 */,
@@ -2089,6 +2095,7 @@
 				89057C59296C59B500FA9CA0 /* 1806.还原排列的最少操作步数.cpp */,
 				89057C6129703C9B00FA9CA0 /* 1807.替换字符串中的括号内容.cpp */,
 				89057BC02942279500FA9CA0 /* 1812.判断国际象棋棋盘中一个格子的颜色.cpp */,
+				89057C6D29758D1700FA9CA0 /* 1813.句子相似性-iii.cpp */,
 				8975E625281ED17F006F4F6A /* 1816.截断句子.cpp */,
 				89C71DEE290AD496004E3387 /* 1822.数组元素积的符号.cpp */,
 				8928424C2822351800484B59 /* 1823.找出游戏的获胜者.cpp */,
@@ -2130,6 +2137,7 @@
 				89057C55296B046600FA9CA0 /* 2185.统计包含给定前缀的字符串.cpp */,
 				89057C5F296EFDE700FA9CA0 /* 2283.判断一个数的数字计数是否等于数位的值.cpp */,
 				89057C672971A46A00FA9CA0 /* 2287.重排字符形成目标字符串.cpp */,
+				89057C6B29741BEB00FA9CA0 /* 2293.极大极小游戏.cpp */,
 				89057C3F296138C500FA9CA0 /* 2351.第一个出现两次的字母.cpp */,
 				8975E5CB281ED16E006F4F6A /* 5187_收集足够苹果的最小花园周长.cpp */,
 				8975E69E281ED190006F4F6A /* 5381_你可以工作的最大周数.cpp */,
