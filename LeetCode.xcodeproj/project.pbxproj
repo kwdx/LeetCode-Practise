@@ -155,6 +155,8 @@
 		890C2DDB27EF694600F5191D /* 682.棒球比赛.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "682.棒球比赛.swift"; sourceTree = "<group>"; };
 		890C2DDD27F0126B00F5191D /* 2028.找出缺失的观测数据.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2028.找出缺失的观测数据.swift"; sourceTree = "<group>"; };
 		890E883F2740CB8C0073633B /* 677.键值映射.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "677.键值映射.swift"; sourceTree = "<group>"; };
+		89107BEF2976E4D500364197 /* 1814.统计一个数组中好对子的数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1814.统计一个数组中好对子的数目.swift"; sourceTree = "<group>"; };
+		89107BF12976E50A00364197 /* 1814.统计一个数组中好对子的数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1814.统计一个数组中好对子的数目.cpp"; sourceTree = "<group>"; };
 		891095852731767C00981C0D /* 237.删除链表中的节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "237.删除链表中的节点.swift"; sourceTree = "<group>"; };
 		8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "367.有效的完全平方数.swift"; sourceTree = "<group>"; };
 		8910958D2735799500981C0D /* 1218.最长定差子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1218.最长定差子序列.swift"; sourceTree = "<group>"; };
@@ -1471,6 +1473,7 @@
 				89057C6329703CAB00FA9CA0 /* 1807.替换字符串中的括号内容.swift */,
 				89057BC2294227A300FA9CA0 /* 1812.判断国际象棋棋盘中一个格子的颜色.swift */,
 				89057C6F29758D8800FA9CA0 /* 1813.句子相似性-iii.swift */,
+				89107BEF2976E4D500364197 /* 1814.统计一个数组中好对子的数目.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
 				89C71DF0290AD49C004E3387 /* 1822.数组元素积的符号.swift */,
 				8928424E282235AF00484B59 /* 1823.找出游戏的获胜者.swift */,
@@ -2096,6 +2099,7 @@
 				89057C6129703C9B00FA9CA0 /* 1807.替换字符串中的括号内容.cpp */,
 				89057BC02942279500FA9CA0 /* 1812.判断国际象棋棋盘中一个格子的颜色.cpp */,
 				89057C6D29758D1700FA9CA0 /* 1813.句子相似性-iii.cpp */,
+				89107BF12976E50A00364197 /* 1814.统计一个数组中好对子的数目.cpp */,
 				8975E625281ED17F006F4F6A /* 1816.截断句子.cpp */,
 				89C71DEE290AD496004E3387 /* 1822.数组元素积的符号.cpp */,
 				8928424C2822351800484B59 /* 1823.找出游戏的获胜者.cpp */,
