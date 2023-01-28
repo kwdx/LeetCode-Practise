@@ -157,6 +157,8 @@
 		890E883F2740CB8C0073633B /* 677.键值映射.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "677.键值映射.swift"; sourceTree = "<group>"; };
 		89107BEF2976E4D500364197 /* 1814.统计一个数组中好对子的数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1814.统计一个数组中好对子的数目.swift"; sourceTree = "<group>"; };
 		89107BF12976E50A00364197 /* 1814.统计一个数组中好对子的数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1814.统计一个数组中好对子的数目.cpp"; sourceTree = "<group>"; };
+		89107BF32978E10A00364197 /* 2299.强密码检验器-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2299.强密码检验器-ii.swift"; sourceTree = "<group>"; };
+		89107BF52978E17500364197 /* 2299.强密码检验器-ii.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2299.强密码检验器-ii.cpp"; sourceTree = "<group>"; };
 		891095852731767C00981C0D /* 237.删除链表中的节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "237.删除链表中的节点.swift"; sourceTree = "<group>"; };
 		8910958B27342C7B00981C0D /* 367.有效的完全平方数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "367.有效的完全平方数.swift"; sourceTree = "<group>"; };
 		8910958D2735799500981C0D /* 1218.最长定差子序列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1218.最长定差子序列.swift"; sourceTree = "<group>"; };
@@ -290,6 +292,10 @@
 		89438B50292E5BC80013B0D6 /* 1742.盒子中小球的最大数量.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1742.盒子中小球的最大数量.swift"; sourceTree = "<group>"; };
 		89438B52292FC1A90013B0D6 /* 795.区间子数组个数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "795.区间子数组个数.swift"; sourceTree = "<group>"; };
 		89438B54292FC1B70013B0D6 /* 795.区间子数组个数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "795.区间子数组个数.cpp"; sourceTree = "<group>"; };
+		8944A81D297EC0C000740F14 /* 2303.计算应缴税款总额.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2303.计算应缴税款总额.cpp"; sourceTree = "<group>"; };
+		8944A81F297EC2CD00740F14 /* 2303.计算应缴税款总额.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2303.计算应缴税款总额.swift"; sourceTree = "<group>"; };
+		8944A8212980113E00740F14 /* 1828.统计一个圆中点的数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1828.统计一个圆中点的数目.swift"; sourceTree = "<group>"; };
+		8944A8232980119600740F14 /* 1828.统计一个圆中点的数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1828.统计一个圆中点的数目.cpp"; sourceTree = "<group>"; };
 		894579FD2820EC1700168863 /* 937.重新排列日志文件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "937.重新排列日志文件.swift"; sourceTree = "<group>"; };
 		894579FF2820EC3C00168863 /* 937.重新排列日志文件.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "937.重新排列日志文件.cpp"; sourceTree = "<group>"; };
 		894F524C282415FA00EA6C32 /* 713.乘积小于k的子数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "713.乘积小于k的子数组.swift"; sourceTree = "<group>"; };
@@ -862,6 +868,8 @@
 		89955FA227C2897F00E03BC0 /* 717.1-比特与-2-比特字符.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "717.1-比特与-2-比特字符.swift"; sourceTree = "<group>"; };
 		89955FA827C3C75900E03BC0 /* 838.推多米诺.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "838.推多米诺.swift"; sourceTree = "<group>"; };
 		8995D89C27303094001A499C /* 575.分糖果.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "575.分糖果.swift"; sourceTree = "<group>"; };
+		8998637529855E2C003FC33A /* 1664.生成平衡数组的方案数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1664.生成平衡数组的方案数.swift"; sourceTree = "<group>"; };
+		8998637729855E4D003FC33A /* 1664.生成平衡数组的方案数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1664.生成平衡数组的方案数.cpp"; sourceTree = "<group>"; };
 		8998BD1827ACE11A00ABE29A /* 1725.可以形成最大正方形的矩形数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1725.可以形成最大正方形的矩形数目.swift"; sourceTree = "<group>"; };
 		8998E59F2934E332007EFA9D /* 813.最大平均值和的分组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "813.最大平均值和的分组.cpp"; sourceTree = "<group>"; };
 		8998E5A12934E35B007EFA9D /* 813.最大平均值和的分组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "813.最大平均值和的分组.swift"; sourceTree = "<group>"; };
@@ -1054,6 +1062,9 @@
 		89EB26AB28917E84002BB7EF /* 919.完全二叉树插入器.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "919.完全二叉树插入器.cpp"; sourceTree = "<group>"; };
 		89EB26AC28917E84002BB7EF /* 1206.设计跳表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1206.设计跳表.cpp"; sourceTree = "<group>"; };
 		89EB26AD28917E84002BB7EF /* 592.分数加减运算.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "592.分数加减运算.cpp"; sourceTree = "<group>"; };
+		89EB52B3297AEFD00031BEF0 /* 1817.查找用户活跃分钟数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1817.查找用户活跃分钟数.swift"; sourceTree = "<group>"; };
+		89EB52B5297AF0910031BEF0 /* 1817.查找用户活跃分钟数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1817.查找用户活跃分钟数.cpp"; sourceTree = "<group>"; };
+		89EB52B7297AF32D0031BEF0 /* 1824.最少侧跳次数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1824.最少侧跳次数.cpp"; sourceTree = "<group>"; };
 		89EDAC5F27A0459200BA4246 /* 1688.比赛中的配对次数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1688.比赛中的配对次数.swift"; sourceTree = "<group>"; };
 		89F7968B293639E4007E8393 /* 1758.生成交替二进制字符串的最少操作数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1758.生成交替二进制字符串的最少操作数.swift"; sourceTree = "<group>"; };
 		89F7968D293639F1007E8393 /* 1758.生成交替二进制字符串的最少操作数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1758.生成交替二进制字符串的最少操作数.cpp"; sourceTree = "<group>"; };
@@ -1427,6 +1438,7 @@
 				89816BA828ABCCFF000D7C8F /* 1656.设计有序流.swift */,
 				89057C4F29694B5D00FA9CA0 /* 1658.将-x-减到-0-的最小操作数.swift */,
 				89438AF72911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift */,
+				8998637529855E2C003FC33A /* 1664.生成平衡数组的方案数.swift */,
 				89438AFF29140A070013B0D6 /* 1668.最大重复子字符串.swift */,
 				89E1BE49281D893E009176A4 /* 1672.最富有客户的资产总量.swift */,
 				89438B0D2917D7610013B0D6 /* 1678.设计-goal-解析器.swift */,
@@ -1475,9 +1487,11 @@
 				89057C6F29758D8800FA9CA0 /* 1813.句子相似性-iii.swift */,
 				89107BEF2976E4D500364197 /* 1814.统计一个数组中好对子的数目.swift */,
 				89A38F0D275E4942007FED61 /* 1816.截断句子.swift */,
+				89EB52B3297AEFD00031BEF0 /* 1817.查找用户活跃分钟数.swift */,
 				89C71DF0290AD49C004E3387 /* 1822.数组元素积的符号.swift */,
 				8928424E282235AF00484B59 /* 1823.找出游戏的获胜者.swift */,
 				89057BCC2945A2A200FA9CA0 /* 1827.最少操作使数组递增.swift */,
+				8944A8212980113E00740F14 /* 1828.统计一个圆中点的数目.swift */,
 				89057BD62948107400FA9CA0 /* 1832.判断句子是否为全字母句.swift */,
 				89057BD8294B478300FA9CA0 /* 1945.字符串转化后的各位数字之和.swift */,
 				89057BE6294FF11500FA9CA0 /* 1971.寻找图中是否存在路径.swift */,
@@ -1513,6 +1527,8 @@
 				89057C5D296EFDD300FA9CA0 /* 2283.判断一个数的数字计数是否等于数位的值.swift */,
 				89057C652971A45B00FA9CA0 /* 2287.重排字符形成目标字符串.swift */,
 				89057C6929741B9F00FA9CA0 /* 2293.极大极小游戏.swift */,
+				89107BF32978E10A00364197 /* 2299.强密码检验器-ii.swift */,
+				8944A81F297EC2CD00740F14 /* 2303.计算应缴税款总额.swift */,
 				89057C412961394800FA9CA0 /* 2351.第一个出现两次的字母.swift */,
 				898BC881285E2D2400B04A33 /* 剑指 Offer II */,
 				89886F61272CE1FF003A626D /* 链表 */,
@@ -2049,6 +2065,7 @@
 				89816BA628ABCCEC000D7C8F /* 1656.设计有序流.cpp */,
 				89057C4D29693C5D00FA9CA0 /* 1658.将-x-减到-0-的最小操作数.cpp */,
 				89438AF52911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp */,
+				8998637729855E4D003FC33A /* 1664.生成平衡数组的方案数.cpp */,
 				89438AFB291409EA0013B0D6 /* 1668.最大重复子字符串.cpp */,
 				89438B0B2917D6CB0013B0D6 /* 1678.设计-goal-解析器.cpp */,
 				89438B13291A9E320013B0D6 /* 1684.统计一致字符串的数目.cpp */,
@@ -2101,9 +2118,12 @@
 				89057C6D29758D1700FA9CA0 /* 1813.句子相似性-iii.cpp */,
 				89107BF12976E50A00364197 /* 1814.统计一个数组中好对子的数目.cpp */,
 				8975E625281ED17F006F4F6A /* 1816.截断句子.cpp */,
+				89EB52B5297AF0910031BEF0 /* 1817.查找用户活跃分钟数.cpp */,
 				89C71DEE290AD496004E3387 /* 1822.数组元素积的符号.cpp */,
 				8928424C2822351800484B59 /* 1823.找出游戏的获胜者.cpp */,
+				89EB52B7297AF32D0031BEF0 /* 1824.最少侧跳次数.cpp */,
 				89057BCE2945A3B600FA9CA0 /* 1827.最少操作使数组递增.cpp */,
+				8944A8232980119600740F14 /* 1828.统计一个圆中点的数目.cpp */,
 				89057BD42948100300FA9CA0 /* 1832.判断句子是否为全字母句.cpp */,
 				8975E6A8281ED191006F4F6A /* 1894.找到需要补充粉笔的学生编号.cpp */,
 				89057BDA294B47DB00FA9CA0 /* 1945.字符串转化后的各位数字之和.cpp */,
@@ -2142,6 +2162,8 @@
 				89057C5F296EFDE700FA9CA0 /* 2283.判断一个数的数字计数是否等于数位的值.cpp */,
 				89057C672971A46A00FA9CA0 /* 2287.重排字符形成目标字符串.cpp */,
 				89057C6B29741BEB00FA9CA0 /* 2293.极大极小游戏.cpp */,
+				89107BF52978E17500364197 /* 2299.强密码检验器-ii.cpp */,
+				8944A81D297EC0C000740F14 /* 2303.计算应缴税款总额.cpp */,
 				89057C3F296138C500FA9CA0 /* 2351.第一个出现两次的字母.cpp */,
 				8975E5CB281ED16E006F4F6A /* 5187_收集足够苹果的最小花园周长.cpp */,
 				8975E69E281ED190006F4F6A /* 5381_你可以工作的最大周数.cpp */,
