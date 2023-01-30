@@ -870,6 +870,10 @@
 		8995D89C27303094001A499C /* 575.分糖果.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "575.分糖果.swift"; sourceTree = "<group>"; };
 		8998637529855E2C003FC33A /* 1664.生成平衡数组的方案数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1664.生成平衡数组的方案数.swift"; sourceTree = "<group>"; };
 		8998637729855E4D003FC33A /* 1664.生成平衡数组的方案数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1664.生成平衡数组的方案数.cpp"; sourceTree = "<group>"; };
+		8998637B2986B7BB003FC33A /* 2315.统计星号.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2315.统计星号.cpp"; sourceTree = "<group>"; };
+		8998637D2986B7C7003FC33A /* 2315.统计星号.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2315.统计星号.swift"; sourceTree = "<group>"; };
+		8998637F29880410003FC33A /* 1669.合并两个链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1669.合并两个链表.swift"; sourceTree = "<group>"; };
+		8998638129880446003FC33A /* 1669.合并两个链表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1669.合并两个链表.cpp"; sourceTree = "<group>"; };
 		8998BD1827ACE11A00ABE29A /* 1725.可以形成最大正方形的矩形数目.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1725.可以形成最大正方形的矩形数目.swift"; sourceTree = "<group>"; };
 		8998E59F2934E332007EFA9D /* 813.最大平均值和的分组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "813.最大平均值和的分组.cpp"; sourceTree = "<group>"; };
 		8998E5A12934E35B007EFA9D /* 813.最大平均值和的分组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "813.最大平均值和的分组.swift"; sourceTree = "<group>"; };
@@ -1440,6 +1444,7 @@
 				89438AF72911579B0013B0D6 /* 1662.检查两个字符串数组是否相等.swift */,
 				8998637529855E2C003FC33A /* 1664.生成平衡数组的方案数.swift */,
 				89438AFF29140A070013B0D6 /* 1668.最大重复子字符串.swift */,
+				8998637F29880410003FC33A /* 1669.合并两个链表.swift */,
 				89E1BE49281D893E009176A4 /* 1672.最富有客户的资产总量.swift */,
 				89438B0D2917D7610013B0D6 /* 1678.设计-goal-解析器.swift */,
 				89438B15291A9E3A0013B0D6 /* 1684.统计一致字符串的数目.swift */,
@@ -1529,6 +1534,7 @@
 				89057C6929741B9F00FA9CA0 /* 2293.极大极小游戏.swift */,
 				89107BF32978E10A00364197 /* 2299.强密码检验器-ii.swift */,
 				8944A81F297EC2CD00740F14 /* 2303.计算应缴税款总额.swift */,
+				8998637D2986B7C7003FC33A /* 2315.统计星号.swift */,
 				89057C412961394800FA9CA0 /* 2351.第一个出现两次的字母.swift */,
 				898BC881285E2D2400B04A33 /* 剑指 Offer II */,
 				89886F61272CE1FF003A626D /* 链表 */,
@@ -2067,6 +2073,7 @@
 				89438AF52911578D0013B0D6 /* 1662.检查两个字符串数组是否相等.cpp */,
 				8998637729855E4D003FC33A /* 1664.生成平衡数组的方案数.cpp */,
 				89438AFB291409EA0013B0D6 /* 1668.最大重复子字符串.cpp */,
+				8998638129880446003FC33A /* 1669.合并两个链表.cpp */,
 				89438B0B2917D6CB0013B0D6 /* 1678.设计-goal-解析器.cpp */,
 				89438B13291A9E320013B0D6 /* 1684.统计一致字符串的数目.cpp */,
 				8975E5DC281ED172006F4F6A /* 1688.比赛中的配对次数.cpp */,
@@ -2164,6 +2171,7 @@
 				89057C6B29741BEB00FA9CA0 /* 2293.极大极小游戏.cpp */,
 				89107BF52978E17500364197 /* 2299.强密码检验器-ii.cpp */,
 				8944A81D297EC0C000740F14 /* 2303.计算应缴税款总额.cpp */,
+				8998637B2986B7BB003FC33A /* 2315.统计星号.cpp */,
 				89057C3F296138C500FA9CA0 /* 2351.第一个出现两次的字母.cpp */,
 				8975E5CB281ED16E006F4F6A /* 5187_收集足够苹果的最小花园周长.cpp */,
 				8975E69E281ED190006F4F6A /* 5381_你可以工作的最大周数.cpp */,
