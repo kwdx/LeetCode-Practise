@@ -1078,6 +1078,10 @@
 		89EB52B5297AF0910031BEF0 /* 1817.查找用户活跃分钟数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1817.查找用户活跃分钟数.cpp"; sourceTree = "<group>"; };
 		89EB52B7297AF32D0031BEF0 /* 1824.最少侧跳次数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1824.最少侧跳次数.cpp"; sourceTree = "<group>"; };
 		89EDAC5F27A0459200BA4246 /* 1688.比赛中的配对次数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1688.比赛中的配对次数.swift"; sourceTree = "<group>"; };
+		89F093092991413E00D4F053 /* 2331.计算布尔二叉树的值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2331.计算布尔二叉树的值.cpp"; sourceTree = "<group>"; };
+		89F0930B2991415300D4F053 /* 2331.计算布尔二叉树的值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2331.计算布尔二叉树的值.swift"; sourceTree = "<group>"; };
+		89F0930D299288BF00D4F053 /* 1604.警告一小时内使用相同员工卡大于等于三次的人.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1604.警告一小时内使用相同员工卡大于等于三次的人.swift"; sourceTree = "<group>"; };
+		89F0930F299288E300D4F053 /* 1604.警告一小时内使用相同员工卡大于等于三次的人.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1604.警告一小时内使用相同员工卡大于等于三次的人.cpp"; sourceTree = "<group>"; };
 		89F7968B293639E4007E8393 /* 1758.生成交替二进制字符串的最少操作数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1758.生成交替二进制字符串的最少操作数.swift"; sourceTree = "<group>"; };
 		89F7968D293639F1007E8393 /* 1758.生成交替二进制字符串的最少操作数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1758.生成交替二进制字符串的最少操作数.cpp"; sourceTree = "<group>"; };
 		89F7968F2937859E007E8393 /* 895.最大频率栈.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "895.最大频率栈.swift"; sourceTree = "<group>"; };
@@ -1437,6 +1441,7 @@
 				89A928E128C8EC0F0031B4BE /* 1592.重新排列单词间的空格.swift */,
 				89A928E728CB9B450031B4BE /* 1598.文件夹操作日志搜集器.swift */,
 				89B070D227CD1F2B00DD7E68 /* 1601.最多可达成的换楼请求数目.swift */,
+				89F0930D299288BF00D4F053 /* 1604.警告一小时内使用相同员工卡大于等于三次的人.swift */,
 				892023D627F4A25C00F3C7E2 /* 1606.找到处理最多请求的服务器.swift */,
 				899155A828CF4ED500028726 /* 1608.特殊数组的特征值.swift */,
 				8973552327776F7E0034C87A /* 1609.奇偶树.swift */,
@@ -1547,6 +1552,7 @@
 				8998637D2986B7C7003FC33A /* 2315.统计星号.swift */,
 				8998638529895896003FC33A /* 2319.判断矩阵是否是一个-x-矩阵.swift */,
 				89986387298AB143003FC33A /* 2325.解密消息.swift */,
+				89F0930B2991415300D4F053 /* 2331.计算布尔二叉树的值.swift */,
 				89057C412961394800FA9CA0 /* 2351.第一个出现两次的字母.swift */,
 				898BC881285E2D2400B04A33 /* 剑指 Offer II */,
 				89886F61272CE1FF003A626D /* 链表 */,
@@ -2070,6 +2076,7 @@
 				89A928DF28C8EBFD0031B4BE /* 1592.重新排列单词间的空格.cpp */,
 				89A928E928CB9BB20031B4BE /* 1598.文件夹操作日志搜集器.cpp */,
 				8975E5BE281ED16C006F4F6A /* 1601.最多可达成的换楼请求数目.cpp */,
+				89F0930F299288E300D4F053 /* 1604.警告一小时内使用相同员工卡大于等于三次的人.cpp */,
 				8975E638281ED182006F4F6A /* 1606.找到处理最多请求的服务器.cpp */,
 				899155AA28CF4F4800028726 /* 1608.特殊数组的特征值.cpp */,
 				8975E65D281ED187006F4F6A /* 1609.奇偶树.cpp */,
@@ -2188,6 +2195,7 @@
 				8998637B2986B7BB003FC33A /* 2315.统计星号.cpp */,
 				8998638329895886003FC33A /* 2319.判断矩阵是否是一个-x-矩阵.cpp */,
 				89986389298AB152003FC33A /* 2325.解密消息.cpp */,
+				89F093092991413E00D4F053 /* 2331.计算布尔二叉树的值.cpp */,
 				89057C3F296138C500FA9CA0 /* 2351.第一个出现两次的字母.cpp */,
 				8975E5CB281ED16E006F4F6A /* 5187_收集足够苹果的最小花园周长.cpp */,
 				8975E69E281ED190006F4F6A /* 5381_你可以工作的最大周数.cpp */,
