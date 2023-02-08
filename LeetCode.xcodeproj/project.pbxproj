@@ -1082,6 +1082,8 @@
 		89F0930B2991415300D4F053 /* 2331.计算布尔二叉树的值.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2331.计算布尔二叉树的值.swift"; sourceTree = "<group>"; };
 		89F0930D299288BF00D4F053 /* 1604.警告一小时内使用相同员工卡大于等于三次的人.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1604.警告一小时内使用相同员工卡大于等于三次的人.swift"; sourceTree = "<group>"; };
 		89F0930F299288E300D4F053 /* 1604.警告一小时内使用相同员工卡大于等于三次的人.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1604.警告一小时内使用相同员工卡大于等于三次的人.cpp"; sourceTree = "<group>"; };
+		89F093112993E82100D4F053 /* 1233.删除子文件夹.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1233.删除子文件夹.cpp"; sourceTree = "<group>"; };
+		89F093132993E83700D4F053 /* 1233.删除子文件夹.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1233.删除子文件夹.swift"; sourceTree = "<group>"; };
 		89F7968B293639E4007E8393 /* 1758.生成交替二进制字符串的最少操作数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1758.生成交替二进制字符串的最少操作数.swift"; sourceTree = "<group>"; };
 		89F7968D293639F1007E8393 /* 1758.生成交替二进制字符串的最少操作数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1758.生成交替二进制字符串的最少操作数.cpp"; sourceTree = "<group>"; };
 		89F7968F2937859E007E8393 /* 895.最大频率栈.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "895.最大频率栈.swift"; sourceTree = "<group>"; };
@@ -1406,6 +1408,7 @@
 				8910958D2735799500981C0D /* 1218.最长定差子序列.swift */,
 				89E8F9A22795BEA600310336 /* 1220.统计元音字母序列的数目.swift */,
 				898C36F828AE845B00C51192 /* 1224.最大相等频率.swift */,
+				89F093132993E83700D4F053 /* 1233.删除子文件夹.swift */,
 				890433942903D0B400F2255A /* 1235.规划兼职工作.swift */,
 				893D3CD2287DBDCF00732C88 /* 1252.奇数值单元格的数目.swift */,
 				893D3D0A28884B6E00732C88 /* 1260.二维网格迁移.swift */,
@@ -2038,6 +2041,7 @@
 				8975E5DD281ED172006F4F6A /* 1220.统计元音字母序列的数目.cpp */,
 				8975E5B8281ED16B006F4F6A /* 1221.分割平衡字符串.cpp */,
 				898C36F628AE844B00C51192 /* 1224.最大相等频率.cpp */,
+				89F093112993E82100D4F053 /* 1233.删除子文件夹.cpp */,
 				890433962903D15200F2255A /* 1235.规划兼职工作.cpp */,
 				893D3CD4287DBDDF00732C88 /* 1252.奇数值单元格的数目.cpp */,
 				893D3D0C28884B8000732C88 /* 1260.二维网格迁移.cpp */,
