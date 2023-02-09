@@ -13,6 +13,7 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
+		89F0931829953F8800D4F053 /* 1797.设计一个验证系统.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F0931729953F8800D4F053 /* 1797.设计一个验证系统.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1084,6 +1085,8 @@
 		89F0930F299288E300D4F053 /* 1604.警告一小时内使用相同员工卡大于等于三次的人.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1604.警告一小时内使用相同员工卡大于等于三次的人.cpp"; sourceTree = "<group>"; };
 		89F093112993E82100D4F053 /* 1233.删除子文件夹.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1233.删除子文件夹.cpp"; sourceTree = "<group>"; };
 		89F093132993E83700D4F053 /* 1233.删除子文件夹.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1233.删除子文件夹.swift"; sourceTree = "<group>"; };
+		89F0931529953F7A00D4F053 /* 1797.设计一个验证系统.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1797.设计一个验证系统.swift"; sourceTree = "<group>"; };
+		89F0931729953F8800D4F053 /* 1797.设计一个验证系统.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1797.设计一个验证系统.cpp"; sourceTree = "<group>"; };
 		89F7968B293639E4007E8393 /* 1758.生成交替二进制字符串的最少操作数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1758.生成交替二进制字符串的最少操作数.swift"; sourceTree = "<group>"; };
 		89F7968D293639F1007E8393 /* 1758.生成交替二进制字符串的最少操作数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1758.生成交替二进制字符串的最少操作数.cpp"; sourceTree = "<group>"; };
 		89F7968F2937859E007E8393 /* 895.最大频率栈.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "895.最大频率栈.swift"; sourceTree = "<group>"; };
@@ -1502,6 +1505,7 @@
 				8904332A28F5AFBC00F2255A /* 1790.仅执行一次字符串交换能否使两个字符串相等.swift */,
 				89AF725C27BFEC9200BD2211 /* 1791.找出星型图的中心节点.swift */,
 				89F79699293B9F2F007E8393 /* 1796.字符串中第二大的数字.swift */,
+				89F0931529953F7A00D4F053 /* 1797.设计一个验证系统.swift */,
 				8904331D28F0639500F2255A /* 1800.最大升序子数组和.swift */,
 				89057B4C293F95A500FA9CA0 /* 1805.字符串中不同整数的数目.swift */,
 				89057C5B296C59C600FA9CA0 /* 1806.还原排列的最少操作步数.swift */,
@@ -2140,6 +2144,7 @@
 				8904332828F5AFAD00F2255A /* 1790.仅执行一次字符串交换能否使两个字符串相等.cpp */,
 				8975E692281ED18E006F4F6A /* 1791.找出星型图的中心节点.cpp */,
 				89F7969B293B9FCD007E8393 /* 1796.字符串中第二大的数字.cpp */,
+				89F0931729953F8800D4F053 /* 1797.设计一个验证系统.cpp */,
 				8904331F28F0642D00F2255A /* 1800.最大升序子数组和.cpp */,
 				89057C452963038500FA9CA0 /* 1801.积压订单中的订单总数.cpp */,
 				89057C4B296720DD00FA9CA0 /* 1802.有界数组中指定下标处的最大值.cpp */,
@@ -2356,6 +2361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
+				89F0931829953F8800D4F053 /* 1797.设计一个验证系统.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
