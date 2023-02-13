@@ -13,7 +13,6 @@
 		89886F4B272C5E47003A626D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89554FA326BEDED300FEDFF1 /* main.swift */; };
 		89C47C3028B271E1004FE194 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A76D72747F72E006DA530 /* TreeNode.swift */; };
 		89D65EE12768D97200B855E3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D65EE02768D97200B855E3 /* PriorityQueue.swift */; };
-		89F0931829953F8800D4F053 /* 1797.设计一个验证系统.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F0931729953F8800D4F053 /* 1797.设计一个验证系统.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1087,6 +1086,12 @@
 		89F093132993E83700D4F053 /* 1233.删除子文件夹.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1233.删除子文件夹.swift"; sourceTree = "<group>"; };
 		89F0931529953F7A00D4F053 /* 1797.设计一个验证系统.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1797.设计一个验证系统.swift"; sourceTree = "<group>"; };
 		89F0931729953F8800D4F053 /* 1797.设计一个验证系统.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1797.设计一个验证系统.cpp"; sourceTree = "<group>"; };
+		89F093192997EDE600D4F053 /* 2335.装满杯子需要的最短总时长.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2335.装满杯子需要的最短总时长.cpp"; sourceTree = "<group>"; };
+		89F0931B2997EE5900D4F053 /* 2335.装满杯子需要的最短总时长.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2335.装满杯子需要的最短总时长.swift"; sourceTree = "<group>"; };
+		89F0931D29992A8F00D4F053 /* 1138.字母板上的路径.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1138.字母板上的路径.swift"; sourceTree = "<group>"; };
+		89F0931F29992ADE00D4F053 /* 1138.字母板上的路径.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1138.字母板上的路径.cpp"; sourceTree = "<group>"; };
+		89F09321299A760400D4F053 /* 1234.替换子串得到平衡字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1234.替换子串得到平衡字符串.swift"; sourceTree = "<group>"; };
+		89F09323299A761200D4F053 /* 1234.替换子串得到平衡字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1234.替换子串得到平衡字符串.cpp"; sourceTree = "<group>"; };
 		89F7968B293639E4007E8393 /* 1758.生成交替二进制字符串的最少操作数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1758.生成交替二进制字符串的最少操作数.swift"; sourceTree = "<group>"; };
 		89F7968D293639F1007E8393 /* 1758.生成交替二进制字符串的最少操作数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1758.生成交替二进制字符串的最少操作数.cpp"; sourceTree = "<group>"; };
 		89F7968F2937859E007E8393 /* 895.最大频率栈.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "895.最大频率栈.swift"; sourceTree = "<group>"; };
@@ -1398,6 +1403,7 @@
 				89438B012916408B0013B0D6 /* 1106.解析布尔表达式.swift */,
 				898BC89A286205DD00B04A33 /* 1108.ip-地址无效化.swift */,
 				8998638D298C0D26003FC33A /* 1129.颜色交替的最短路径.swift */,
+				89F0931D29992A8F00D4F053 /* 1138.字母板上的路径.swift */,
 				8998638F298D478B003FC33A /* 1145.二叉树着色游戏.swift */,
 				897355182776209C0034C87A /* 1154.一年中的第几天.swift */,
 				8937DD5C2896906E00D9624C /* 1161.最大层内元素和.swift */,
@@ -1412,6 +1418,7 @@
 				89E8F9A22795BEA600310336 /* 1220.统计元音字母序列的数目.swift */,
 				898C36F828AE845B00C51192 /* 1224.最大相等频率.swift */,
 				89F093132993E83700D4F053 /* 1233.删除子文件夹.swift */,
+				89F09321299A760400D4F053 /* 1234.替换子串得到平衡字符串.swift */,
 				890433942903D0B400F2255A /* 1235.规划兼职工作.swift */,
 				893D3CD2287DBDCF00732C88 /* 1252.奇数值单元格的数目.swift */,
 				893D3D0A28884B6E00732C88 /* 1260.二维网格迁移.swift */,
@@ -1560,6 +1567,7 @@
 				8998638529895896003FC33A /* 2319.判断矩阵是否是一个-x-矩阵.swift */,
 				89986387298AB143003FC33A /* 2325.解密消息.swift */,
 				89F0930B2991415300D4F053 /* 2331.计算布尔二叉树的值.swift */,
+				89F0931B2997EE5900D4F053 /* 2335.装满杯子需要的最短总时长.swift */,
 				89057C412961394800FA9CA0 /* 2351.第一个出现两次的字母.swift */,
 				898BC881285E2D2400B04A33 /* 剑指 Offer II */,
 				89886F61272CE1FF003A626D /* 链表 */,
@@ -2030,6 +2038,7 @@
 				89438B032916413D0013B0D6 /* 1106.解析布尔表达式.cpp */,
 				898BC89C286205E900B04A33 /* 1108.ip-地址无效化.cpp */,
 				8998638B298C0D16003FC33A /* 1129.颜色交替的最短路径.cpp */,
+				89F0931F29992ADE00D4F053 /* 1138.字母板上的路径.cpp */,
 				8975E655281ED186006F4F6A /* 1143.最长公共子序列.cpp */,
 				89986391298D47B2003FC33A /* 1145.二叉树着色游戏.cpp */,
 				8975E6BB281ED193006F4F6A /* 1154.一年中的第几天.cpp */,
@@ -2046,6 +2055,7 @@
 				8975E5B8281ED16B006F4F6A /* 1221.分割平衡字符串.cpp */,
 				898C36F628AE844B00C51192 /* 1224.最大相等频率.cpp */,
 				89F093112993E82100D4F053 /* 1233.删除子文件夹.cpp */,
+				89F09323299A761200D4F053 /* 1234.替换子串得到平衡字符串.cpp */,
 				890433962903D15200F2255A /* 1235.规划兼职工作.cpp */,
 				893D3CD4287DBDDF00732C88 /* 1252.奇数值单元格的数目.cpp */,
 				893D3D0C28884B8000732C88 /* 1260.二维网格迁移.cpp */,
@@ -2205,6 +2215,7 @@
 				8998638329895886003FC33A /* 2319.判断矩阵是否是一个-x-矩阵.cpp */,
 				89986389298AB152003FC33A /* 2325.解密消息.cpp */,
 				89F093092991413E00D4F053 /* 2331.计算布尔二叉树的值.cpp */,
+				89F093192997EDE600D4F053 /* 2335.装满杯子需要的最短总时长.cpp */,
 				89057C3F296138C500FA9CA0 /* 2351.第一个出现两次的字母.cpp */,
 				8975E5CB281ED16E006F4F6A /* 5187_收集足够苹果的最小花园周长.cpp */,
 				8975E69E281ED190006F4F6A /* 5381_你可以工作的最大周数.cpp */,
@@ -2361,7 +2372,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8904333128F7085800F2255A /* ListNode.cpp in Sources */,
-				89F0931829953F8800D4F053 /* 1797.设计一个验证系统.cpp in Sources */,
 				89185D23282C0D7D00346F93 /* TreeNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
