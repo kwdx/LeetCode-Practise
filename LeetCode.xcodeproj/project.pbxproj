@@ -1092,6 +1092,8 @@
 		89F0931F29992ADE00D4F053 /* 1138.字母板上的路径.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1138.字母板上的路径.cpp"; sourceTree = "<group>"; };
 		89F09321299A760400D4F053 /* 1234.替换子串得到平衡字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1234.替换子串得到平衡字符串.swift"; sourceTree = "<group>"; };
 		89F09323299A761200D4F053 /* 1234.替换子串得到平衡字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1234.替换子串得到平衡字符串.cpp"; sourceTree = "<group>"; };
+		89F09325299BCA0B00D4F053 /* 1124.表现良好的最长时间段.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1124.表现良好的最长时间段.cpp"; sourceTree = "<group>"; };
+		89F09327299BCA1900D4F053 /* 1124.表现良好的最长时间段.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1124.表现良好的最长时间段.swift"; sourceTree = "<group>"; };
 		89F7968B293639E4007E8393 /* 1758.生成交替二进制字符串的最少操作数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1758.生成交替二进制字符串的最少操作数.swift"; sourceTree = "<group>"; };
 		89F7968D293639F1007E8393 /* 1758.生成交替二进制字符串的最少操作数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1758.生成交替二进制字符串的最少操作数.cpp"; sourceTree = "<group>"; };
 		89F7968F2937859E007E8393 /* 895.最大频率栈.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "895.最大频率栈.swift"; sourceTree = "<group>"; };
@@ -1402,6 +1404,7 @@
 				898BC8C9286DE35600B04A33 /* 1089.复写零.swift */,
 				89438B012916408B0013B0D6 /* 1106.解析布尔表达式.swift */,
 				898BC89A286205DD00B04A33 /* 1108.ip-地址无效化.swift */,
+				89F09327299BCA1900D4F053 /* 1124.表现良好的最长时间段.swift */,
 				8998638D298C0D26003FC33A /* 1129.颜色交替的最短路径.swift */,
 				89F0931D29992A8F00D4F053 /* 1138.字母板上的路径.swift */,
 				8998638F298D478B003FC33A /* 1145.二叉树着色游戏.swift */,
@@ -2037,6 +2040,7 @@
 				898BC8C4286DE31800B04A33 /* 1089.复写零.cpp */,
 				89438B032916413D0013B0D6 /* 1106.解析布尔表达式.cpp */,
 				898BC89C286205E900B04A33 /* 1108.ip-地址无效化.cpp */,
+				89F09325299BCA0B00D4F053 /* 1124.表现良好的最长时间段.cpp */,
 				8998638B298C0D16003FC33A /* 1129.颜色交替的最短路径.cpp */,
 				89F0931F29992ADE00D4F053 /* 1138.字母板上的路径.cpp */,
 				8975E655281ED186006F4F6A /* 1143.最长公共子序列.cpp */,
