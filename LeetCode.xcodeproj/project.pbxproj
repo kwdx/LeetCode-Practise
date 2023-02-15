@@ -1094,6 +1094,8 @@
 		89F09323299A761200D4F053 /* 1234.替换子串得到平衡字符串.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1234.替换子串得到平衡字符串.cpp"; sourceTree = "<group>"; };
 		89F09325299BCA0B00D4F053 /* 1124.表现良好的最长时间段.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1124.表现良好的最长时间段.cpp"; sourceTree = "<group>"; };
 		89F09327299BCA1900D4F053 /* 1124.表现良好的最长时间段.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1124.表现良好的最长时间段.swift"; sourceTree = "<group>"; };
+		89F09329299D27C600D4F053 /* 1250.检查「好数组」.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1250.检查「好数组」.swift"; sourceTree = "<group>"; };
+		89F0932B299D27D700D4F053 /* 1250.检查「好数组」.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1250.检查「好数组」.cpp"; sourceTree = "<group>"; };
 		89F7968B293639E4007E8393 /* 1758.生成交替二进制字符串的最少操作数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1758.生成交替二进制字符串的最少操作数.swift"; sourceTree = "<group>"; };
 		89F7968D293639F1007E8393 /* 1758.生成交替二进制字符串的最少操作数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1758.生成交替二进制字符串的最少操作数.cpp"; sourceTree = "<group>"; };
 		89F7968F2937859E007E8393 /* 895.最大频率栈.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "895.最大频率栈.swift"; sourceTree = "<group>"; };
@@ -1423,6 +1425,7 @@
 				89F093132993E83700D4F053 /* 1233.删除子文件夹.swift */,
 				89F09321299A760400D4F053 /* 1234.替换子串得到平衡字符串.swift */,
 				890433942903D0B400F2255A /* 1235.规划兼职工作.swift */,
+				89F09329299D27C600D4F053 /* 1250.检查「好数组」.swift */,
 				893D3CD2287DBDCF00732C88 /* 1252.奇数值单元格的数目.swift */,
 				893D3D0A28884B6E00732C88 /* 1260.二维网格迁移.swift */,
 				89816B9428A6958D000D7C8F /* 1282.用户分组.swift */,
@@ -2061,6 +2064,7 @@
 				89F093112993E82100D4F053 /* 1233.删除子文件夹.cpp */,
 				89F09323299A761200D4F053 /* 1234.替换子串得到平衡字符串.cpp */,
 				890433962903D15200F2255A /* 1235.规划兼职工作.cpp */,
+				89F0932B299D27D700D4F053 /* 1250.检查「好数组」.cpp */,
 				893D3CD4287DBDDF00732C88 /* 1252.奇数值单元格的数目.cpp */,
 				893D3D0C28884B8000732C88 /* 1260.二维网格迁移.cpp */,
 				89816B9628A6959B000D7C8F /* 1282.用户分组.cpp */,
