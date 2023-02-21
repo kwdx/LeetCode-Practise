@@ -240,6 +240,16 @@
 		893D3D1C288C560C00732C88 /* 757.设置交集大小至少为-2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "757.设置交集大小至少为-2.cpp"; sourceTree = "<group>"; };
 		893E1231272C51AD00EAC6FD /* 198.打家劫舍.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "198.打家劫舍.swift"; sourceTree = "<group>"; };
 		893E1234272C554D00EAC6FD /* 215.数组中的第k个最大元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "215.数组中的第k个最大元素.swift"; sourceTree = "<group>"; };
+		893F479F29A1239000B73EDF /* 1139.最大的以-1-为边界的正方形.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1139.最大的以-1-为边界的正方形.cpp"; sourceTree = "<group>"; };
+		893F47A229A123B500B73EDF /* 2341.数组能形成多少数对.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2341.数组能形成多少数对.cpp"; sourceTree = "<group>"; };
+		893F47A429A123E600B73EDF /* 1237.找出给定方程的正整数解.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1237.找出给定方程的正整数解.cpp"; sourceTree = "<group>"; };
+		893F47A729A1256E00B73EDF /* 1139.最大的以-1-为边界的正方形.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1139.最大的以-1-为边界的正方形.swift"; sourceTree = "<group>"; };
+		893F47A929A1258700B73EDF /* 2341.数组能形成多少数对.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2341.数组能形成多少数对.swift"; sourceTree = "<group>"; };
+		893F47AB29A125B000B73EDF /* 1237.找出给定方程的正整数解.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1237.找出给定方程的正整数解.swift"; sourceTree = "<group>"; };
+		893F47AF29A1E03D00B73EDF /* 1792.最大平均通过率.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1792.最大平均通过率.cpp"; sourceTree = "<group>"; };
+		893F47B129A3B1FE00B73EDF /* 2347.最好的扑克手牌.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2347.最好的扑克手牌.cpp"; sourceTree = "<group>"; };
+		893F47B329A3B21100B73EDF /* 2347.最好的扑克手牌.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2347.最好的扑克手牌.swift"; sourceTree = "<group>"; };
+		893F47B529A50D1200B73EDF /* 1326.灌溉花园的最少水龙头数目.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1326.灌溉花园的最少水龙头数目.cpp"; sourceTree = "<group>"; };
 		89438A68290D0C860013B0D6 /* 1773.统计匹配检索规则的物品数量.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1773.统计匹配检索规则的物品数量.swift"; sourceTree = "<group>"; };
 		89438A6A290D0CF60013B0D6 /* 1773.统计匹配检索规则的物品数量.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1773.统计匹配检索规则的物品数量.cpp"; sourceTree = "<group>"; };
 		89438A6D290E43070013B0D6 /* 784.字母大小写全排列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "784.字母大小写全排列.cpp"; sourceTree = "<group>"; };
@@ -1409,6 +1419,7 @@
 				89F09327299BCA1900D4F053 /* 1124.表现良好的最长时间段.swift */,
 				8998638D298C0D26003FC33A /* 1129.颜色交替的最短路径.swift */,
 				89F0931D29992A8F00D4F053 /* 1138.字母板上的路径.swift */,
+				893F47A729A1256E00B73EDF /* 1139.最大的以-1-为边界的正方形.swift */,
 				8998638F298D478B003FC33A /* 1145.二叉树着色游戏.swift */,
 				897355182776209C0034C87A /* 1154.一年中的第几天.swift */,
 				8937DD5C2896906E00D9624C /* 1161.最大层内元素和.swift */,
@@ -1425,6 +1436,7 @@
 				89F093132993E83700D4F053 /* 1233.删除子文件夹.swift */,
 				89F09321299A760400D4F053 /* 1234.替换子串得到平衡字符串.swift */,
 				890433942903D0B400F2255A /* 1235.规划兼职工作.swift */,
+				893F47AB29A125B000B73EDF /* 1237.找出给定方程的正整数解.swift */,
 				89F09329299D27C600D4F053 /* 1250.检查「好数组」.swift */,
 				893D3CD2287DBDCF00732C88 /* 1252.奇数值单元格的数目.swift */,
 				893D3D0A28884B6E00732C88 /* 1260.二维网格迁移.swift */,
@@ -1574,6 +1586,8 @@
 				89986387298AB143003FC33A /* 2325.解密消息.swift */,
 				89F0930B2991415300D4F053 /* 2331.计算布尔二叉树的值.swift */,
 				89F0931B2997EE5900D4F053 /* 2335.装满杯子需要的最短总时长.swift */,
+				893F47A929A1258700B73EDF /* 2341.数组能形成多少数对.swift */,
+				893F47B329A3B21100B73EDF /* 2347.最好的扑克手牌.swift */,
 				89057C412961394800FA9CA0 /* 2351.第一个出现两次的字母.swift */,
 				898BC881285E2D2400B04A33 /* 剑指 Offer II */,
 				89886F61272CE1FF003A626D /* 链表 */,
@@ -2046,6 +2060,7 @@
 				89F09325299BCA0B00D4F053 /* 1124.表现良好的最长时间段.cpp */,
 				8998638B298C0D16003FC33A /* 1129.颜色交替的最短路径.cpp */,
 				89F0931F29992ADE00D4F053 /* 1138.字母板上的路径.cpp */,
+				893F479F29A1239000B73EDF /* 1139.最大的以-1-为边界的正方形.cpp */,
 				8975E655281ED186006F4F6A /* 1143.最长公共子序列.cpp */,
 				89986391298D47B2003FC33A /* 1145.二叉树着色游戏.cpp */,
 				8975E6BB281ED193006F4F6A /* 1154.一年中的第几天.cpp */,
@@ -2064,6 +2079,7 @@
 				89F093112993E82100D4F053 /* 1233.删除子文件夹.cpp */,
 				89F09323299A761200D4F053 /* 1234.替换子串得到平衡字符串.cpp */,
 				890433962903D15200F2255A /* 1235.规划兼职工作.cpp */,
+				893F47A429A123E600B73EDF /* 1237.找出给定方程的正整数解.cpp */,
 				89F0932B299D27D700D4F053 /* 1250.检查「好数组」.cpp */,
 				893D3CD4287DBDDF00732C88 /* 1252.奇数值单元格的数目.cpp */,
 				893D3D0C28884B8000732C88 /* 1260.二维网格迁移.cpp */,
@@ -2071,6 +2087,7 @@
 				8975E5E9281ED174006F4F6A /* 1296.划分数组为连续数字的集合.cpp */,
 				898C36F428AD330F00C51192 /* 1302.层数最深叶子节点的和.cpp */,
 				8975E593281ED164006F4F6A /* 1305.两棵二叉搜索树中的所有元素.cpp */,
+				893F47B529A50D1200B73EDF /* 1326.灌溉花园的最少水龙头数目.cpp */,
 				89CC176F2892D921000EEDE8 /* 1331.数组序号转换.cpp */,
 				8975E637281ED182006F4F6A /* 1332.删除回文子序列.cpp */,
 				8975E576281ED162006F4F6A /* 1342.将数字变成-0-的操作次数.cpp */,
@@ -2161,6 +2178,7 @@
 				89057BDC294BFF4200FA9CA0 /* 1785.构成特定和需要添加的最少元素.cpp */,
 				8904332828F5AFAD00F2255A /* 1790.仅执行一次字符串交换能否使两个字符串相等.cpp */,
 				8975E692281ED18E006F4F6A /* 1791.找出星型图的中心节点.cpp */,
+				893F47AF29A1E03D00B73EDF /* 1792.最大平均通过率.cpp */,
 				89F7969B293B9FCD007E8393 /* 1796.字符串中第二大的数字.cpp */,
 				89F0931729953F8800D4F053 /* 1797.设计一个验证系统.cpp */,
 				8904331F28F0642D00F2255A /* 1800.最大升序子数组和.cpp */,
@@ -2224,6 +2242,8 @@
 				89986389298AB152003FC33A /* 2325.解密消息.cpp */,
 				89F093092991413E00D4F053 /* 2331.计算布尔二叉树的值.cpp */,
 				89F093192997EDE600D4F053 /* 2335.装满杯子需要的最短总时长.cpp */,
+				893F47A229A123B500B73EDF /* 2341.数组能形成多少数对.cpp */,
+				893F47B129A3B1FE00B73EDF /* 2347.最好的扑克手牌.cpp */,
 				89057C3F296138C500FA9CA0 /* 2351.第一个出现两次的字母.cpp */,
 				8975E5CB281ED16E006F4F6A /* 5187_收集足够苹果的最小花园周长.cpp */,
 				8975E69E281ED190006F4F6A /* 5381_你可以工作的最大周数.cpp */,
